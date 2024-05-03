@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workers Node.js Support</title>
     <style>
-        body {
-            font-family: sans-serif;
-        }
-        
-        table {
-            border-collapse: collapse;
-            table-layout: fixed;
-        }
-        td, th {
-            border: 1px solid #aaaaaa;
-        }
-        th {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background-color: white;
-        }
-        td {
-            font-family: monospace;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        
-        th:first-child, th:first-child {
-            text-align: left;
-            width: 30%;
-        }
-        td:nth-child(n + 2), th:nth-child(n + 2) {
-            text-align: center;
-            width: 10%;
-        }
-        
-        table > tbody > tr > td:first-child > span {
-            display: inline-block;
-            transform-origin: center;
-        }
-        
-        [data-toggle] {
-            cursor: pointer;
-        }
-        
-        tr.is-object.depth-0 td {
-            border-top: 3px solid #aaaaaa;
-        }
-        
-        tr:nth-child(2n):not(.is-object.depth-0) {
-            opacity: 0.75;
-        }
-        tr:nth-child(2n+1):not(.is-object.depth-0) {
-            background-color: #eeeeee;
-        }
+      body {
+        font-family: sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+      td,
+      th {
+        border: 1px solid #aaaaaa;
+      }
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+      }
+      td {
+        font-family: monospace;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      th:first-child,
+      th:first-child {
+        text-align: left;
+        width: 30%;
+      }
+      td:nth-child(n + 2),
+      th:nth-child(n + 2) {
+        text-align: center;
+        width: 10%;
+      }
+
+      table > tbody > tr > td:first-child > span {
+        display: inline-block;
+        transform-origin: center;
+      }
+
+      [data-toggle] {
+        cursor: pointer;
+      }
+
+      tr.is-object.depth-0 td {
+        border-top: 3px solid #aaaaaa;
+      }
+
+      tr:nth-child(2n):not(.is-object.depth-0) {
+        opacity: 0.75;
+      }
+      tr:nth-child(2n + 1):not(.is-object.depth-0) {
+        background-color: #eeeeee;
+      }
     </style>
-%HEAD%
-</head>
-<body>
+    %HEAD%
+  </head>
+  <body>
     %BODY%
-    
+
     <script>
-        const $toggles = document.querySelectorAll("[data-toggle]");
-        
-        $toggles.forEach(($toggle) => {
-            const toggleClassName = $toggle.dataset.toggle;
-            $toggle.addEventListener("click", (event) => {
-                event.target.closest("table").classList.toggle(toggleClassName);
-            });
+      const $toggles = document.querySelectorAll("[data-toggle]");
+
+      $toggles.forEach(($toggle) => {
+        const toggleClassName = $toggle.dataset.toggle;
+        $toggle.addEventListener("click", (event) => {
+          event.target.closest("table").classList.toggle(toggleClassName);
         });
+      });
     </script>
-</body>
+  </body>
 </html>
