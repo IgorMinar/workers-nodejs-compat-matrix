@@ -1,47 +1,81 @@
 import assert from "node:assert";
-import events from "node:events";
 import fs from "node:fs/promises";
-import childProcess from "node:child_process";
-import path from "node:path";
+import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import path from "node:path";
+
+// One liner to kill phantom workerd processes
+// ps ax | grep workerd | grep workers-nodejs-support | awk '{ print $1 }' | xargs kill
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-async function spawnWrangler() {
-  console.log('lets go 1');
-  const wranglerProcess = childProcess.spawn(
-    process.execPath,
-    ["node_modules/wrangler/bin/wrangler.js", "dev", "--node-compat", "--port=0", "worker.mjs"],
+const checkNodeVersion = () => {
+  console.log("Checking node version");
+  const proc = spawn("node", ["--version"], {
+    stdio: "pipe",
+  });
+
+  proc.stdout.on("data", (chunk) => {
+    process.stdout.write(chunk);
+  });
+
+  return new Promise((res, rej) => {
+    proc.on("close", () => res());
+    proc.on("error", () => rej());
+  });
+};
+
+const spawnWrangler = async () => {
+  const wranglerProcess = spawn(
+    "node_modules/.bin/wrangler",
+    ["dev", "--node-compat", `--port=0`, "worker.mjs"],
     {
-      stdio: ["inherit", "inherit", "inherit", "ipc"],
+      stdio: ["pipe", "pipe", "pipe", "ipc"],
       cwd: __dirname,
       env: { ...process.env, PWD: __dirname },
     }
   );
-  console.log('lets go 2');
-  const exitPromise = events.once(wranglerProcess, "exit");
-  console.log('lets go 3');
-  
-  // TODO: this message never arrives
-  // but wrangler does have code for it: https://github.com/cloudflare/workers-sdk/blob/d1909efeb0b51ca7432323cbf9333f9a85542c52/packages/wrangler/src/dev/dev.tsx#L426
-  const [message] = await events.once(wranglerProcess, "message");
-  console.log('lets go 4');
-  wranglerProcess.disconnect();
-  const { event, ip, port } = JSON.parse(message);
-  assert.strictEqual(event, "DEV_SERVER_READY");
-  const url = new URL(`http://${ip}:${port}`);
-  return {
-    url,
-    async kill() {
-      wranglerProcess.kill("SIGKILL");
-      await exitPromise;
-    }
+
+  const url = await new Promise((res) => {
+    wranglerProcess.on("message", (message) => {
+      const { event, ip, port } = JSON.parse(message);
+      assert.strictEqual(event, "DEV_SERVER_READY");
+      res(new URL(`http://${ip}:${port}`));
+    });
+  });
+
+  const kill = async () => {
+    wranglerProcess.kill("SIGTERM");
+    return new Promise((res) => {
+      wranglerProcess.on("close", () => res());
+      wranglerProcess.on("error", () => rej());
+    });
   };
-}
 
-const { url, kill } = await spawnWrangler();
-const res = await fetch(url);
-await kill();
+  return {
+    kill,
+    url,
+  };
+};
 
-await fs.writeFile(path.join(__dirname, "apis.json"), Buffer.from(await res.arrayBuffer()));
+const dump = async () => {
+  // Double check the node version
+  await checkNodeVersion();
+
+  // Spawn wrangler
+  console.log("Spawning wrangler");
+  const { kill, url } = await spawnWrangler();
+
+  // Make request to test worker
+  console.log("Fetching from test worker");
+  const res = await fetch(url);
+
+  // Write results to file
+  const filepath = path.join(__dirname, "apis.json");
+  await fs.writeFile(filepath, Buffer.from(await res.arrayBuffer()));
+  console.log("Done! Result written to", path.relative(__dirname, filepath));
+  await kill();
+};
+
+await dump();
