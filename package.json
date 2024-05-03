@@ -1,0 +1,10 @@
+{
+    "name": "workers-node-compat-report",
+    "private": "true",
+    "devDependencies": {
+        "shelljs": "^0.8.5"
+    },
+    "scripts": {
+        "generate": "node ./generate-report.mjs"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wrangler-v3-dump",
+  "private": "true",
+  "devDependencies": {
+    "wrangler": "^3.53.0"
+  },
+  "scripts": {
+    "dump": "node dump.mjs"
+  }
+}

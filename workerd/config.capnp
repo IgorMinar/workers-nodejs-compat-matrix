@@ -7,11 +7,12 @@ const config :Workerd.Config = (
 
 const worker :Workerd.Worker = (
   modules = [
-    ( name = "worker.mjs", esModule = embed "worker.mjs" )
+    ( name = "worker.mjs", esModule = embed "worker.mjs" ),
+    ( name = "dump-utils.mjs", esModule = embed "../dump-utils.mjs" )
   ],
   bindings = [
-    ( name = "NODE_APIS", json = embed "../node/apis.json" )
+    ( name = "NODE_APIS", json = embed "../node/apis-22.json" )
   ],
-  compatibilityDate = "2023-10-01",
+  compatibilityDate = "2024-05-01",
   compatibilityFlags = ["nodejs_compat"]
 );

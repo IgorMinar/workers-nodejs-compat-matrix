@@ -1,3 +1,4 @@
+// TODO: remove the visit function and reuse dump-utils
 function visit(root, depth = 0) {
     const entries = Object.entries(root);
     entries.sort(([a], [b]) => a < b ? -1 : 1);
@@ -24,6 +25,7 @@ function visit(root, depth = 0) {
 
 export default {
     async fetch(request, env, ctx) {
+        // TODO: I don't why this doesn't simply iterate over NODE_APIs the way workerd worker.mjs does
         const _http_agent = null; // await import("_http_agent");
         const _http_client = null; // await import("_http_client");
         const _http_common = null; // await import("_http_common");

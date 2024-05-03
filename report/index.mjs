@@ -1,3 +1,8 @@
+// TODO: 
+//  - this needs to be updated to work with all 3 node versions
+//  - this needs to be updated to work with the new wrangler version
+//  - add support for *globals*
+//  - add support for "class" type and display mismatches as "partially polyfilled"
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -9,8 +14,10 @@ function readAPIs(name) {
     return JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", name, "apis.json")));
 }
 
+// TODO: update to work with 3 node versions
 const NODE_APIS = readAPIs("node");
 const WORKERD_APIS = readAPIs("workerd");
+// TODO: update directory names and add 3rd wrangler version
 const WRANGLER_OLD_POLYFILLS_APIS = readAPIs("wrangler-old-polyfills");
 const WRANGLER_NEW_POLYFILLS_APIS = readAPIs("wrangler-new-polyfills");
 

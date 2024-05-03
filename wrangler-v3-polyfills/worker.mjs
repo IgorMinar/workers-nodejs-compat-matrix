@@ -1,19 +1,4 @@
-function visit(root, depth = 0) {
-    const entries = Object.entries(root);
-    entries.sort(([a], [b]) => a < b ? -1 : 1);
-    const visitResult = {};
-    for (const [key, value] of entries) {
-        const isObject = typeof value === "object" && value !== null && !Array.isArray(value);
-        const isDefaultFunction = typeof value === "function" && key === "default" && depth === 0;
-        if (isObject || isDefaultFunction) {
-            if (depth === 2) return;
-            visitResult[key] = visit(value, depth + 1);
-        } else {
-            visitResult[key] = value === null ? "null" : typeof value;
-        }
-    }
-    return visitResult;
-}
+import { visit } from "../dump-utils.mjs";
 
 // Required for HTTP polyfill to import
 // globalThis.XMLHttpRequest = class {
