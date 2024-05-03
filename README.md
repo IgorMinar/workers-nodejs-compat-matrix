@@ -4,14 +4,25 @@ Quick and dirty audit of Node.js support across Workers. See <https://workers-no
 
 To build and deploy the report:
 
+Install Volta:
+```shell
+curl https://get.volta.sh | bash
+```
+
+Install deps and call report generation script:
+```shell
+pnpm install
+pnpm run generate
+```
+
+
+## Legacy manual instructions (out of date)
 ```shell
 $ cd workerd && npm install
 $ cd ../wrangler-old-polyfills && npm install
 $ cd ../wrangler-new-polyfills && npm install
 $ cd ..
-$ nvm run 18 node/dump.mjs
-$ nvm run 20 node/dump.mjs
-$ nvm run 22 node/dump.mjs
+$ node node/dump.mjs
 $ node workerd/dump.mjs
 $ node wrangler-old-polyfills/dump.mjs
 $ node wrangler-new-polyfills/dump.mjs
@@ -25,4 +36,3 @@ git diff --no-index -U40000000 node/apis-20.json node/apis-22.json | less
 
 
 
-curl https://get.volta.sh | bash
