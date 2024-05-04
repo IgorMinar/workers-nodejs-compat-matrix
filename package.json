@@ -1,10 +1,12 @@
 {
-    "name": "workers-node-compat-report",
-    "private": "true",
-    "devDependencies": {
-        "shelljs": "^0.8.5"
-    },
-    "scripts": {
-        "generate": "node ./generate-report.mjs"
-    }
+  "name": "workers-node-compat-report",
+  "private": "true",
+  "devDependencies": {
+    "shelljs": "^0.8.5"
+  },
+  "scripts": {
+    "generate:apis": "node ./generate-report.mjs",
+    "generate:report": "mkdir -p dist && node ./report/index.mjs && open dist/index.html",
+    "generate": "pnpm generate:apis && pnpm generate:report"
+  }
 }

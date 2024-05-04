@@ -10,22 +10,6 @@ import path from "node:path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const checkNodeVersion = () => {
-  console.log("Checking node version");
-  const proc = spawn("node", ["--version"], {
-    stdio: "pipe",
-  });
-
-  proc.stdout.on("data", (chunk) => {
-    process.stdout.write(chunk);
-  });
-
-  return new Promise((res, rej) => {
-    proc.on("close", () => res());
-    proc.on("error", () => rej());
-  });
-};
-
 const spawnWrangler = async () => {
   const wranglerProcess = spawn(
     "node_modules/.bin/wrangler",
@@ -60,9 +44,6 @@ const spawnWrangler = async () => {
 };
 
 const dump = async () => {
-  // Double check the node version
-  await checkNodeVersion();
-
   // Spawn wrangler
   console.log("Spawning wrangler");
   const { kill, url } = await spawnWrangler();

@@ -79,16 +79,13 @@ function visit(nodeObject, path) {
       typeof nodeValue === "object" && Object.keys(nodeValue).length > 0;
     const isModule = keyPath.length === 1;
 
-    let nodeBackgroundColor = getBackgroundColour(isObject, nodeValue);
-    let workerdBackgroundColor = getBackgroundColour(
-      isObject,
-      workerdSupported
-    );
-    let wranglerOldBackgroundColor = getBackgroundColour(
+    let nodeBgColor = getBackgroundColour(isObject, nodeValue);
+    let workerdBgColor = getBackgroundColour(isObject, workerdSupported);
+    let wranglerOldBgColor = getBackgroundColour(
       isObject,
       wranglerOldSupported
     );
-    let wranglerNewBackgroundColor = getBackgroundColour(
+    let wranglerNewBgColor = getBackgroundColour(
       isObject,
       wranglerNewSupported
     );
@@ -123,19 +120,19 @@ function visit(nodeObject, path) {
         100
       ).toFixed(0)}%`;
 
-      nodeBackgroundColor = `hsl(${(
+      nodeBgColor = `hsl(${(
         (result.nodeTotal / result.nodeTotal) *
         120
       ).toFixed(0)}, 50%, 70%)`;
-      workerdBackgroundColor = `hsl(${(
+      workerdBgColor = `hsl(${(
         (result.workerdTotal / result.nodeTotal) *
         120
       ).toFixed(0)}, 50%, 70%)`;
-      wranglerOldBackgroundColor = `hsl(${(
+      wranglerOldBgColor = `hsl(${(
         (result.wranglerOldTotal / result.nodeTotal) *
         120
       ).toFixed(0)}, 50%, 70%)`;
-      wranglerNewBackgroundColor = `hsl(${(
+      wranglerNewBgColor = `hsl(${(
         (result.wranglerNewTotal / result.nodeTotal) *
         120
       ).toFixed(0)}, 50%, 70%)`;
@@ -161,15 +158,21 @@ function visit(nodeObject, path) {
     keyClassName += `depth-${path.length}`;
 
     rows.push(
-      `<tr class="${keyClassName}" ${dataset}>`,
-      `<td style="padding-left: ${path.length + 0.5}em;">${
-        isObject ? "<span>▼</span>" : ""
-      }${isModule ? "<b>" : ""}${key}${isModule ? "</b>" : ""}</td>`,
-      `<td title="${nodeTitle}" style="background-color: ${nodeBackgroundColor}">${nodeText}</td>`,
-      `<td title="${workerdTitle}" style="background-color: ${workerdBackgroundColor}">${workerdText}</td>`,
-      `<td title="${wranglerOldTitle}" style="background-color: ${wranglerOldBackgroundColor}">${wranglerOldText}</td>`,
-      `<td title="${wranglerNewTitle}" style="background-color: ${wranglerNewBackgroundColor}">${wranglerNewText}</td>`,
-      "</tr>",
+      `<tr class="${keyClassName}" ${dataset}>
+        ${renderInfoCell(isObject, isModule, path, key)}
+        ${renderSupportCell(nodeTitle, nodeBgColor, nodeText)}
+        ${renderSupportCell(workerdTitle, workerdBgColor, workerdText)}
+        ${renderSupportCell(
+          wranglerOldTitle,
+          wranglerOldBgColor,
+          wranglerOldText
+        )}
+        ${renderSupportCell(
+          wranglerNewTitle,
+          wranglerNewBgColor,
+          wranglerNewText
+        )}
+      </tr>`,
       ...childRows
     );
   }
@@ -182,6 +185,29 @@ function visit(nodeObject, path) {
     wranglerNewTotal,
   };
 }
+
+const renderInfoCell = (isObject, isModule, nodePath, key) => {
+  const renderContent = () => {
+    switch (true) {
+      case isModule:
+        return `<b>${key}</b>`;
+      case isObject:
+        return `<b>${key}</b>`;
+      default:
+        return key;
+    }
+  };
+
+  return `
+    <td style="padding-left: ${nodePath.length + 0.5}em;">
+      ${renderContent()}
+    </td>
+  `;
+};
+
+const renderSupportCell = (title, bgColor, text) => {
+  return `<td title="${title}" style="background-color: ${bgColor}">${text}</td>`;
+};
 
 const styles = [];
 
