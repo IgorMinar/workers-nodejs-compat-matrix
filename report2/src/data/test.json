@@ -1,0 +1,20 @@
+{
+  "console": {
+    "coverage": {
+      "baseline": 100,
+      "node18": 100,
+      "node20": 100,
+      "workerd": 100
+    },
+    "children": {
+      "Console": "function",
+      "assert": "function",
+      "foo": {
+        "children": {
+          "bar": "function",
+          "baz": "function"
+        }
+      }
+    }
+  }
+}
