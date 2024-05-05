@@ -59,12 +59,14 @@ const targetTitles = {
   node18: "Node 18",
   node20: "Node 20",
   node22: "Node 22",
-  workerd: "workerd",
-  wranglerJspm: "wrangler (w/ jspm)",
-  wranglerUnenv: "wrangler (w/ unenv)",
-  wranglerV3: "wrangler (v3)",
+  workerd: "Workerd",
+  wranglerJspm: "Wrangler (jspm)",
+  wranglerUnenv: "Wrangler (unenv)",
+  wranglerV3: "Wrangler (v3)",
 };
-function App() {
+const App = () => {
+  const [expanded, setExpanded] = useState<string[]>([]);
+
   const getTargetValue: any = (map: CompatMap, path: string[]) => {
     if (path.length === 0) {
       return map;
@@ -125,14 +127,22 @@ function App() {
         );
       }
 
+      const expand = (key: string) => {
+        if (expanded.includes(key)) {
+          setExpanded(expanded.filter((k) => k !== key));
+        } else {
+          setExpanded([...expanded, key]);
+        }
+      };
+
       rows.push(
         <>
-          <tr>
+          <tr onClick={() => expand(key)}>
             <td>{key}</td>
             <td>{supported}</td>
             {columns}
           </tr>
-          {childRows}
+          {expanded.includes(key) && childRows}
         </>
       );
     }
@@ -152,6 +162,7 @@ function App() {
     wranglerUnenv,
     wranglerV3,
   };
+
   return (
     <div className="App">
       <table>
@@ -168,6 +179,6 @@ function App() {
       </table>
     </div>
   );
-}
+};
 
 export default App;
