@@ -9,6 +9,8 @@ import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
 import wranglerV3 from "./data/wrangler-v3-polyfills.json";
 import node22 from "./data/node-22.json";
 
+import deepmerge from "deepmerge";
+
 // const baseline = node22;
 
 type CompatObject = Record<string, string>;
@@ -149,13 +151,20 @@ const App = () => {
             className="border-slate-200 even:bg-slate-100"
             onClick={() => expand(key)}
           >
-            <td className={`w-[40ch] p-1 text-left border border-slate-200`}>
+            <td
+              className={`p-1 border border-slate-200 flex justify-start items-center`}
+            >
               <span className="opacity-0">
                 {"_".repeat(keyPath.length * 2)}
               </span>
               {/* <span className={isModule ? "font-bold" : ""}> */}
               {key}
-              {isObject(nodeValue) && <span>▼</span>}
+              {isObject(nodeValue) && !expanded.includes(key) && (
+                <span className="text-sm pl-2">▶</span>
+              )}
+              {isObject(nodeValue) && expanded.includes(key) && (
+                <span className="text-sm pl-2">▼</span>
+              )}
               {/* </span> */}
             </td>
             <td className="border border-slate-200">{supported}</td>
@@ -174,6 +183,7 @@ const App = () => {
   };
 
   const targets = {
+    node22,
     node20,
     node18,
     workerd,
@@ -184,12 +194,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="container mx-auto p-10">
+      <div className="container mx-auto py-10">
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="">
-              <th>API</th>
-              <th className="w-[18ch]">{targetTitles["node22"]}</th>
+              <th className="min-w-[50ch]">API</th>
+              <th className="w-[18ch]">Baseline</th>
               {Object.keys(targets).map((target) => (
                 <th className="w-[18ch]">
                   {targetTitles[target as keyof typeof targetTitles]}
@@ -197,7 +207,10 @@ const App = () => {
               ))}
             </tr>
           </thead>
-          {renderEntries(node22, targets, []).rows}
+          {
+            renderEntries(deepmerge.all([node18, node20, node22]), targets, [])
+              .rows
+          }
         </table>
       </div>
     </div>
