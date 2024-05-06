@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
 
 import node18 from "./data/node-18.json";
@@ -92,6 +91,7 @@ const App = () => {
 
     for (const [key, nodeValue] of Object.entries(baseline)) {
       const keyPath = [...path, key];
+
       const isModule = path.length === 1;
 
       let childRows;
