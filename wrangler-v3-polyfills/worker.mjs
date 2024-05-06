@@ -1,162 +1,467 @@
 import { visit } from "../dump-utils.mjs";
 
-// Required for HTTP polyfill to import
-// globalThis.XMLHttpRequest = class {
-//   open() {}
-//   get responseType() {}
-// };
-// globalThis.location = {};
-
 export default {
   async fetch(request, env, ctx) {
-    const _http_agent = null; // await import("_http_agent");
-    const _http_client = null; // await import("_http_client");
-    const _http_common = null; // await import("_http_common");
-    const _http_incoming = null; // await import("_http_incoming");
-    const _http_outgoing = null; // await import("_http_outgoing");
-    const _http_server = null; // await import("_http_server");
-    const _stream_duplex = await import("_stream_duplex");
-    const _stream_passthrough = await import("_stream_passthrough");
-    const _stream_readable = await import("_stream_readable");
-    const _stream_transform = await import("_stream_transform");
-    const _stream_wrap = null; // await import("_stream_wrap");
-    const _stream_writable = await import("_stream_writable");
-    const _tls_common = null; // await import("_tls_common");
-    const _tls_wrap = null; // await import("_tls_wrap");
-    const assert = await import("assert");
-    const assertStrict = null; // await import("assert/strict");
-    const async_hooks = null; // await import("async_hooks");
-    const buffer = await import("buffer");
-    const child_process = await import("child_process");
-    const cluster = await import("cluster");
-    const console = await import("console");
-    const constants = await import("constants");
-    const crypto = await import("crypto");
-    const dgram = await import("dgram");
-    const diagnostics_channel = null; // await import("diagnostics_channel");
-    const dns = await import("dns");
-    const dnsPromises = null; // await import("dns/promises");
-    const domain = await import("domain");
-    const events = await import("events");
-    const fs = await import("fs");
-    const fsPromises = null; // await import("fs/promises");
-    const http = null; // await import("http"); (REQUIRES XHR)
-    const http2 = null; // await import("http2");
-    const https = null; // await import("https"); (REQUIRES XHR)
-    const inspector = null; // await import("inspector");
-    const inspectorPromises = null; // await import("inspector/promises");
-    const module = await import("module");
-    const net = await import("net");
-    const os = await import("os");
-    const path = await import("path");
-    const pathPosix = null; // await import("path/posix");
-    const pathWin32 = null; // await import("path/win32");
-    const perf_hooks = null; // await import("perf_hooks");
-    const process = await import("process");
-    const punycode = await import("punycode");
-    const querystring = await import("querystring");
-    const readline = await import("readline");
-    const readlinePromises = null; // await import("readline/promises");
-    const repl = await import("repl");
-    const stream = await import("stream");
-    const streamConsumers = null; // await import("stream/consumers");
-    const streamPromises = null; // await import("stream/promises");
-    const streamWeb = null; // await import("stream/web");
-    const string_decoder = await import("string_decoder");
-    const sys = await import("sys");
-    const timers = await import("timers");
-    const timersPromises = null; // await import("timers/promises");
-    const tls = await import("tls");
-    const trace_events = null; // await import("trace_events");
-    const tty = null; // await import("tty"); (NOT IMPLEMENTED)
-    const url = await import("url");
-    const util = await import("util");
-    const utilTypes = null; // await import("util/types");
-    const v8 = null; // await import("v8");
-    const vm = null; // await import("vm"); (REQUIRES DOM)
-    const wasi = null; // await import("wasi");
-    const worker_threads = null; // await import("worker_threads");
-    const zlib = await import("zlib");
+    let _http_agent = null;
+    try {
+      _http_agent = await import("_http_agent");
+    } catch (err) {}
 
-    const modules = [
-      ["_http_agent", _http_agent],
-      ["_http_client", _http_client],
-      ["_http_common", _http_common],
-      ["_http_incoming", _http_incoming],
-      ["_http_outgoing", _http_outgoing],
-      ["_http_server", _http_server],
-      ["_stream_duplex", _stream_duplex],
-      ["_stream_passthrough", _stream_passthrough],
-      ["_stream_readable", _stream_readable],
-      ["_stream_transform", _stream_transform],
-      ["_stream_wrap", _stream_wrap],
-      ["_stream_writable", _stream_writable],
-      ["_tls_common", _tls_common],
-      ["_tls_wrap", _tls_wrap],
-      ["assert", assert],
-      ["assert/strict", assertStrict],
-      ["async_hooks", async_hooks],
-      ["buffer", buffer],
-      ["child_process", child_process],
-      ["cluster", cluster],
-      ["console", console],
-      ["constants", constants],
-      ["crypto", crypto],
-      ["dgram", dgram],
-      ["diagnostics_channel", diagnostics_channel],
-      ["dns", dns],
-      ["dns/promises", dnsPromises],
-      ["domain", domain],
-      ["events", events],
-      ["fs", fs],
-      ["fs/promises", fsPromises],
-      ["http", http],
-      ["http2", http2],
-      ["https", https],
-      ["inspector", inspector],
-      ["inspector/promises", inspectorPromises],
-      ["module", module],
-      ["net", net],
-      ["os", os],
-      ["path", path],
-      ["path/posix", pathPosix],
-      ["path/win32", pathWin32],
-      ["perf_hooks", perf_hooks],
-      ["process", process],
-      ["punycode", punycode],
-      ["querystring", querystring],
-      ["readline", readline],
-      ["readline/promises", readlinePromises],
-      ["repl", repl],
-      ["stream", stream],
-      ["stream/consumers", streamConsumers],
-      ["stream/promises", streamPromises],
-      ["stream/web", streamWeb],
-      ["string_decoder", string_decoder],
-      ["sys", sys],
-      ["timers", timers],
-      ["timers/promises", timersPromises],
-      ["tls", tls],
-      ["trace_events", trace_events],
-      ["tty", tty],
-      ["url", url],
-      ["util", util],
-      ["util/types", utilTypes],
-      ["v8", v8],
-      ["vm", vm],
-      ["wasi", wasi],
-      ["worker_threads", worker_threads],
-      ["zlib", zlib],
-    ];
+    let _http_client = null;
+    try {
+      _http_client = await import("_http_client");
+    } catch (err) {}
+
+    let _http_common = null;
+    try {
+      _http_common = await import("_http_common");
+    } catch (err) {}
+
+    let _http_incoming = null;
+    try {
+      _http_incoming = await import("_http_incoming");
+    } catch (err) {}
+
+    let _http_outgoing = null;
+    try {
+      _http_outgoing = await import("_http_outgoing");
+    } catch (err) {}
+
+    let _http_server = null;
+    try {
+      _http_server = await import("_http_server");
+    } catch (err) {}
+
+    let _stream_duplex = null;
+    try {
+      _stream_duplex = await import("_stream_duplex");
+    } catch (err) {}
+
+    let _stream_passthrough = null;
+    try {
+      _stream_passthrough = await import("_stream_passthrough");
+    } catch (err) {}
+
+    let _stream_readable = null;
+    try {
+      _stream_readable = await import("_stream_readable");
+    } catch (err) {}
+
+    let _stream_transform = null;
+    try {
+      _stream_transform = await import("_stream_transform");
+    } catch (err) {}
+
+    let _stream_wrap = null;
+    try {
+      _stream_wrap = await import("_stream_wrap");
+    } catch (err) {}
+
+    let _stream_writable = null;
+    try {
+      _stream_writable = await import("_stream_writable");
+    } catch (err) {}
+
+    let _tls_common = null;
+    try {
+      _tls_common = await import("_tls_common");
+    } catch (err) {}
+
+    let _tls_wrap = null;
+    try {
+      _tls_wrap = await import("_tls_wrap");
+    } catch (err) {}
+
+    let assert = null;
+    try {
+      assert = await import("assert");
+    } catch (err) {}
+
+    let assert_strict = null;
+    try {
+      assert_strict = await import("assert/strict");
+    } catch (err) {}
+
+    let async_hooks = null;
+    try {
+      async_hooks = await import("async_hooks");
+    } catch (err) {}
+
+    let buffer = null;
+    try {
+      buffer = await import("buffer");
+    } catch (err) {}
+
+    let child_process = null;
+    try {
+      child_process = await import("child_process");
+    } catch (err) {}
+
+    let cluster = null;
+    try {
+      cluster = await import("cluster");
+    } catch (err) {}
+
+    let console = null;
+    try {
+      console = await import("console");
+    } catch (err) {}
+
+    let constants = null;
+    try {
+      constants = await import("constants");
+    } catch (err) {}
+
+    let crypto = null;
+    try {
+      crypto = await import("crypto");
+    } catch (err) {}
+
+    let dgram = null;
+    try {
+      dgram = await import("dgram");
+    } catch (err) {}
+
+    let diagnostics_channel = null;
+    try {
+      diagnostics_channel = await import("diagnostics_channel");
+    } catch (err) {}
+
+    let dns = null;
+    try {
+      dns = await import("dns");
+    } catch (err) {}
+
+    let dns_promises = null;
+    try {
+      dns_promises = await import("dns/promises");
+    } catch (err) {}
+
+    let domain = null;
+    try {
+      domain = await import("domain");
+    } catch (err) {}
+
+    let events = null;
+    try {
+      events = await import("events");
+    } catch (err) {}
+
+    let fs = null;
+    try {
+      fs = await import("fs");
+    } catch (err) {}
+
+    let fs_promises = null;
+    try {
+      fs_promises = await import("fs/promises");
+    } catch (err) {}
+
+    let http = null;
+    try {
+      http = await import("http");
+    } catch (err) {}
+
+    let http2 = null;
+    try {
+      http2 = await import("http2");
+    } catch (err) {}
+
+    let https = null;
+    try {
+      https = await import("https");
+    } catch (err) {}
+
+    let inspector = null;
+    try {
+      inspector = await import("inspector");
+    } catch (err) {}
+
+    let inspector_promises = null;
+    try {
+      inspector_promises = await import("inspector/promises");
+    } catch (err) {}
+
+    let module = null;
+    try {
+      module = await import("module");
+    } catch (err) {}
+
+    let net = null;
+    try {
+      net = await import("net");
+    } catch (err) {}
+
+    let os = null;
+    try {
+      os = await import("os");
+    } catch (err) {}
+
+    let path = null;
+    try {
+      path = await import("path");
+    } catch (err) {}
+
+    let path_posix = null;
+    try {
+      path_posix = await import("path/posix");
+    } catch (err) {}
+
+    let path_win32 = null;
+    try {
+      path_win32 = await import("path/win32");
+    } catch (err) {}
+
+    let perf_hooks = null;
+    try {
+      perf_hooks = await import("perf_hooks");
+    } catch (err) {}
+
+    let process = null;
+    try {
+      process = await import("process");
+    } catch (err) {}
+
+    let punycode = null;
+    try {
+      punycode = await import("punycode");
+    } catch (err) {}
+
+    let querystring = null;
+    try {
+      querystring = await import("querystring");
+    } catch (err) {}
+
+    let readline = null;
+    try {
+      readline = await import("readline");
+    } catch (err) {}
+
+    let readline_promises = null;
+    try {
+      readline_promises = await import("readline/promises");
+    } catch (err) {}
+
+    let repl = null;
+    try {
+      repl = await import("repl");
+    } catch (err) {}
+
+    let stream = null;
+    try {
+      stream = await import("stream");
+    } catch (err) {}
+
+    let stream_consumers = null;
+    try {
+      stream_consumers = await import("stream/consumers");
+    } catch (err) {}
+
+    let stream_promises = null;
+    try {
+      stream_promises = await import("stream/promises");
+    } catch (err) {}
+
+    let stream_web = null;
+    try {
+      stream_web = await import("stream/web");
+    } catch (err) {}
+
+    let string_decoder = null;
+    try {
+      string_decoder = await import("string_decoder");
+    } catch (err) {}
+
+    let sys = null;
+    try {
+      sys = await import("sys");
+    } catch (err) {}
+
+    let timers = null;
+    try {
+      timers = await import("timers");
+    } catch (err) {}
+
+    let timers_promises = null;
+    try {
+      timers_promises = await import("timers/promises");
+    } catch (err) {}
+
+    let tls = null;
+    try {
+      tls = await import("tls");
+    } catch (err) {}
+
+    let trace_events = null;
+    try {
+      trace_events = await import("trace_events");
+    } catch (err) {}
+
+    let tty = null;
+    try {
+      tty = await import("tty");
+    } catch (err) {}
+
+    let url = null;
+    try {
+      url = await import("url");
+    } catch (err) {}
+
+    let util = null;
+    try {
+      util = await import("util");
+    } catch (err) {}
+
+    let util_types = null;
+    try {
+      util_types = await import("util/types");
+    } catch (err) {}
+
+    let v8 = null;
+    try {
+      v8 = await import("v8");
+    } catch (err) {}
+
+    let vm = null;
+    try {
+      vm = await import("vm");
+    } catch (err) {}
+
+    let wasi = null;
+    try {
+      wasi = await import("wasi");
+    } catch (err) {}
+
+    let worker_threads = null;
+    try {
+      worker_threads = await import("worker_threads");
+    } catch (err) {}
+
+    let zlib = null;
+    try {
+      zlib = await import("zlib");
+    } catch (err) {}
+
+    const modules = {
+      _http_agent,
+      _http_client,
+      _http_common,
+      _http_incoming,
+      _http_outgoing,
+      _http_server,
+      _stream_duplex,
+      _stream_passthrough,
+      _stream_readable,
+      _stream_transform,
+      _stream_wrap,
+      _stream_writable,
+      _tls_common,
+      _tls_wrap,
+      assert,
+      assert_strict,
+      async_hooks,
+      buffer,
+      child_process,
+      cluster,
+      console,
+      constants,
+      crypto,
+      dgram,
+      diagnostics_channel,
+      dns,
+      dns_promises,
+      domain,
+      events,
+      fs,
+      fs_promises,
+      http,
+      http2,
+      https,
+      inspector,
+      inspector_promises,
+      module,
+      net,
+      os,
+      path,
+      path_posix,
+      path_win32,
+      perf_hooks,
+      process,
+      punycode,
+      querystring,
+      readline,
+      readline_promises,
+      repl,
+      stream,
+      stream_consumers,
+      stream_promises,
+      stream_web,
+      string_decoder,
+      sys,
+      timers,
+      timers_promises,
+      tls,
+      trace_events,
+      tty,
+      url,
+      util,
+      util_types,
+      v8,
+      vm,
+      wasi,
+      worker_threads,
+      zlib,
+    };
 
     const result = {};
-    for (const [name, module] of modules) {
-      if (module === null) {
-        result[name] = null;
-      } else {
-        result[name] = visit(module);
+
+    for (const [name, module] of Object.entries(modules)) {
+      const imported = await module;
+      result[name] = imported === null ? null : visit(imported);
+    }
+
+    const nodeGlobals = [
+      "AbortController",
+      "Blob",
+      "Buffer",
+      "clearImmediate",
+      "clearInterval",
+      "clearTimeout",
+      "console",
+      "CustomEvent",
+      "Event",
+      "EventTarget",
+      "File",
+      "global",
+      "MessageChannel",
+      "MessageEvent",
+      "MessagePort",
+      "PerformanceEntry",
+      "PerformanceMark",
+      "PerformanceMeasure",
+      "PerformanceObserver",
+      "PerformanceObserverEntryList",
+      "PerformanceResourceTiming",
+      "process",
+      "queueMicrotask",
+      "setImmediate",
+      "setInterval",
+      "setTimeout",
+      "structuredClone",
+      "DOMException",
+      "TextDecoder",
+      "TextEncoder",
+      "URL",
+      "URLSearchParams",
+      "WebAssembly",
+    ];
+    const globalsMap = {};
+    for (const module of nodeGlobals) {
+      if (typeof globalThis[module] !== "undefined") {
+        globalsMap[module] = globalThis[module];
       }
     }
+    result["*globals*"] = visit(globalsMap);
 
     return new Response(JSON.stringify(result, null, 2), {
       headers: { "Content-Type": "application/json" },

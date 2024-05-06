@@ -5,9 +5,9 @@ import "./App.css";
 import node18 from "./data/node-18.json";
 import node20 from "./data/node-20.json";
 import workerd from "./data/workerd.json";
-import wranglerJspm from "./data/wrangler-jspm.json";
-import wranglerUnenv from "./data/wrangler-unenv.json";
-import wranglerV3 from "./data/wrangler-v3.json";
+import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
+import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
+import wranglerV3 from "./data/wrangler-v3-polyfills.json";
 import node22 from "./data/node-22.json";
 
 // const baseline = node22;
@@ -122,8 +122,8 @@ const App = () => {
                   0
                 )}%`
               : targetSupported
-              ? supported
-              : unsupported}
+                ? supported
+                : unsupported}
           </td>
         );
       }
@@ -170,9 +170,9 @@ const App = () => {
     node20,
     node18,
     workerd,
+    wranglerV3,
     wranglerJspm,
     wranglerUnenv,
-    wranglerV3,
   };
 
   return (

@@ -53,7 +53,12 @@ const dump = async () => {
   const res = await fetch(url);
 
   // Write results to file
-  const filepath = path.join(__dirname, "apis.json");
+  const filepath = path.join(
+    __dirname,
+    "..",
+    "generated",
+    "wrangler-v3-polyfills.json"
+  );
   await fs.writeFile(filepath, Buffer.from(await res.arrayBuffer()));
   console.log("Done! Result written to", path.relative(__dirname, filepath));
   await kill();
