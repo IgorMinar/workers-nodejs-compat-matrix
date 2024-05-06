@@ -17,7 +17,7 @@ importers:
 
   node: {}
 
-  report2:
+  report:
     dependencies:
       '@types/node':
         specifier: ^16.18.96
@@ -4748,7 +4748,7 @@ packages:
       supports-color:
         optional: true
     dependencies:
-      ms: 2.1.2
+      ms: 2.1.3
     dev: false
 
   /debug@4.3.4:
