@@ -10,6 +10,6 @@
     "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-jspm-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
     "generate:apis": "mkdir -p generated && node ./generate-report.mjs && cp -r generated/* report2/src/data && rm -rf generated",
     "generate:report": "mkdir -p dist && node ./report/index.mjs && open dist/index.html",
-    "generate": "pnpm generate:script && pnpm generate:apis && pnpm generate:report"
+    "generate": "pnpm generate:script && pnpm generate:apis"
   }
 }

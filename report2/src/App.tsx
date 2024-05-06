@@ -83,7 +83,6 @@ const App = () => {
   ) => {
     const rows = [];
     let baselineTotal = 0;
-
     let targetTotals: Record<string, number> = Object.keys(targets).reduce(
       (acc, key) => ({ ...acc, [key]: 0 }),
       {}
@@ -92,6 +91,14 @@ const App = () => {
     for (const [key, nodeValue] of Object.entries(baseline)) {
       const keyPath = [...path, key];
 
+      if (path.length === 0) {
+        baselineTotal = 0;
+        targetTotals = Object.keys(targets).reduce(
+          (acc, key) => ({ ...acc, [key]: 0 }),
+          {}
+        );
+      }
+
       const isModule = path.length === 1;
 
       let childRows;
@@ -99,9 +106,9 @@ const App = () => {
       if (isObject(nodeValue)) {
         const result = renderEntries(nodeValue, targets, keyPath);
         childRows = result.rows;
-        baselineTotal += result.baselineTotal;
+        baselineTotal = result.baselineTotal;
         for (const targetKey of Object.keys(targets)) {
-          targetTotals[targetKey] += result.targetTotals[targetKey];
+          targetTotals[targetKey] = result.targetTotals[targetKey];
         }
       } else {
         baselineTotal += 1;
