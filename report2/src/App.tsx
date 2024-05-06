@@ -92,6 +92,7 @@ const App = () => {
 
     for (const [key, nodeValue] of Object.entries(baseline)) {
       const keyPath = [...path, key];
+      const isModule = path.length === 1;
 
       let childRows;
 
@@ -115,7 +116,7 @@ const App = () => {
         const targetSupported = getTargetValue(targets[targetKey], keyPath);
 
         columns.push(
-          <td>
+          <td className="border border-slate-200">
             {isObject(nodeValue)
               ? `${((targetTotals[targetKey] / baselineTotal) * 100).toFixed(
                   0
@@ -137,9 +138,20 @@ const App = () => {
 
       rows.push(
         <>
-          <tr onClick={() => expand(key)}>
-            <td>{key}</td>
-            <td>{supported}</td>
+          <tr
+            className="border-slate-200 even:bg-slate-100"
+            onClick={() => expand(key)}
+          >
+            <td className={`w-[40ch] p-1 text-left border border-slate-200`}>
+              <span className="opacity-0">
+                {"_".repeat(keyPath.length * 2)}
+              </span>
+              {/* <span className={isModule ? "font-bold" : ""}> */}
+              {key}
+              {isObject(nodeValue) && <span>▼</span>}
+              {/* </span> */}
+            </td>
+            <td className="border border-slate-200">{supported}</td>
             {columns}
           </tr>
           {expanded.includes(key) && childRows}
@@ -155,8 +167,8 @@ const App = () => {
   };
 
   const targets = {
-    node18,
     node20,
+    node18,
     workerd,
     wranglerJspm,
     wranglerUnenv,
@@ -165,18 +177,22 @@ const App = () => {
 
   return (
     <div className="App">
-      <table>
-        <thead>
-          <tr>
-            <th>API</th>
-            <th>{targetTitles["node22"]}</th>
-            {Object.keys(targets).map((target) => (
-              <th>{targetTitles[target as keyof typeof targetTitles]}</th>
-            ))}
-          </tr>
-        </thead>
-        {renderEntries(node22, targets, []).rows}
-      </table>
+      <div className="container mx-auto p-10">
+        <table className="table-fixed border border-slate-200 p-5 border-collapse">
+          <thead>
+            <tr className="">
+              <th>API</th>
+              <th className="w-[18ch]">{targetTitles["node22"]}</th>
+              {Object.keys(targets).map((target) => (
+                <th className="w-[18ch]">
+                  {targetTitles[target as keyof typeof targetTitles]}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          {renderEntries(node22, targets, []).rows}
+        </table>
+      </div>
     </div>
   );
 };
