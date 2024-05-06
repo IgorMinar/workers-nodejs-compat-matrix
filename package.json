@@ -9,7 +9,8 @@
     "generate:script": "node ./generate-worker-script.mjs > worker.mjs && prettier worker.mjs --write && pnpm run copy:script",
     "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-jspm-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
     "generate:apis": "mkdir -p generated && node ./generate-report.mjs && cp -r generated/* report/src/data && rm -rf generated",
-    "generate:report": "mkdir -p dist && node ./report/index.mjs && open dist/index.html",
-    "generate": "pnpm generate:script && pnpm generate:apis"
+    "generate": "pnpm generate:script && pnpm generate:apis",
+    "report:dev": "pnpm --filter report start",
+    "report:deploy": "pnpm --filter report deploy"
   }
 }
