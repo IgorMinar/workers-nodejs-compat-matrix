@@ -13,13 +13,7 @@ const __dirname = path.dirname(__filename);
 const spawnWrangler = async () => {
   const wranglerProcess = spawn(
     "node_modules/.bin/wrangler",
-    [
-      "dev",
-      "--compatibility-flags=nodejs_compat",
-      "--node-compat",
-      `--port=0`,
-      "worker.mjs",
-    ],
+    ["dev", `--port=0`, "worker.mjs"],
     {
       stdio: ["pipe", "pipe", "pipe", "ipc"],
       cwd: __dirname,

@@ -37,6 +37,9 @@ const irrelevantAPIs = [
 
 const supported = "✅";
 const unsupported = "❌";
+const stub = "🥸";
+const mismatch = "️🩹";
+// const mismatch = "🌦";
 
 // const relevantAPIs = Object.keys(baseline)
 //   .filter((name) => !irrelevantAPIs.includes(name))
@@ -65,6 +68,7 @@ const targetTitles = {
   wranglerUnenv: "Wrangler (unenv)",
   wranglerV3: "Wrangler (v3)",
 };
+
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
 
@@ -76,6 +80,19 @@ const App = () => {
     const value = map[head];
     if (value == null || value === undefined) return null;
     return getTargetValue(value as CompatMap, tail);
+  };
+
+  const renderTargetValue = (nodeValue: any, value: string) => {
+    if (value === "stub") {
+      return stub;
+    }
+    if (value && nodeValue !== value) {
+      return mismatch;
+    }
+    if (value) {
+      return supported;
+    }
+    return unsupported;
   };
 
   const renderEntries: any = (
@@ -122,7 +139,7 @@ const App = () => {
 
       let columns = [];
       for (const targetKey of Object.keys(targets)) {
-        const targetSupported = getTargetValue(targets[targetKey], keyPath);
+        const targetValue = getTargetValue(targets[targetKey], keyPath);
 
         columns.push(
           <td className="border border-slate-200">
@@ -130,9 +147,7 @@ const App = () => {
               ? `${((targetTotals[targetKey] / baselineTotal) * 100).toFixed(
                   0
                 )}%`
-              : targetSupported
-                ? supported
-                : unsupported}
+              : renderTargetValue(nodeValue, targetValue)}
           </td>
         );
       }
@@ -195,6 +210,34 @@ const App = () => {
   return (
     <div className="App">
       <div className="container mx-auto py-10">
+        <table className="mb-5 table-fixed border border-slate-200 p-5 border-collapse">
+          <thead>
+            <tr>
+              <th className="min-w-[15ch] p-1 border border-slate-200">Icon</th>
+              <th className="min-w-[15ch] p-1 border border-slate-200">
+                Meaning
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-1 border border-slate-200">Supported</td>
+              <td className="p-1 border border-slate-200">{supported}</td>
+            </tr>
+            <tr>
+              <td className="p-1 border border-slate-200">Unsupported</td>
+              <td className="p-1 border border-slate-200">{unsupported}</td>
+            </tr>
+            <tr>
+              <td className="p-1 border border-slate-200">Stub</td>
+              <td className="p-1 border border-slate-200">{stub}</td>
+            </tr>
+            <tr>
+              <td className="p-1 border border-slate-200">Mismatch</td>
+              <td className="p-1 border border-slate-200">{mismatch}</td>
+            </tr>
+          </tbody>
+        </table>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="">
@@ -207,10 +250,15 @@ const App = () => {
               ))}
             </tr>
           </thead>
-          {
-            renderEntries(deepmerge.all([node18, node20, node22]), targets, [])
-              .rows
-          }
+          <tbody>
+            {
+              renderEntries(
+                deepmerge.all([node18, node20, node22]),
+                targets,
+                []
+              ).rows
+            }
+          </tbody>
         </table>
       </div>
     </div>
