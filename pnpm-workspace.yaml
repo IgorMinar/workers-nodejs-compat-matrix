@@ -2,4 +2,4 @@ packages:
   - "node"
   - "workerd"
   - "wrangler-*"
-  - "report2"
+  - "report"
