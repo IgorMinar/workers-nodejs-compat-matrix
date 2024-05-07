@@ -1099,9 +1099,6 @@
   "inspector": {
     "default": "stub"
   },
-  "inspector_promises": {
-    "default": "stub"
-  },
   "module": {
     "default": "stub"
   },
@@ -1688,6 +1685,9 @@
     "default": "stub"
   },
   "zlib": {
+    "default": "stub"
+  },
+  "inspector_promises": {
     "default": "stub"
   },
   "*globals*": {

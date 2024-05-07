@@ -12,7 +12,13 @@ const __dirname = path.dirname(__filename);
 async function spawnWorkerd(configPath) {
   const workerdProcess = childProcess.spawn(
     workerd.default,
-    ["serve", "--verbose", "--control-fd=3", "--socket-addr=http=127.0.0.1:0", configPath],
+    [
+      "serve",
+      "--verbose",
+      "--control-fd=3",
+      "--socket-addr=http=127.0.0.1:0",
+      configPath,
+    ],
     { stdio: ["inherit", "inherit", "inherit", "pipe"] }
   );
   const exitPromise = events.once(workerdProcess, "exit");
@@ -24,7 +30,7 @@ async function spawnWorkerd(configPath) {
     async kill() {
       workerdProcess.kill("SIGKILL");
       await exitPromise;
-    }
+    },
   };
 }
 
@@ -32,4 +38,7 @@ const { url, kill } = await spawnWorkerd(path.join(__dirname, "config.capnp"));
 const res = await fetch(url);
 await kill();
 
-await fs.writeFile(path.join(__dirname, "apis.json"), Buffer.from(await res.arrayBuffer()));
+await fs.writeFile(
+  path.join(__dirname, "..", "report", "src", "data", "workerd.json"),
+  Buffer.from(await res.arrayBuffer())
+);

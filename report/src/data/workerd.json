@@ -50,24 +50,30 @@
     "structuredClone": "function"
   },
   "_stream_duplex": {
-    "Duplex": "function"
+    "Duplex": "function",
+    "default": "function"
   },
   "_stream_passthrough": {
-    "PassThrough": "function"
+    "PassThrough": "function",
+    "default": "function"
   },
   "_stream_readable": {
-    "Readable": "function"
+    "Readable": "function",
+    "default": "function"
   },
   "_stream_transform": {
-    "Transform": "function"
+    "Transform": "function",
+    "default": "function"
   },
   "_stream_writable": {
-    "Writable": "function"
+    "Writable": "function",
+    "default": "function"
   },
   "assert": {
     "AssertionError": "class",
     "deepEqual": "function",
     "deepStrictEqual": "function",
+    "default": "function",
     "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
@@ -87,7 +93,11 @@
   },
   "async_hooks": {
     "AsyncLocalStorage": "function",
-    "AsyncResource": "function"
+    "AsyncResource": "function",
+    "default": {
+      "AsyncLocalStorage": "function",
+      "AsyncResource": "function"
+    }
   },
   "buffer": {
     "Buffer": "function",
@@ -95,6 +105,16 @@
     "constants": {
       "MAX_LENGTH": "number",
       "MAX_STRING_LENGTH": "number"
+    },
+    "default": {
+      "Buffer": "function",
+      "SlowBuffer": "function",
+      "constants": {
+        "MAX_LENGTH": "number",
+        "MAX_STRING_LENGTH": "number"
+      },
+      "kMaxLength": "number",
+      "kStringMaxLength": "number"
     },
     "kMaxLength": "number",
     "kStringMaxLength": "number"
@@ -117,6 +137,72 @@
     "createPrivateKey": "function",
     "createPublicKey": "function",
     "createSecretKey": "function",
+    "default": {
+      "DiffieHellman": "function",
+      "DiffieHellmanGroup": "function",
+      "Hash": "function",
+      "Hmac": "function",
+      "KeyObject": "class",
+      "PrivateKeyObject": "class",
+      "PublicKeyObject": "class",
+      "SecretKeyObject": "class",
+      "checkPrime": "function",
+      "checkPrimeSync": "function",
+      "createDiffieHellman": "function",
+      "createDiffieHellmanGroup": "function",
+      "createHash": "function",
+      "createHmac": "function",
+      "createPrivateKey": "function",
+      "createPublicKey": "function",
+      "createSecretKey": "function",
+      "fips": "boolean",
+      "generateKey": "function",
+      "generateKeyPair": "function",
+      "generateKeyPairSync": "function",
+      "generateKeySync": "function",
+      "generatePrime": "function",
+      "generatePrimeSync": "function",
+      "getCiphers": "function",
+      "getCurves": "function",
+      "getDiffieHellman": "function",
+      "getFips": "function",
+      "getHashes": "function",
+      "getRandomValues": "function",
+      "hkdf": "function",
+      "hkdfSync": "function",
+      "pbkdf2": "function",
+      "pbkdf2Sync": "function",
+      "randomBytes": "function",
+      "randomFill": "function",
+      "randomFillSync": "function",
+      "randomInt": "function",
+      "randomUUID": "function",
+      "secureHeapUsed": "function",
+      "setEngine": "function",
+      "setFips": "function",
+      "subtle": {
+        "decrypt": "function",
+        "deriveBits": "function",
+        "deriveKey": "function",
+        "digest": "function",
+        "encrypt": "function",
+        "exportKey": "function",
+        "generateKey": "function",
+        "importKey": "function",
+        "sign": "function",
+        "timingSafeEqual": "function",
+        "unwrapKey": "function",
+        "verify": "function",
+        "wrapKey": "function"
+      },
+      "timingSafeEqual": "undefined",
+      "webcrypto": {
+        "DigestStream": "function",
+        "getRandomValues": "function",
+        "randomUUID": "function",
+        "subtle": "object"
+      }
+    },
     "fips": "boolean",
     "generateKey": "function",
     "generateKeyPair": "function",
@@ -142,14 +228,55 @@
     "secureHeapUsed": "function",
     "setEngine": "function",
     "setFips": "function",
-    "subtle": {},
+    "subtle": {
+      "decrypt": "function",
+      "deriveBits": "function",
+      "deriveKey": "function",
+      "digest": "function",
+      "encrypt": "function",
+      "exportKey": "function",
+      "generateKey": "function",
+      "importKey": "function",
+      "sign": "function",
+      "timingSafeEqual": "function",
+      "unwrapKey": "function",
+      "verify": "function",
+      "wrapKey": "function"
+    },
     "timingSafeEqual": "undefined",
-    "webcrypto": {}
+    "webcrypto": {
+      "DigestStream": "function",
+      "getRandomValues": "function",
+      "randomUUID": "function",
+      "subtle": {
+        "decrypt": "function",
+        "deriveBits": "function",
+        "deriveKey": "function",
+        "digest": "function",
+        "encrypt": "function",
+        "exportKey": "function",
+        "generateKey": "function",
+        "importKey": "function",
+        "sign": "function",
+        "timingSafeEqual": "function",
+        "unwrapKey": "function",
+        "verify": "function",
+        "wrapKey": "function"
+      }
+    }
   },
   "diagnostics_channel": {
     "Channel": "function",
     "TracingChannel": "class",
     "channel": "function",
+    "default": {
+      "Channel": "function",
+      "channel": "function",
+      "hasSubscribers": "function",
+      "subscribe": "function",
+      "tracingChannel": "function",
+      "unsubscribe": "function"
+    },
     "hasSubscribers": "function",
     "subscribe": "function",
     "tracingChannel": "function",
@@ -159,6 +286,7 @@
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "class",
     "captureRejectionSymbol": "symbol",
+    "default": "function",
     "defaultMaxListeners": "number",
     "errorMonitor": "symbol",
     "getEventListeners": "function",
@@ -169,6 +297,55 @@
   },
   "path": {
     "basename": "function",
+    "default": {
+      "basename": "function",
+      "delimiter": "string",
+      "dirname": "function",
+      "extname": "function",
+      "format": "function",
+      "isAbsolute": "function",
+      "join": "function",
+      "normalize": "function",
+      "parse": "function",
+      "posix": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      },
+      "relative": "function",
+      "resolve": "function",
+      "sep": "string",
+      "toNamespacedPath": "function",
+      "win32": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      }
+    },
     "delimiter": "string",
     "dirname": "function",
     "extname": "function",
@@ -187,10 +364,44 @@
       "join": "function",
       "normalize": "function",
       "parse": "function",
+      "posix": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      },
       "relative": "function",
       "resolve": "function",
       "sep": "string",
-      "toNamespacedPath": "function"
+      "toNamespacedPath": "function",
+      "win32": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      }
     },
     "relative": "function",
     "resolve": "function",
@@ -206,14 +417,52 @@
       "join": "function",
       "normalize": "function",
       "parse": "function",
+      "posix": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      },
       "relative": "function",
       "resolve": "function",
       "sep": "string",
-      "toNamespacedPath": "function"
+      "toNamespacedPath": "function",
+      "win32": {
+        "basename": "function",
+        "delimiter": "string",
+        "dirname": "function",
+        "extname": "function",
+        "format": "function",
+        "isAbsolute": "function",
+        "join": "function",
+        "normalize": "function",
+        "parse": "function",
+        "posix": "object",
+        "relative": "function",
+        "resolve": "function",
+        "sep": "string",
+        "toNamespacedPath": "function",
+        "win32": "object"
+      }
     }
   },
   "process": {
-    "env": {},
+    "default": {
+      "env": "{}",
+      "nextTick": "function"
+    },
+    "env": "{}",
     "nextTick": "function"
   },
   "stream": {
@@ -227,6 +476,7 @@
     "_uint8ArrayToBuffer": "function",
     "addAbortSignal": "function",
     "compose": "function",
+    "default": "function",
     "destroy": "function",
     "finished": "function",
     "isDisturbed": "function",
@@ -242,10 +492,21 @@
     "arrayBuffer": "function",
     "blob": "function",
     "buffer": "function",
+    "default": {
+      "arrayBuffer": "function",
+      "blob": "function",
+      "buffer": "function",
+      "json": "function",
+      "text": "function"
+    },
     "json": "function",
     "text": "function"
   },
   "stream/promises": {
+    "default": {
+      "finished": "function",
+      "pipeline": "function"
+    },
     "finished": "function",
     "pipeline": "function",
     "promises": {
@@ -270,10 +531,32 @@
     "TransformStreamDefaultController": "undefined",
     "WritableStream": "function",
     "WritableStreamDefaultController": "function",
-    "WritableStreamDefaultWriter": "function"
+    "WritableStreamDefaultWriter": "function",
+    "default": {
+      "ByteLengthQueuingStrategy": "function",
+      "CompressionStream": "function",
+      "CountQueuingStrategy": "function",
+      "DecompressionStream": "function",
+      "ReadableByteStreamController": "function",
+      "ReadableStream": "function",
+      "ReadableStreamBYOBReader": "function",
+      "ReadableStreamBYOBRequest": "function",
+      "ReadableStreamDefaultController": "function",
+      "ReadableStreamDefaultReader": "function",
+      "TextDecoderStream": "function",
+      "TextEncoderStream": "function",
+      "TransformStream": "function",
+      "TransformStreamDefaultController": "undefined",
+      "WritableStream": "function",
+      "WritableStreamDefaultController": "function",
+      "WritableStreamDefaultWriter": "function"
+    }
   },
   "string_decoder": {
-    "StringDecoder": "function"
+    "StringDecoder": "function",
+    "default": {
+      "StringDecoder": "function"
+    }
   },
   "util": {
     "MIMEParams": "function",
@@ -285,6 +568,72 @@
     "callbackify": "function",
     "debug": "function",
     "debuglog": "function",
+    "default": {
+      "MIMEParams": "function",
+      "MIMEType": "function",
+      "TextDecoder": "function",
+      "TextEncoder": "function",
+      "_extend": "function",
+      "aborted": "function",
+      "callbackify": "function",
+      "debug": "function",
+      "debuglog": "function",
+      "deprecate": "function",
+      "format": "function",
+      "formatWithOptions": "function",
+      "inherits": "function",
+      "inspect": "function",
+      "log": "function",
+      "parseArgs": "function",
+      "promisify": "function",
+      "stripVTControlCharacters": "function",
+      "toUSVString": "function",
+      "transferableAbortController": "function",
+      "transferableAbortSignal": "function",
+      "types": {
+        "isAnyArrayBuffer": "function",
+        "isArgumentsObject": "function",
+        "isArrayBuffer": "function",
+        "isArrayBufferView": "function",
+        "isAsyncFunction": "function",
+        "isBigInt64Array": "function",
+        "isBigIntObject": "function",
+        "isBigUint64Array": "function",
+        "isBooleanObject": "function",
+        "isBoxedPrimitive": "function",
+        "isCryptoKey": "function",
+        "isDataView": "function",
+        "isDate": "function",
+        "isFloat32Array": "function",
+        "isFloat64Array": "function",
+        "isGeneratorFunction": "function",
+        "isGeneratorObject": "function",
+        "isInt16Array": "function",
+        "isInt32Array": "function",
+        "isInt8Array": "function",
+        "isKeyObject": "function",
+        "isMap": "function",
+        "isMapIterator": "function",
+        "isModuleNamespaceObject": "function",
+        "isNativeError": "function",
+        "isNumberObject": "function",
+        "isPromise": "function",
+        "isProxy": "function",
+        "isRegExp": "function",
+        "isSet": "function",
+        "isSetIterator": "function",
+        "isSharedArrayBuffer": "function",
+        "isStringObject": "function",
+        "isSymbolObject": "function",
+        "isTypedArray": "function",
+        "isUint16Array": "function",
+        "isUint32Array": "function",
+        "isUint8Array": "function",
+        "isUint8ClampedArray": "function",
+        "isWeakMap": "function",
+        "isWeakSet": "function"
+      }
+    },
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",

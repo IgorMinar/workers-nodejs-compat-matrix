@@ -56,7 +56,9 @@ const dump = async () => {
   const filepath = path.join(
     __dirname,
     "..",
-    "generated",
+    "report",
+    "src",
+    "data",
     "wrangler-jspm-polyfills.json"
   );
   await fs.writeFile(filepath, Buffer.from(await res.arrayBuffer()));

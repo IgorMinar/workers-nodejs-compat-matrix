@@ -2,13 +2,14 @@
   "name": "workers-node-compat-report",
   "private": "true",
   "devDependencies": {
+    "deepmerge": "^4.3.1",
     "prettier": "^3.2.5",
     "shelljs": "^0.8.5"
   },
   "scripts": {
     "generate:script": "node ./generate-worker-script.mjs > worker.mjs && prettier worker.mjs --write && pnpm run copy:script",
     "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-jspm-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
-    "generate:apis": "mkdir -p generated && node ./generate-report.mjs && cp -r generated/* report/src/data && rm -rf generated",
+    "generate:apis": "node ./generate-report.mjs",
     "generate": "pnpm generate:script && pnpm generate:apis",
     "report:dev": "pnpm run --filter report start",
     "report:deploy": "pnpm run --filter report deploy"

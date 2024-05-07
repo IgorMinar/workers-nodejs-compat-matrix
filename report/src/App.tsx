@@ -4,15 +4,13 @@ import "./App.css";
 import node18 from "./data/node-18.json";
 import node20 from "./data/node-20.json";
 import node22 from "./data/node-22.json";
+import nodeBaseline from "./data/baseline.json";
 import bun from "./data/bun.json";
 import deno from "./data/deno.json";
 import workerd from "./data/workerd.json";
 import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
 import wranglerV3 from "./data/wrangler-v3-polyfills.json";
-
-
-import deepmerge from "deepmerge";
 
 // const baseline = node22;
 
@@ -257,15 +255,7 @@ const App = () => {
               ))}
             </tr>
           </thead>
-          <tbody>
-            {
-              renderEntries(
-                deepmerge.all([node18, node20, node22]),
-                targets,
-                []
-              ).rows
-            }
-          </tbody>
+          <tbody>{renderEntries(nodeBaseline, targets, []).rows}</tbody>
         </table>
       </div>
     </div>
