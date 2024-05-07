@@ -57,15 +57,15 @@ const isObject = (nodeValue: any) =>
   Object.keys(nodeValue).length > 0;
 
 const targetTitles = {
-  node18: "Node",
-  node20: "Node",
-  node22: "Node",
-  bun: "Bun",
-  deno: "Deno",
-  workerd: "Workerd",
-  wranglerJspm: "Wrangler",
-  wranglerUnenv: "Wrangler",
-  wranglerV3: "Wrangler",
+  node18: "node",
+  node20: "node",
+  node22: "node",
+  bun: "bun",
+  deno: "deno",
+  workerd: "workerd",
+  wranglerJspm: "wrangler",
+  wranglerUnenv: "wrangler",
+  wranglerV3: "wrangler",
 };
 
 const App = () => {
@@ -140,13 +140,13 @@ const App = () => {
 
         columns.push(
           <td className="p-1 border border-slate-200">
-            {isObject(nodeValue)
-              ? (
-                <span title={`${targetTotals[targetKey]} / ${baselineTotal}`}>
-                  {((targetTotals[targetKey] / baselineTotal) * 100).toFixed(0)}%
-                </span>
-              )
-              : renderTargetValue(nodeValue, targetValue)}
+            {isObject(nodeValue) ? (
+              <span title={`${targetTotals[targetKey]} / ${baselineTotal}`}>
+                {((targetTotals[targetKey] / baselineTotal) * 100).toFixed(0)}%
+              </span>
+            ) : (
+              renderTargetValue(nodeValue, targetValue)
+            )}
           </td>
         );
       }
@@ -227,7 +227,7 @@ const App = () => {
           <thead>
             <tr>
               <TableHeaderCell width="min-w-[50ch]">API</TableHeaderCell>
-              <TableHeaderCell width="w-[18ch]">Baseline</TableHeaderCell>
+              <TableHeaderCell width="w-[18ch]">baseline</TableHeaderCell>
               {Object.keys(targets).map((target) => (
                 <TableHeaderCell width="w-[18ch]">
                   <div>{targetTitles[target as keyof typeof targetTitles]}</div>
