@@ -2,7 +2,7 @@ import { mismatch, stub, supported, unsupported } from "./constants";
 
 export const Legend = () => {
   return (
-    <table className="mb-5 table-fixed border border-slate-200 p-5 border-collapse">
+    <table className="mb-10 table-fixed border border-slate-200 p-5 border-collapse">
       <thead>
         <tr>
           <th className="min-w-[15ch] p-1 border border-slate-200">Icon</th>

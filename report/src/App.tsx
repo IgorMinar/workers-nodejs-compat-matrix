@@ -13,6 +13,7 @@ import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
 import wranglerV3 from "./data/wrangler-v3-polyfills.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
+import { TableCell, TableHeaderCell, TableRow } from "./Table";
 
 type CompatObject = Record<string, string>;
 type CompatMap = Record<string, string | CompatObject>;
@@ -137,7 +138,7 @@ const App = () => {
         const targetValue = getTargetValue(targets[targetKey], keyPath);
 
         columns.push(
-          <td className="border border-slate-200">
+          <td className="p-1 border border-slate-200">
             {isObject(nodeValue)
               ? (
                 <span title={`${targetTotals[targetKey]} / ${baselineTotal}`}>
@@ -159,29 +160,24 @@ const App = () => {
 
       rows.push(
         <>
-          <tr
-            className="border-slate-200 even:bg-slate-100"
-            onClick={() => expand(key)}
-          >
-            <td
-              className={`p-1 border border-slate-200 flex justify-start items-center`}
-            >
-              <span className="opacity-0">
-                {"_".repeat(keyPath.length * 2)}
-              </span>
-              {/* <span className={isModule ? "font-bold" : ""}> */}
-              {key}
-              {isObject(nodeValue) && !expanded.includes(key) && (
-                <span className="text-sm pl-2">▶</span>
-              )}
-              {isObject(nodeValue) && expanded.includes(key) && (
-                <span className="text-sm pl-2">▼</span>
-              )}
-              {/* </span> */}
-            </td>
-            <td className="border border-slate-200">{supported}</td>
+          <TableRow onClick={() => expand(key)}>
+            <TableCell>
+              <div className="flex justify-start items-center">
+                <span className="opacity-0">
+                  {"_".repeat(keyPath.length * 2)}
+                </span>
+                {key}
+                {isObject(nodeValue) && !expanded.includes(key) && (
+                  <span className="text-sm pl-2">▶</span>
+                )}
+                {isObject(nodeValue) && expanded.includes(key) && (
+                  <span className="text-sm pl-2">▼</span>
+                )}
+              </div>
+            </TableCell>
+            <TableCell>{supported}</TableCell>
             {columns}
-          </tr>
+          </TableRow>
           {expanded.includes(key) && childRows}
         </>
       );
@@ -210,15 +206,29 @@ const App = () => {
     <div className="App">
       <div className="container mx-auto py-10">
         <Legend />
+        <div className="my-5 flex justify-start gap-2">
+          <button
+            className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
+            onClick={() => setExpanded([...Object.keys(nodeBaseline)])}
+          >
+            Expand All
+          </button>
+          <button
+            className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
+            onClick={() => setExpanded([])}
+          >
+            Collapse All
+          </button>
+        </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
-            <tr className="">
-              <th className="min-w-[50ch]">API</th>
-              <th className="w-[18ch]">Baseline</th>
+            <tr>
+              <TableHeaderCell width="min-w-[50ch]">API</TableHeaderCell>
+              <TableHeaderCell width="w-[18ch]">Baseline</TableHeaderCell>
               {Object.keys(targets).map((target) => (
-                <th className="w-[18ch]">
+                <TableHeaderCell width="w-[18ch]">
                   {targetTitles[target as keyof typeof targetTitles]}
-                </th>
+                </TableHeaderCell>
               ))}
             </tr>
           </thead>
