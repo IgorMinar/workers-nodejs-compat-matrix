@@ -6,8 +6,14 @@ function isClass(func) {
 }
 
 export function visit(root, depth = 0) {
-  const entries = Object.entries(root);
+  // collect all properties of an object including inherited ones
+  const entries = [];
+  for (const key in root) {
+    entries.push([key, root[key]]);
+  }
+
   entries.sort(([a], [b]) => (a < b ? -1 : 1));
+
   const visitResult = {};
   for (const [key, value] of entries) {
     const isObject =
@@ -15,7 +21,13 @@ export function visit(root, depth = 0) {
 
     if (isObject) {
       // don't worry drilling into exported objects beyond listing its top properties
-      visitResult[key] = (depth === 2) ? "object" : visit(value, depth + 1);
+      if (depth === 2) {
+        visitResult[key] = "object";
+      } else {
+        const partialResult = visit(value, depth + 1);
+        // if the partial result is an empty object serialize it as a "{}" string
+        visitResult[key] = Object.keys(partialResult).length > 0 ? partialResult : "{}";
+      }
     } else {
       if (isClass(value)) {
         visitResult[key] = "class";

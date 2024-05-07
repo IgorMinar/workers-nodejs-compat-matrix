@@ -56,10 +56,10 @@
     "kMaxLength": "number"
   },
   "child_process": {
-    "default": {}
+    "default": "{}"
   },
   "cluster": {
-    "default": {}
+    "default": "{}"
   },
   "console": {
     "default": {
@@ -580,14 +580,14 @@
     "defaultCoreCipherList": "string"
   },
   "crypto": {
-    "default": {}
+    "default": "{}"
   },
   "dgram": {
-    "default": {}
+    "default": "{}"
   },
   "diagnostics_channel": null,
   "dns": {
-    "default": {}
+    "default": "{}"
   },
   "dns_promises": null,
   "domain": {
@@ -605,7 +605,7 @@
     "default": "function"
   },
   "fs": {
-    "default": {}
+    "default": "{}"
   },
   "fs_promises": null,
   "http": null,
@@ -741,10 +741,10 @@
   "inspector": null,
   "inspector_promises": null,
   "module": {
-    "default": {}
+    "default": "{}"
   },
   "net": {
-    "default": {}
+    "default": "{}"
   },
   "os": {
     "EOL": "string",
@@ -813,7 +813,7 @@
     "binding": "function",
     "browser": "boolean",
     "chdir": "function",
-    "config": {},
+    "config": "{}",
     "cwd": "function",
     "default": {
       "addListener": "function",
@@ -821,41 +821,41 @@
       "binding": "function",
       "browser": "boolean",
       "chdir": "function",
-      "config": {},
+      "config": "{}",
       "cwd": "function",
       "emit": "function",
-      "env": {},
+      "env": "{}",
       "hrtime": "function",
       "nextTick": "function",
       "off": "function",
       "on": "function",
       "once": "function",
       "platform": "string",
-      "release": {},
+      "release": "{}",
       "removeAllListeners": "function",
       "removeListener": "function",
       "title": "string",
       "umask": "function",
       "uptime": "function",
       "version": "string",
-      "versions": {}
+      "versions": "{}"
     },
     "emit": "function",
-    "env": {},
+    "env": "{}",
     "hrtime": "function",
     "nextTick": "function",
     "off": "function",
     "on": "function",
     "once": "function",
     "platform": "string",
-    "release": {},
+    "release": "{}",
     "removeAllListeners": "function",
     "removeListener": "function",
     "title": "string",
     "umask": "function",
     "uptime": "function",
     "version": "string",
-    "versions": {}
+    "versions": "{}"
   },
   "punycode": {
     "decode": "function",
@@ -892,11 +892,11 @@
     "stringify": "function"
   },
   "readline": {
-    "default": {}
+    "default": "{}"
   },
   "readline_promises": null,
   "repl": {
-    "default": {}
+    "default": "{}"
   },
   "stream": {
     "Duplex": "function",
@@ -987,7 +987,7 @@
   },
   "timers_promises": null,
   "tls": {
-    "default": {}
+    "default": "{}"
   },
   "trace_events": null,
   "tty": {

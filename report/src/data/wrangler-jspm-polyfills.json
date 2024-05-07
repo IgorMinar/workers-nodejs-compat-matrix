@@ -717,7 +717,12 @@
       "randomFill": "function",
       "randomFillSync": "function",
       "rng": "function",
-      "webcrypto": {}
+      "webcrypto": {
+        "DigestStream": "function",
+        "getRandomValues": "function",
+        "randomUUID": "function",
+        "subtle": "object"
+      }
     },
     "getCiphers": "function",
     "getDiffieHellman": "function",
@@ -735,7 +740,26 @@
     "randomFill": "function",
     "randomFillSync": "function",
     "rng": "function",
-    "webcrypto": {}
+    "webcrypto": {
+      "DigestStream": "function",
+      "getRandomValues": "function",
+      "randomUUID": "function",
+      "subtle": {
+        "decrypt": "function",
+        "deriveBits": "function",
+        "deriveKey": "function",
+        "digest": "function",
+        "encrypt": "function",
+        "exportKey": "function",
+        "generateKey": "function",
+        "importKey": "function",
+        "sign": "function",
+        "timingSafeEqual": "function",
+        "unwrapKey": "function",
+        "verify": "function",
+        "wrapKey": "function"
+      }
+    }
   },
   "dgram": {
     "Socket": "stub",
@@ -1505,11 +1529,11 @@
         "511": "string"
       },
       "get": "function",
-      "globalAgent": {},
+      "globalAgent": "{}",
       "request": "function"
     },
     "get": "function",
-    "globalAgent": {},
+    "globalAgent": "{}",
     "request": "function"
   },
   "http2": {
@@ -1524,7 +1548,7 @@
     "ServerHttp2Session": "class",
     "ServerHttp2Stream": "class",
     "connect": "function",
-    "constants": {},
+    "constants": "{}",
     "createSecureServer": "function",
     "createServer": "function",
     "default": {
@@ -1539,7 +1563,7 @@
       "ServerHttp2Session": "class",
       "ServerHttp2Stream": "class",
       "connect": "function",
-      "constants": {},
+      "constants": "{}",
       "createSecureServer": "function",
       "createServer": "function",
       "getDefaultSettings": "function",
@@ -1691,18 +1715,18 @@
         "511": "string"
       },
       "get": "function",
-      "globalAgent": {},
+      "globalAgent": "{}",
       "request": "function"
     },
     "get": "function",
-    "globalAgent": {},
+    "globalAgent": "{}",
     "request": "function"
   },
   "inspector": {
-    "default": {}
+    "default": "{}"
   },
   "inspector_promises": {
-    "default": {}
+    "default": "{}"
   },
   "module": {
     "Module": "stub",
@@ -1749,17 +1773,17 @@
     "syncBuiltinESMExports": "stub"
   },
   "net": {
-    "default": {}
+    "default": "{}"
   },
   "os": {
     "EOL": "string",
     "arch": "function",
-    "constants": {},
+    "constants": "{}",
     "cpus": "function",
     "default": {
       "EOL": "string",
       "arch": "function",
-      "constants": {},
+      "constants": "{}",
       "cpus": "function",
       "endianness": "function",
       "freemem": "function",
@@ -2105,10 +2129,10 @@
   },
   "perf_hooks": {
     "PerformanceObserver": "undefined",
-    "constants": {},
+    "constants": "{}",
     "default": {
       "PerformanceObserver": "undefined",
-      "constants": {},
+      "constants": "{}",
       "monitorEventLoopDelay": "function",
       "performance": {
         "clearMarks": "undefined",
@@ -2127,7 +2151,7 @@
       "eventLoopUtilization": "function",
       "mark": "undefined",
       "measure": "undefined",
-      "nodeTiming": {},
+      "nodeTiming": "{}",
       "now": "function",
       "timeOrigin": "number",
       "timerify": "function"
@@ -2136,7 +2160,7 @@
   "process": {
     "_debugEnd": "function",
     "_debugProcess": "function",
-    "_events": {},
+    "_events": "{}",
     "_eventsCount": "number",
     "_exiting": "boolean",
     "_fatalExceptions": "function",
@@ -2152,21 +2176,21 @@
     "_tickCallback": "function",
     "abort": "function",
     "addListener": "function",
-    "allowedNodeEnvironmentFlags": {},
+    "allowedNodeEnvironmentFlags": "{}",
     "arch": "string",
     "argv": "object",
     "argv0": "string",
     "assert": "function",
     "binding": "function",
     "chdir": "function",
-    "config": {},
+    "config": "{}",
     "cpuUsage": "function",
     "cwd": "function",
     "debugPort": "number",
     "default": {
       "_debugEnd": "function",
       "_debugProcess": "function",
-      "_events": {},
+      "_events": "{}",
       "_eventsCount": "number",
       "_exiting": "boolean",
       "_fatalExceptions": "function",
@@ -2182,19 +2206,19 @@
       "_tickCallback": "function",
       "abort": "function",
       "addListener": "function",
-      "allowedNodeEnvironmentFlags": {},
+      "allowedNodeEnvironmentFlags": "{}",
       "arch": "string",
       "argv": "object",
       "argv0": "string",
       "assert": "function",
       "binding": "function",
       "chdir": "function",
-      "config": {},
+      "config": "{}",
       "cpuUsage": "function",
       "cwd": "function",
       "debugPort": "number",
       "dlopen": "function",
-      "domain": {},
+      "domain": "{}",
       "emit": "function",
       "emitWarning": "function",
       "env": {
@@ -2253,10 +2277,10 @@
       "umask": "function",
       "uptime": "function",
       "version": "string",
-      "versions": {}
+      "versions": "{}"
     },
     "dlopen": "function",
-    "domain": {},
+    "domain": "{}",
     "emit": "function",
     "emitWarning": "function",
     "env": {
@@ -2315,7 +2339,7 @@
     "umask": "function",
     "uptime": "function",
     "version": "string",
-    "versions": {}
+    "versions": "{}"
   },
   "punycode": {
     "decode": "function",
@@ -2980,7 +3004,7 @@
       "moveMessagePortToContext": "function",
       "parentPort": "null",
       "receiveMessageOnPort": "function",
-      "resourceLimits": {},
+      "resourceLimits": "{}",
       "setEnvironmentData": "function",
       "threadId": "number",
       "workerData": "null"
@@ -2991,7 +3015,7 @@
     "moveMessagePortToContext": "function",
     "parentPort": "null",
     "receiveMessageOnPort": "function",
-    "resourceLimits": {},
+    "resourceLimits": "{}",
     "setEnvironmentData": "function",
     "threadId": "number",
     "workerData": "null"
