@@ -15,8 +15,7 @@ export function visit(root, depth = 0) {
 
     if (isObject) {
       // don't worry drilling into exported objects beyond listing its top properties
-      if (depth === 2) return;
-      visitResult[key] = visit(value, depth + 1);
+      visitResult[key] = (depth === 2) ? "object" : visit(value, depth + 1);
     } else {
       if (isClass(value)) {
         visitResult[key] = "class";
