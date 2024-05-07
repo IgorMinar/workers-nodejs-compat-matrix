@@ -15,6 +15,12 @@ Install Deno:
 brew install deno
 ```
 
+Install Bun:
+```shell
+# see https://bun.sh/docs/installation for alternatives
+brew install oven-sh/bun/bun
+```
+
 Install deps, call report generation script, and render the UI:
 ```shell
 pnpm install

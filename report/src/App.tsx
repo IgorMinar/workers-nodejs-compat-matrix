@@ -4,6 +4,7 @@ import "./App.css";
 import node18 from "./data/node-18.json";
 import node20 from "./data/node-20.json";
 import node22 from "./data/node-22.json";
+import bun from "./data/bun.json";
 import deno from "./data/deno.json";
 import workerd from "./data/workerd.json";
 import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
@@ -65,6 +66,7 @@ const targetTitles = {
   node18: "Node 18",
   node20: "Node 20",
   node22: "Node 22",
+  bun: "Bun",
   deno: "Deno",
   workerd: "Workerd",
   wranglerJspm: "Wrangler (jspm)",
@@ -204,6 +206,7 @@ const App = () => {
     node22,
     node20,
     node18,
+    bun,
     deno,
     workerd,
     wranglerV3,

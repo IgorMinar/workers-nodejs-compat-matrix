@@ -25,5 +25,5 @@ for (const name of Object.keys(NODE_APIS)) {
     }
 }
 
-await fs.writeFile(path.join(import.meta.dirname, "..", "report", "src", "data", "deno.json"), JSON.stringify(result, null, 2));
+await fs.writeFile(path.join(__dirname, "..", "report", "src", "data", "bun.json"), JSON.stringify(result, null, 2));
 

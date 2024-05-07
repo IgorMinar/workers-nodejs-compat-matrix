@@ -9,6 +9,20 @@ if (!shell.env.VOLTA_HOME) {
   process.exit(1);
 }
 
+if (!shell.env.BUN_INSTALL) {
+  console.error(
+    "You must have bun installed to continue. Refer to README.md for instructions."
+   );
+   process.exit(1);
+}
+
+if (!shell.which('deno')) {
+  console.error(
+    "You must have deno installed to continue. Refer to README.md for instructions."
+  );
+  process.exit(1);
+}
+
 // shelljs doesn't read from .bashrc or .zshrc which normally inject VOLTA_HOME
 // into your PATH variable, so a lookup is needed.
 // Trailing space is intentional, for DX
@@ -22,11 +36,15 @@ for (const version of nodeVersions) {
   shell.echo("=== Done ====================================\n\n");
 }
 
+// bun
+shell.echo('Generate bun apis...');
+shell.exec('bun run bun/dump.js');
+shell.echo('=== Done ====================================\n\n');
+
 // deno
 shell.echo('Generate deno apis...');
 shell.exec('deno run --allow-write=report/src/data/deno.json deno/dump.js');
 shell.echo('=== Done ====================================\n\n');
-
 
 // Workerd
 shell.echo("Generate workerd + --node_compat apis...");
