@@ -46,7 +46,7 @@
     "strictEqual": "function",
     "throws": "function"
   },
-  "assert_strict": null,
+  "assert/strict": null,
   "async_hooks": null,
   "buffer": {
     "Buffer": "function",
@@ -589,7 +589,7 @@
   "dns": {
     "default": "{}"
   },
-  "dns_promises": null,
+  "dns/promises": null,
   "domain": {
     "Domain": "function",
     "create": "function",
@@ -607,7 +607,7 @@
   "fs": {
     "default": "{}"
   },
-  "fs_promises": null,
+  "fs/promises": null,
   "http": null,
   "http2": null,
   "https": {
@@ -803,8 +803,8 @@
     "resolve": "function",
     "sep": "string"
   },
-  "path_posix": null,
-  "path_win32": null,
+  "path/posix": null,
+  "path/win32": null,
   "perf_hooks": null,
   "process": {
     "addListener": "function",
@@ -893,7 +893,7 @@
   "readline": {
     "default": "{}"
   },
-  "readline_promises": null,
+  "readline/promises": null,
   "repl": {
     "default": "{}"
   },
@@ -906,9 +906,9 @@
     "Writable": "function",
     "default": "function"
   },
-  "stream_consumers": null,
-  "stream_promises": null,
-  "stream_web": null,
+  "stream/consumers": null,
+  "stream/promises": null,
+  "stream/web": null,
   "string_decoder": {
     "StringDecoder": "function"
   },
@@ -984,7 +984,7 @@
     "setTimeout": "function",
     "unenroll": "function"
   },
-  "timers_promises": null,
+  "timers/promises": null,
   "tls": {
     "default": "{}"
   },
@@ -1055,7 +1055,7 @@
     "isUndefined": "function",
     "log": "function"
   },
-  "util_types": null,
+  "util/types": null,
   "v8": null,
   "vm": {
     "Script": "function",
@@ -1177,7 +1177,7 @@
     "unzip": "function",
     "unzipSync": "function"
   },
-  "inspector_promises": null,
+  "inspector/promises": null,
   "*globals*": {
     "AbortController": "function",
     "Blob": "function",

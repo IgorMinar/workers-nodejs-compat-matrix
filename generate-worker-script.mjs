@@ -17,7 +17,7 @@ for (const moduleName of modules) {
 
 code += `
   const modules = {
-    ${modules.map((m) => escapeIdentifier(m)).join(",")}
+    ${modules.map((moduleName) => `"${moduleName}": ${escapeIdentifier(moduleName)}`).join(",")}
   }
 `;
 

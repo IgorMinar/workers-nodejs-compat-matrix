@@ -48,7 +48,7 @@
     "strictEqual": "function",
     "throws": "function"
   },
-  "assert_strict": {
+  "assert/strict": {
     "AssertionError": "function",
     "CallTracker": "undefined",
     "deepEqual": "function",
@@ -914,7 +914,7 @@
     "reverse": "stub",
     "setServers": "stub"
   },
-  "dns_promises": {
+  "dns/promises": {
     "Resolver": "stub",
     "default": {
       "Resolver": "stub",
@@ -1329,7 +1329,7 @@
     "writev": "undefined",
     "writevSync": "undefined"
   },
-  "fs_promises": {
+  "fs/promises": {
     "access": "function",
     "appendFile": "function",
     "chmod": "function",
@@ -1896,7 +1896,7 @@
     "sep": "string",
     "win32": "null"
   },
-  "path_posix": {
+  "path/posix": {
     "_makeLong": "function",
     "basename": "function",
     "default": {
@@ -1978,7 +1978,7 @@
     "sep": "string",
     "win32": "null"
   },
-  "path_win32": {
+  "path/win32": {
     "_makeLong": "stub",
     "basename": "stub",
     "default": {
@@ -2390,7 +2390,7 @@
     "emitKeypressEvents": "stub",
     "moveCursor": "stub"
   },
-  "readline_promises": null,
+  "readline/promises": null,
   "repl": {
     "REPLServer": "stub",
     "REPL_MODE_SLOPPY": "null",
@@ -2426,8 +2426,8 @@
       "pipeline": "function"
     }
   },
-  "stream_consumers": null,
-  "stream_promises": {
+  "stream/consumers": null,
+  "stream/promises": {
     "default": {
       "finished": "function",
       "pipeline": "function"
@@ -2435,7 +2435,7 @@
     "finished": "function",
     "pipeline": "function"
   },
-  "stream_web": {
+  "stream/web": {
     "ByteLengthQueuingStrategy": "function",
     "CountQueuingStrategy": "function",
     "ReadableByteStreamController": "function",
@@ -2635,7 +2635,7 @@
     "setTimeout": "function",
     "unenroll": "function"
   },
-  "timers_promises": {
+  "timers/promises": {
     "default": {
       "setImmediate": "function",
       "setInterval": "function",
@@ -2852,7 +2852,7 @@
       "isWebAssemblyCompiledModule": "function"
     }
   },
-  "util_types": {
+  "util/types": {
     "default": {
       "isAnyArrayBuffer": "function",
       "isArgumentsObject": "function",
@@ -3195,7 +3195,7 @@
     "unzip": "function",
     "unzipSync": "function"
   },
-  "inspector_promises": {
+  "inspector/promises": {
     "default": "{}"
   },
   "*globals*": {

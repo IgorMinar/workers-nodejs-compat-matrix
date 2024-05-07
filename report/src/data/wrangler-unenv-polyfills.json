@@ -63,7 +63,7 @@
     "strictEqual": "function",
     "throws": "function"
   },
-  "assert_strict": {
+  "assert/strict": {
     "default": "stub"
   },
   "async_hooks": {
@@ -275,7 +275,7 @@
   "dns": {
     "default": "stub"
   },
-  "dns_promises": {
+  "dns/promises": {
     "default": "stub"
   },
   "domain": {
@@ -745,7 +745,7 @@
     "writev": "stub",
     "writevSync": "stub"
   },
-  "fs_promises": {
+  "fs/promises": {
     "access": "stub",
     "appendFile": "stub",
     "chmod": "stub",
@@ -1315,10 +1315,10 @@
       }
     }
   },
-  "path_posix": {
+  "path/posix": {
     "default": "stub"
   },
-  "path_win32": {
+  "path/win32": {
     "default": "stub"
   },
   "perf_hooks": {
@@ -1341,7 +1341,7 @@
   "readline": {
     "default": "stub"
   },
-  "readline_promises": {
+  "readline/promises": {
     "default": "stub"
   },
   "repl": {
@@ -1370,7 +1370,7 @@
       "pipeline": "function"
     }
   },
-  "stream_consumers": {
+  "stream/consumers": {
     "arrayBuffer": "stub",
     "blob": "stub",
     "buffer": "stub",
@@ -1384,7 +1384,7 @@
     "json": "stub",
     "text": "stub"
   },
-  "stream_promises": {
+  "stream/promises": {
     "default": {
       "finished": "stub",
       "pipeline": "stub"
@@ -1392,7 +1392,7 @@
     "finished": "stub",
     "pipeline": "stub"
   },
-  "stream_web": {
+  "stream/web": {
     "ByteLengthQueuingStrategy": "function",
     "CountQueuingStrategy": "function",
     "ReadableByteStreamController": "function",
@@ -1438,7 +1438,7 @@
   "timers": {
     "default": "stub"
   },
-  "timers_promises": {
+  "timers/promises": {
     "default": "stub"
   },
   "tls": {
@@ -1584,7 +1584,7 @@
       "isWeakSet": "function"
     }
   },
-  "util_types": {
+  "util/types": {
     "default": {
       "isAnyArrayBuffer": "stub",
       "isArgumentsObject": "stub",
@@ -1687,7 +1687,7 @@
   "zlib": {
     "default": "stub"
   },
-  "inspector_promises": {
+  "inspector/promises": {
     "default": "stub"
   },
   "*globals*": {
