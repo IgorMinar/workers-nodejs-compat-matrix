@@ -14,6 +14,7 @@ for (const name of Object.keys(NODE_APIS)) {
       }
     }
     result[name] = visit(nodeGlobals);
+
     continue;
   }
 
@@ -23,6 +24,17 @@ for (const name of Object.keys(NODE_APIS)) {
   } catch {
     continue;
   }
+}
+
+// reset process.env so that it doesn't contain user specific info
+if (result["*globals*"].process?.env) {
+  result["*globals*"].process.env = {};
+}
+if (result["process"].env) {
+  result["process"].env = {};
+}
+if (result["process"].default?.env) {
+  result["process"].default.env = {};
 }
 
 await fs.writeFile(
