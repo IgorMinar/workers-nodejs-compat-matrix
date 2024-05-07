@@ -147,9 +147,11 @@ const App = () => {
         columns.push(
           <td className="border border-slate-200">
             {isObject(nodeValue)
-              ? `${((targetTotals[targetKey] / baselineTotal) * 100).toFixed(
-                  0
-                )}%`
+              ? (
+                <span title={`${targetTotals[targetKey]} / ${baselineTotal}`}>
+                  {((targetTotals[targetKey] / baselineTotal) * 100).toFixed(0)}%
+                </span>
+              )
               : renderTargetValue(nodeValue, targetValue)}
           </td>
         );
