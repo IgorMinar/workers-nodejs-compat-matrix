@@ -19,7 +19,9 @@ const nodeSpecificGlobals = nodeGlobals.reduce((map, g) => {
     return map
 }, {});
 
+// don't capture user-specific info in the dump
 nodeSpecificGlobals.process.env = {};
+
 result['*globals*'] = visit(nodeSpecificGlobals);
 
 for (const builtinModule of builtinModules) {
@@ -30,8 +32,11 @@ for (const builtinModule of builtinModules) {
     result[builtinModule] = visit(module);
 }
 
+// don't capture user-specific info in the dump
+result.module._pathCache = '';
+
 // extract node version
 const nodeMajorVersion = process.versions.node.split('.')[0];
 
 // serialize results in apis-<nodeVersion>.json
-await fs.writeFile(path.join(__dirname, `apis-${nodeMajorVersion}.json`), JSON.stringify(result, null, 2));
+await fs.writeFile(path.join(__dirname, '..', 'report', 'src', 'data', `node-${nodeMajorVersion}.json`), JSON.stringify(result, null, 2));

@@ -1902,9 +1902,7 @@
     "_initPaths": "function",
     "_load": "function",
     "_nodeModulePaths": "function",
-    "_pathCache": {
-      "/Users/jculveyhouse/cf-repos/workers-nodejs-support/node/dump.mjs\u0000": "string"
-    },
+    "_pathCache": "",
     "_preloadModules": "function",
     "_resolveFilename": "function",
     "_resolveLookupPaths": "function",

@@ -22,9 +22,11 @@ for (const version of nodeVersions) {
   shell.echo("=== Done ====================================\n\n");
 }
 
-shell.echo("Make node v22 apis the baseline...");
-shell.cp("node/apis-22.json", "node/apis.json");
-shell.echo("=== Done ====================================\n\n");
+// deno
+shell.echo('Generate deno apis...');
+shell.exec('deno run --allow-write=report/src/data/deno.json deno/dump.js');
+shell.echo('=== Done ====================================\n\n');
+
 
 // Workerd
 shell.echo("Generate workerd + --node_compat apis...");

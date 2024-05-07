@@ -3,11 +3,13 @@ import "./App.css";
 
 import node18 from "./data/node-18.json";
 import node20 from "./data/node-20.json";
+import node22 from "./data/node-22.json";
+import deno from "./data/deno.json";
 import workerd from "./data/workerd.json";
 import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
 import wranglerV3 from "./data/wrangler-v3-polyfills.json";
-import node22 from "./data/node-22.json";
+
 
 import deepmerge from "deepmerge";
 
@@ -63,6 +65,7 @@ const targetTitles = {
   node18: "Node 18",
   node20: "Node 20",
   node22: "Node 22",
+  deno: "Deno",
   workerd: "Workerd",
   wranglerJspm: "Wrangler (jspm)",
   wranglerUnenv: "Wrangler (unenv)",
@@ -201,6 +204,7 @@ const App = () => {
     node22,
     node20,
     node18,
+    deno,
     workerd,
     wranglerV3,
     wranglerJspm,
