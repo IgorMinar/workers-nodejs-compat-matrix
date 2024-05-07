@@ -1,22 +1,51 @@
 {
-  "_http_agent": {},
-  "_http_client": {},
-  "_http_common": {},
-  "_http_incoming": {},
-  "_http_outgoing": {},
-  "_http_server": {},
-  "_stream_duplex": {},
-  "_stream_passthrough": {},
-  "_stream_readable": {},
-  "_stream_transform": {},
-  "_stream_wrap": {},
-  "_stream_writable": {},
-  "_tls_common": {},
-  "_tls_wrap": {},
+  "_http_agent": {
+    "default": "stub"
+  },
+  "_http_client": {
+    "default": "stub"
+  },
+  "_http_common": {
+    "default": "stub"
+  },
+  "_http_incoming": {
+    "default": "stub"
+  },
+  "_http_outgoing": {
+    "default": "stub"
+  },
+  "_http_server": {
+    "default": "stub"
+  },
+  "_stream_duplex": {
+    "default": "stub"
+  },
+  "_stream_passthrough": {
+    "default": "stub"
+  },
+  "_stream_readable": {
+    "default": "stub"
+  },
+  "_stream_transform": {
+    "default": "stub"
+  },
+  "_stream_wrap": {
+    "default": "stub"
+  },
+  "_stream_writable": {
+    "default": "stub"
+  },
+  "_tls_common": {
+    "default": "stub"
+  },
+  "_tls_wrap": {
+    "default": "stub"
+  },
   "assert": {
     "AssertionError": "class",
     "deepEqual": "function",
     "deepStrictEqual": "function",
+    "default": "function",
     "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
@@ -34,10 +63,16 @@
     "strictEqual": "function",
     "throws": "function"
   },
-  "assert_strict": {},
+  "assert_strict": {
+    "default": "stub"
+  },
   "async_hooks": {
     "AsyncLocalStorage": "function",
-    "AsyncResource": "function"
+    "AsyncResource": "function",
+    "default": {
+      "AsyncLocalStorage": "function",
+      "AsyncResource": "function"
+    }
   },
   "buffer": {
     "Buffer": "function",
@@ -46,13 +81,31 @@
       "MAX_LENGTH": "number",
       "MAX_STRING_LENGTH": "number"
     },
+    "default": {
+      "Buffer": "function",
+      "SlowBuffer": "function",
+      "constants": {
+        "MAX_LENGTH": "number",
+        "MAX_STRING_LENGTH": "number"
+      },
+      "kMaxLength": "number",
+      "kStringMaxLength": "number"
+    },
     "kMaxLength": "number",
     "kStringMaxLength": "number"
   },
-  "child_process": {},
-  "cluster": {},
-  "console": {},
-  "constants": {},
+  "child_process": {
+    "default": "stub"
+  },
+  "cluster": {
+    "default": "stub"
+  },
+  "console": {
+    "default": "stub"
+  },
+  "constants": {
+    "default": "stub"
+  },
   "crypto": {
     "DiffieHellman": "function",
     "DiffieHellmanGroup": "function",
@@ -71,6 +124,53 @@
     "createPrivateKey": "function",
     "createPublicKey": "function",
     "createSecretKey": "function",
+    "default": {
+      "DiffieHellman": "function",
+      "DiffieHellmanGroup": "function",
+      "Hash": "function",
+      "Hmac": "function",
+      "KeyObject": "class",
+      "PrivateKeyObject": "class",
+      "PublicKeyObject": "class",
+      "SecretKeyObject": "class",
+      "checkPrime": "function",
+      "checkPrimeSync": "function",
+      "createDiffieHellman": "function",
+      "createDiffieHellmanGroup": "function",
+      "createHash": "function",
+      "createHmac": "function",
+      "createPrivateKey": "function",
+      "createPublicKey": "function",
+      "createSecretKey": "function",
+      "fips": "boolean",
+      "generateKey": "function",
+      "generateKeyPair": "function",
+      "generateKeyPairSync": "function",
+      "generateKeySync": "function",
+      "generatePrime": "function",
+      "generatePrimeSync": "function",
+      "getCiphers": "function",
+      "getCurves": "function",
+      "getDiffieHellman": "function",
+      "getFips": "function",
+      "getHashes": "function",
+      "getRandomValues": "function",
+      "hkdf": "function",
+      "hkdfSync": "function",
+      "pbkdf2": "function",
+      "pbkdf2Sync": "function",
+      "randomBytes": "function",
+      "randomFill": "function",
+      "randomFillSync": "function",
+      "randomInt": "function",
+      "randomUUID": "function",
+      "secureHeapUsed": "function",
+      "setEngine": "function",
+      "setFips": "function",
+      "subtle": {},
+      "timingSafeEqual": "undefined",
+      "webcrypto": {}
+    },
     "fips": "boolean",
     "generateKey": "function",
     "generateKeyPair": "function",
@@ -100,23 +200,40 @@
     "timingSafeEqual": "undefined",
     "webcrypto": {}
   },
-  "dgram": {},
+  "dgram": {
+    "default": "stub"
+  },
   "diagnostics_channel": {
     "Channel": "function",
     "TracingChannel": "class",
     "channel": "function",
+    "default": {
+      "Channel": "function",
+      "channel": "function",
+      "hasSubscribers": "function",
+      "subscribe": "function",
+      "tracingChannel": "function",
+      "unsubscribe": "function"
+    },
     "hasSubscribers": "function",
     "subscribe": "function",
     "tracingChannel": "function",
     "unsubscribe": "function"
   },
-  "dns": {},
-  "dns_promises": {},
-  "domain": {},
+  "dns": {
+    "default": "stub"
+  },
+  "dns_promises": {
+    "default": "stub"
+  },
+  "domain": {
+    "default": "stub"
+  },
   "events": {
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "class",
     "captureRejectionSymbol": "symbol",
+    "default": "function",
     "defaultMaxListeners": "number",
     "errorMonitor": "symbol",
     "getEventListeners": "function",
@@ -156,6 +273,112 @@
     "cpSync": "stub",
     "createReadStream": "stub",
     "createWriteStream": "stub",
+    "default": {
+      "Dir": "stub",
+      "Dirent": "stub",
+      "F_OK": "number",
+      "FileReadStream": "stub",
+      "FileWriteStream": "stub",
+      "R_OK": "number",
+      "ReadStream": "stub",
+      "Stats": "stub",
+      "StatsFs": "stub",
+      "W_OK": "number",
+      "WriteStream": "stub",
+      "X_OK": "number",
+      "_toUnixTimestamp": "stub",
+      "access": "function",
+      "accessSync": "stub",
+      "appendFile": "function",
+      "appendFileSync": "stub",
+      "chmod": "function",
+      "chmodSync": "stub",
+      "chown": "function",
+      "chownSync": "stub",
+      "close": "stub",
+      "closeSync": "stub",
+      "constants": {},
+      "copyFile": "function",
+      "copyFileSync": "stub",
+      "cp": "function",
+      "cpSync": "stub",
+      "createReadStream": "stub",
+      "createWriteStream": "stub",
+      "exists": "stub",
+      "existsSync": "function",
+      "fchmod": "stub",
+      "fchmodSync": "stub",
+      "fchown": "stub",
+      "fchownSync": "stub",
+      "fdatasync": "stub",
+      "fdatasyncSync": "stub",
+      "fstat": "stub",
+      "fstatSync": "stub",
+      "fsync": "stub",
+      "fsyncSync": "stub",
+      "ftruncate": "stub",
+      "ftruncateSync": "stub",
+      "futimes": "stub",
+      "futimesSync": "stub",
+      "lchmod": "function",
+      "lchmodSync": "stub",
+      "lchown": "function",
+      "lchownSync": "stub",
+      "link": "function",
+      "linkSync": "stub",
+      "lstat": "function",
+      "lstatSync": "stub",
+      "lutimes": "function",
+      "lutimesSync": "stub",
+      "mkdir": "function",
+      "mkdirSync": "stub",
+      "mkdtemp": "function",
+      "mkdtempSync": "stub",
+      "open": "function",
+      "openAsBlob": "stub",
+      "openSync": "stub",
+      "opendir": "function",
+      "opendirSync": "stub",
+      "read": "stub",
+      "readFile": "function",
+      "readFileSync": "stub",
+      "readSync": "stub",
+      "readdir": "function",
+      "readdirSync": "stub",
+      "readlink": "function",
+      "readlinkSync": "stub",
+      "readv": "stub",
+      "readvSync": "stub",
+      "realpath": "function",
+      "realpathSync": "stub",
+      "rename": "function",
+      "renameSync": "stub",
+      "rm": "function",
+      "rmSync": "stub",
+      "rmdir": "function",
+      "rmdirSync": "stub",
+      "stat": "function",
+      "statSync": "stub",
+      "statfs": "function",
+      "statfsSync": "stub",
+      "symlink": "function",
+      "symlinkSync": "stub",
+      "truncate": "function",
+      "truncateSync": "stub",
+      "unlink": "function",
+      "unlinkSync": "stub",
+      "unwatchFile": "stub",
+      "utimes": "function",
+      "utimesSync": "stub",
+      "watch": "stub",
+      "watchFile": "stub",
+      "write": "stub",
+      "writeFile": "function",
+      "writeFileSync": "stub",
+      "writeSync": "stub",
+      "writev": "stub",
+      "writevSync": "stub"
+    },
     "exists": "stub",
     "existsSync": "function",
     "fchmod": "stub",
@@ -273,6 +496,40 @@
     "constants": {},
     "copyFile": "stub",
     "cp": "stub",
+    "default": {
+      "access": "stub",
+      "appendFile": "stub",
+      "chmod": "stub",
+      "chown": "stub",
+      "constants": {},
+      "copyFile": "stub",
+      "cp": "stub",
+      "default": {},
+      "lchmod": "stub",
+      "lchown": "stub",
+      "link": "stub",
+      "lstat": "stub",
+      "lutimes": "stub",
+      "mkdir": "stub",
+      "mkdtemp": "stub",
+      "open": "stub",
+      "opendir": "stub",
+      "readFile": "stub",
+      "readdir": "stub",
+      "readlink": "stub",
+      "realpath": "stub",
+      "rename": "stub",
+      "rm": "stub",
+      "rmdir": "stub",
+      "stat": "stub",
+      "statfs": "stub",
+      "symlink": "stub",
+      "truncate": "stub",
+      "unlink": "stub",
+      "utimes": "stub",
+      "watch": "stub",
+      "writeFile": "stub"
+    },
     "lchmod": "stub",
     "lchown": "stub",
     "link": "stub",
@@ -372,6 +629,88 @@
     "Server": "stub",
     "ServerResponse": "class",
     "createServer": "stub",
+    "default": {
+      "Agent": "stub",
+      "ClientRequest": "stub",
+      "IncomingMessage": "class",
+      "METHODS": "object",
+      "OutgoingMessage": "stub",
+      "STATUS_CODES": {
+        "100": "string",
+        "101": "string",
+        "102": "string",
+        "103": "string",
+        "200": "string",
+        "201": "string",
+        "202": "string",
+        "203": "string",
+        "204": "string",
+        "205": "string",
+        "206": "string",
+        "207": "string",
+        "208": "string",
+        "226": "string",
+        "300": "string",
+        "301": "string",
+        "302": "string",
+        "303": "string",
+        "304": "string",
+        "305": "string",
+        "307": "string",
+        "308": "string",
+        "400": "string",
+        "401": "string",
+        "402": "string",
+        "403": "string",
+        "404": "string",
+        "405": "string",
+        "406": "string",
+        "407": "string",
+        "408": "string",
+        "409": "string",
+        "410": "string",
+        "411": "string",
+        "412": "string",
+        "413": "string",
+        "414": "string",
+        "415": "string",
+        "416": "string",
+        "417": "string",
+        "418": "string",
+        "421": "string",
+        "422": "string",
+        "423": "string",
+        "424": "string",
+        "425": "string",
+        "426": "string",
+        "428": "string",
+        "429": "string",
+        "431": "string",
+        "451": "string",
+        "500": "string",
+        "501": "string",
+        "502": "string",
+        "503": "string",
+        "504": "string",
+        "505": "string",
+        "506": "string",
+        "507": "string",
+        "508": "string",
+        "509": "string",
+        "510": "string",
+        "511": "string"
+      },
+      "Server": "stub",
+      "ServerResponse": "class",
+      "createServer": "stub",
+      "get": "stub",
+      "globalAgent": "stub",
+      "maxHeaderSize": "number",
+      "request": "stub",
+      "setMaxIdleHTTPParsers": "stub",
+      "validateHeaderName": "stub",
+      "validateHeaderValue": "stub"
+    },
     "get": "stub",
     "globalAgent": "stub",
     "maxHeaderSize": "number",
@@ -380,11 +719,21 @@
     "validateHeaderName": "stub",
     "validateHeaderValue": "stub"
   },
-  "http2": {},
-  "https": {},
-  "inspector": {},
-  "inspector_promises": {},
-  "module": {},
+  "http2": {
+    "default": "stub"
+  },
+  "https": {
+    "default": "stub"
+  },
+  "inspector": {
+    "default": "stub"
+  },
+  "inspector_promises": {
+    "default": "stub"
+  },
+  "module": {
+    "default": "stub"
+  },
   "net": {
     "BlockList": "class",
     "Server": "class",
@@ -393,6 +742,22 @@
     "connect": "stub",
     "createConnection": "stub",
     "createServer": "stub",
+    "default": {
+      "BlockList": "class",
+      "Server": "class",
+      "Socket": "class",
+      "SocketAddress": "class",
+      "connect": "stub",
+      "createConnection": "stub",
+      "createServer": "stub",
+      "getDefaultAutoSelectFamily": "stub",
+      "getDefaultAutoSelectFamilyAttemptTimeout": "stub",
+      "isIP": "function",
+      "isIPv4": "function",
+      "isIPv6": "function",
+      "setDefaultAutoSelectFamily": "stub",
+      "setDefaultAutoSelectFamilyAttemptTimeout": "stub"
+    },
     "exports": {
       "BlockList": "class",
       "Server": "class",
@@ -417,9 +782,26 @@
     "setDefaultAutoSelectFamily": "stub",
     "setDefaultAutoSelectFamilyAttemptTimeout": "stub"
   },
-  "os": {},
+  "os": {
+    "default": "stub"
+  },
   "path": {
     "basename": "function",
+    "default": {
+      "basename": "function",
+      "delimiter": "string",
+      "dirname": "function",
+      "extname": "function",
+      "format": "function",
+      "isAbsolute": "function",
+      "join": "function",
+      "normalize": "function",
+      "parse": "function",
+      "relative": "function",
+      "resolve": "function",
+      "sep": "string",
+      "toNamespacedPath": "function"
+    },
     "delimiter": "string",
     "dirname": "function",
     "extname": "function",
@@ -463,18 +845,38 @@
       "toNamespacedPath": "function"
     }
   },
-  "path_posix": {},
-  "path_win32": {},
-  "perf_hooks": {},
+  "path_posix": {
+    "default": "stub"
+  },
+  "path_win32": {
+    "default": "stub"
+  },
+  "perf_hooks": {
+    "default": "stub"
+  },
   "process": {
+    "default": {
+      "env": {},
+      "nextTick": "function"
+    },
     "env": {},
     "nextTick": "function"
   },
-  "punycode": {},
-  "querystring": {},
-  "readline": {},
-  "readline_promises": {},
-  "repl": {},
+  "punycode": {
+    "default": "stub"
+  },
+  "querystring": {
+    "default": "stub"
+  },
+  "readline": {
+    "default": "stub"
+  },
+  "readline_promises": {
+    "default": "stub"
+  },
+  "repl": {
+    "default": "stub"
+  },
   "stream": {
     "Duplex": "function",
     "PassThrough": "function",
@@ -486,6 +888,7 @@
     "_uint8ArrayToBuffer": "function",
     "addAbortSignal": "function",
     "compose": "function",
+    "default": "function",
     "destroy": "function",
     "finished": "function",
     "isDisturbed": "function",
@@ -501,10 +904,21 @@
     "arrayBuffer": "stub",
     "blob": "stub",
     "buffer": "stub",
+    "default": {
+      "arrayBuffer": "stub",
+      "blob": "stub",
+      "buffer": "stub",
+      "json": "stub",
+      "text": "stub"
+    },
     "json": "stub",
     "text": "stub"
   },
   "stream_promises": {
+    "default": {
+      "finished": "stub",
+      "pipeline": "stub"
+    },
     "finished": "stub",
     "pipeline": "stub"
   },
@@ -523,20 +937,64 @@
     "TransformStreamDefaultController": "stub",
     "WritableStream": "function",
     "WritableStreamDefaultController": "function",
-    "WritableStreamDefaultWriter": "function"
+    "WritableStreamDefaultWriter": "function",
+    "default": {
+      "ByteLengthQueuingStrategy": "function",
+      "CountQueuingStrategy": "function",
+      "ReadableByteStreamController": "function",
+      "ReadableStream": "function",
+      "ReadableStreamBYOBReader": "function",
+      "ReadableStreamBYOBRequest": "function",
+      "ReadableStreamDefaultController": "function",
+      "ReadableStreamDefaultReader": "function",
+      "TextDecoderStream": "function",
+      "TextEncoderStream": "function",
+      "TransformStream": "function",
+      "TransformStreamDefaultController": "stub",
+      "WritableStream": "function",
+      "WritableStreamDefaultController": "function",
+      "WritableStreamDefaultWriter": "function"
+    }
   },
   "string_decoder": {
-    "StringDecoder": "function"
+    "StringDecoder": "function",
+    "default": {
+      "StringDecoder": "function"
+    }
   },
-  "sys": {},
-  "timers": {},
-  "timers_promises": {},
-  "tls": {},
-  "trace_events": {},
-  "tty": {},
+  "sys": {
+    "default": "stub"
+  },
+  "timers": {
+    "default": "stub"
+  },
+  "timers_promises": {
+    "default": "stub"
+  },
+  "tls": {
+    "default": "stub"
+  },
+  "trace_events": {
+    "default": "stub"
+  },
+  "tty": {
+    "default": "stub"
+  },
   "url": {
     "URL": "function",
     "URLSearchParams": "function",
+    "default": {
+      "URL": "function",
+      "URLSearchParams": "function",
+      "domainToASCII": "function",
+      "domainToUnicode": "function",
+      "fileURLToPath": "function",
+      "format": "function",
+      "parse": "function",
+      "pathToFileURL": "function",
+      "resolve": "function",
+      "urlToHttpOptions": "function"
+    },
     "domainToASCII": "function",
     "domainToUnicode": "function",
     "fileURLToPath": "function",
@@ -551,6 +1009,61 @@
     "MIMEType": "function",
     "_extend": "function",
     "callbackify": "function",
+    "default": {
+      "MIMEParams": "function",
+      "MIMEType": "function",
+      "_extend": "function",
+      "callbackify": "function",
+      "format": "function",
+      "formatWithOptions": "function",
+      "inherits": "function",
+      "inspect": "function",
+      "promisify": "function",
+      "stripVTControlCharacters": "function",
+      "types": {
+        "isAnyArrayBuffer": "function",
+        "isArgumentsObject": "function",
+        "isArrayBuffer": "function",
+        "isArrayBufferView": "function",
+        "isAsyncFunction": "function",
+        "isBigInt64Array": "function",
+        "isBigIntObject": "function",
+        "isBigUint64Array": "function",
+        "isBooleanObject": "function",
+        "isBoxedPrimitive": "function",
+        "isCryptoKey": "function",
+        "isDataView": "function",
+        "isDate": "function",
+        "isFloat32Array": "function",
+        "isFloat64Array": "function",
+        "isGeneratorFunction": "function",
+        "isGeneratorObject": "function",
+        "isInt16Array": "function",
+        "isInt32Array": "function",
+        "isInt8Array": "function",
+        "isKeyObject": "function",
+        "isMap": "function",
+        "isMapIterator": "function",
+        "isModuleNamespaceObject": "function",
+        "isNativeError": "function",
+        "isNumberObject": "function",
+        "isPromise": "function",
+        "isProxy": "function",
+        "isRegExp": "function",
+        "isSet": "function",
+        "isSetIterator": "function",
+        "isSharedArrayBuffer": "function",
+        "isStringObject": "function",
+        "isSymbolObject": "function",
+        "isTypedArray": "function",
+        "isUint16Array": "function",
+        "isUint32Array": "function",
+        "isUint8Array": "function",
+        "isUint8ClampedArray": "function",
+        "isWeakMap": "function",
+        "isWeakSet": "function"
+      }
+    },
     "format": "function",
     "formatWithOptions": "function",
     "inherits": "function",
@@ -602,6 +1115,50 @@
     }
   },
   "util_types": {
+    "default": {
+      "isAnyArrayBuffer": "stub",
+      "isArgumentsObject": "stub",
+      "isArrayBuffer": "function",
+      "isArrayBufferView": "stub",
+      "isAsyncFunction": "stub",
+      "isBigInt64Array": "stub",
+      "isBigIntObject": "function",
+      "isBigUint64Array": "stub",
+      "isBooleanObject": "function",
+      "isBoxedPrimitive": "stub",
+      "isCryptoKey": "stub",
+      "isDataView": "function",
+      "isDate": "function",
+      "isExternal": "stub",
+      "isFloat32Array": "stub",
+      "isFloat64Array": "stub",
+      "isGeneratorFunction": "stub",
+      "isGeneratorObject": "stub",
+      "isInt16Array": "stub",
+      "isInt32Array": "stub",
+      "isInt8Array": "stub",
+      "isKeyObject": "stub",
+      "isMap": "function",
+      "isMapIterator": "stub",
+      "isModuleNamespaceObject": "stub",
+      "isNativeError": "stub",
+      "isNumberObject": "function",
+      "isPromise": "function",
+      "isProxy": "stub",
+      "isRegExp": "function",
+      "isSet": "function",
+      "isSetIterator": "stub",
+      "isSharedArrayBuffer": "function",
+      "isStringObject": "function",
+      "isSymbolObject": "function",
+      "isTypedArray": "stub",
+      "isUint16Array": "stub",
+      "isUint32Array": "stub",
+      "isUint8Array": "stub",
+      "isUint8ClampedArray": "stub",
+      "isWeakMap": "function",
+      "isWeakSet": "function"
+    },
     "isAnyArrayBuffer": "stub",
     "isArgumentsObject": "stub",
     "isArrayBuffer": "function",
@@ -645,11 +1202,21 @@
     "isWeakMap": "function",
     "isWeakSet": "function"
   },
-  "v8": {},
-  "vm": {},
-  "wasi": {},
-  "worker_threads": {},
-  "zlib": {},
+  "v8": {
+    "default": "stub"
+  },
+  "vm": {
+    "default": "stub"
+  },
+  "wasi": {
+    "default": "stub"
+  },
+  "worker_threads": {
+    "default": "stub"
+  },
+  "zlib": {
+    "default": "stub"
+  },
   "*globals*": {
     "AbortController": "function",
     "Blob": "function",

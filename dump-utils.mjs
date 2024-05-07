@@ -12,12 +12,6 @@ export function visit(root, depth = 0) {
   for (const [key, value] of entries) {
     const isObject =
       typeof value === "object" && value !== null && !Array.isArray(value);
-    const isDefaultFunction =
-      typeof value === "function" && key === "default" && depth === 0;
-    const isDefaultExport = isObject && key === "default" && depth === 0;
-
-    // filter out the default exports and the default function
-    if (isDefaultFunction || isDefaultExport) continue;
 
     if (isObject) {
       // don't worry drilling into exported objects beyond listing its top properties
