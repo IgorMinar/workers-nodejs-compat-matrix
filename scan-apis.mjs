@@ -3,6 +3,10 @@ import deepmerge from "deepmerge";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import workerdPkg from "./workerd/package.json" with { type: "json" };
+import wranglerV3Pkg from "./wrangler-v3-polyfills/package.json" with { type: "json" };
+import wranglerUnenvPkg from "./wrangler-unenv-polyfills/package.json" with { type: "json" };
+import wranglerJspmPkg from "./wrangler-jspm-polyfills/package.json" with { type: "json" };
 
 shell.set("-e");
 
@@ -35,12 +39,19 @@ if (!shell.which("deno")) {
 // Trailing space is intentional, for DX
 const volta = `${shell.env.VOLTA_HOME}/bin/volta `;
 
+const versionMap = {};
+
 // Node
 const nodeVersions = [18, 20, 22];
 for (const version of nodeVersions) {
   shell.echo(`Generate node v${version} apis...`);
   shell.exec(volta + `run --node ${version} node node/dump.mjs`);
   shell.echo("=== Done ====================================\n\n");
+  const versionOutput = shell
+    .exec(volta + `run --node ${version} node --version`)
+    .toString()
+    .replace("\n", "");
+  versionMap[`node${version}`] = versionOutput;
 }
 
 // Create a merged baseline that will be used in the report
@@ -79,26 +90,43 @@ for (const version of nodeVersions) {
 shell.echo("Generate bun apis...");
 shell.exec("bun run bun/dump.js");
 shell.echo("=== Done ====================================\n\n");
+versionMap["bun"] = shell.exec(`bun --version`).toString().replace("\n", "");
 
 // deno
 shell.echo("Generate deno apis...");
 shell.exec("deno run --allow-write=report/src/data/deno.json deno/dump.js");
 shell.echo("=== Done ====================================\n\n");
+versionMap["deno"] = shell
+  .exec(`deno --version`)
+  .grep("deno")
+  .replace(/ \(.*\)\n/, "")
+  .toString();
 
 // Workerd
 shell.echo("Generate workerd + --node_compat apis...");
 shell.exec("node workerd/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
+versionMap["workerd"] = workerdPkg.devDependencies.workerd;
 
 // Wrangler with polyfills
 shell.echo("Generate wrangler-v3 + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
+versionMap["wranglerV3"] = wranglerV3Pkg.devDependencies.wrangler;
 
 shell.echo("Generate wrangler-jspm + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-jspm-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
+// versionMap["wranglerJspm"] = wranglerJspmPkg.devDependencies.wrangler;
+versionMap["wranglerJspm"] = "jspm";
 
 shell.echo("Generate wrangler-unenv + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
+// versionMap["wranglerUnenv"] = wranglerUnenvPkg.devDependencies.unenv;
+versionMap["wranglerUnenv"] = "unenv";
+
+await fs.writeFile(
+  path.join(__dirname, "report", "src", "data", "versionMap.json"),
+  JSON.stringify(versionMap, null, 2)
+);

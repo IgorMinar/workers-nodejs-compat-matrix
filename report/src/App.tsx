@@ -11,6 +11,7 @@ import workerd from "./data/workerd.json";
 import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
 import wranglerV3 from "./data/wrangler-v3-polyfills.json";
+import versionMap from "./data/versionMap.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
@@ -56,15 +57,15 @@ const isObject = (nodeValue: any) =>
   Object.keys(nodeValue).length > 0;
 
 const targetTitles = {
-  node18: "Node 18",
-  node20: "Node 20",
-  node22: "Node 22",
+  node18: "Node",
+  node20: "Node",
+  node22: "Node",
   bun: "Bun",
   deno: "Deno",
   workerd: "Workerd",
-  wranglerJspm: "Wrangler (jspm)",
-  wranglerUnenv: "Wrangler (unenv)",
-  wranglerV3: "Wrangler (v3)",
+  wranglerJspm: "Wrangler",
+  wranglerUnenv: "Wrangler",
+  wranglerV3: "Wrangler",
 };
 
 const App = () => {
@@ -229,7 +230,10 @@ const App = () => {
               <TableHeaderCell width="w-[18ch]">Baseline</TableHeaderCell>
               {Object.keys(targets).map((target) => (
                 <TableHeaderCell width="w-[18ch]">
-                  {targetTitles[target as keyof typeof targetTitles]}
+                  <div>{targetTitles[target as keyof typeof targetTitles]}</div>
+                  <div className="text-xs font-light">
+                    {versionMap[target as keyof typeof versionMap]}
+                  </div>
                 </TableHeaderCell>
               ))}
             </tr>
