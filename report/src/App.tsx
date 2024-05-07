@@ -205,20 +205,22 @@ const App = () => {
   return (
     <div className="App">
       <div className="container mx-auto py-10">
-        <Legend />
-        <div className="my-5 flex justify-start gap-2">
-          <button
-            className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
-            onClick={() => setExpanded([...Object.keys(nodeBaseline)])}
-          >
-            Expand All
-          </button>
-          <button
-            className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
-            onClick={() => setExpanded([])}
-          >
-            Collapse All
-          </button>
+        <div className="my-5 flex justify-between">
+          <div className="flex gap-2">
+            <button
+              className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
+              onClick={() => setExpanded([...Object.keys(nodeBaseline)])}
+            >
+              Expand All
+            </button>
+            <button
+              className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
+              onClick={() => setExpanded([])}
+            >
+              Collapse All
+            </button>
+          </div>
+          <Legend />
         </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
