@@ -739,6 +739,7 @@
     "request": "function"
   },
   "inspector": null,
+  "inspector/promises": null,
   "module": {
     "default": "{}"
   },
@@ -1177,7 +1178,6 @@
     "unzip": "function",
     "unzipSync": "function"
   },
-  "inspector/promises": null,
   "*globals*": {
     "AbortController": "function",
     "Blob": "function",

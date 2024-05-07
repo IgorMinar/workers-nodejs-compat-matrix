@@ -177,6 +177,11 @@ export default {
       inspector = await import("inspector");
     } catch (err) {}
 
+    let inspector_promises = null;
+    try {
+      inspector_promises = await import("inspector/promises");
+    } catch (err) {}
+
     let module = null;
     try {
       module = await import("module");
@@ -337,11 +342,6 @@ export default {
       zlib = await import("zlib");
     } catch (err) {}
 
-    let inspector_promises = null;
-    try {
-      inspector_promises = await import("inspector/promises");
-    } catch (err) {}
-
     const modules = {
       _http_agent: _http_agent,
       _http_client: _http_client,
@@ -378,6 +378,7 @@ export default {
       http2: http2,
       https: https,
       inspector: inspector,
+      "inspector/promises": inspector_promises,
       module: module,
       net: net,
       os: os,
@@ -410,7 +411,6 @@ export default {
       wasi: wasi,
       worker_threads: worker_threads,
       zlib: zlib,
-      "inspector/promises": inspector_promises,
     };
 
     const result = {};

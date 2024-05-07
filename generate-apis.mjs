@@ -48,11 +48,26 @@ for (const version of nodeVersions) {
 const node18 = JSON.parse(shell.cat("node/node-18.json"));
 const node20 = JSON.parse(shell.cat("node/node-20.json"));
 const node22 = JSON.parse(shell.cat("node/node-22.json"));
-const baseline = deepmerge.all([node18, node20, node22]);
+
+// Sort the baseline by key name
+const merged = deepmerge.all([node18, node20, node22]);
+const [globals, ...rest] = Object.keys(merged);
+const baseline = rest.sort().reduce(
+  (acc, key) => ({
+    ...acc,
+    [key]: merged[key],
+  }),
+  {
+    "*globals*": merged[globals],
+  }
+);
+
+// Retain a copy of the baseline in the `node` folder for bun and deno
 await fs.writeFile(
   path.join(__dirname, "node", "baseline.json"),
   JSON.stringify(baseline, null, 2)
 );
+// Copy to the report
 shell.cp("node/baseline.json", "report/src/data");
 
 // Move node output to the report folder

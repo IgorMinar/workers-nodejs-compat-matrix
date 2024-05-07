@@ -1725,6 +1725,9 @@
   "inspector": {
     "default": "{}"
   },
+  "inspector/promises": {
+    "default": "{}"
+  },
   "module": {
     "Module": "stub",
     "SourceMap": "stub",
@@ -3194,9 +3197,6 @@
     "inflateSync": "function",
     "unzip": "function",
     "unzipSync": "function"
-  },
-  "inspector/promises": {
-    "default": "{}"
   },
   "*globals*": {
     "AbortController": "function",
