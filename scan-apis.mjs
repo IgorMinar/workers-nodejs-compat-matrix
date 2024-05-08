@@ -5,8 +5,8 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import workerdPkg from "./workerd/package.json" with { type: "json" };
 import wranglerV3Pkg from "./wrangler-v3-polyfills/package.json" with { type: "json" };
-import wranglerUnenvPkg from "./wrangler-unenv-polyfills/package.json" with { type: "json" };
-import wranglerJspmPkg from "./wrangler-jspm-polyfills/package.json" with { type: "json" };
+// import wranglerUnenvPkg from "./wrangler-unenv-polyfills/package.json" with { type: "json" };
+// import wranglerJspmPkg from "./wrangler-jspm-polyfills/package.json" with { type: "json" };
 
 shell.set("-e");
 
