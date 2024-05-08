@@ -11,6 +11,11 @@
     "MessageChannel": "function",
     "MessageEvent": "function",
     "MessagePort": "function",
+    "PerformanceEntry": "function",
+    "PerformanceMark": "function",
+    "PerformanceMeasure": "function",
+    "PerformanceObserver": "function",
+    "PerformanceObserverEntryList": "function",
     "TextDecoder": "function",
     "TextEncoder": "function",
     "URL": "function",
@@ -54,7 +59,6 @@
       "write": "function"
     },
     "global": {
-      "$_BunCommonJSModule_$": "undefined",
       "AbortController": "function",
       "AbortSignal": "function",
       "Blob": "function",
@@ -63,10 +67,12 @@
       "BuildError": "function",
       "BuildMessage": "function",
       "Bun": {
+        "$": "function",
         "ArrayBufferSink": "function",
         "CryptoHasher": "function",
         "FFI": "object",
         "FileSystemRouter": "function",
+        "Glob": "function",
         "MD4": "function",
         "MD5": "function",
         "SHA1": "function",
@@ -120,6 +126,7 @@
         "resolve": "function",
         "resolveSync": "function",
         "revision": "string",
+        "semver": "object",
         "serve": "function",
         "sha": "function",
         "shrink": "function",
@@ -130,7 +137,8 @@
         "stderr": "object",
         "stdin": "object",
         "stdout": "object",
-        "stringHashCode": "function",
+        "stringWidth": "function",
+        "udpSocket": "function",
         "unsafe": "object",
         "version": "string",
         "which": "function",
@@ -154,6 +162,12 @@
       "MessageChannel": "function",
       "MessageEvent": "function",
       "MessagePort": "function",
+      "Performance": "function",
+      "PerformanceEntry": "function",
+      "PerformanceMark": "function",
+      "PerformanceMeasure": "function",
+      "PerformanceObserver": "function",
+      "PerformanceObserverEntryList": "function",
       "ReadableByteStreamController": "function",
       "ReadableStream": "function",
       "ReadableStreamBYOBReader": "function",
@@ -195,7 +209,6 @@
       "dispatchEvent": "function",
       "fetch": "function",
       "global": {
-        "$_BunCommonJSModule_$": "undefined",
         "AbortController": "function",
         "AbortSignal": "function",
         "Blob": "function",
@@ -222,6 +235,12 @@
         "MessageChannel": "function",
         "MessageEvent": "function",
         "MessagePort": "function",
+        "Performance": "function",
+        "PerformanceEntry": "function",
+        "PerformanceMark": "function",
+        "PerformanceMeasure": "function",
+        "PerformanceObserver": "function",
+        "PerformanceObserverEntryList": "function",
         "ReadableByteStreamController": "function",
         "ReadableStream": "function",
         "ReadableStreamBYOBReader": "function",
@@ -280,11 +299,20 @@
       "onerror": "null",
       "onmessage": "null",
       "performance": {
+        "addEventListener": "function",
+        "clearMarks": "function",
+        "clearMeasures": "function",
+        "dispatchEvent": "function",
+        "getEntries": "function",
+        "getEntriesByName": "function",
+        "getEntriesByType": "function",
         "mark": "function",
-        "markResourceTiming": "function",
         "measure": "function",
         "now": "function",
-        "timeOrigin": "number"
+        "removeEventListener": "function",
+        "timeOrigin": "number",
+        "timing": "object",
+        "toJSON": "function"
       },
       "postMessage": "function",
       "process": {
@@ -357,6 +385,7 @@
         "release": "object",
         "removeAllListeners": "function",
         "removeListener": "function",
+        "report": "object",
         "revision": "string",
         "send": "undefined",
         "setMaxListeners": "function",
@@ -375,7 +404,6 @@
       "removeEventListener": "function",
       "reportError": "function",
       "self": {
-        "$_BunCommonJSModule_$": "undefined",
         "AbortController": "function",
         "AbortSignal": "function",
         "Blob": "function",
@@ -402,6 +430,12 @@
         "MessageChannel": "function",
         "MessageEvent": "function",
         "MessagePort": "function",
+        "Performance": "function",
+        "PerformanceEntry": "function",
+        "PerformanceMark": "function",
+        "PerformanceMeasure": "function",
+        "PerformanceObserver": "function",
+        "PerformanceObserverEntryList": "function",
         "ReadableByteStreamController": "function",
         "ReadableStream": "function",
         "ReadableStreamBYOBReader": "function",
@@ -546,6 +580,12 @@
       },
       "removeAllListeners": "function",
       "removeListener": "function",
+      "report": {
+        "directory": "string",
+        "filename": "string",
+        "getReport": "function",
+        "writeReport": "function"
+      },
       "revision": "string",
       "send": "undefined",
       "setMaxListeners": "function",
@@ -556,20 +596,16 @@
         "_events": "object",
         "_final": "function",
         "_isStdio": "boolean",
-        "_refreshSize": "function",
         "_type": "string",
         "_undestroy": "function",
         "_writableState": "object",
-        "_write": "undefined",
+        "_write": "function",
         "_writev": "undefined",
         "addListener": "function",
         "bytesWritten": "number",
-        "clearLine": "function",
-        "clearScreenDown": "function",
         "close": "function",
-        "columns": "undefined",
+        "constructor": "function",
         "cork": "function",
-        "cursorTo": "function",
         "destroy": "function",
         "destroySoon": "function",
         "disableBunFastPath": "function",
@@ -578,16 +614,11 @@
         "eventNames": "function",
         "fd": "number",
         "flags": "string",
-        "getColorDepth": "function",
         "getMaxListeners": "function",
-        "getWindowSize": "function",
-        "hasColors": "function",
         "isBunFastPathEnabled": "function",
-        "isTTY": "boolean",
         "listenerCount": "function",
         "listeners": "function",
         "mode": "number",
-        "moveCursor": "function",
         "off": "function",
         "on": "function",
         "once": "function",
@@ -599,7 +630,6 @@
         "ref": "function",
         "removeAllListeners": "function",
         "removeListener": "function",
-        "rows": "undefined",
         "setDefaultEncoding": "function",
         "setMaxListeners": "function",
         "start": "undefined",
@@ -626,8 +656,6 @@
         "flags": "string",
         "getMaxListeners": "function",
         "isPaused": "function",
-        "isRaw": "boolean",
-        "isTTY": "boolean",
         "iterator": "function",
         "listenerCount": "function",
         "listeners": "function",
@@ -647,7 +675,6 @@
         "resume": "function",
         "setEncoding": "function",
         "setMaxListeners": "function",
-        "setRawMode": "function",
         "start": "number",
         "undefined": "function",
         "unpipe": "function",
@@ -659,20 +686,16 @@
         "_events": "object",
         "_final": "function",
         "_isStdio": "boolean",
-        "_refreshSize": "function",
         "_type": "string",
         "_undestroy": "function",
         "_writableState": "object",
-        "_write": "undefined",
+        "_write": "function",
         "_writev": "undefined",
         "addListener": "function",
         "bytesWritten": "number",
-        "clearLine": "function",
-        "clearScreenDown": "function",
         "close": "function",
-        "columns": "undefined",
+        "constructor": "function",
         "cork": "function",
-        "cursorTo": "function",
         "destroy": "function",
         "destroySoon": "function",
         "disableBunFastPath": "function",
@@ -681,16 +704,11 @@
         "eventNames": "function",
         "fd": "number",
         "flags": "string",
-        "getColorDepth": "function",
         "getMaxListeners": "function",
-        "getWindowSize": "function",
-        "hasColors": "function",
         "isBunFastPathEnabled": "function",
-        "isTTY": "boolean",
         "listenerCount": "function",
         "listeners": "function",
         "mode": "number",
-        "moveCursor": "function",
         "off": "function",
         "on": "function",
         "once": "function",
@@ -702,7 +720,6 @@
         "ref": "function",
         "removeAllListeners": "function",
         "removeListener": "function",
-        "rows": "undefined",
         "setDefaultEncoding": "function",
         "setMaxListeners": "function",
         "start": "undefined",
@@ -719,14 +736,17 @@
         "ares": "string",
         "boringssl": "string",
         "bun": "string",
+        "icu": "string",
         "libarchive": "string",
         "lolhtml": "string",
         "mimalloc": "string",
         "modules": "string",
         "napi": "string",
         "node": "string",
+        "openssl": "string",
         "picohttpparser": "string",
         "tinycc": "string",
+        "unicode": "string",
         "usockets": "string",
         "uv": "string",
         "uwebsockets": "string",
@@ -748,6 +768,7 @@
     "deepEqual": "function",
     "deepStrictEqual": "function",
     "default": "function",
+    "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
     "equal": "function",
@@ -769,6 +790,7 @@
     "deepEqual": "function",
     "deepStrictEqual": "function",
     "default": "function",
+    "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
     "equal": "function",
@@ -1532,6 +1554,7 @@
     "DiffieHellmanGroup": "function",
     "Hash": "function",
     "Hmac": "function",
+    "KeyObject": "function",
     "Sign": "function",
     "Verify": "function",
     "constants": {
@@ -1547,6 +1570,10 @@
       "RSA_PKCS1_OAEP_PADDING": "number",
       "RSA_PKCS1_PADDING": "number",
       "RSA_PKCS1_PSS_PADDING": "number",
+      "RSA_PSS_SALTLEN_AUTO": "number",
+      "RSA_PSS_SALTLEN_DIGEST": "number",
+      "RSA_PSS_SALTLEN_MAX_SIGN": "number",
+      "RSA_X931_PADDING": "number",
       "SSL_OP_ALL": "number",
       "SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION": "number",
       "SSL_OP_CIPHER_SERVER_PREFERENCE": "number",
@@ -1581,6 +1608,9 @@
     "createECDH": "function",
     "createHash": "function",
     "createHmac": "function",
+    "createPrivateKey": "function",
+    "createPublicKey": "function",
+    "createSecretKey": "function",
     "createSign": "function",
     "createVerify": "function",
     "default": {
@@ -1593,6 +1623,7 @@
       "DiffieHellmanGroup": "function",
       "Hash": "function",
       "Hmac": "function",
+      "KeyObject": "function",
       "Sign": "function",
       "Verify": "function",
       "constants": {
@@ -1608,6 +1639,10 @@
         "RSA_PKCS1_OAEP_PADDING": "number",
         "RSA_PKCS1_PADDING": "number",
         "RSA_PKCS1_PSS_PADDING": "number",
+        "RSA_PSS_SALTLEN_AUTO": "number",
+        "RSA_PSS_SALTLEN_DIGEST": "number",
+        "RSA_PSS_SALTLEN_MAX_SIGN": "number",
+        "RSA_X931_PADDING": "number",
         "SSL_OP_ALL": "number",
         "SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION": "number",
         "SSL_OP_CIPHER_SERVER_PREFERENCE": "number",
@@ -1642,8 +1677,15 @@
       "createECDH": "function",
       "createHash": "function",
       "createHmac": "function",
+      "createPrivateKey": "function",
+      "createPublicKey": "function",
+      "createSecretKey": "function",
       "createSign": "function",
       "createVerify": "function",
+      "generateKey": "function",
+      "generateKeyPair": "function",
+      "generateKeyPairSync": "function",
+      "generateKeySync": "function",
       "getCiphers": "function",
       "getCurves": "function",
       "getDiffieHellman": "function",
@@ -1666,6 +1708,7 @@
       "rng": "function",
       "scrypt": "function",
       "scryptSync": "function",
+      "sign": "function",
       "subtle": {
         "decrypt": "function",
         "deriveBits": "function",
@@ -1681,6 +1724,7 @@
         "wrapKey": "function"
       },
       "timingSafeEqual": "function",
+      "verify": "function",
       "webcrypto": {
         "getRandomValues": "function",
         "randomInt": "function",
@@ -1690,6 +1734,10 @@
         "timingSafeEqual": "function"
       }
     },
+    "generateKey": "function",
+    "generateKeyPair": "function",
+    "generateKeyPairSync": "function",
+    "generateKeySync": "function",
     "getCiphers": "function",
     "getCurves": "function",
     "getDiffieHellman": "function",
@@ -1712,6 +1760,7 @@
     "rng": "function",
     "scrypt": "function",
     "scryptSync": "function",
+    "sign": "function",
     "subtle": {
       "decrypt": "function",
       "deriveBits": "function",
@@ -1727,6 +1776,7 @@
       "wrapKey": "function"
     },
     "timingSafeEqual": "function",
+    "verify": "function",
     "webcrypto": {
       "getRandomValues": "function",
       "randomInt": "function",
@@ -1751,11 +1801,9 @@
   },
   "dgram": {
     "Socket": "function",
-    "_createSocketHandle": "function",
     "createSocket": "function",
     "default": {
       "Socket": "function",
-      "_createSocketHandle": "function",
       "createSocket": "function"
     }
   },
@@ -2160,6 +2208,8 @@
       "fchmodSync": "function",
       "fchown": "function",
       "fchownSync": "function",
+      "fdatasync": "function",
+      "fdatasyncSync": "function",
       "fstat": "function",
       "fstatSync": "function",
       "fsync": "function",
@@ -2183,7 +2233,9 @@
       "mkdtemp": "function",
       "mkdtempSync": "function",
       "open": "function",
+      "openAsBlob": "function",
       "openSync": "function",
+      "opendir": "function",
       "promises": {
         "access": "function",
         "appendFile": "function",
@@ -2196,6 +2248,7 @@
         "exists": "function",
         "fchmod": "function",
         "fchown": "function",
+        "fdatasync": "function",
         "fstat": "function",
         "fsync": "function",
         "ftruncate": "function",
@@ -2272,6 +2325,8 @@
     "fchmodSync": "function",
     "fchown": "function",
     "fchownSync": "function",
+    "fdatasync": "function",
+    "fdatasyncSync": "function",
     "fstat": "function",
     "fstatSync": "function",
     "fsync": "function",
@@ -2295,7 +2350,9 @@
     "mkdtemp": "function",
     "mkdtempSync": "function",
     "open": "function",
+    "openAsBlob": "function",
     "openSync": "function",
+    "opendir": "function",
     "promises": {
       "access": "function",
       "appendFile": "function",
@@ -2364,6 +2421,7 @@
       "exists": "function",
       "fchmod": "function",
       "fchown": "function",
+      "fdatasync": "function",
       "fstat": "function",
       "fsync": "function",
       "ftruncate": "function",
@@ -2567,6 +2625,7 @@
       "exists": "function",
       "fchmod": "function",
       "fchown": "function",
+      "fdatasync": "function",
       "fstat": "function",
       "fsync": "function",
       "ftruncate": "function",
@@ -2602,6 +2661,7 @@
     "exists": "function",
     "fchmod": "function",
     "fchown": "function",
+    "fdatasync": "function",
     "fstat": "function",
     "fsync": "function",
     "ftruncate": "function",
@@ -2866,6 +2926,7 @@
     "validateHeaderValue": "function"
   },
   "http2": {
+    "ClientHttp2Session": "function",
     "Http2ServerRequest": "function",
     "Http2ServerResponse": "function",
     "connect": "function",
@@ -3114,6 +3175,7 @@
     "createSecureServer": "function",
     "createServer": "function",
     "default": {
+      "ClientHttp2Session": "function",
       "Http2ServerRequest": "function",
       "Http2ServerResponse": "function",
       "connect": "function",
@@ -3763,35 +3825,32 @@
     "SourceMap": "function",
     "__resolveFilename": "function",
     "_cache": {
-      "/Users/jculveyhouse/cf-repos/workers-nodejs-support/bun/dump.js": {
+      "/Users/iminar/Development/workers-nodejs-support/bun/dump.js": {
         "children": "object",
         "exports": "object",
         "filename": "string",
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
-      "/Users/jculveyhouse/cf-repos/workers-nodejs-support/dump-utils.mjs": {
+      "/Users/iminar/Development/workers-nodejs-support/dump-utils.mjs": {
         "children": "object",
         "exports": "object",
         "filename": "string",
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
-      "/Users/jculveyhouse/cf-repos/workers-nodejs-support/node/baseline.json": {
+      "/Users/iminar/Development/workers-nodejs-support/node/baseline.json": {
         "children": "object",
         "exports": "object",
         "filename": "string",
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "assert": {
         "children": "object",
@@ -3800,8 +3859,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "assert/strict": {
         "children": "object",
@@ -3810,8 +3868,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "async_hooks": {
         "children": "object",
@@ -3820,8 +3877,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "buffer": {
         "children": "object",
@@ -3830,8 +3886,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "bun:main": {
         "children": "object",
@@ -3840,8 +3895,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "child_process": {
         "children": "object",
@@ -3850,8 +3904,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "cluster": {
         "children": "object",
@@ -3860,8 +3913,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "console": {
         "children": "object",
@@ -3870,8 +3922,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "constants": {
         "children": "object",
@@ -3880,8 +3931,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "crypto": {
         "children": "object",
@@ -3890,8 +3940,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "dgram": {
         "children": "object",
@@ -3900,8 +3949,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "diagnostics_channel": {
         "children": "object",
@@ -3910,8 +3958,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "dns": {
         "children": "object",
@@ -3920,8 +3967,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "dns/promises": {
         "children": "object",
@@ -3930,8 +3976,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "domain": {
         "children": "object",
@@ -3940,8 +3985,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "events": {
         "children": "object",
@@ -3950,8 +3994,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "fs": {
         "children": "object",
@@ -3960,8 +4003,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "fs/promises": {
         "children": "object",
@@ -3970,8 +4012,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "http": {
         "children": "object",
@@ -3980,8 +4021,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "http2": {
         "children": "object",
@@ -3990,8 +4030,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "https": {
         "children": "object",
@@ -4000,8 +4039,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "inspector": {
         "children": "object",
@@ -4010,8 +4048,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "module": {
         "children": "object",
@@ -4020,8 +4057,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "path": {
         "children": "object",
@@ -4030,8 +4066,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "string_decoder": {
         "children": "object",
@@ -4040,8 +4075,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "util/types": {
         "children": "object",
@@ -4050,11 +4084,16 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       }
     },
+    "_extensions": {
+      ".js": "boolean",
+      ".json": "boolean",
+      ".node": "boolean"
+    },
     "_nodeModulePaths": "function",
+    "_resolveLookupPaths": "function",
     "builtinModules": "object",
     "createRequire": "function",
     "default": "function",
@@ -4062,29 +4101,38 @@
     "globalPaths": "object",
     "isBuiltin": "function",
     "paths": "function",
-    "prototype": "{}",
     "syncBuiltinExports": "function",
     "wrap": "function"
   },
   "net": {
+    "BlockList": "function",
     "Server": "function",
     "Socket": "function",
     "connect": "function",
     "createConnection": "function",
     "createServer": "function",
     "default": {
+      "BlockList": "function",
       "Server": "function",
       "Socket": "function",
       "connect": "function",
       "createConnection": "function",
       "createServer": "function",
+      "getDefaultAutoSelectFamily": "function",
+      "getDefaultAutoSelectFamilyAttemptTimeout": "function",
       "isIP": "function",
       "isIPv4": "function",
-      "isIPv6": "function"
+      "isIPv6": "function",
+      "setDefaultAutoSelectFamily": "function",
+      "setDefaultAutoSelectFamilyAttemptTimeout": "function"
     },
+    "getDefaultAutoSelectFamily": "function",
+    "getDefaultAutoSelectFamilyAttemptTimeout": "function",
     "isIP": "function",
     "isIPv4": "function",
-    "isIPv6": "function"
+    "isIPv6": "function",
+    "setDefaultAutoSelectFamily": "function",
+    "setDefaultAutoSelectFamilyAttemptTimeout": "function"
   },
   "os": {
     "EOL": "string",
@@ -4789,8 +4837,14 @@
     }
   },
   "perf_hooks": {
+    "Performance": "function",
     "PerformanceEntry": "function",
+    "PerformanceMark": "function",
+    "PerformanceMeasure": "function",
+    "PerformanceNodeTiming": "class",
     "PerformanceObserver": "function",
+    "PerformanceObserverEntryList": "function",
+    "PerformanceResourceTiming": "function",
     "constants": {
       "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "number",
       "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "number",
@@ -4804,9 +4858,16 @@
       "NODE_PERFORMANCE_GC_MINOR": "number",
       "NODE_PERFORMANCE_GC_WEAKCB": "number"
     },
+    "createHistogram": "function",
     "default": {
+      "Performance": "function",
       "PerformanceEntry": "function",
+      "PerformanceMark": "function",
+      "PerformanceMeasure": "function",
+      "PerformanceNodeTiming": "class",
       "PerformanceObserver": "function",
+      "PerformanceObserverEntryList": "function",
+      "PerformanceResourceTiming": "function",
       "constants": {
         "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "number",
         "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "number",
@@ -4820,20 +4881,51 @@
         "NODE_PERFORMANCE_GC_MINOR": "number",
         "NODE_PERFORMANCE_GC_WEAKCB": "number"
       },
+      "createHistogram": "function",
+      "monitorEventLoopDelay": "function",
       "performance": {
+        "clearMarks": "function",
+        "clearMeasures": "function",
+        "clearResourceTimings": "function",
+        "eventLoopUtilization": "function",
+        "getEntries": "function",
+        "getEntriesByName": "function",
+        "getEntriesByType": "function",
         "mark": "function",
-        "markResourceTiming": "function",
         "measure": "function",
+        "nodeTiming": "object",
         "now": "function",
-        "timeOrigin": "number"
+        "onresourcetimingbufferfull": "undefined",
+        "setResourceTimingBufferSize": "function",
+        "timeOrigin": "number",
+        "toJSON": "function"
       }
     },
+    "monitorEventLoopDelay": "function",
     "performance": {
+      "clearMarks": "function",
+      "clearMeasures": "function",
+      "clearResourceTimings": "function",
+      "eventLoopUtilization": "function",
+      "getEntries": "function",
+      "getEntriesByName": "function",
+      "getEntriesByType": "function",
       "mark": "function",
-      "markResourceTiming": "function",
       "measure": "function",
+      "nodeTiming": {
+        "bootstrapComplete": "number",
+        "environment": "number",
+        "idleTime": "number",
+        "loopExit": "number",
+        "loopStart": "number",
+        "nodeStart": "number",
+        "v8Start": "number"
+      },
       "now": "function",
-      "timeOrigin": "number"
+      "onresourcetimingbufferfull": "undefined",
+      "setResourceTimingBufferSize": "function",
+      "timeOrigin": "number",
+      "toJSON": "function"
     }
   },
   "process": {
@@ -4942,8 +5034,7 @@
         "id": "string",
         "loaded": "boolean",
         "path": "string",
-        "paths": "object",
-        "require": "function"
+        "paths": "object"
       },
       "memoryUsage": "function",
       "moduleLoadList": "object",
@@ -4968,6 +5059,12 @@
       },
       "removeAllListeners": "function",
       "removeListener": "function",
+      "report": {
+        "directory": "string",
+        "filename": "string",
+        "getReport": "function",
+        "writeReport": "function"
+      },
       "revision": "string",
       "send": "undefined",
       "setMaxListeners": "function",
@@ -4978,21 +5075,17 @@
         "_events": "object",
         "_final": "function",
         "_isStdio": "boolean",
-        "_refreshSize": "function",
         "_type": "string",
         "_undestroy": "function",
         "_writableState": "object",
-        "_write": "undefined",
+        "_write": "function",
         "_writev": "undefined",
         "addListener": "function",
         "bytesWritten": "number",
-        "clearLine": "function",
-        "clearScreenDown": "function",
         "close": "function",
-        "columns": "undefined",
         "constructed": "boolean",
+        "constructor": "function",
         "cork": "function",
-        "cursorTo": "function",
         "destroy": "function",
         "destroySoon": "function",
         "disableBunFastPath": "function",
@@ -5001,16 +5094,11 @@
         "eventNames": "function",
         "fd": "number",
         "flags": "string",
-        "getColorDepth": "function",
         "getMaxListeners": "function",
-        "getWindowSize": "function",
-        "hasColors": "function",
         "isBunFastPathEnabled": "function",
-        "isTTY": "boolean",
         "listenerCount": "function",
         "listeners": "function",
         "mode": "number",
-        "moveCursor": "function",
         "off": "function",
         "on": "function",
         "once": "function",
@@ -5022,7 +5110,6 @@
         "ref": "function",
         "removeAllListeners": "function",
         "removeListener": "function",
-        "rows": "undefined",
         "setDefaultEncoding": "function",
         "setMaxListeners": "function",
         "start": "undefined",
@@ -5049,8 +5136,6 @@
         "flags": "string",
         "getMaxListeners": "function",
         "isPaused": "function",
-        "isRaw": "boolean",
-        "isTTY": "boolean",
         "iterator": "function",
         "listenerCount": "function",
         "listeners": "function",
@@ -5070,7 +5155,6 @@
         "resume": "function",
         "setEncoding": "function",
         "setMaxListeners": "function",
-        "setRawMode": "function",
         "start": "number",
         "undefined": "function",
         "unpipe": "function",
@@ -5082,21 +5166,17 @@
         "_events": "object",
         "_final": "function",
         "_isStdio": "boolean",
-        "_refreshSize": "function",
         "_type": "string",
         "_undestroy": "function",
         "_writableState": "object",
-        "_write": "undefined",
+        "_write": "function",
         "_writev": "undefined",
         "addListener": "function",
         "bytesWritten": "number",
-        "clearLine": "function",
-        "clearScreenDown": "function",
         "close": "function",
-        "columns": "undefined",
         "constructed": "boolean",
+        "constructor": "function",
         "cork": "function",
-        "cursorTo": "function",
         "destroy": "function",
         "destroySoon": "function",
         "disableBunFastPath": "function",
@@ -5105,16 +5185,11 @@
         "eventNames": "function",
         "fd": "number",
         "flags": "string",
-        "getColorDepth": "function",
         "getMaxListeners": "function",
-        "getWindowSize": "function",
-        "hasColors": "function",
         "isBunFastPathEnabled": "function",
-        "isTTY": "boolean",
         "listenerCount": "function",
         "listeners": "function",
         "mode": "number",
-        "moveCursor": "function",
         "off": "function",
         "on": "function",
         "once": "function",
@@ -5126,7 +5201,6 @@
         "ref": "function",
         "removeAllListeners": "function",
         "removeListener": "function",
-        "rows": "undefined",
         "setDefaultEncoding": "function",
         "setMaxListeners": "function",
         "start": "undefined",
@@ -5143,14 +5217,17 @@
         "ares": "string",
         "boringssl": "string",
         "bun": "string",
+        "icu": "string",
         "libarchive": "string",
         "lolhtml": "string",
         "mimalloc": "string",
         "modules": "string",
         "napi": "string",
         "node": "string",
+        "openssl": "string",
         "picohttpparser": "string",
         "tinycc": "string",
+        "unicode": "string",
         "usockets": "string",
         "uv": "string",
         "uwebsockets": "string",
@@ -5200,8 +5277,7 @@
       "id": "string",
       "loaded": "boolean",
       "path": "string",
-      "paths": "object",
-      "require": "function"
+      "paths": "object"
     },
     "memoryUsage": "function",
     "moduleLoadList": "object",
@@ -5226,6 +5302,12 @@
     },
     "removeAllListeners": "function",
     "removeListener": "function",
+    "report": {
+      "directory": "string",
+      "filename": "string",
+      "getReport": "function",
+      "writeReport": "function"
+    },
     "revision": "string",
     "send": "undefined",
     "setMaxListeners": "function",
@@ -5252,7 +5334,6 @@
       },
       "_final": "function",
       "_isStdio": "boolean",
-      "_refreshSize": "function",
       "_type": "string",
       "_undestroy": "function",
       "_writableState": {
@@ -5290,17 +5371,14 @@
         "writelen": "number",
         "writing": "boolean"
       },
-      "_write": "undefined",
+      "_write": "function",
       "_writev": "undefined",
       "addListener": "function",
       "bytesWritten": "number",
-      "clearLine": "function",
-      "clearScreenDown": "function",
       "close": "function",
-      "columns": "undefined",
       "constructed": "boolean",
+      "constructor": "function",
       "cork": "function",
-      "cursorTo": "function",
       "destroy": "function",
       "destroySoon": "function",
       "disableBunFastPath": "function",
@@ -5309,16 +5387,11 @@
       "eventNames": "function",
       "fd": "number",
       "flags": "string",
-      "getColorDepth": "function",
       "getMaxListeners": "function",
-      "getWindowSize": "function",
-      "hasColors": "function",
       "isBunFastPathEnabled": "function",
-      "isTTY": "boolean",
       "listenerCount": "function",
       "listeners": "function",
       "mode": "number",
-      "moveCursor": "function",
       "off": "function",
       "on": "function",
       "once": "function",
@@ -5330,7 +5403,6 @@
       "ref": "function",
       "removeAllListeners": "function",
       "removeListener": "function",
-      "rows": "undefined",
       "setDefaultEncoding": "function",
       "setMaxListeners": "function",
       "start": "undefined",
@@ -5406,8 +5478,6 @@
       "flags": "string",
       "getMaxListeners": "function",
       "isPaused": "function",
-      "isRaw": "boolean",
-      "isTTY": "boolean",
       "iterator": "function",
       "listenerCount": "function",
       "listeners": "function",
@@ -5427,7 +5497,6 @@
       "resume": "function",
       "setEncoding": "function",
       "setMaxListeners": "function",
-      "setRawMode": "function",
       "start": "number",
       "undefined": "function",
       "unpipe": "function",
@@ -5455,7 +5524,6 @@
       },
       "_final": "function",
       "_isStdio": "boolean",
-      "_refreshSize": "function",
       "_type": "string",
       "_undestroy": "function",
       "_writableState": {
@@ -5493,17 +5561,14 @@
         "writelen": "number",
         "writing": "boolean"
       },
-      "_write": "undefined",
+      "_write": "function",
       "_writev": "undefined",
       "addListener": "function",
       "bytesWritten": "number",
-      "clearLine": "function",
-      "clearScreenDown": "function",
       "close": "function",
-      "columns": "undefined",
       "constructed": "boolean",
+      "constructor": "function",
       "cork": "function",
-      "cursorTo": "function",
       "destroy": "function",
       "destroySoon": "function",
       "disableBunFastPath": "function",
@@ -5512,16 +5577,11 @@
       "eventNames": "function",
       "fd": "number",
       "flags": "string",
-      "getColorDepth": "function",
       "getMaxListeners": "function",
-      "getWindowSize": "function",
-      "hasColors": "function",
       "isBunFastPathEnabled": "function",
-      "isTTY": "boolean",
       "listenerCount": "function",
       "listeners": "function",
       "mode": "number",
-      "moveCursor": "function",
       "off": "function",
       "on": "function",
       "once": "function",
@@ -5533,7 +5593,6 @@
       "ref": "function",
       "removeAllListeners": "function",
       "removeListener": "function",
-      "rows": "undefined",
       "setDefaultEncoding": "function",
       "setMaxListeners": "function",
       "start": "undefined",
@@ -5550,14 +5609,17 @@
       "ares": "string",
       "boringssl": "string",
       "bun": "string",
+      "icu": "string",
       "libarchive": "string",
       "lolhtml": "string",
       "mimalloc": "string",
       "modules": "string",
       "napi": "string",
       "node": "string",
+      "openssl": "string",
       "picohttpparser": "string",
       "tinycc": "string",
+      "unicode": "string",
       "usockets": "string",
       "uv": "string",
       "uwebsockets": "string",
@@ -5651,9 +5713,9 @@
     "_initialPrompt": "string",
     "allowBlockingCompletions": "boolean",
     "breakEvalOnSigint": "boolean",
+    "builtinModules": "object",
     "completer": "function",
     "context": {
-      "$_BunCommonJSModule_$": "undefined",
       "AbortController": "function",
       "AbortSignal": "function",
       "Blob": "function",
@@ -5662,10 +5724,12 @@
       "BuildError": "function",
       "BuildMessage": "function",
       "Bun": {
+        "$": "function",
         "ArrayBufferSink": "function",
         "CryptoHasher": "function",
         "FFI": "object",
         "FileSystemRouter": "function",
+        "Glob": "function",
         "MD4": "function",
         "MD5": "function",
         "SHA1": "function",
@@ -5719,6 +5783,7 @@
         "resolve": "function",
         "resolveSync": "function",
         "revision": "string",
+        "semver": "object",
         "serve": "function",
         "sha": "function",
         "shrink": "function",
@@ -5729,7 +5794,8 @@
         "stderr": "object",
         "stdin": "object",
         "stdout": "object",
-        "stringHashCode": "function",
+        "stringWidth": "function",
+        "udpSocket": "function",
         "unsafe": "object",
         "version": "string",
         "which": "function",
@@ -5753,6 +5819,12 @@
       "MessageChannel": "function",
       "MessageEvent": "function",
       "MessagePort": "function",
+      "Performance": "function",
+      "PerformanceEntry": "function",
+      "PerformanceMark": "function",
+      "PerformanceMeasure": "function",
+      "PerformanceObserver": "function",
+      "PerformanceObserverEntryList": "function",
       "ReadableByteStreamController": "function",
       "ReadableStream": "function",
       "ReadableStreamBYOBReader": "function",
@@ -5794,7 +5866,6 @@
       "dispatchEvent": "function",
       "fetch": "function",
       "global": {
-        "$_BunCommonJSModule_$": "undefined",
         "AbortController": "function",
         "AbortSignal": "function",
         "Blob": "function",
@@ -5821,6 +5892,12 @@
         "MessageChannel": "function",
         "MessageEvent": "function",
         "MessagePort": "function",
+        "Performance": "function",
+        "PerformanceEntry": "function",
+        "PerformanceMark": "function",
+        "PerformanceMeasure": "function",
+        "PerformanceObserver": "function",
+        "PerformanceObserverEntryList": "function",
         "ReadableByteStreamController": "function",
         "ReadableStream": "function",
         "ReadableStreamBYOBReader": "function",
@@ -5879,11 +5956,20 @@
       "onerror": "null",
       "onmessage": "null",
       "performance": {
+        "addEventListener": "function",
+        "clearMarks": "function",
+        "clearMeasures": "function",
+        "dispatchEvent": "function",
+        "getEntries": "function",
+        "getEntriesByName": "function",
+        "getEntriesByType": "function",
         "mark": "function",
-        "markResourceTiming": "function",
         "measure": "function",
         "now": "function",
-        "timeOrigin": "number"
+        "removeEventListener": "function",
+        "timeOrigin": "number",
+        "timing": "object",
+        "toJSON": "function"
       },
       "postMessage": "function",
       "process": {
@@ -5956,6 +6042,7 @@
         "release": "object",
         "removeAllListeners": "function",
         "removeListener": "function",
+        "report": "object",
         "revision": "string",
         "send": "undefined",
         "setMaxListeners": "function",
@@ -5974,7 +6061,6 @@
       "removeEventListener": "function",
       "reportError": "function",
       "self": {
-        "$_BunCommonJSModule_$": "undefined",
         "AbortController": "function",
         "AbortSignal": "function",
         "Blob": "function",
@@ -6001,6 +6087,12 @@
         "MessageChannel": "function",
         "MessageEvent": "function",
         "MessagePort": "function",
+        "Performance": "function",
+        "PerformanceEntry": "function",
+        "PerformanceMark": "function",
+        "PerformanceMeasure": "function",
+        "PerformanceObserver": "function",
+        "PerformanceObserverEntryList": "function",
         "ReadableByteStreamController": "function",
         "ReadableStream": "function",
         "ReadableStreamBYOBReader": "function",
@@ -6064,9 +6156,9 @@
       "_initialPrompt": "string",
       "allowBlockingCompletions": "boolean",
       "breakEvalOnSigint": "boolean",
+      "builtinModules": "object",
       "completer": "function",
       "context": {
-        "$_BunCommonJSModule_$": "undefined",
         "AbortController": "function",
         "AbortSignal": "function",
         "Blob": "function",
@@ -6093,6 +6185,12 @@
         "MessageChannel": "function",
         "MessageEvent": "function",
         "MessagePort": "function",
+        "Performance": "function",
+        "PerformanceEntry": "function",
+        "PerformanceMark": "function",
+        "PerformanceMeasure": "function",
+        "PerformanceObserver": "function",
+        "PerformanceObserverEntryList": "function",
         "ReadableByteStreamController": "function",
         "ReadableStream": "function",
         "ReadableStreamBYOBReader": "function",
@@ -6200,6 +6298,7 @@
     "destroy": "function",
     "eos": "function",
     "finished": "function",
+    "getDefaultHighWaterMark": "function",
     "isDisturbed": "function",
     "isErrored": "function",
     "isReadable": "function",
@@ -6211,6 +6310,7 @@
     },
     "prototype": {
       "addListener": "function",
+      "constructor": "function",
       "emit": "function",
       "eventNames": "function",
       "getMaxListeners": "function",
@@ -6226,7 +6326,8 @@
       "removeAllListeners": "function",
       "removeListener": "function",
       "setMaxListeners": "function"
-    }
+    },
+    "setDefaultHighWaterMark": "function"
   },
   "stream/consumers": {
     "arrayBuffer": "function",
@@ -6328,7 +6429,10 @@
       "isSymbol": "function",
       "isUndefined": "function",
       "log": "function",
+      "parseArgs": "function",
       "promisify": "function",
+      "stripVTControlCharacters": "function",
+      "styleText": "function",
       "toUSVString": "function",
       "types": {
         "isAnyArrayBuffer": "function",
@@ -6397,7 +6501,10 @@
     "isSymbol": "function",
     "isUndefined": "function",
     "log": "function",
+    "parseArgs": "function",
     "promisify": "function",
+    "stripVTControlCharacters": "function",
+    "styleText": "function",
     "toUSVString": "function",
     "types": {
       "isAnyArrayBuffer": "function",
@@ -6544,6 +6651,8 @@
       "URL": "function",
       "URLSearchParams": "function",
       "Url": "function",
+      "domainToASCII": "function",
+      "domainToUnicode": "function",
       "fileURLToPath": "function",
       "format": "function",
       "parse": "function",
@@ -6552,6 +6661,8 @@
       "resolveObject": "function",
       "urlToHttpOptions": "function"
     },
+    "domainToASCII": "function",
+    "domainToUnicode": "function",
     "fileURLToPath": "function",
     "format": "function",
     "parse": "function",
@@ -6594,7 +6705,10 @@
       "isSymbol": "function",
       "isUndefined": "function",
       "log": "function",
+      "parseArgs": "function",
       "promisify": "function",
+      "stripVTControlCharacters": "function",
+      "styleText": "function",
       "toUSVString": "function",
       "types": {
         "isAnyArrayBuffer": "function",
@@ -6663,7 +6777,10 @@
     "isSymbol": "function",
     "isUndefined": "function",
     "log": "function",
+    "parseArgs": "function",
     "promisify": "function",
+    "stripVTControlCharacters": "function",
+    "styleText": "function",
     "toUSVString": "function",
     "types": {
       "isAnyArrayBuffer": "function",
@@ -6863,6 +6980,7 @@
     "SyntheticModule": "function",
     "compileFunction": "function",
     "createContext": "function",
+    "createScript": "function",
     "default": {
       "Module": "function",
       "Script": "function",
@@ -6870,6 +6988,7 @@
       "SyntheticModule": "function",
       "compileFunction": "function",
       "createContext": "function",
+      "createScript": "function",
       "isContext": "function",
       "measureMemory": "function",
       "runInContext": "function",
@@ -6925,6 +7044,8 @@
     "workerData": "undefined"
   },
   "zlib": {
+    "BrotliCompress": "function",
+    "BrotliDecompress": "function",
     "Deflate": "function",
     "DeflateRaw": "function",
     "Gunzip": "function",
@@ -6973,6 +7094,9 @@
     "Z_UNKNOWN": "number",
     "Zlib": "function",
     "brotliCompress": "function",
+    "brotliCompressSync": "function",
+    "brotliDecompress": "function",
+    "brotliDecompressSync": "function",
     "codes": {
       "0": "string",
       "1": "string",
@@ -7021,6 +7145,8 @@
       "Z_TREES": "number",
       "Z_UNKNOWN": "number"
     },
+    "createBrotliCompress": "function",
+    "createBrotliDecompress": "function",
     "createDeflate": "function",
     "createDeflateRaw": "function",
     "createGunzip": "function",
@@ -7029,6 +7155,8 @@
     "createInflateRaw": "function",
     "createUnzip": "function",
     "default": {
+      "BrotliCompress": "function",
+      "BrotliDecompress": "function",
       "Deflate": "function",
       "DeflateRaw": "function",
       "Gunzip": "function",
@@ -7077,6 +7205,9 @@
       "Z_UNKNOWN": "number",
       "Zlib": "function",
       "brotliCompress": "function",
+      "brotliCompressSync": "function",
+      "brotliDecompress": "function",
+      "brotliDecompressSync": "function",
       "codes": {
         "0": "string",
         "1": "string",
@@ -7125,6 +7256,8 @@
         "Z_TREES": "number",
         "Z_UNKNOWN": "number"
       },
+      "createBrotliCompress": "function",
+      "createBrotliDecompress": "function",
       "createDeflate": "function",
       "createDeflateRaw": "function",
       "createGunzip": "function",

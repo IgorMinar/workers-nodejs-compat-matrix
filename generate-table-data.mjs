@@ -37,7 +37,7 @@ const get = (node, path) => {
   if (path.length === 0) return node;
   const [head, ...tail] = path;
   const value = node[head];
-  if (value == null || value === "undefined") return null;
+  if (value == null) return value;
   return get(value, tail);
 };
 
