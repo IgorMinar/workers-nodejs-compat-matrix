@@ -119,13 +119,15 @@ const visit = (node, path) => {
 const buildTable = () => {
   const [rows, leafCount] = visit(baseline, []);
 
-  const totalsRow = ["totals", leafCount, leafCount];
+  const totalsRow = ["Totals", leafCount, leafCount];
   for (let i = 0; i < targets.length; i++) {
     totalsRow.push(tallyColumnValues(rows, i + 3));
   }
 
   return [totalsRow, ...rows];
 };
+
+console.log("Generating table data...");
 
 const tableData = buildTable();
 

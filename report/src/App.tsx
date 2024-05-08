@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
+import tableData from "./data/table-data.json";
 import node18 from "./data/node-18.json";
 import node20 from "./data/node-20.json";
 import node22 from "./data/node-22.json";
@@ -16,46 +17,6 @@ import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 
-type CompatObject = Record<string, string>;
-type CompatMap = Record<string, string | CompatObject>;
-
-const irrelevantAPIs = [
-  "child_process",
-  "cluster",
-  "constants",
-  "domain",
-  "inspector",
-  "inspector/promises",
-  "module",
-  "os",
-  "path/win32",
-  "process",
-  "repl",
-  "sys",
-  "trace_events",
-  "tty",
-  "vm",
-  "worker_threads",
-];
-
-// const relevantAPIs = Object.keys(baseline)
-//   .filter((name) => !irrelevantAPIs.includes(name))
-//   .sort()
-//   .reduce((acc, key) => {
-//     return {
-//       ...acc,
-//       [key]: baseline[key as keyof typeof baseline],
-//     };
-//   }, {});
-
-// const isObject = (nodeValue: any) =>
-// typeof nodeValue === "object" && Object.keys(nodeValue).length > 0;
-
-const isObject = (nodeValue: any) =>
-  nodeValue &&
-  typeof nodeValue === "object" &&
-  Object.keys(nodeValue).length > 0;
-
 const targetTitles = {
   node18: "node",
   node20: "node",
@@ -68,128 +29,12 @@ const targetTitles = {
   wranglerV3: "wrangler",
 };
 
+const pct = (part: number, total: number) => {
+  return `${((part / total) * 100).toFixed(0)}%`;
+};
+
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
-
-  const getTargetValue: any = (map: CompatMap, path: string[]) => {
-    if (path.length === 0) {
-      return map;
-    }
-    const [head, ...tail] = path;
-    const value = map[head];
-    if (value == null || value === undefined) return null;
-    return getTargetValue(value as CompatMap, tail);
-  };
-
-  const renderTargetValue = (nodeValue: any, value: string) => {
-    if (value === "stub") {
-      return stub;
-    }
-    if (value && nodeValue !== value) {
-      return mismatch;
-    }
-    if (value) {
-      return supported;
-    }
-    return unsupported;
-  };
-
-  const renderEntries: any = (
-    baseline: any,
-    targets: Record<string, CompatMap>,
-    path: string[]
-  ) => {
-    const rows = [];
-    let baselineTotal = 0;
-    let targetTotals: Record<string, number> = Object.keys(targets).reduce(
-      (acc, key) => ({ ...acc, [key]: 0 }),
-      {}
-    );
-
-    for (const [key, nodeValue] of Object.entries(baseline)) {
-      const keyPath = [...path, key];
-
-      if (path.length === 0) {
-        baselineTotal = 0;
-        targetTotals = Object.keys(targets).reduce(
-          (acc, key) => ({ ...acc, [key]: 0 }),
-          {}
-        );
-      }
-
-      let childRows;
-
-      if (isObject(nodeValue)) {
-        const result = renderEntries(nodeValue, targets, keyPath);
-        childRows = result.rows;
-        baselineTotal = result.baselineTotal;
-        for (const targetKey of Object.keys(targets)) {
-          targetTotals[targetKey] = result.targetTotals[targetKey];
-        }
-      } else {
-        baselineTotal += 1;
-        for (const targetKey of Object.keys(targets)) {
-          const targetSupported = getTargetValue(targets[targetKey], keyPath);
-          targetTotals[targetKey] += targetSupported ? 1 : 0;
-        }
-      }
-
-      let columns = [];
-      for (const targetKey of Object.keys(targets)) {
-        const targetValue = getTargetValue(targets[targetKey], keyPath);
-
-        columns.push(
-          <td className="p-1 border border-slate-200">
-            {isObject(nodeValue) ? (
-              <span title={`${targetTotals[targetKey]} / ${baselineTotal}`}>
-                {((targetTotals[targetKey] / baselineTotal) * 100).toFixed(0)}%
-              </span>
-            ) : (
-              renderTargetValue(nodeValue, targetValue)
-            )}
-          </td>
-        );
-      }
-
-      const expand = (key: string) => {
-        if (expanded.includes(key)) {
-          setExpanded(expanded.filter((k) => k !== key));
-        } else {
-          setExpanded([...expanded, key]);
-        }
-      };
-
-      rows.push(
-        <>
-          <TableRow onClick={() => expand(key)}>
-            <TableCell>
-              <div className="flex justify-start items-center">
-                <span className="opacity-0">
-                  {"_".repeat(keyPath.length * 2)}
-                </span>
-                {key}
-                {isObject(nodeValue) && !expanded.includes(key) && (
-                  <span className="text-sm pl-2">▶</span>
-                )}
-                {isObject(nodeValue) && expanded.includes(key) && (
-                  <span className="text-sm pl-2">▼</span>
-                )}
-              </div>
-            </TableCell>
-            <TableCell>{supported}</TableCell>
-            {columns}
-          </TableRow>
-          {expanded.includes(key) && childRows}
-        </>
-      );
-    }
-
-    return {
-      rows,
-      baselineTotal,
-      targetTotals,
-    };
-  };
 
   const targets = {
     node22,
@@ -202,6 +47,111 @@ const App = () => {
     wranglerJspm,
     wranglerUnenv,
   };
+
+  const expand = (key: string) => {
+    if (expanded.includes(key)) {
+      setExpanded(expanded.filter((k) => k !== key));
+    } else {
+      setExpanded([...expanded, key]);
+    }
+  };
+
+  const renderSupportValue = (value: string) => {
+    switch (value) {
+      case "supported":
+        return supported;
+      case "mismatch":
+        return mismatch;
+      case "stub":
+        return stub;
+      case "unsupported":
+      case "default":
+        return unsupported;
+    }
+  };
+
+  const renderRow = (row: any[]) => {
+    const [path, leafCount, baselineSupport, ...targets] = row;
+
+    const pathParts = path.split(".");
+    const key = pathParts[pathParts.length - 1];
+    const parentPath = pathParts.slice(0, pathParts.length - 1).join(".");
+    const isExpanded = expanded.includes(parentPath);
+
+    if (pathParts.length > 1 && !isExpanded) {
+      return null;
+    }
+
+    const renderLeafCells = () => {
+      return (
+        <>
+          <TableCell>{supported}</TableCell>
+          {targets.map((target) => (
+            <TableCell>{renderSupportValue(target)}</TableCell>
+          ))}
+        </>
+      );
+    };
+
+    const renderAggregates = () => {
+      return (
+        <>
+          <TableCell>100%</TableCell>
+          {targets.map((target) => (
+            <TableCell>
+              <span title={`${target}/${baselineSupport}`}>
+                {pct(target, baselineSupport)}
+              </span>
+            </TableCell>
+          ))}
+        </>
+      );
+    };
+
+    return (
+      <TableRow onClick={() => expand(path)} key={path}>
+        <TableCell>
+          <div className="flex justify-start items-center">
+            <span className="opacity-0">
+              {"_".repeat(pathParts.length * 2)}
+            </span>
+            {key}
+            {leafCount > 0 && !expanded.includes(path) && (
+              <span className="text-sm pl-2">▶</span>
+            )}
+            {leafCount > 0 && expanded.includes(path) && (
+              <span className="text-sm pl-2">▼</span>
+            )}
+          </div>
+        </TableCell>
+        {leafCount === 0 ? renderLeafCells() : renderAggregates()}
+      </TableRow>
+    );
+  };
+
+  const renderTotalsRow = (totalsRow: any[]) => {
+    const [baselineCount, ...targetTotals] = totalsRow.slice(2) as number[];
+
+    return (
+      <TableRow>
+        <TableCell>
+          <span className="font-semibold flex justify-start ml-4">Totals</span>
+        </TableCell>
+        <TableCell>
+          <span className="font-semibold">100%</span>
+        </TableCell>
+        {targetTotals.map((targetTotal) => (
+          <TableCell>
+            <span className="font-semibold">
+              {pct(targetTotal as number, baselineCount)}
+            </span>
+          </TableCell>
+        ))}
+      </TableRow>
+    );
+  };
+
+  const [totalsRow, ...rows] = tableData;
 
   return (
     <div className="App">
@@ -238,7 +188,10 @@ const App = () => {
               ))}
             </tr>
           </thead>
-          <tbody>{renderEntries(nodeBaseline, targets, []).rows}</tbody>
+          <tbody>
+            {renderTotalsRow(totalsRow)}
+            {rows.map((row) => renderRow(row))}
+          </tbody>
         </table>
       </div>
     </div>
