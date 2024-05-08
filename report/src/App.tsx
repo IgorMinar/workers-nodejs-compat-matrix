@@ -177,7 +177,10 @@ const App = () => {
           <thead>
             <tr>
               <TableHeaderCell width="min-w-[50ch]">API</TableHeaderCell>
-              <TableHeaderCell width="w-[18ch]">baseline</TableHeaderCell>
+              <TableHeaderCell width="w-[18ch]">
+                <div>baseline</div>
+                <div className="text-xs font-light">Node 22+20+18</div>
+              </TableHeaderCell>
               {Object.keys(targets).map((target) => (
                 <TableHeaderCell width="w-[18ch]">
                   <div>{targetTitles[target as keyof typeof targetTitles]}</div>

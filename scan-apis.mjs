@@ -3,10 +3,6 @@ import deepmerge from "deepmerge";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import workerdPkg from "./workerd/package.json" with { type: "json" };
-import wranglerV3Pkg from "./wrangler-v3-polyfills/package.json" with { type: "json" };
-// import wranglerUnenvPkg from "./wrangler-unenv-polyfills/package.json" with { type: "json" };
-// import wranglerJspmPkg from "./wrangler-jspm-polyfills/package.json" with { type: "json" };
 
 shell.set("-e");
 
@@ -48,9 +44,8 @@ for (const version of nodeVersions) {
   shell.exec(volta + `run --node ${version} node node/dump.mjs`);
   shell.echo("=== Done ====================================\n\n");
   const versionOutput = shell
-    .exec(volta + `run --node ${version} node --version`)
-    .toString()
-    .replace("\n", "");
+    .exec(volta + `run --node ${version} node --version`, { silent: true })
+    .stdout.match(/v(?<version>\S+)/).groups.version;
   versionMap[`node${version}`] = versionOutput;
 }
 
@@ -90,43 +85,54 @@ for (const version of nodeVersions) {
 shell.echo("Generate bun apis...");
 shell.exec("bun run bun/dump.js");
 shell.echo("=== Done ====================================\n\n");
-versionMap["bun"] = shell.exec(`bun --version`).toString().replace("\n", "");
+versionMap["bun"] = shell
+  .exec(`bun --version`, { silent: true })
+  .stdout.match(/(?<version>\S+)/).groups.version;
 
 // deno
 shell.echo("Generate deno apis...");
 shell.exec("deno run --allow-write=report/src/data/deno.json deno/dump.js");
 shell.echo("=== Done ====================================\n\n");
 versionMap["deno"] = shell
-  .exec(`deno --version`)
-  .grep("deno")
-  .replace(/ \(.*\)\n/, "")
-  .toString();
+  .exec(`deno --version`, { silent: true })
+  .stdout.match(/deno (?<version>\S+)/).groups.version;
 
 // Workerd
 shell.echo("Generate workerd + --node_compat apis...");
 shell.exec("node workerd/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
-versionMap["workerd"] = workerdPkg.devDependencies.workerd;
+versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
 
 // Wrangler with polyfills
 shell.echo("Generate wrangler-v3 + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
-versionMap["wranglerV3"] = wranglerV3Pkg.devDependencies.wrangler;
+versionMap["wranglerV3"] = extractNpmVersion(
+  "wrangler-v3-polyfills",
+  "wrangler"
+);
 
 shell.echo("Generate wrangler-jspm + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-jspm-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
-// versionMap["wranglerJspm"] = wranglerJspmPkg.devDependencies.wrangler;
-versionMap["wranglerJspm"] = "jspm";
+versionMap["wranglerJspm"] =
+  "@jspm/core@" + extractNpmVersion("wrangler-jspm-polyfills", "@jspm/core");
 
 shell.echo("Generate wrangler-unenv + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
-// versionMap["wranglerUnenv"] = wranglerUnenvPkg.devDependencies.unenv;
-versionMap["wranglerUnenv"] = "unenv";
+versionMap["wranglerUnenv"] =
+  "unenv@" + extractNpmVersion("wrangler-unenv-polyfills", "unenv");
 
 await fs.writeFile(
   path.join(__dirname, "report", "src", "data", "versionMap.json"),
   JSON.stringify(versionMap, null, 2)
 );
+
+function extractNpmVersion(projectName, packageName) {
+  return shell
+    .exec(`pnpm --filter ./${projectName} list ${packageName} --depth=2`, {
+      silent: true,
+    })
+    .stdout.match(`${packageName} (?<version>\\S+)`).groups.version;
+}
