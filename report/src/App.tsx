@@ -2,16 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 
 import tableData from "./data/table-data.json";
-import node18 from "./data/node-18.json";
-import node20 from "./data/node-20.json";
-import node22 from "./data/node-22.json";
-import nodeBaseline from "./data/baseline.json";
-import bun from "./data/bun.json";
-import deno from "./data/deno.json";
-import workerd from "./data/workerd.json";
-import wranglerJspm from "./data/wrangler-jspm-polyfills.json";
-import wranglerUnenv from "./data/wrangler-unenv-polyfills.json";
-import wranglerV3 from "./data/wrangler-v3-polyfills.json";
 import versionMap from "./data/versionMap.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
@@ -35,18 +25,6 @@ const pct = (part: number, total: number) => {
 
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
-
-  const targets = {
-    node22,
-    node20,
-    node18,
-    bun,
-    deno,
-    workerd,
-    wranglerV3,
-    wranglerJspm,
-    wranglerUnenv,
-  };
 
   const expand = (key: string) => {
     if (expanded.includes(key)) {
@@ -152,6 +130,7 @@ const App = () => {
   };
 
   const [totalsRow, ...rows] = tableData;
+  const allKeys = rows.map((row) => row[0] as string);
 
   return (
     <div className="App">
@@ -167,7 +146,7 @@ const App = () => {
             </a>
             <button
               className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
-              onClick={() => setExpanded([...Object.keys(nodeBaseline)])}
+              onClick={() => setExpanded([...allKeys])}
             >
               Expand All
             </button>
@@ -188,11 +167,11 @@ const App = () => {
                 <div>baseline</div>
                 <div className="text-xs font-light">Node 22+20+18</div>
               </TableHeaderCell>
-              {Object.keys(targets).map((target) => (
+              {Object.entries(targetTitles).map(([targetKey, title]) => (
                 <TableHeaderCell width="w-[18ch]">
-                  <div>{targetTitles[target as keyof typeof targetTitles]}</div>
+                  <div>{title}</div>
                   <div className="text-xs font-light">
-                    {versionMap[target as keyof typeof versionMap]}
+                    {versionMap[targetKey as keyof typeof versionMap]}
                   </div>
                 </TableHeaderCell>
               ))}
