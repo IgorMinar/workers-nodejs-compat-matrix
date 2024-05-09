@@ -34,6 +34,7 @@ for (const builtinModule of builtinModules) {
 
 // don't capture user-specific info in the dump
 result.module._pathCache = "";
+result.module._cache = "";
 
 // extract node version
 const nodeMajorVersion = process.versions.node.split(".")[0];

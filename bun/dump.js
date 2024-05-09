@@ -36,6 +36,9 @@ if (result["process"].env) {
 if (result["process"].default?.env) {
   result["process"].default.env = {};
 }
+if (result["module"]._cache) {
+  result["module"]._cache = {};
+}
 
 await fs.writeFile(
   path.join(__dirname, "..", "report", "src", "data", "bun.json"),

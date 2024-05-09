@@ -4013,7 +4013,7 @@
   "module": {
     "Module": "function",
     "SourceMap": "class",
-    "_cache": "{}",
+    "_cache": "",
     "_debug": "function",
     "_extensions": {
       ".js": "function",
