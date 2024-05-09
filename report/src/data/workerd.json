@@ -50,30 +50,30 @@
     "structuredClone": "function"
   },
   "_stream_duplex": {
-    "Duplex": "function",
-    "default": "function"
+    "default": "function",
+    "Duplex": "function"
   },
   "_stream_passthrough": {
-    "PassThrough": "function",
-    "default": "function"
+    "default": "function",
+    "PassThrough": "function"
   },
   "_stream_readable": {
-    "Readable": "function",
-    "default": "function"
+    "default": "function",
+    "Readable": "function"
   },
   "_stream_transform": {
-    "Transform": "function",
-    "default": "function"
+    "default": "function",
+    "Transform": "function"
   },
   "_stream_writable": {
-    "Writable": "function",
-    "default": "function"
+    "default": "function",
+    "Writable": "function"
   },
   "assert": {
+    "default": "function",
     "AssertionError": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
-    "default": "function",
     "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
@@ -92,20 +92,14 @@
     "throws": "function"
   },
   "async_hooks": {
-    "AsyncLocalStorage": "function",
-    "AsyncResource": "function",
     "default": {
       "AsyncLocalStorage": "function",
       "AsyncResource": "function"
-    }
+    },
+    "AsyncLocalStorage": "function",
+    "AsyncResource": "function"
   },
   "buffer": {
-    "Buffer": "function",
-    "SlowBuffer": "function",
-    "constants": {
-      "MAX_LENGTH": "number",
-      "MAX_STRING_LENGTH": "number"
-    },
     "default": {
       "Buffer": "function",
       "SlowBuffer": "function",
@@ -116,27 +110,16 @@
       "kMaxLength": "number",
       "kStringMaxLength": "number"
     },
+    "Buffer": "function",
+    "SlowBuffer": "function",
+    "constants": {
+      "MAX_LENGTH": "number",
+      "MAX_STRING_LENGTH": "number"
+    },
     "kMaxLength": "number",
     "kStringMaxLength": "number"
   },
   "crypto": {
-    "DiffieHellman": "function",
-    "DiffieHellmanGroup": "function",
-    "Hash": "function",
-    "Hmac": "function",
-    "KeyObject": "function",
-    "PrivateKeyObject": "function",
-    "PublicKeyObject": "function",
-    "SecretKeyObject": "function",
-    "checkPrime": "function",
-    "checkPrimeSync": "function",
-    "createDiffieHellman": "function",
-    "createDiffieHellmanGroup": "function",
-    "createHash": "function",
-    "createHmac": "function",
-    "createPrivateKey": "function",
-    "createPublicKey": "function",
-    "createSecretKey": "function",
     "default": {
       "DiffieHellman": "function",
       "DiffieHellmanGroup": "function",
@@ -203,6 +186,23 @@
         "subtle": "object"
       }
     },
+    "DiffieHellman": "function",
+    "DiffieHellmanGroup": "function",
+    "Hash": "function",
+    "Hmac": "function",
+    "KeyObject": "function",
+    "PrivateKeyObject": "function",
+    "PublicKeyObject": "function",
+    "SecretKeyObject": "function",
+    "checkPrime": "function",
+    "checkPrimeSync": "function",
+    "createDiffieHellman": "function",
+    "createDiffieHellmanGroup": "function",
+    "createHash": "function",
+    "createHmac": "function",
+    "createPrivateKey": "function",
+    "createPublicKey": "function",
+    "createSecretKey": "function",
     "fips": "boolean",
     "generateKey": "function",
     "generateKeyPair": "function",
@@ -266,9 +266,6 @@
     }
   },
   "diagnostics_channel": {
-    "Channel": "function",
-    "TracingChannel": "function",
-    "channel": "function",
     "default": {
       "Channel": "function",
       "channel": "function",
@@ -277,16 +274,19 @@
       "tracingChannel": "function",
       "unsubscribe": "function"
     },
+    "Channel": "function",
+    "TracingChannel": "function",
+    "channel": "function",
     "hasSubscribers": "function",
     "subscribe": "function",
     "tracingChannel": "function",
     "unsubscribe": "function"
   },
   "events": {
+    "default": "function",
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "function",
     "captureRejectionSymbol": "symbol",
-    "default": "function",
     "defaultMaxListeners": "number",
     "errorMonitor": "symbol",
     "getEventListeners": "function",
@@ -296,7 +296,6 @@
     "setMaxListeners": "function"
   },
   "path": {
-    "basename": "function",
     "default": {
       "basename": "function",
       "delimiter": "string",
@@ -346,6 +345,7 @@
         "win32": "object"
       }
     },
+    "basename": "function",
     "delimiter": "string",
     "dirname": "function",
     "extname": "function",
@@ -466,6 +466,7 @@
     "nextTick": "function"
   },
   "stream": {
+    "default": "function",
     "Duplex": "function",
     "PassThrough": "function",
     "Readable": "function",
@@ -476,7 +477,6 @@
     "_uint8ArrayToBuffer": "function",
     "addAbortSignal": "function",
     "compose": "function",
-    "default": "function",
     "destroy": "function",
     "finished": "function",
     "isDisturbed": "function",
@@ -489,9 +489,6 @@
     }
   },
   "stream/consumers": {
-    "arrayBuffer": "function",
-    "blob": "function",
-    "buffer": "function",
     "default": {
       "arrayBuffer": "function",
       "blob": "function",
@@ -499,6 +496,9 @@
       "json": "function",
       "text": "function"
     },
+    "arrayBuffer": "function",
+    "blob": "function",
+    "buffer": "function",
     "json": "function",
     "text": "function"
   },
@@ -515,23 +515,6 @@
     }
   },
   "stream/web": {
-    "ByteLengthQueuingStrategy": "function",
-    "CompressionStream": "function",
-    "CountQueuingStrategy": "function",
-    "DecompressionStream": "function",
-    "ReadableByteStreamController": "function",
-    "ReadableStream": "function",
-    "ReadableStreamBYOBReader": "function",
-    "ReadableStreamBYOBRequest": "function",
-    "ReadableStreamDefaultController": "function",
-    "ReadableStreamDefaultReader": "function",
-    "TextDecoderStream": "function",
-    "TextEncoderStream": "function",
-    "TransformStream": "function",
-    "TransformStreamDefaultController": "undefined",
-    "WritableStream": "function",
-    "WritableStreamDefaultController": "function",
-    "WritableStreamDefaultWriter": "function",
     "default": {
       "ByteLengthQueuingStrategy": "function",
       "CompressionStream": "function",
@@ -550,24 +533,32 @@
       "WritableStream": "function",
       "WritableStreamDefaultController": "function",
       "WritableStreamDefaultWriter": "function"
-    }
+    },
+    "ByteLengthQueuingStrategy": "function",
+    "CompressionStream": "function",
+    "CountQueuingStrategy": "function",
+    "DecompressionStream": "function",
+    "ReadableByteStreamController": "function",
+    "ReadableStream": "function",
+    "ReadableStreamBYOBReader": "function",
+    "ReadableStreamBYOBRequest": "function",
+    "ReadableStreamDefaultController": "function",
+    "ReadableStreamDefaultReader": "function",
+    "TextDecoderStream": "function",
+    "TextEncoderStream": "function",
+    "TransformStream": "function",
+    "TransformStreamDefaultController": "undefined",
+    "WritableStream": "function",
+    "WritableStreamDefaultController": "function",
+    "WritableStreamDefaultWriter": "function"
   },
   "string_decoder": {
-    "StringDecoder": "function",
     "default": {
       "StringDecoder": "function"
-    }
+    },
+    "StringDecoder": "function"
   },
   "util": {
-    "MIMEParams": "function",
-    "MIMEType": "function",
-    "TextDecoder": "function",
-    "TextEncoder": "function",
-    "_extend": "function",
-    "aborted": "function",
-    "callbackify": "function",
-    "debug": "function",
-    "debuglog": "function",
     "default": {
       "MIMEParams": "function",
       "MIMEType": "function",
@@ -634,6 +625,15 @@
         "isWeakSet": "function"
       }
     },
+    "MIMEParams": "function",
+    "MIMEType": "function",
+    "TextDecoder": "function",
+    "TextEncoder": "function",
+    "_extend": "function",
+    "aborted": "function",
+    "callbackify": "function",
+    "debug": "function",
+    "debuglog": "function",
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",

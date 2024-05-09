@@ -5,7 +5,7 @@ export function visit(root, depth = 0) {
     entries.push([key, root[key]]);
   }
 
-  entries.sort(([a], [b]) => (a < b ? -1 : 1));
+  entries.sort(([a], [b]) => (a === "default" ? -1 : a < b ? -1 : 1));
 
   const visitResult = {};
   for (const [key, value] of entries) {
