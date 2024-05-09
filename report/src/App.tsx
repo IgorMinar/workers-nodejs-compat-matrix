@@ -182,7 +182,7 @@ const App = () => {
         </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
-            <tr>
+            <tr className="sticky top-0 bg-white">
               <TableHeaderCell width="min-w-[50ch]">API</TableHeaderCell>
               <TableHeaderCell width="w-[18ch]">
                 <div>baseline</div>
