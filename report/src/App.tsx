@@ -158,6 +158,13 @@ const App = () => {
       <div className="container mx-auto py-10">
         <div className="my-5 flex justify-between">
           <div className="flex gap-2">
+            <a
+              className="hover:bg-blue-500 bg-blue-700 text-white text-sm font-semibold px-3 py-2 rounded-md flex items-center"
+              href={`${process.env.PUBLIC_URL}/runtime-support.csv`}
+              download="workerd-nodejs-support.csv"
+            >
+              Download (.csv)
+            </a>
             <button
               className="hover:bg-slate-100 border border-blue-400 text-blue-700 text-sm font-semibold px-3 py-2 rounded-md"
               onClick={() => setExpanded([...Object.keys(nodeBaseline)])}

@@ -12,11 +12,12 @@ import workerd from "./report/src/data/workerd.json" with { type: "json" };
 import wranglerJspm from "./report/src/data/wrangler-jspm-polyfills.json" with { type: "json" };
 import wranglerUnenv from "./report/src/data/wrangler-unenv-polyfills.json" with { type: "json" };
 import wranglerV3 from "./report/src/data/wrangler-v3-polyfills.json" with { type: "json" };
+import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const targets = [
+const targets = {
   node22,
   node20,
   node18,
@@ -26,7 +27,7 @@ const targets = [
   wranglerV3,
   wranglerJspm,
   wranglerUnenv,
-];
+};
 
 /* == COLUMNS ==================================
   [ keyPath, leafCount, baselineSupport, target1, target2, ..., targetN ]
@@ -83,7 +84,7 @@ const visit = (node, path) => {
         // This should always match `count`, since everything is `true` for baseline
         count,
       ];
-      for (let i = 0; i < targets.length; i++) {
+      for (let i = 0; i < Object.keys(targets).length; i++) {
         // The column number is offset by 3 since we have 3 columns dedicated to
         // keypath, leafCount, and baseline support
         row.push(tallyColumnValues(children, i + 3));
@@ -95,7 +96,7 @@ const visit = (node, path) => {
       // render a leaf node
       const row = [rowKey, 0, "supported"];
 
-      for (const target of targets) {
+      for (const target of Object.values(targets)) {
         const targetValue = get(target, keyPath);
         if (targetValue === "stub") {
           row.push("stub");
@@ -120,7 +121,7 @@ const buildTable = () => {
   const [rows, leafCount] = visit(baseline, []);
 
   const totalsRow = ["Totals", leafCount, leafCount];
-  for (let i = 0; i < targets.length; i++) {
+  for (let i = 0; i < Object.keys(targets).length; i++) {
     totalsRow.push(tallyColumnValues(rows, i + 3));
   }
 
@@ -134,6 +135,56 @@ const tableData = buildTable();
 await fs.writeFile(
   path.join(__dirname, "report", "src", "data", "table-data.json"),
   JSON.stringify(tableData, null, 2)
+);
+
+// Write a .csv file for download
+const csvData = tableData
+  // filter out aggregate rows. Only display leaf nodes
+  .filter((row) => row[1] === 0)
+  // Store the module name separately from the remaining keyPath for better sorting
+  .map((row) => {
+    const keyPath = row[0].split(".");
+    const [module, ...remPath] = keyPath;
+    return [
+      module,
+      remPath.join("."),
+      // only add the columns containing target support
+      ...row.slice(2),
+    ];
+  });
+
+// Add version row
+csvData.unshift([
+  "",
+  "",
+  "",
+  ...Object.keys(targets).map((targetKey) => versionMap[targetKey]),
+]);
+
+// Add a header row
+csvData.unshift([
+  "Module",
+  "Path",
+  "baseline",
+  "node22",
+  "node20",
+  "node18",
+  "bun",
+  "deno",
+  "workerd",
+  "wranglerV3",
+  "wranglerJspm",
+  "wranglerUnenv",
+]);
+
+const csvString = csvData
+  // Make each row a comma separated string
+  .map((row) => row.join(","))
+  .join("\n");
+
+await fs.writeFile(
+  path.join(__dirname, "report", "public", "runtime-support.csv"),
+  csvString
 );
 
 console.log("=== Done ====================================\n");
