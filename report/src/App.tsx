@@ -7,16 +7,17 @@ import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 
+// This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
-  node18: "node",
-  node20: "node",
   node22: "node",
+  node20: "node",
+  node18: "node",
   bun: "bun",
   deno: "deno",
   workerd: "workerd",
+  wranglerV3: "wrangler",
   wranglerJspm: "wrangler",
   wranglerUnenv: "wrangler",
-  wranglerV3: "wrangler",
 };
 
 const pct = (part: number, total: number) => {

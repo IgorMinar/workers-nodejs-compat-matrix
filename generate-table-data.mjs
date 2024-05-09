@@ -17,6 +17,7 @@ import versionMap from "./report/src/data/versionMap.json" with { type: "json" }
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// This MUST match the ordering of `targetTitles` in `report/src/App.tsx`
 const targets = {
   node22,
   node20,
