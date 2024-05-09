@@ -42,7 +42,7 @@
     "default": "stub"
   },
   "assert": {
-    "AssertionError": "class",
+    "AssertionError": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
     "default": "function",
@@ -111,10 +111,10 @@
     "DiffieHellmanGroup": "function",
     "Hash": "function",
     "Hmac": "function",
-    "KeyObject": "class",
-    "PrivateKeyObject": "class",
-    "PublicKeyObject": "class",
-    "SecretKeyObject": "class",
+    "KeyObject": "function",
+    "PrivateKeyObject": "function",
+    "PublicKeyObject": "function",
+    "SecretKeyObject": "function",
     "checkPrime": "function",
     "checkPrimeSync": "function",
     "createDiffieHellman": "function",
@@ -129,10 +129,10 @@
       "DiffieHellmanGroup": "function",
       "Hash": "function",
       "Hmac": "function",
-      "KeyObject": "class",
-      "PrivateKeyObject": "class",
-      "PublicKeyObject": "class",
-      "SecretKeyObject": "class",
+      "KeyObject": "function",
+      "PrivateKeyObject": "function",
+      "PublicKeyObject": "function",
+      "SecretKeyObject": "function",
       "checkPrime": "function",
       "checkPrimeSync": "function",
       "createDiffieHellman": "function",
@@ -257,7 +257,7 @@
   },
   "diagnostics_channel": {
     "Channel": "function",
-    "TracingChannel": "class",
+    "TracingChannel": "function",
     "channel": "function",
     "default": {
       "Channel": "function",
@@ -283,7 +283,7 @@
   },
   "events": {
     "EventEmitter": "function",
-    "EventEmitterAsyncResource": "class",
+    "EventEmitterAsyncResource": "function",
     "captureRejectionSymbol": "symbol",
     "default": "function",
     "defaultMaxListeners": "number",
@@ -929,7 +929,7 @@
   "http": {
     "Agent": "stub",
     "ClientRequest": "stub",
-    "IncomingMessage": "class",
+    "IncomingMessage": "function",
     "METHODS": "object",
     "OutgoingMessage": "stub",
     "STATUS_CODES": {
@@ -998,12 +998,12 @@
       "511": "string"
     },
     "Server": "stub",
-    "ServerResponse": "class",
+    "ServerResponse": "function",
     "createServer": "stub",
     "default": {
       "Agent": "stub",
       "ClientRequest": "stub",
-      "IncomingMessage": "class",
+      "IncomingMessage": "function",
       "METHODS": "object",
       "OutgoingMessage": "stub",
       "STATUS_CODES": {
@@ -1072,7 +1072,7 @@
         "511": "string"
       },
       "Server": "stub",
-      "ServerResponse": "class",
+      "ServerResponse": "function",
       "createServer": "stub",
       "get": "stub",
       "globalAgent": "stub",
@@ -1106,18 +1106,18 @@
     "default": "stub"
   },
   "net": {
-    "BlockList": "class",
-    "Server": "class",
-    "Socket": "class",
-    "SocketAddress": "class",
+    "BlockList": "function",
+    "Server": "function",
+    "Socket": "function",
+    "SocketAddress": "function",
     "connect": "stub",
     "createConnection": "stub",
     "createServer": "stub",
     "default": {
-      "BlockList": "class",
-      "Server": "class",
-      "Socket": "class",
-      "SocketAddress": "class",
+      "BlockList": "function",
+      "Server": "function",
+      "Socket": "function",
+      "SocketAddress": "function",
       "connect": "stub",
       "createConnection": "stub",
       "createServer": "stub",
@@ -1130,10 +1130,10 @@
       "setDefaultAutoSelectFamilyAttemptTimeout": "stub"
     },
     "exports": {
-      "BlockList": "class",
-      "Server": "class",
-      "Socket": "class",
-      "SocketAddress": "class",
+      "BlockList": "function",
+      "Server": "function",
+      "Socket": "function",
+      "SocketAddress": "function",
       "connect": "stub",
       "createConnection": "stub",
       "createServer": "stub",

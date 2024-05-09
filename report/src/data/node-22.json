@@ -1,26 +1,26 @@
 {
   "*globals*": {
-    "AbortController": "class",
-    "Blob": "class",
+    "AbortController": "function",
+    "Blob": "function",
     "Buffer": "function",
-    "CustomEvent": "class",
-    "DOMException": "class",
-    "Event": "class",
-    "EventTarget": "class",
-    "File": "class",
+    "CustomEvent": "function",
+    "DOMException": "function",
+    "Event": "function",
+    "EventTarget": "function",
+    "File": "function",
     "MessageChannel": "function",
-    "MessageEvent": "class",
+    "MessageEvent": "function",
     "MessagePort": "function",
-    "PerformanceEntry": "class",
-    "PerformanceMark": "class",
-    "PerformanceMeasure": "class",
-    "PerformanceObserver": "class",
-    "PerformanceObserverEntryList": "class",
-    "PerformanceResourceTiming": "class",
-    "TextDecoder": "class",
-    "TextEncoder": "class",
-    "URL": "class",
-    "URLSearchParams": "class",
+    "PerformanceEntry": "function",
+    "PerformanceMark": "function",
+    "PerformanceMeasure": "function",
+    "PerformanceObserver": "function",
+    "PerformanceObserverEntryList": "function",
+    "PerformanceResourceTiming": "function",
+    "TextDecoder": "function",
+    "TextEncoder": "function",
+    "URL": "function",
+    "URLSearchParams": "function",
     "WebAssembly": {
       "compile": "function",
       "compileStreaming": "function",
@@ -859,7 +859,7 @@
     "default": "function"
   },
   "_stream_wrap": {
-    "default": "class"
+    "default": "function"
   },
   "_stream_writable": {
     "WritableState": "function",
@@ -890,7 +890,7 @@
     }
   },
   "assert": {
-    "AssertionError": "class",
+    "AssertionError": "function",
     "CallTracker": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
@@ -913,7 +913,7 @@
     "throws": "function"
   },
   "assert/strict": {
-    "AssertionError": "class",
+    "AssertionError": "function",
     "CallTracker": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
@@ -936,8 +936,8 @@
     "throws": "function"
   },
   "async_hooks": {
-    "AsyncLocalStorage": "class",
-    "AsyncResource": "class",
+    "AsyncLocalStorage": "function",
+    "AsyncResource": "function",
     "asyncWrapProviders": {
       "BLOBREADER": "number",
       "CHECKPRIMEREQUEST": "number",
@@ -1005,8 +1005,8 @@
     },
     "createHook": "function",
     "default": {
-      "AsyncLocalStorage": "class",
-      "AsyncResource": "class",
+      "AsyncLocalStorage": "function",
+      "AsyncResource": "function",
       "asyncWrapProviders": {
         "BLOBREADER": "number",
         "CHECKPRIMEREQUEST": "number",
@@ -1082,9 +1082,9 @@
     "triggerAsyncId": "function"
   },
   "buffer": {
-    "Blob": "class",
+    "Blob": "function",
     "Buffer": "function",
-    "File": "class",
+    "File": "function",
     "INSPECT_MAX_BYTES": "number",
     "SlowBuffer": "function",
     "atob": "function",
@@ -1094,9 +1094,9 @@
       "MAX_STRING_LENGTH": "number"
     },
     "default": {
-      "Blob": "class",
+      "Blob": "function",
       "Buffer": "function",
-      "File": "class",
+      "File": "function",
       "INSPECT_MAX_BYTES": "number",
       "SlowBuffer": "function",
       "atob": "function",
@@ -1727,10 +1727,10 @@
     "ECDH": "function",
     "Hash": "function",
     "Hmac": "function",
-    "KeyObject": "class",
+    "KeyObject": "function",
     "Sign": "function",
     "Verify": "function",
-    "X509Certificate": "class",
+    "X509Certificate": "function",
     "checkPrime": "function",
     "checkPrimeSync": "function",
     "constants": {
@@ -1814,10 +1814,10 @@
       "ECDH": "function",
       "Hash": "function",
       "Hmac": "function",
-      "KeyObject": "class",
+      "KeyObject": "function",
       "Sign": "function",
       "Verify": "function",
-      "X509Certificate": "class",
+      "X509Certificate": "function",
       "checkPrime": "function",
       "checkPrimeSync": "function",
       "constants": {
@@ -2026,10 +2026,10 @@
     }
   },
   "diagnostics_channel": {
-    "Channel": "class",
+    "Channel": "function",
     "channel": "function",
     "default": {
-      "Channel": "class",
+      "Channel": "function",
       "channel": "function",
       "hasSubscribers": "function",
       "subscribe": "function",
@@ -2066,7 +2066,7 @@
     "NOTIMP": "string",
     "NOTINITIALIZED": "string",
     "REFUSED": "string",
-    "Resolver": "class",
+    "Resolver": "function",
     "SERVFAIL": "string",
     "TIMEOUT": "string",
     "V4MAPPED": "number",
@@ -2095,7 +2095,7 @@
       "NOTIMP": "string",
       "NOTINITIALIZED": "string",
       "REFUSED": "string",
-      "Resolver": "class",
+      "Resolver": "function",
       "SERVFAIL": "string",
       "TIMEOUT": "string",
       "V4MAPPED": "number",
@@ -2126,7 +2126,7 @@
         "NOTIMP": "string",
         "NOTINITIALIZED": "string",
         "REFUSED": "string",
-        "Resolver": "class",
+        "Resolver": "function",
         "SERVFAIL": "string",
         "TIMEOUT": "string",
         "getDefaultResultOrder": "function",
@@ -2194,7 +2194,7 @@
       "NOTIMP": "string",
       "NOTINITIALIZED": "string",
       "REFUSED": "string",
-      "Resolver": "class",
+      "Resolver": "function",
       "SERVFAIL": "string",
       "TIMEOUT": "string",
       "getDefaultResultOrder": "function",
@@ -2258,7 +2258,7 @@
     "NOTIMP": "string",
     "NOTINITIALIZED": "string",
     "REFUSED": "string",
-    "Resolver": "class",
+    "Resolver": "function",
     "SERVFAIL": "string",
     "TIMEOUT": "string",
     "default": {
@@ -2284,7 +2284,7 @@
       "NOTIMP": "string",
       "NOTINITIALIZED": "string",
       "REFUSED": "string",
-      "Resolver": "class",
+      "Resolver": "function",
       "SERVFAIL": "string",
       "TIMEOUT": "string",
       "getDefaultResultOrder": "function",
@@ -2330,13 +2330,13 @@
     "setServers": "function"
   },
   "domain": {
-    "Domain": "class",
+    "Domain": "function",
     "_stack": "object",
     "active": "null",
     "create": "function",
     "createDomain": "function",
     "default": {
-      "Domain": "class",
+      "Domain": "function",
       "_stack": "object",
       "active": "null",
       "create": "function",
@@ -2345,7 +2345,7 @@
   },
   "events": {
     "EventEmitter": "function",
-    "EventEmitterAsyncResource": "class",
+    "EventEmitterAsyncResource": "function",
     "addAbortListener": "function",
     "captureRejectionSymbol": "symbol",
     "captureRejections": "boolean",
@@ -2362,8 +2362,8 @@
     "usingDomains": "boolean"
   },
   "fs": {
-    "Dir": "class",
-    "Dirent": "class",
+    "Dir": "function",
+    "Dirent": "function",
     "F_OK": "number",
     "FileReadStream": "function",
     "FileWriteStream": "function",
@@ -2450,8 +2450,8 @@
     "createReadStream": "function",
     "createWriteStream": "function",
     "default": {
-      "Dir": "class",
-      "Dirent": "class",
+      "Dir": "function",
+      "Dirent": "function",
       "F_OK": "number",
       "FileReadStream": "function",
       "FileWriteStream": "function",
@@ -3257,8 +3257,8 @@
     "validateHeaderValue": "function"
   },
   "http2": {
-    "Http2ServerRequest": "class",
-    "Http2ServerResponse": "class",
+    "Http2ServerRequest": "function",
+    "Http2ServerResponse": "function",
     "connect": "function",
     "constants": {
       "DEFAULT_SETTINGS_ENABLE_CONNECT_PROTOCOL": "number",
@@ -3505,8 +3505,8 @@
     "createSecureServer": "function",
     "createServer": "function",
     "default": {
-      "Http2ServerRequest": "class",
-      "Http2ServerResponse": "class",
+      "Http2ServerRequest": "function",
+      "Http2ServerResponse": "function",
       "connect": "function",
       "constants": {
         "DEFAULT_SETTINGS_ENABLE_CONNECT_PROTOCOL": "number",
@@ -3883,7 +3883,7 @@
     "request": "function"
   },
   "inspector": {
-    "Session": "class",
+    "Session": "function",
     "close": "function",
     "console": {
       "assert": "function",
@@ -3911,7 +3911,7 @@
       "warn": "function"
     },
     "default": {
-      "Session": "class",
+      "Session": "function",
       "close": "function",
       "console": {
         "assert": "function",
@@ -3947,7 +3947,7 @@
     "waitForDebugger": "function"
   },
   "inspector/promises": {
-    "Session": "class",
+    "Session": "function",
     "close": "function",
     "console": {
       "assert": "function",
@@ -3975,7 +3975,7 @@
       "warn": "function"
     },
     "default": {
-      "Session": "class",
+      "Session": "function",
       "close": "function",
       "console": {
         "assert": "function",
@@ -4012,7 +4012,7 @@
   },
   "module": {
     "Module": "function",
-    "SourceMap": "class",
+    "SourceMap": "function",
     "_cache": "",
     "_debug": "function",
     "_extensions": {
@@ -4039,10 +4039,10 @@
     "syncBuiltinESMExports": "function"
   },
   "net": {
-    "BlockList": "class",
+    "BlockList": "function",
     "Server": "function",
     "Socket": "function",
-    "SocketAddress": "class",
+    "SocketAddress": "function",
     "Stream": "function",
     "_createServerHandle": "function",
     "_normalizeArgs": "function",
@@ -4051,10 +4051,10 @@
     "createConnection": "function",
     "createServer": "function",
     "default": {
-      "BlockList": "class",
+      "BlockList": "function",
       "Server": "function",
       "Socket": "function",
-      "SocketAddress": "class",
+      "SocketAddress": "function",
       "Stream": "function",
       "_createServerHandle": "function",
       "_normalizeArgs": "function",
@@ -4781,13 +4781,13 @@
     }
   },
   "perf_hooks": {
-    "Performance": "class",
-    "PerformanceEntry": "class",
-    "PerformanceMark": "class",
-    "PerformanceMeasure": "class",
-    "PerformanceObserver": "class",
-    "PerformanceObserverEntryList": "class",
-    "PerformanceResourceTiming": "class",
+    "Performance": "function",
+    "PerformanceEntry": "function",
+    "PerformanceMark": "function",
+    "PerformanceMeasure": "function",
+    "PerformanceObserver": "function",
+    "PerformanceObserverEntryList": "function",
+    "PerformanceResourceTiming": "function",
     "constants": {
       "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "number",
       "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "number",
@@ -4803,13 +4803,13 @@
     },
     "createHistogram": "function",
     "default": {
-      "Performance": "class",
-      "PerformanceEntry": "class",
-      "PerformanceMark": "class",
-      "PerformanceMeasure": "class",
-      "PerformanceObserver": "class",
-      "PerformanceObserverEntryList": "class",
-      "PerformanceResourceTiming": "class",
+      "Performance": "function",
+      "PerformanceEntry": "function",
+      "PerformanceMark": "function",
+      "PerformanceMeasure": "function",
+      "PerformanceObserver": "function",
+      "PerformanceObserverEntryList": "function",
+      "PerformanceResourceTiming": "function",
       "constants": {
         "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "number",
         "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "number",
@@ -5866,26 +5866,26 @@
       "emitKeypressEvents": "function",
       "moveCursor": "function",
       "promises": {
-        "Interface": "class",
-        "Readline": "class",
+        "Interface": "function",
+        "Readline": "function",
         "createInterface": "function"
       }
     },
     "emitKeypressEvents": "function",
     "moveCursor": "function",
     "promises": {
-      "Interface": "class",
-      "Readline": "class",
+      "Interface": "function",
+      "Readline": "function",
       "createInterface": "function"
     }
   },
   "readline/promises": {
-    "Interface": "class",
-    "Readline": "class",
+    "Interface": "function",
+    "Readline": "function",
     "createInterface": "function",
     "default": {
-      "Interface": "class",
-      "Readline": "class",
+      "Interface": "function",
+      "Readline": "function",
       "createInterface": "function"
     }
   },
@@ -5958,41 +5958,41 @@
     "pipeline": "function"
   },
   "stream/web": {
-    "ByteLengthQueuingStrategy": "class",
-    "CompressionStream": "class",
-    "CountQueuingStrategy": "class",
-    "DecompressionStream": "class",
-    "ReadableByteStreamController": "class",
-    "ReadableStream": "class",
-    "ReadableStreamBYOBReader": "class",
-    "ReadableStreamBYOBRequest": "class",
-    "ReadableStreamDefaultController": "class",
-    "ReadableStreamDefaultReader": "class",
-    "TextDecoderStream": "class",
-    "TextEncoderStream": "class",
-    "TransformStream": "class",
-    "TransformStreamDefaultController": "class",
-    "WritableStream": "class",
-    "WritableStreamDefaultController": "class",
-    "WritableStreamDefaultWriter": "class",
+    "ByteLengthQueuingStrategy": "function",
+    "CompressionStream": "function",
+    "CountQueuingStrategy": "function",
+    "DecompressionStream": "function",
+    "ReadableByteStreamController": "function",
+    "ReadableStream": "function",
+    "ReadableStreamBYOBReader": "function",
+    "ReadableStreamBYOBRequest": "function",
+    "ReadableStreamDefaultController": "function",
+    "ReadableStreamDefaultReader": "function",
+    "TextDecoderStream": "function",
+    "TextEncoderStream": "function",
+    "TransformStream": "function",
+    "TransformStreamDefaultController": "function",
+    "WritableStream": "function",
+    "WritableStreamDefaultController": "function",
+    "WritableStreamDefaultWriter": "function",
     "default": {
-      "ByteLengthQueuingStrategy": "class",
-      "CompressionStream": "class",
-      "CountQueuingStrategy": "class",
-      "DecompressionStream": "class",
-      "ReadableByteStreamController": "class",
-      "ReadableStream": "class",
-      "ReadableStreamBYOBReader": "class",
-      "ReadableStreamBYOBRequest": "class",
-      "ReadableStreamDefaultController": "class",
-      "ReadableStreamDefaultReader": "class",
-      "TextDecoderStream": "class",
-      "TextEncoderStream": "class",
-      "TransformStream": "class",
-      "TransformStreamDefaultController": "class",
-      "WritableStream": "class",
-      "WritableStreamDefaultController": "class",
-      "WritableStreamDefaultWriter": "class"
+      "ByteLengthQueuingStrategy": "function",
+      "CompressionStream": "function",
+      "CountQueuingStrategy": "function",
+      "DecompressionStream": "function",
+      "ReadableByteStreamController": "function",
+      "ReadableStream": "function",
+      "ReadableStreamBYOBReader": "function",
+      "ReadableStreamBYOBRequest": "function",
+      "ReadableStreamDefaultController": "function",
+      "ReadableStreamDefaultReader": "function",
+      "TextDecoderStream": "function",
+      "TextEncoderStream": "function",
+      "TransformStream": "function",
+      "TransformStreamDefaultController": "function",
+      "WritableStream": "function",
+      "WritableStreamDefaultController": "function",
+      "WritableStreamDefaultWriter": "function"
     }
   },
   "string_decoder": {
@@ -6002,10 +6002,10 @@
     }
   },
   "sys": {
-    "MIMEParams": "class",
-    "MIMEType": "class",
-    "TextDecoder": "class",
-    "TextEncoder": "class",
+    "MIMEParams": "function",
+    "MIMEType": "function",
+    "TextDecoder": "function",
+    "TextEncoder": "function",
     "_errnoException": "function",
     "_exceptionWithHostPort": "function",
     "_extend": "function",
@@ -6014,10 +6014,10 @@
     "debug": "function",
     "debuglog": "function",
     "default": {
-      "MIMEParams": "class",
-      "MIMEType": "class",
-      "TextDecoder": "class",
-      "TextEncoder": "class",
+      "MIMEParams": "function",
+      "MIMEType": "function",
+      "TextDecoder": "function",
+      "TextEncoder": "function",
       "_errnoException": "function",
       "_exceptionWithHostPort": "function",
       "_extend": "function",
@@ -6284,12 +6284,12 @@
     "isatty": "function"
   },
   "url": {
-    "URL": "class",
-    "URLSearchParams": "class",
+    "URL": "function",
+    "URLSearchParams": "function",
     "Url": "function",
     "default": {
-      "URL": "class",
-      "URLSearchParams": "class",
+      "URL": "function",
+      "URLSearchParams": "function",
       "Url": "function",
       "domainToASCII": "function",
       "domainToUnicode": "function",
@@ -6312,10 +6312,10 @@
     "urlToHttpOptions": "function"
   },
   "util": {
-    "MIMEParams": "class",
-    "MIMEType": "class",
-    "TextDecoder": "class",
-    "TextEncoder": "class",
+    "MIMEParams": "function",
+    "MIMEType": "function",
+    "TextDecoder": "function",
+    "TextEncoder": "function",
     "_errnoException": "function",
     "_exceptionWithHostPort": "function",
     "_extend": "function",
@@ -6324,10 +6324,10 @@
     "debug": "function",
     "debuglog": "function",
     "default": {
-      "MIMEParams": "class",
-      "MIMEType": "class",
-      "TextDecoder": "class",
-      "TextEncoder": "class",
+      "MIMEParams": "function",
+      "MIMEType": "function",
+      "TextDecoder": "function",
+      "TextEncoder": "function",
       "_errnoException": "function",
       "_exceptionWithHostPort": "function",
       "_extend": "function",
@@ -6578,17 +6578,17 @@
     "isWeakSet": "function"
   },
   "v8": {
-    "DefaultDeserializer": "class",
-    "DefaultSerializer": "class",
+    "DefaultDeserializer": "function",
+    "DefaultSerializer": "function",
     "Deserializer": "function",
-    "GCProfiler": "class",
+    "GCProfiler": "function",
     "Serializer": "function",
     "cachedDataVersionTag": "function",
     "default": {
-      "DefaultDeserializer": "class",
-      "DefaultSerializer": "class",
+      "DefaultDeserializer": "function",
+      "DefaultSerializer": "function",
       "Deserializer": "function",
-      "GCProfiler": "class",
+      "GCProfiler": "function",
       "Serializer": "function",
       "cachedDataVersionTag": "function",
       "deserialize": "function",
@@ -6644,7 +6644,7 @@
     "writeHeapSnapshot": "function"
   },
   "vm": {
-    "Script": "class",
+    "Script": "function",
     "compileFunction": "function",
     "constants": {
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
@@ -6652,7 +6652,7 @@
     "createContext": "function",
     "createScript": "function",
     "default": {
-      "Script": "class",
+      "Script": "function",
       "compileFunction": "function",
       "constants": {
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
@@ -6672,23 +6672,23 @@
     "runInThisContext": "function"
   },
   "wasi": {
-    "WASI": "class",
+    "WASI": "function",
     "default": {
-      "WASI": "class"
+      "WASI": "function"
     }
   },
   "worker_threads": {
-    "BroadcastChannel": "class",
+    "BroadcastChannel": "function",
     "MessageChannel": "function",
     "MessagePort": "function",
     "SHARE_ENV": "symbol",
-    "Worker": "class",
+    "Worker": "function",
     "default": {
-      "BroadcastChannel": "class",
+      "BroadcastChannel": "function",
       "MessageChannel": "function",
       "MessagePort": "function",
       "SHARE_ENV": "symbol",
-      "Worker": "class",
+      "Worker": "function",
       "getEnvironmentData": "function",
       "isMainThread": "boolean",
       "isMarkedAsUntransferable": "function",
