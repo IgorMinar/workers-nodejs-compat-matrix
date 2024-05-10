@@ -7,6 +7,7 @@ import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 import { getDocsLink, getPolyfillSearchLink, pct } from "./utils";
+import { z } from "zod";
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
@@ -21,6 +22,16 @@ const targetTitles = {
   wranglerUnenv: "wrangler",
 };
 
+const rowSchema = z.tuple([
+  z.string(), // key
+  z.number(), // leaf count
+  z.number().or(z.string()), // basline
+  // targets
+  ...Object.keys(targetTitles).map(() => z.number().or(z.string())),
+]);
+
+type RowData = z.infer<typeof rowSchema>;
+
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
 
@@ -32,7 +43,7 @@ const App = () => {
     }
   };
 
-  const renderRow = (row: any[]) => {
+  const renderRow = (row: RowData) => {
     const [path, leafCount, baselineSupport, ...targets] = row;
 
     const pathParts = path.split(".");
@@ -88,7 +99,7 @@ const App = () => {
         <>
           <TableCell>{supported}</TableCell>
           {targets.map((targetValue, targetIndex) =>
-            renderLeafCell(targetValue, targetIndex)
+            renderLeafCell(targetValue as string, targetIndex)
           )}
         </>
       );
@@ -101,7 +112,7 @@ const App = () => {
           {targets.map((target) => (
             <TableCell>
               <span title={`${target}/${baselineSupport}`}>
-                {pct(target, baselineSupport)}
+                {pct(target as number, baselineSupport as number)}
               </span>
             </TableCell>
           ))}
@@ -111,7 +122,7 @@ const App = () => {
 
     const renderDocsLink = () => {
       // Certain builtins like _http_agent don't have docs pages
-      if ((key as string).startsWith("_")) {
+      if (key.startsWith("_")) {
         return null;
       }
 
@@ -161,7 +172,7 @@ const App = () => {
   };
 
   const renderTotalsRow = (totalsRow: any[]) => {
-    const [baselineCount, ...targetTotals] = totalsRow.slice(2) as number[];
+    const [baselineCount, ...targetTotals] = totalsRow.slice(2);
 
     return (
       <TableRow>
@@ -182,7 +193,7 @@ const App = () => {
     );
   };
 
-  const [totalsRow, ...rows] = tableData;
+  const [totalsRow, ...rows] = tableData as RowData[];
   const allKeys = rows.map((row) => row[0] as string);
 
   return (
