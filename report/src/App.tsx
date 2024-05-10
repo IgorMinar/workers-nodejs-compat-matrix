@@ -6,6 +6,7 @@ import versionMap from "./data/versionMap.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
+import { getDocsLink, getPolyfillSearchLink, pct } from "./utils";
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
@@ -20,10 +21,6 @@ const targetTitles = {
   wranglerUnenv: "wrangler",
 };
 
-const pct = (part: number, total: number) => {
-  return `${((part / total) * 100).toFixed(0)}%`;
-};
-
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
 
@@ -35,39 +32,64 @@ const App = () => {
     }
   };
 
-  const renderSupportValue = (value: string) => {
-    switch (value) {
-      case "supported":
-        return supported;
-      case "mismatch":
-        return mismatch;
-      case "stub":
-        return stub;
-      case "unsupported":
-      case "default":
-        return unsupported;
-    }
-  };
-
   const renderRow = (row: any[]) => {
     const [path, leafCount, baselineSupport, ...targets] = row;
 
     const pathParts = path.split(".");
     const key = pathParts[pathParts.length - 1];
     const parentPath = pathParts.slice(0, pathParts.length - 1).join(".");
+
     const isExpanded = expanded.includes(parentPath);
+    const isTopLevel = pathParts.length === 1;
 
     if (pathParts.length > 1 && !isExpanded) {
       return null;
     }
 
+    const renderSupportValue = (value: string) => {
+      switch (value) {
+        case "supported":
+          return supported;
+        case "mismatch":
+          return mismatch;
+        case "stub":
+          return stub;
+        case "unsupported":
+        case "default":
+          return unsupported;
+      }
+    };
+
+    const renderLeafCell = (value: string, targetIndex: number) => {
+      const targetName = Object.keys(targetTitles)[targetIndex];
+      const githubSearchLink = getPolyfillSearchLink(targetName, key);
+
+      return (
+        <TableCell>
+          <div className="flex items-center gap-2 justify-center">
+            {renderSupportValue(value)}
+            {value !== "unsupported" && githubSearchLink && (
+              <a
+                className="text-xs text-blue-900 hover:text-blue-500"
+                href={githubSearchLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                (src)
+              </a>
+            )}
+          </div>
+        </TableCell>
+      );
+    };
+
     const renderLeafCells = () => {
       return (
         <>
           <TableCell>{supported}</TableCell>
-          {targets.map((target) => (
-            <TableCell>{renderSupportValue(target)}</TableCell>
-          ))}
+          {targets.map((targetValue, targetIndex) =>
+            renderLeafCell(targetValue, targetIndex)
+          )}
         </>
       );
     };
@@ -87,19 +109,49 @@ const App = () => {
       );
     };
 
+    const renderDocsLink = () => {
+      // Certain builtins like _http_agent don't have docs pages
+      if ((key as string).startsWith("_")) {
+        return null;
+      }
+
+      if (!isTopLevel) return null;
+
+      return (
+        <a
+          className="text-xs text-blue-900 hover:text-blue-500"
+          href={getDocsLink(key)}
+          target="_blank"
+          rel="noreferrer"
+        >
+          (docs)
+        </a>
+      );
+    };
+
     return (
-      <TableRow onClick={() => expand(path)} key={path}>
+      <TableRow
+        onClick={(e) => {
+          // Don't expand/unexpand on link navigations
+          if ((e.target as HTMLAnchorElement).nodeName === "A") {
+            return;
+          }
+          expand(path);
+        }}
+        key={path}
+      >
         <TableCell>
-          <div className="flex justify-start items-center">
+          <div className="flex justify-start items-center gap-2">
             <span className="opacity-0">
               {"_".repeat(pathParts.length * 2)}
             </span>
             {key}
+            {renderDocsLink()}
             {leafCount > 0 && !expanded.includes(path) && (
-              <span className="text-sm pl-2">▶</span>
+              <span className="text-sm">▶</span>
             )}
             {leafCount > 0 && expanded.includes(path) && (
-              <span className="text-sm pl-2">▼</span>
+              <span className="text-sm">▼</span>
             )}
           </div>
         </TableCell>
