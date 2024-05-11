@@ -12,12 +12,17 @@ export function visit(root, depth = 0) {
     const isObject =
       typeof value === "object" && value !== null && !Array.isArray(value);
 
-    if (isObject) {
+    if (isObject || key === "default") {
       // don't worry drilling into exported objects beyond listing its top properties
       if (depth === 2) {
         visitResult[key] = "object";
       } else {
         const partialResult = visit(value, depth + 1);
+
+        // if the default export is not an object, insert a special key to partialResults to indicate its type
+        if (key === "default" && !isObject) {
+          partialResult["*default*"] = value === null ? "null" : typeof value;
+        }
         // if the partial result is an empty object serialize it as a "{}" string
         visitResult[key] =
           Object.keys(partialResult).length > 0 ? partialResult : "{}";

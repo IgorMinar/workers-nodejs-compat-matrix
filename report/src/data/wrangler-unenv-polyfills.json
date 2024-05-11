@@ -1,48 +1,97 @@
 {
   "_http_agent": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_http_client": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_http_common": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_http_incoming": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_http_outgoing": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_http_server": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_duplex": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_passthrough": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_readable": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_transform": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_wrap": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_stream_writable": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_tls_common": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "_tls_wrap": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "assert": {
-    "default": "function",
+    "default": {
+      "AssertionError": "function",
+      "deepEqual": "function",
+      "deepStrictEqual": "function",
+      "doesNotMatch": "function",
+      "doesNotReject": "function",
+      "doesNotThrow": "function",
+      "equal": "function",
+      "fail": "function",
+      "ifError": "function",
+      "match": "function",
+      "notDeepEqual": "function",
+      "notDeepStrictEqual": "function",
+      "notEqual": "function",
+      "notStrictEqual": "function",
+      "ok": "function",
+      "rejects": "function",
+      "strict": "function",
+      "strictEqual": "function",
+      "throws": "function",
+      "*default*": "function"
+    },
     "AssertionError": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
@@ -64,7 +113,9 @@
     "throws": "function"
   },
   "assert/strict": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "async_hooks": {
     "default": {
@@ -95,16 +146,24 @@
     "kStringMaxLength": "number"
   },
   "child_process": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "cluster": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "console": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "constants": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "crypto": {
     "default": {
@@ -253,7 +312,9 @@
     }
   },
   "dgram": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "diagnostics_channel": {
     "default": {
@@ -273,16 +334,37 @@
     "unsubscribe": "function"
   },
   "dns": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "dns/promises": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "domain": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "events": {
-    "default": "function",
+    "default": {
+      "EventEmitter": "function",
+      "EventEmitterAsyncResource": "function",
+      "captureRejectionSymbol": "symbol",
+      "captureRejections": "boolean",
+      "defaultMaxListeners": "number",
+      "errorMonitor": "symbol",
+      "getEventListeners": "function",
+      "init": "function",
+      "listenerCount": "function",
+      "on": "function",
+      "once": "function",
+      "setMaxListeners": "function",
+      "usingDomains": "boolean",
+      "*default*": "function"
+    },
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "function",
     "captureRejectionSymbol": "symbol",
@@ -1091,19 +1173,29 @@
     "validateHeaderValue": "stub"
   },
   "http2": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "https": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "inspector": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "inspector/promises": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "module": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "net": {
     "default": {
@@ -1154,7 +1246,9 @@
     "setDefaultAutoSelectFamilyAttemptTimeout": "stub"
   },
   "os": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "path": {
     "default": {
@@ -1319,13 +1413,19 @@
     }
   },
   "path/posix": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "path/win32": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "perf_hooks": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "process": {
     "default": {
@@ -1336,22 +1436,66 @@
     "nextTick": "function"
   },
   "punycode": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "querystring": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "readline": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "readline/promises": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "repl": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "stream": {
-    "default": "function",
+    "default": {
+      "Duplex": "function",
+      "EventEmitter": "function",
+      "EventEmitterAsyncResource": "function",
+      "PassThrough": "function",
+      "Readable": "function",
+      "Stream": "function",
+      "Transform": "function",
+      "Writable": "function",
+      "_isUint8Array": "function",
+      "_uint8ArrayToBuffer": "function",
+      "addAbortSignal": "function",
+      "captureRejectionSymbol": "symbol",
+      "captureRejections": "boolean",
+      "compose": "function",
+      "defaultMaxListeners": "number",
+      "destroy": "function",
+      "errorMonitor": "symbol",
+      "finished": "function",
+      "getEventListeners": "function",
+      "init": "function",
+      "isErrored": "function",
+      "isReadable": "function",
+      "listenerCount": "function",
+      "on": "function",
+      "once": "function",
+      "pipeline": "function",
+      "promises": {
+        "finished": "function",
+        "pipeline": "function"
+      },
+      "setMaxListeners": "function",
+      "usingDomains": "boolean",
+      "*default*": "function"
+    },
     "Duplex": "function",
     "PassThrough": "function",
     "Readable": "function",
@@ -1436,22 +1580,34 @@
     "StringDecoder": "function"
   },
   "sys": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "timers": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "timers/promises": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "tls": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "trace_events": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "tty": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "url": {
     "default": {
@@ -1676,19 +1832,29 @@
     "isWeakSet": "function"
   },
   "v8": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "vm": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "wasi": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "worker_threads": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "zlib": {
-    "default": "stub"
+    "default": {
+      "*default*": "function"
+    }
   },
   "*globals*": {
     "AbortController": "function",

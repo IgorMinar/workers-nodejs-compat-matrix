@@ -57,7 +57,28 @@
     "structuredClone": "function"
   },
   "assert": {
-    "default": "function",
+    "default": {
+      "AssertionError": "function",
+      "deepEqual": "function",
+      "deepStrictEqual": "function",
+      "doesNotMatch": "function",
+      "doesNotReject": "function",
+      "doesNotThrow": "function",
+      "equal": "function",
+      "fail": "function",
+      "ifError": "function",
+      "match": "function",
+      "notDeepEqual": "function",
+      "notDeepStrictEqual": "function",
+      "notEqual": "function",
+      "notStrictEqual": "function",
+      "ok": "function",
+      "rejects": "function",
+      "strict": "function",
+      "strictEqual": "function",
+      "throws": "function",
+      "*default*": "function"
+    },
     "AssertionError": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
@@ -79,7 +100,28 @@
     "throws": "function"
   },
   "assert/strict": {
-    "default": "function",
+    "default": {
+      "AssertionError": "function",
+      "deepEqual": "function",
+      "deepStrictEqual": "function",
+      "doesNotMatch": "function",
+      "doesNotReject": "function",
+      "doesNotThrow": "function",
+      "equal": "function",
+      "fail": "function",
+      "ifError": "function",
+      "match": "function",
+      "notDeepEqual": "function",
+      "notDeepStrictEqual": "function",
+      "notEqual": "function",
+      "notStrictEqual": "function",
+      "ok": "function",
+      "rejects": "function",
+      "strict": "function",
+      "strictEqual": "function",
+      "throws": "function",
+      "*default*": "function"
+    },
     "AssertionError": "function",
     "deepEqual": "function",
     "deepStrictEqual": "function",
@@ -1188,7 +1230,22 @@
     "create": "function"
   },
   "events": {
-    "default": "function",
+    "default": {
+      "EventEmitter": "function",
+      "EventEmitterAsyncResource": "function",
+      "captureRejectionSymbol": "symbol",
+      "captureRejections": "boolean",
+      "defaultMaxListeners": "number",
+      "errorMonitor": "symbol",
+      "getEventListeners": "function",
+      "init": "function",
+      "listenerCount": "function",
+      "on": "function",
+      "once": "function",
+      "setMaxListeners": "function",
+      "usingDomains": "boolean",
+      "*default*": "function"
+    },
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "function",
     "captureRejectionSymbol": "symbol",
@@ -2701,7 +2758,32 @@
     "request": "function"
   },
   "module": {
-    "default": "function",
+    "default": {
+      "Module": "function",
+      "_cache": "{}",
+      "_extensions": {
+        ".js": "function",
+        ".json": "function",
+        ".node": "function"
+      },
+      "_findPath": "function",
+      "_initPaths": "function",
+      "_load": "function",
+      "_nodeModulePaths": "function",
+      "_pathCache": "{}",
+      "_preloadModules": "function",
+      "_resolveFilename": "function",
+      "_resolveLookupPaths": "function",
+      "builtinModules": "object",
+      "createRequire": "function",
+      "globalPaths": "object",
+      "isBuiltin": "function",
+      "runMain": "function",
+      "syncBuiltinESMExports": "function",
+      "wrap": "function",
+      "wrapper": "object",
+      "*default*": "function"
+    },
     "Module": "function",
     "_cache": "{}",
     "_extensions": {
@@ -3351,7 +3433,34 @@
     "start": "stub"
   },
   "stream": {
-    "default": "function",
+    "default": {
+      "Duplex": "function",
+      "EventEmitter": "function",
+      "PassThrough": "function",
+      "Readable": "function",
+      "Stream": "function",
+      "Transform": "function",
+      "Writable": "function",
+      "_isUint8Array": "function",
+      "_uint8ArrayToBuffer": "function",
+      "addAbortSignal": "function",
+      "compose": "function",
+      "defaultMaxListeners": "number",
+      "destroy": "function",
+      "finished": "function",
+      "init": "function",
+      "isDisturbed": "function",
+      "isErrored": "function",
+      "isReadable": "function",
+      "listenerCount": "function",
+      "once": "function",
+      "pipeline": "function",
+      "promises": {
+        "finished": "function",
+        "pipeline": "function"
+      },
+      "*default*": "function"
+    },
     "Duplex": "function",
     "PassThrough": "function",
     "Readable": "function",

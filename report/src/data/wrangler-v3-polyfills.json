@@ -6,30 +6,64 @@
   "_http_outgoing": null,
   "_http_server": null,
   "_stream_duplex": {
-    "default": "function",
+    "default": {
+      "super_": "function",
+      "*default*": "function"
+    },
     "Duplex": "function"
   },
   "_stream_passthrough": {
-    "default": "function",
+    "default": {
+      "super_": "function",
+      "*default*": "function"
+    },
     "PassThrough": "function"
   },
   "_stream_readable": {
-    "default": "function",
+    "default": {
+      "ReadableState": "function",
+      "_fromList": "function",
+      "super_": "function",
+      "*default*": "function"
+    },
     "Readable": "function"
   },
   "_stream_transform": {
-    "default": "function",
+    "default": {
+      "super_": "function",
+      "*default*": "function"
+    },
     "Transform": "function"
   },
   "_stream_wrap": null,
   "_stream_writable": {
-    "default": "function",
+    "default": {
+      "WritableState": "function",
+      "super_": "function",
+      "*default*": "function"
+    },
     "Writable": "function"
   },
   "_tls_common": null,
   "_tls_wrap": null,
   "assert": {
-    "default": "function",
+    "default": {
+      "AssertionError": "function",
+      "deepEqual": "function",
+      "deepStrictEqual": "function",
+      "doesNotThrow": "function",
+      "equal": "function",
+      "fail": "function",
+      "ifError": "function",
+      "notDeepEqual": "function",
+      "notDeepStrictEqual": "function",
+      "notEqual": "function",
+      "notStrictEqual": "function",
+      "ok": "function",
+      "strictEqual": "function",
+      "throws": "function",
+      "*default*": "function"
+    },
     "AssertionError": "function",
     "assert": "function",
     "deepEqual": "function",
@@ -601,7 +635,14 @@
     "createDomain": "function"
   },
   "events": {
-    "default": "function",
+    "default": {
+      "EventEmitter": "function",
+      "defaultMaxListeners": "number",
+      "init": "function",
+      "listenerCount": "function",
+      "usingDomains": "boolean",
+      "*default*": "function"
+    },
     "EventEmitter": "function"
   },
   "fs": {
@@ -899,7 +940,16 @@
     "default": "{}"
   },
   "stream": {
-    "default": "function",
+    "default": {
+      "Duplex": "function",
+      "PassThrough": "function",
+      "Readable": "function",
+      "Stream": "function",
+      "Transform": "function",
+      "Writable": "function",
+      "super_": "function",
+      "*default*": "function"
+    },
     "Duplex": "function",
     "PassThrough": "function",
     "Readable": "function",
