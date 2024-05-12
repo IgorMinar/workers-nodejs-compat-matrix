@@ -33,8 +33,7 @@ export default {
     const result = {};
 
     for (const [name, module] of Object.entries(modules)) {
-      const imported = await module;
-      result[name] = imported === null ? null : visit(imported);
+      result[name] = module === null ? null : visit(module);
     }
 
     const nodeGlobals = [${nodeGlobals.map((m) => `"${m}"`).join(",")}];
