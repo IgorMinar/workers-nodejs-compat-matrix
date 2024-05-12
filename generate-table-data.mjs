@@ -67,6 +67,20 @@ const tallyColumnValues = (rows, columnIndex) => {
   return count;
 };
 
+const isPartOfMockModule = (target, keyPath) => {
+  const moduleName = keyPath[0];
+  const moduleInfo = target[moduleName];
+
+  // mock module can be identified as a module that has only one key - the default,
+  // which in turn has only one key, the synthetic "*default*" key
+  return (
+    moduleInfo &&
+    Object.keys(moduleInfo).length === 1 &&
+    moduleInfo.default?.["*default*"] &&
+    Object.keys(moduleInfo.default).length === 1
+  );
+};
+
 const visit = (node, path) => {
   const rows = [];
 
@@ -99,7 +113,7 @@ const visit = (node, path) => {
 
       for (const target of Object.values(targets)) {
         const targetValue = get(target, keyPath);
-        if (targetValue === "stub") {
+        if (targetValue === "stub" || isPartOfMockModule(target, keyPath)) {
           row.push("stub");
         } else if (targetValue && targetValue !== childNode) {
           row.push("mismatch");
