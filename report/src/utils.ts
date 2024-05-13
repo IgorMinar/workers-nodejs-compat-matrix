@@ -30,8 +30,6 @@ export const getPolyfillSearchLink = (target: string, symbol: string) => {
       break;
   }
 
-  if (!filter) return null;
-
   return encodeURI(`${GITHUB_SEARCH_BASE_URL}${filter} ${symbol}`);
 };
 

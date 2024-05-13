@@ -82,17 +82,9 @@ const App = () => {
       return (
         <TableCell>
           <div className="flex items-center gap-2 justify-center">
-            {renderSupportValue(value)}
-            {value !== "unsupported" && githubSearchLink && (
-              <a
-                className="text-xs text-blue-900 hover:text-blue-500"
-                href={githubSearchLink}
-                target="_blank"
-                rel="noreferrer"
-              >
-                (src)
-              </a>
-            )}
+            <a href={githubSearchLink} target="_blank" rel="noreferrer">
+              {renderSupportValue(value)}
+            </a>
           </div>
         </TableCell>
       );
@@ -147,22 +139,29 @@ const App = () => {
       );
     };
 
-    const renderDocsLink = () => {
+    const renderKeyValue = () => {
+      const content = (
+        <>
+          <span className="opacity-0">{"_".repeat(pathParts.length * 2)}</span>
+          {key}
+        </>
+      );
+
       // Certain builtins like _http_agent don't have docs pages
       if (key.startsWith("_")) {
-        return null;
+        return content;
       }
 
-      if (!isTopLevel) return null;
+      if (!isTopLevel) return content;
 
       return (
         <a
-          className="text-xs text-blue-900 hover:text-blue-500"
+          className="text-blue-900 hover:text-blue-500"
           href={getDocsLink(key)}
           target="_blank"
           rel="noreferrer"
         >
-          (docs)
+          {content}
         </a>
       );
     };
@@ -180,11 +179,7 @@ const App = () => {
       >
         <TableCell>
           <div className="flex justify-start items-center gap-2">
-            <span className="opacity-0">
-              {"_".repeat(pathParts.length * 2)}
-            </span>
-            {key}
-            {renderDocsLink()}
+            {renderKeyValue()}
             {leafCount > 0 && !expanded.includes(path) && (
               <span className="text-sm">▶</span>
             )}
