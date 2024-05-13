@@ -123,9 +123,14 @@ const App = () => {
               bgColor = "green";
             }
 
+            const tooltip = `Supported: ${supported}, Mismatch: ${mismatch} + Stubbed: ${stub}, Unsupported: ${unsupported}`;
+
             return (
               <TableCell color={bgColor}>
-                <div className={`flex gap-3 justify-center items-center`}>
+                <div
+                  title={tooltip}
+                  className={`flex gap-3 justify-center items-center`}
+                >
                   <span className="text-sm">{formatPct(percentage)}</span>
                   <div className="text-xs">
                     <span>{supported}</span>/<span>{mismatch + stub}</span>/
@@ -216,7 +221,7 @@ const App = () => {
 
           return (
             <TableCell>
-              <span className="">
+              <div>
                 <span className="text-sm font-semibold">
                   {formatPct(percentage)}
                 </span>
@@ -224,7 +229,7 @@ const App = () => {
                   <span>{supported}</span>/<span>{mismatch + stub}</span>/
                   <span>{unsupported}</span>
                 </div>
-              </span>
+              </div>
             </TableCell>
           );
         })}
