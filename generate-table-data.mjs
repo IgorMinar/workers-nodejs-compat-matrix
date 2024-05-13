@@ -51,20 +51,26 @@ const isObject = (node) => {
 // This trades off performance for the readability of the visit function. This is a good tradeoff
 // since it's done as a build time generation step (and still only takes a few seconds).
 const tallyColumnValues = (rows, columnIndex) => {
-  let count = 0;
+  let counts = {
+    supported: 0,
+    mismatch: 0,
+    stub: 0,
+    unsupported: 0,
+  };
+
   for (const row of rows) {
-    const column = row[columnIndex];
+    const columnValue = row[columnIndex];
 
     // Skip the aggregate rows of objects so that only leaf values are tallied
-    if (typeof column === "number") {
+    if (columnValue.includes("/")) {
       continue;
     }
 
-    if (row[columnIndex] !== "unsupported") {
-      count++;
-    }
+    counts[columnValue]++;
   }
-  return count;
+
+  // return count;
+  return Object.values(counts).join("/");
 };
 
 const isPartOfMockModule = (target, keyPath) => {

@@ -6,8 +6,12 @@ import versionMap from "./data/versionMap.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
-import { getDocsLink, getPolyfillSearchLink, pct } from "./utils";
+import { formatPct, getDocsLink, getPolyfillSearchLink, pct } from "./utils";
 import { z } from "zod";
+
+// The thresholds beyond which we render support percentages as red or green
+const RED_THRESHOLD = 20;
+const GREEN_THRESHOLD = 80;
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
@@ -108,14 +112,37 @@ const App = () => {
     const renderAggregates = () => {
       return (
         <>
-          <TableCell>100%</TableCell>
-          {targets.map((target) => (
-            <TableCell>
-              <span title={`${target}/${baselineSupport}`}>
-                {pct(target as number, baselineSupport as number)}
-              </span>
-            </TableCell>
-          ))}
+          <TableCell color="green">
+            <span className="text-sm">100%</span>
+          </TableCell>
+          {targets.map((target) => {
+            const [supported, mismatch, stub, unsupported] = (target as string)
+              .split("/")
+              .map((i) => parseInt(i as string));
+
+            const total = supported + mismatch + stub;
+            const percentage = pct(total, baselineSupport as number);
+
+            let bgColor = "red";
+            if (percentage > RED_THRESHOLD) {
+              bgColor = "yellow";
+            }
+            if (percentage > GREEN_THRESHOLD) {
+              bgColor = "green";
+            }
+
+            return (
+              <TableCell color={bgColor}>
+                <div className={`flex gap-3 justify-center items-center`}>
+                  <span className="text-sm">{formatPct(percentage)}</span>
+                  <div className="text-xs">
+                    <span>{supported}</span>/<span>{mismatch + stub}</span>/
+                    <span>{unsupported}</span>
+                  </div>
+                </div>
+              </TableCell>
+            );
+          })}
         </>
       );
     };
@@ -180,15 +207,32 @@ const App = () => {
           <span className="font-semibold flex justify-start ml-4">Totals</span>
         </TableCell>
         <TableCell>
-          <span className="font-semibold">100%</span>
+          <span className="font-semibold text-sm">100%</span>
         </TableCell>
-        {targetTotals.map((targetTotal) => (
-          <TableCell>
-            <span className="font-semibold">
-              {pct(targetTotal as number, baselineCount)}
-            </span>
-          </TableCell>
-        ))}
+        {targetTotals.map((targetTotal) => {
+          const [supported, mismatch, stub, unsupported] = (
+            targetTotal as string
+          )
+            .split("/")
+            .map((i) => parseInt(i as string));
+
+          const total = supported + mismatch + stub;
+          const percentage = pct(total, baselineCount as number);
+
+          return (
+            <TableCell>
+              <span className="">
+                <span className="text-sm font-semibold">
+                  {formatPct(percentage)}
+                </span>
+                <div className="text-xs">
+                  <span>{supported}</span>/<span>{mismatch + stub}</span>/
+                  <span>{unsupported}</span>
+                </div>
+              </span>
+            </TableCell>
+          );
+        })}
       </TableRow>
     );
   };
@@ -226,10 +270,10 @@ const App = () => {
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="sticky top-0 bg-white">
-              <TableHeaderCell width="min-w-[50ch]">API</TableHeaderCell>
-              <TableHeaderCell width="w-[18ch]">
+              <TableHeaderCell width="min-w-[40ch]">API</TableHeaderCell>
+              <TableHeaderCell width="min-w-[8ch]">
                 <div>baseline</div>
-                <div className="text-xs font-light">Node 22+20+18</div>
+                <div className="text-xs font-light">22+20+18</div>
               </TableHeaderCell>
               {Object.entries(targetTitles).map(([targetKey, title]) => (
                 <TableHeaderCell width="w-[18ch]">

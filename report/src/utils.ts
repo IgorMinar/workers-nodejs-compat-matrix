@@ -46,7 +46,10 @@ export const getDocsLink = (key: string) => {
 };
 
 export const pct = (part: number, total: number) => {
-  const percentage = (part / total) * 100;
-  const fractionDigits = percentage === 0 || percentage > 1 ? 0 : 1;
+  return (part / total) * 100;
+};
+
+export const formatPct = (percentage: number) => {
+  const fractionDigits = percentage === 0 || percentage >= 100 ? 0 : 1;
   return `${percentage.toFixed(fractionDigits)}%`;
 };
