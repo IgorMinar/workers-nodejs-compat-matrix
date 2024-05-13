@@ -40,8 +40,8 @@ const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
 
   const expand = (key: string) => {
-    if (expanded.includes(key)) {
-      setExpanded(expanded.filter((k) => k !== key));
+    if (expanded.some((k) => k.startsWith(key))) {
+      setExpanded(expanded.filter((k) => !k.startsWith(key)));
     } else {
       setExpanded([...expanded, key]);
     }
