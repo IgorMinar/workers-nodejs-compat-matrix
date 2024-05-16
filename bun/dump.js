@@ -39,6 +39,15 @@ if (result["process"].default?.env) {
 if (result["module"]._cache) {
   result["module"]._cache = {};
 }
+if (result["module"]._pathCache) {
+  result["module"]._pathCache = {};
+}
+if (result["module"].default._cache) {
+  result["module"].default._cache = {};
+}
+if (result["module"].default._pathCache) {
+  result["module"].default._pathCache = {};
+}
 
 await fs.writeFile(
   path.join(__dirname, "..", "report", "src", "data", "bun.json"),

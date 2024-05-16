@@ -3521,7 +3521,7 @@
       "dispatchEvent": "function",
       "fetch": "function",
       "navigator": {
-        "gpu": "INSPECTION ERROR",
+        "gpu": "<INSPECTION ERROR>",
         "sendBeacon": "function",
         "userAgent": "string"
       },
@@ -3632,7 +3632,7 @@
     "isFinite": "function",
     "isNaN": "function",
     "navigator": {
-      "gpu": "INSPECTION ERROR",
+      "gpu": "<INSPECTION ERROR>",
       "sendBeacon": "function",
       "userAgent": "string"
     },

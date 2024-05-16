@@ -4407,7 +4407,7 @@
     "default": {
       "Module": "function",
       "SourceMap": "function",
-      "_cache": "{}",
+      "_cache": "",
       "_debug": "function",
       "_extensions": {
         ".js": "function",
@@ -4418,9 +4418,7 @@
       "_initPaths": "function",
       "_load": "function",
       "_nodeModulePaths": "function",
-      "_pathCache": {
-        "/Users/iminar/Development/workers-nodejs-support/node/dump.mjs\u0000": "string"
-      },
+      "_pathCache": "",
       "_preloadModules": "function",
       "_resolveFilename": "function",
       "_resolveLookupPaths": "function",

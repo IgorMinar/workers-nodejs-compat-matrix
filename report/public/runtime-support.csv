@@ -4330,7 +4330,7 @@ inspector/promises,url,supported,supported,supported,unsupported,supported,unsup
 inspector/promises,waitForDebugger,supported,supported,supported,unsupported,supported,unsupported,unsupported,unsupported,unsupported,stub
 module,default.Module,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub,stub
 module,default.SourceMap,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub,stub
-module,default._cache,supported,supported,supported,supported,mismatch,supported,unsupported,unsupported,mismatch,stub
+module,default._cache,supported,unsupported,unsupported,unsupported,mismatch,mismatch,unsupported,unsupported,mismatch,stub
 module,default._debug,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,stub,stub
 module,default._extensions..js,supported,supported,supported,supported,mismatch,supported,unsupported,unsupported,unsupported,stub
 module,default._extensions..json,supported,supported,supported,supported,mismatch,supported,unsupported,unsupported,unsupported,stub
@@ -4339,7 +4339,7 @@ module,default._findPath,supported,supported,supported,supported,unsupported,sup
 module,default._initPaths,supported,supported,supported,supported,unsupported,supported,unsupported,unsupported,stub,stub
 module,default._load,supported,supported,supported,supported,unsupported,supported,unsupported,unsupported,stub,stub
 module,default._nodeModulePaths,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub,stub
-module,default._pathCache./Users/iminar/Development/workers-nodejs-support/node/dump.mjs ,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
+module,default._pathCache,supported,unsupported,unsupported,unsupported,unsupported,mismatch,unsupported,unsupported,mismatch,stub
 module,default._preloadModules,supported,supported,supported,supported,unsupported,supported,unsupported,unsupported,stub,stub
 module,default._resolveFilename,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub,stub
 module,default._resolveLookupPaths,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub,stub
