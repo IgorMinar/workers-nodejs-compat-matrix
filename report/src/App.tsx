@@ -105,7 +105,9 @@ const App = () => {
       return (
         <>
           <TableCell color="green">
-            <span className="text-sm">100%</span>
+            <span className="text-xs" title={"APIs count: " + baselineSupport}>
+              {baselineSupport}
+            </span>
           </TableCell>
           {targets.map((target) => {
             const [supported, mismatch, stub, unsupported] = (target as string)
@@ -123,7 +125,7 @@ const App = () => {
               bgColor = "green";
             }
 
-            const tooltip = `Supported: ${supported}, Mismatch: ${mismatch} + Stubbed: ${stub}, Unsupported: ${unsupported}`;
+            const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
 
             return (
               <TableCell color={bgColor}>
@@ -133,8 +135,9 @@ const App = () => {
                 >
                   <span className="text-sm">{formatPct(percentage)}</span>
                   <div className="text-xs">
-                    <span>{supported}</span>/<span>{mismatch + stub}</span>/
-                    <span>{unsupported}</span>
+                    <span>
+                      {unsupported}/{mismatch}/{stub}
+                    </span>
                   </div>
                 </div>
               </TableCell>
@@ -207,7 +210,10 @@ const App = () => {
           <span className="font-semibold flex justify-start ml-4">Totals</span>
         </TableCell>
         <TableCell>
-          <span className="font-semibold text-sm">100%</span>
+          <div>
+            <span className="font-semibold text-sm">100%</span>
+            <div className="text-xs">{baselineCount}</div>
+          </div>
         </TableCell>
         {targetTotals.map((targetTotal) => {
           const [supported, mismatch, stub, unsupported] = (
@@ -219,15 +225,18 @@ const App = () => {
           const total = supported + mismatch + stub;
           const percentage = pct(total, baselineCount as number);
 
+          const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
+
           return (
             <TableCell>
-              <div>
+              <div title={tooltip}>
                 <span className="text-sm font-semibold">
                   {formatPct(percentage)}
                 </span>
                 <div className="text-xs">
-                  <span>{supported}</span>/<span>{mismatch + stub}</span>/
-                  <span>{unsupported}</span>
+                  <span>
+                    {unsupported}/{mismatch}/{stub}
+                  </span>
                 </div>
               </div>
             </TableCell>
