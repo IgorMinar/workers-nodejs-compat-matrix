@@ -1,14 +1,28 @@
 export function visit(root, depth = 0) {
+  // create a unique object to mark keys that errored during inspection
+  const INSPECTION_ERROR = {};
+
   // collect all properties of an object including inherited ones
   const entries = [];
   for (const key in root) {
-    entries.push([key, root[key]]);
+    let value;
+    try {
+      value = root[key];
+    } catch (e) {
+      value = INSPECTION_ERROR;
+    }
+    entries.push([key, value]);
   }
 
   entries.sort(([a], [b]) => (a === "default" ? -1 : a < b ? -1 : 1));
 
   const visitResult = {};
   for (const [key, value] of entries) {
+    if (value === INSPECTION_ERROR) {
+      visitResult[key] = "<INSPECTION ERROR>";
+      continue;
+    }
+
     const isObject =
       typeof value === "object" && value !== null && !Array.isArray(value);
 

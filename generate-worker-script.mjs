@@ -1,9 +1,9 @@
-import { nodeGlobals } from "./node/node-globals.mjs";
 import baseline from "./node/baseline.json" with { type: "json" };
 
 let code = "";
 
 const escapeIdentifier = (name) => name.replace("/", "_");
+const nodeGlobalKeys = Object.keys(baseline["*globals*"]);
 
 const modules = Object.keys(baseline).filter((k) => k !== "*globals*");
 for (const moduleName of modules) {
@@ -36,7 +36,7 @@ export default {
       result[name] = module === null ? null : visit(module);
     }
 
-    const nodeGlobals = [${nodeGlobals.map((m) => `"${m}"`).join(",")}];
+    const nodeGlobals = [${nodeGlobalKeys.map((m) => `"${m}"`).join(",")}];
     const globalsMap = {};
     for (const module of nodeGlobals) {
       if (typeof globalThis[module] !== "undefined") {

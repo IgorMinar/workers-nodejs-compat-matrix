@@ -2,7 +2,6 @@ import fs from "node:fs/promises";
 import { builtinModules } from "node:module";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { nodeGlobals } from "./node-globals.mjs";
 import { visit } from "../dump-utils.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -10,9 +9,14 @@ const __dirname = path.dirname(__filename);
 
 const result = {};
 
+// collect all global keys
+const nodeGlobalKeys = Object.keys(
+  Object.getOwnPropertyDescriptors(globalThis)
+).sort();
+
 // iterates over node globals and creates an object with global
 // name as the key, and global itself as the value
-const nodeSpecificGlobals = nodeGlobals.reduce((map, g) => {
+const nodeSpecificGlobals = nodeGlobalKeys.reduce((map, g) => {
   if (g in globalThis) {
     map[g] = globalThis[g];
   }

@@ -91,7 +91,9 @@ versionMap["bun"] = shell
 
 // deno
 shell.echo("Generate deno apis...");
-shell.exec("deno run --allow-write=report/src/data/deno.json deno/dump.js");
+shell.exec(
+  "deno run --allow-write=report/src/data/deno.json --allow-read=. deno/dump.js"
+);
 shell.echo("=== Done ====================================\n\n");
 versionMap["deno"] = shell
   .exec(`deno --version`, { silent: true })
