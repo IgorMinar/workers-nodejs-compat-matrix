@@ -37,16 +37,16 @@ if (result["process"].default?.env) {
   result["process"].default.env = { "*self*": "object" };
 }
 if (result["module"]._cache) {
-  result["module"]._cache = { "*self*": "object" };
+  result["module"]._cache = "object";
 }
 if (result["module"]._pathCache) {
-  result["module"]._pathCache = { "*self*": "object" };
+  result["module"]._pathCache = "object";
 }
 if (result["module"].default._cache) {
-  result["module"].default._cache = { "*self*": "object" };
+  result["module"].default._cache = "object";
 }
 if (result["module"].default._pathCache) {
-  result["module"].default._pathCache = { "*self*": "object" };
+  result["module"].default._pathCache = "object";
 }
 
 await fs.writeFile(

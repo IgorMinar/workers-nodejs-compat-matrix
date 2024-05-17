@@ -1466,8 +1466,6 @@
     "*self*": "object",
     "AssertionError": "function",
     "CallTracker": "function",
-    "deepEqual": "function",
-    "deepStrictEqual": "function",
     "default": {
       "*self*": "object",
       "AssertionError": "function",
@@ -1491,6 +1489,8 @@
       "strictEqual": "function",
       "throws": "function"
     },
+    "deepEqual": "function",
+    "deepStrictEqual": "function",
     "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
@@ -1512,8 +1512,6 @@
     "*self*": "object",
     "AssertionError": "function",
     "CallTracker": "missing",
-    "deepEqual": "function",
-    "deepStrictEqual": "function",
     "default": {
       "*self*": "object",
       "AssertionError": "function",
@@ -1537,6 +1535,8 @@
       "strictEqual": "function",
       "throws": "function"
     },
+    "deepEqual": "function",
+    "deepStrictEqual": "function",
     "doesNotMatch": "function",
     "doesNotReject": "function",
     "doesNotThrow": "function",
@@ -1843,12 +1843,11 @@
     "*self*": "object",
     "Console": "function",
     "assert": "function",
+    "createTask": "missing",
     "clear": "function",
     "context": "missing",
     "count": "function",
     "countReset": "function",
-    "createTask": "missing",
-    "debug": "function",
     "default": {
       "*self*": "object",
       "Console": "function",
@@ -1877,6 +1876,7 @@
       "trace": "function",
       "warn": "function"
     },
+    "debug": "function",
     "dir": "function",
     "dirxml": "function",
     "error": "function",
@@ -4824,9 +4824,7 @@
     "*self*": "object",
     "Module": "function",
     "SourceMap": "function",
-    "_cache": {
-      "*self*": "object"
-    },
+    "_cache": "object",
     "_debug": "missing",
     "_extensions": {
       "*self*": "object",
@@ -4838,9 +4836,7 @@
     "_initPaths": "missing",
     "_load": "missing",
     "_nodeModulePaths": "function",
-    "_pathCache": {
-      "*self*": "object"
-    },
+    "_pathCache": "object",
     "_preloadModules": "missing",
     "_resolveFilename": "missing",
     "_resolveLookupPaths": "function",
@@ -4850,9 +4846,7 @@
       "*self*": "object",
       "Module": "function",
       "SourceMap": "function",
-      "_cache": {
-        "*self*": "object"
-      },
+      "_cache": "object",
       "_debug": "missing",
       "_extensions": {
         "*self*": "object",
@@ -4864,9 +4858,7 @@
       "_initPaths": "missing",
       "_load": "missing",
       "_nodeModulePaths": "function",
-      "_pathCache": {
-        "*self*": "object"
-      },
+      "_pathCache": "object",
       "_preloadModules": "missing",
       "_resolveFilename": "function",
       "_resolveLookupPaths": "function",
@@ -7117,8 +7109,6 @@
     "_extend": "function",
     "aborted": "missing",
     "callbackify": "function",
-    "debug": "missing",
-    "debuglog": "function",
     "default": {
       "*self*": "object",
       "MIMEParams": "missing",
@@ -7210,6 +7200,8 @@
         "isWeakSet": "function"
       }
     },
+    "debug": "missing",
+    "debuglog": "function",
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
@@ -7451,8 +7443,6 @@
     "_extend": "function",
     "aborted": "missing",
     "callbackify": "function",
-    "debug": "missing",
-    "debuglog": "function",
     "default": {
       "*self*": "object",
       "MIMEParams": "missing",
@@ -7544,6 +7534,8 @@
         "isWeakSet": "function"
       }
     },
+    "debug": "missing",
+    "debuglog": "function",
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
@@ -7787,11 +7779,11 @@
   "vm": {
     "*self*": "object",
     "Script": "function",
-    "compileFunction": "function",
     "constants": {
       "*self*": "object",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
     },
+    "compileFunction": "function",
     "createContext": "function",
     "createScript": "function",
     "default": {
@@ -7881,6 +7873,7 @@
     "brotliCompressSync": "function",
     "brotliDecompress": "function",
     "brotliDecompressSync": "function",
+    "crc32": "missing",
     "codes": {
       "0": "string",
       "1": "string",
@@ -8012,7 +8005,6 @@
       "Z_SYNC_FLUSH": "number",
       "Z_VERSION_ERROR": "missing"
     },
-    "crc32": "missing",
     "createBrotliCompress": "function",
     "createBrotliDecompress": "function",
     "createDeflate": "function",

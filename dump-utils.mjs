@@ -1,3 +1,9 @@
+const sortFn = ([a], [b]) => {
+  if (a === "default") return -1;
+  if (a === "*self*") return 1;
+  return a < b ? -1 : 1;
+};
+
 export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
   // create a unique object to mark keys that errored during inspection
   const INSPECTION_ERROR = {};
@@ -86,5 +92,8 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
       }
     }
   }
-  return visitResult;
+
+  return Object.keys(visitResult)
+    .sort(sortFn)
+    .reduce((acc, key) => ({ ...acc, [key]: visitResult[key] }), {});
 }
