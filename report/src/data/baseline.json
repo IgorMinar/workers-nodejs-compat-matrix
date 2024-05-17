@@ -5,7 +5,9 @@
     "AggregateError": "function",
     "Array": "function",
     "ArrayBuffer": "function",
-    "Atomics": "{}",
+    "Atomics": {
+      "*self*": "object"
+    },
     "BigInt": "function",
     "BigInt64Array": "function",
     "BigUint64Array": "function",
@@ -34,10 +36,16 @@
     "Int16Array": "function",
     "Int32Array": "function",
     "Int8Array": "function",
-    "Intl": "{}",
-    "JSON": "{}",
+    "Intl": {
+      "*self*": "object"
+    },
+    "JSON": {
+      "*self*": "object"
+    },
     "Map": "function",
-    "Math": "{}",
+    "Math": {
+      "*self*": "object"
+    },
     "MessageChannel": "function",
     "MessageEvent": "function",
     "MessagePort": "function",
@@ -55,7 +63,9 @@
     "ReadableStreamDefaultController": "function",
     "ReadableStreamDefaultReader": "function",
     "ReferenceError": "function",
-    "Reflect": "{}",
+    "Reflect": {
+      "*self*": "object"
+    },
     "RegExp": "function",
     "Request": "function",
     "Response": "function",
@@ -86,7 +96,8 @@
       "compileStreaming": "function",
       "instantiate": "function",
       "instantiateStreaming": "function",
-      "validate": "function"
+      "validate": "function",
+      "*self*": "object"
     },
     "WritableStream": "function",
     "WritableStreamDefaultController": "function",
@@ -121,6 +132,7 @@
       "timeStamp": "function",
       "trace": "function",
       "warn": "function",
+      "*self*": "object",
       "createTask": "function"
     },
     "decodeURI": "function",
@@ -151,6 +163,7 @@
         "setInterval": "function",
         "setTimeout": "function",
         "structuredClone": "function",
+        "*self*": "object",
         "crypto": "object",
         "navigator": "object"
       },
@@ -160,6 +173,7 @@
         "removeEventListener": "function",
         "timeOrigin": "number",
         "toJSON": "function",
+        "*self*": "object",
         "clearMarks": "function",
         "clearMeasures": "function",
         "clearResourceTimings": "function",
@@ -177,17 +191,20 @@
       "setInterval": "function",
       "setTimeout": "function",
       "structuredClone": "function",
+      "*self*": "object",
       "crypto": {
         "getRandomValues": "function",
         "randomUUID": "function",
-        "subtle": "object"
+        "subtle": "object",
+        "*self*": "object"
       },
       "navigator": {
         "hardwareConcurrency": "number",
         "language": "string",
         "languages": "object",
         "platform": "string",
-        "userAgent": "string"
+        "userAgent": "string",
+        "*self*": "object"
       }
     },
     "globalThis": {
@@ -211,6 +228,7 @@
         "setInterval": "function",
         "setTimeout": "function",
         "structuredClone": "function",
+        "*self*": "object",
         "crypto": "object",
         "navigator": "object"
       },
@@ -220,6 +238,7 @@
         "removeEventListener": "function",
         "timeOrigin": "number",
         "toJSON": "function",
+        "*self*": "object",
         "clearMarks": "function",
         "clearMeasures": "function",
         "clearResourceTimings": "function",
@@ -237,17 +256,20 @@
       "setInterval": "function",
       "setTimeout": "function",
       "structuredClone": "function",
+      "*self*": "object",
       "crypto": {
         "getRandomValues": "function",
         "randomUUID": "function",
-        "subtle": "object"
+        "subtle": "object",
+        "*self*": "object"
       },
       "navigator": {
         "hardwareConcurrency": "number",
         "language": "string",
         "languages": "object",
         "platform": "string",
-        "userAgent": "string"
+        "userAgent": "string",
+        "*self*": "object"
       }
     },
     "isFinite": "function",
@@ -260,6 +282,7 @@
       "removeEventListener": "function",
       "timeOrigin": "number",
       "toJSON": "function",
+      "*self*": "object",
       "clearMarks": "function",
       "clearMeasures": "function",
       "clearResourceTimings": "function",
@@ -279,7 +302,8 @@
         "exit": "function",
         "newListener": "object",
         "removeListener": "object",
-        "warning": "function"
+        "warning": "function",
+        "*self*": "object"
       },
       "_eventsCount": "number",
       "_exiting": "boolean",
@@ -296,7 +320,9 @@
       "_tickCallback": "function",
       "abort": "function",
       "addListener": "function",
-      "allowedNodeEnvironmentFlags": "{}",
+      "allowedNodeEnvironmentFlags": {
+        "*self*": "object"
+      },
       "arch": "string",
       "argv": "object",
       "argv0": "string",
@@ -305,7 +331,8 @@
       "chdir": "function",
       "config": {
         "target_defaults": "object",
-        "variables": "object"
+        "variables": "object",
+        "*self*": "object"
       },
       "constrainedMemory": "function",
       "cpuUsage": "function",
@@ -315,7 +342,9 @@
       "domain": "null",
       "emit": "function",
       "emitWarning": "function",
-      "env": "{}",
+      "env": {
+        "*self*": "object"
+      },
       "eventNames": "function",
       "execArgv": "object",
       "execPath": "string",
@@ -330,7 +359,8 @@
         "tls_alpn": "boolean",
         "tls_ocsp": "boolean",
         "tls_sni": "boolean",
-        "uv": "boolean"
+        "uv": "boolean",
+        "*self*": "object"
       },
       "getActiveResourcesInfo": "function",
       "getMaxListeners": "function",
@@ -363,7 +393,8 @@
         "headersUrl": "string",
         "lts": "string",
         "name": "string",
-        "sourceUrl": "string"
+        "sourceUrl": "string",
+        "*self*": "object"
       },
       "removeAllListeners": "function",
       "removeListener": "function",
@@ -377,6 +408,7 @@
         "reportOnUncaughtException": "boolean",
         "signal": "string",
         "writeReport": "function",
+        "*self*": "object",
         "excludeNetwork": "boolean"
       },
       "resourceUsage": "function",
@@ -470,7 +502,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "stdin": {
         "_bytesDispatched": "number",
@@ -551,7 +584,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "stdout": {
         "_bytesDispatched": "number",
@@ -634,7 +668,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "title": "string",
       "umask": "function",
@@ -665,8 +700,10 @@
         "uvwasi": "string",
         "v8": "string",
         "zlib": "string",
+        "*self*": "object",
         "simdjson": "string"
       },
+      "*self*": "object",
       "availableMemory": "function",
       "loadEnvFile": "function"
     },
@@ -677,6 +714,7 @@
     "structuredClone": "function",
     "undefined": "undefined",
     "unescape": "function",
+    "*self*": "object",
     "Crypto": "function",
     "CryptoKey": "function",
     "CustomEvent": "function",
@@ -703,8 +741,10 @@
         "sign": "function",
         "unwrapKey": "function",
         "verify": "function",
-        "wrapKey": "function"
-      }
+        "wrapKey": "function",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "Iterator": "function",
     "Navigator": "function",
@@ -714,7 +754,8 @@
       "language": "string",
       "languages": "object",
       "platform": "string",
-      "userAgent": "string"
+      "userAgent": "string",
+      "*self*": "object"
     }
   },
   "_http_agent": {
@@ -759,14 +800,17 @@
         "scheduling": "string",
         "setMaxListeners": "function",
         "sockets": "object",
-        "totalSocketCount": "number"
-      }
+        "totalSocketCount": "number",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "Agent": "function",
     "globalAgent": {
       "_events": {
         "free": "function",
-        "newListener": "function"
+        "newListener": "function",
+        "*self*": "object"
       },
       "_eventsCount": "number",
       "_maxListeners": "undefined",
@@ -778,7 +822,9 @@
       "destroy": "function",
       "emit": "function",
       "eventNames": "function",
-      "freeSockets": "{}",
+      "freeSockets": {
+        "*self*": "object"
+      },
       "getMaxListeners": "function",
       "getName": "function",
       "keepAlive": "boolean",
@@ -795,6 +841,7 @@
       "options": {
         "noDelay": "boolean",
         "path": "null",
+        "*self*": "object",
         "keepAlive": "boolean",
         "scheduling": "string",
         "timeout": "number"
@@ -806,19 +853,27 @@
       "removeAllListeners": "function",
       "removeListener": "function",
       "removeSocket": "function",
-      "requests": "{}",
+      "requests": {
+        "*self*": "object"
+      },
       "reuseSocket": "function",
       "scheduling": "string",
       "setMaxListeners": "function",
-      "sockets": "{}",
-      "totalSocketCount": "number"
-    }
+      "sockets": {
+        "*self*": "object"
+      },
+      "totalSocketCount": "number",
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "_http_client": {
     "default": {
-      "ClientRequest": "function"
+      "ClientRequest": "function",
+      "*self*": "object"
     },
-    "ClientRequest": "function"
+    "ClientRequest": "function",
+    "*self*": "object"
   },
   "_http_common": {
     "default": {
@@ -826,8 +881,12 @@
       "HTTPParser": "function",
       "_checkInvalidHeaderChar": "function",
       "_checkIsHttpToken": "function",
-      "chunkExpression": "{}",
-      "continueExpression": "{}",
+      "chunkExpression": {
+        "*self*": "object"
+      },
+      "continueExpression": {
+        "*self*": "object"
+      },
       "freeParser": "function",
       "isLenient": "function",
       "kIncomingMessage": "symbol",
@@ -836,16 +895,22 @@
         "ctor": "function",
         "list": "object",
         "max": "number",
-        "name": "string"
+        "name": "string",
+        "*self*": "object"
       },
-      "prepareError": "function"
+      "prepareError": "function",
+      "*self*": "object"
     },
     "CRLF": "string",
     "HTTPParser": "function",
     "_checkInvalidHeaderChar": "function",
     "_checkIsHttpToken": "function",
-    "chunkExpression": "{}",
-    "continueExpression": "{}",
+    "chunkExpression": {
+      "*self*": "object"
+    },
+    "continueExpression": {
+      "*self*": "object"
+    },
     "freeParser": "function",
     "isLenient": "function",
     "kIncomingMessage": "symbol",
@@ -854,19 +919,23 @@
       "ctor": "function",
       "list": "object",
       "max": "number",
-      "name": "string"
+      "name": "string",
+      "*self*": "object"
     },
-    "prepareError": "function"
+    "prepareError": "function",
+    "*self*": "object"
   },
   "_http_incoming": {
     "default": {
       "IncomingMessage": "function",
       "readStart": "function",
-      "readStop": "function"
+      "readStop": "function",
+      "*self*": "object"
     },
     "IncomingMessage": "function",
     "readStart": "function",
-    "readStop": "function"
+    "readStop": "function",
+    "*self*": "object"
   },
   "_http_outgoing": {
     "default": {
@@ -875,14 +944,16 @@
       "kUniqueHeaders": "symbol",
       "parseUniqueHeadersOption": "function",
       "validateHeaderName": "function",
-      "validateHeaderValue": "function"
+      "validateHeaderValue": "function",
+      "*self*": "object"
     },
     "OutgoingMessage": "function",
     "kHighWaterMark": "symbol",
     "kUniqueHeaders": "symbol",
     "parseUniqueHeadersOption": "function",
     "validateHeaderName": "function",
-    "validateHeaderValue": "function"
+    "validateHeaderValue": "function",
+    "*self*": "object"
   },
   "_http_server": {
     "default": {
@@ -949,7 +1020,8 @@
         "508": "string",
         "509": "string",
         "510": "string",
-        "511": "string"
+        "511": "string",
+        "*self*": "object"
       },
       "Server": "function",
       "ServerResponse": "function",
@@ -958,7 +1030,8 @@
       "kConnectionsCheckingInterval": "symbol",
       "kServerResponse": "symbol",
       "setupConnectionsTracking": "function",
-      "storeHTTPOptions": "function"
+      "storeHTTPOptions": "function",
+      "*self*": "object"
     },
     "STATUS_CODES": {
       "100": "string",
@@ -1023,7 +1096,8 @@
       "508": "string",
       "509": "string",
       "510": "string",
-      "511": "string"
+      "511": "string",
+      "*self*": "object"
     },
     "Server": "function",
     "ServerResponse": "function",
@@ -1032,7 +1106,8 @@
     "kConnectionsCheckingInterval": "symbol",
     "kServerResponse": "symbol",
     "setupConnectionsTracking": "function",
-    "storeHTTPOptions": "function"
+    "storeHTTPOptions": "function",
+    "*self*": "object"
   },
   "_stream_duplex": {
     "default": {
@@ -1074,19 +1149,21 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
       "wrap": "function",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
     },
     "from": "function",
     "fromWeb": "function",
-    "toWeb": "function"
+    "toWeb": "function",
+    "*self*": "object"
   },
   "_stream_passthrough": {
     "default": {
@@ -1128,16 +1205,18 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
       "wrap": "function",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
-    }
+    },
+    "*self*": "object"
   },
   "_stream_readable": {
     "default": {
@@ -1179,14 +1258,15 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
       "wrap": "function",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
     },
     "ReadableState": "function",
@@ -1194,7 +1274,8 @@
     "from": "function",
     "fromWeb": "function",
     "toWeb": "function",
-    "wrap": "function"
+    "wrap": "function",
+    "*self*": "object"
   },
   "_stream_transform": {
     "default": {
@@ -1236,16 +1317,18 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
       "wrap": "function",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
-    }
+    },
+    "*self*": "object"
   },
   "_stream_wrap": {
     "default": {
@@ -1287,16 +1370,18 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
       "wrap": "function",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
-    }
+    },
+    "*self*": "object"
   },
   "_stream_writable": {
     "default": {
@@ -1336,40 +1421,46 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "toWeb": "function",
       "usingDomains": "boolean",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
     },
     "WritableState": "function",
     "fromWeb": "function",
-    "toWeb": "function"
+    "toWeb": "function",
+    "*self*": "object"
   },
   "_tls_common": {
     "default": {
       "SecureContext": "function",
       "createSecureContext": "function",
-      "translatePeerCertificate": "function"
+      "translatePeerCertificate": "function",
+      "*self*": "object"
     },
     "SecureContext": "function",
     "createSecureContext": "function",
-    "translatePeerCertificate": "function"
+    "translatePeerCertificate": "function",
+    "*self*": "object"
   },
   "_tls_wrap": {
     "default": {
       "Server": "function",
       "TLSSocket": "function",
       "connect": "function",
-      "createServer": "function"
+      "createServer": "function",
+      "*self*": "object"
     },
     "Server": "function",
     "TLSSocket": "function",
     "connect": "function",
-    "createServer": "function"
+    "createServer": "function",
+    "*self*": "object"
   },
   "assert": {
     "default": {
@@ -1393,7 +1484,7 @@
       "strict": "function",
       "strictEqual": "function",
       "throws": "function",
-      "*default*": "function"
+      "*self*": "function"
     },
     "AssertionError": "function",
     "CallTracker": "function",
@@ -1414,7 +1505,8 @@
     "rejects": "function",
     "strict": "function",
     "strictEqual": "function",
-    "throws": "function"
+    "throws": "function",
+    "*self*": "object"
   },
   "assert/strict": {
     "default": {
@@ -1438,7 +1530,7 @@
       "strict": "function",
       "strictEqual": "function",
       "throws": "function",
-      "*default*": "function"
+      "*self*": "function"
     },
     "AssertionError": "function",
     "CallTracker": "function",
@@ -1459,7 +1551,8 @@
     "rejects": "function",
     "strict": "function",
     "strictEqual": "function",
-    "throws": "function"
+    "throws": "function",
+    "*self*": "object"
   },
   "async_hooks": {
     "default": {
@@ -1526,6 +1619,7 @@
         "WORKERHEAPSNAPSHOT": "number",
         "WRITEWRAP": "number",
         "ZLIB": "number",
+        "*self*": "object",
         "BLOBREADER": "number",
         "QUIC_ENDPOINT": "number",
         "QUIC_SESSION": "number",
@@ -1535,7 +1629,8 @@
       "createHook": "function",
       "executionAsyncId": "function",
       "executionAsyncResource": "function",
-      "triggerAsyncId": "function"
+      "triggerAsyncId": "function",
+      "*self*": "object"
     },
     "AsyncLocalStorage": "function",
     "AsyncResource": "function",
@@ -1600,6 +1695,7 @@
       "WORKERHEAPSNAPSHOT": "number",
       "WRITEWRAP": "number",
       "ZLIB": "number",
+      "*self*": "object",
       "BLOBREADER": "number",
       "QUIC_ENDPOINT": "number",
       "QUIC_SESSION": "number",
@@ -1609,7 +1705,8 @@
     "createHook": "function",
     "executionAsyncId": "function",
     "executionAsyncResource": "function",
-    "triggerAsyncId": "function"
+    "triggerAsyncId": "function",
+    "*self*": "object"
   },
   "buffer": {
     "default": {
@@ -1622,14 +1719,16 @@
       "btoa": "function",
       "constants": {
         "MAX_LENGTH": "number",
-        "MAX_STRING_LENGTH": "number"
+        "MAX_STRING_LENGTH": "number",
+        "*self*": "object"
       },
       "isAscii": "function",
       "isUtf8": "function",
       "kMaxLength": "number",
       "kStringMaxLength": "number",
       "resolveObjectURL": "function",
-      "transcode": "function"
+      "transcode": "function",
+      "*self*": "object"
     },
     "Blob": "function",
     "Buffer": "function",
@@ -1640,14 +1739,16 @@
     "btoa": "function",
     "constants": {
       "MAX_LENGTH": "number",
-      "MAX_STRING_LENGTH": "number"
+      "MAX_STRING_LENGTH": "number",
+      "*self*": "object"
     },
     "isAscii": "function",
     "isUtf8": "function",
     "kMaxLength": "number",
     "kStringMaxLength": "number",
     "resolveObjectURL": "function",
-    "transcode": "function"
+    "transcode": "function",
+    "*self*": "object"
   },
   "child_process": {
     "default": {
@@ -1659,7 +1760,8 @@
       "execSync": "function",
       "fork": "function",
       "spawn": "function",
-      "spawnSync": "function"
+      "spawnSync": "function",
+      "*self*": "object"
     },
     "ChildProcess": "function",
     "_forkChild": "function",
@@ -1669,14 +1771,17 @@
     "execSync": "function",
     "fork": "function",
     "spawn": "function",
-    "spawnSync": "function"
+    "spawnSync": "function",
+    "*self*": "object"
   },
   "cluster": {
     "default": {
       "SCHED_NONE": "number",
       "SCHED_RR": "number",
       "Worker": "function",
-      "_events": "{}",
+      "_events": {
+        "*self*": "object"
+      },
       "_eventsCount": "number",
       "_maxListeners": "undefined",
       "addListener": "function",
@@ -1700,15 +1805,22 @@
       "removeListener": "function",
       "schedulingPolicy": "number",
       "setMaxListeners": "function",
-      "settings": "{}",
+      "settings": {
+        "*self*": "object"
+      },
       "setupMaster": "function",
       "setupPrimary": "function",
-      "workers": "{}"
+      "workers": {
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "SCHED_NONE": "number",
     "SCHED_RR": "number",
     "Worker": "function",
-    "_events": "{}",
+    "_events": {
+      "*self*": "object"
+    },
     "_eventsCount": "number",
     "_maxListeners": "undefined",
     "disconnect": "function",
@@ -1717,10 +1829,15 @@
     "isPrimary": "boolean",
     "isWorker": "boolean",
     "schedulingPolicy": "number",
-    "settings": "{}",
+    "settings": {
+      "*self*": "object"
+    },
     "setupMaster": "function",
     "setupPrimary": "function",
-    "workers": "{}"
+    "workers": {
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "console": {
     "default": {
@@ -1748,6 +1865,7 @@
       "timeStamp": "function",
       "trace": "function",
       "warn": "function",
+      "*self*": "object",
       "createTask": "function"
     },
     "Console": "function",
@@ -1774,6 +1892,7 @@
     "timeStamp": "function",
     "trace": "function",
     "warn": "function",
+    "*self*": "object",
     "createTask": "function"
   },
   "constants": {
@@ -2026,6 +2145,7 @@
       "X_OK": "number",
       "defaultCipherList": "string",
       "defaultCoreCipherList": "string",
+      "*self*": "object",
       "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
       "EXTENSIONLESS_FORMAT_WASM": "number"
     },
@@ -2277,6 +2397,7 @@
     "X_OK": "number",
     "defaultCipherList": "string",
     "defaultCoreCipherList": "string",
+    "*self*": "object",
     "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
     "EXTENSIONLESS_FORMAT_WASM": "number"
   },
@@ -2371,7 +2492,8 @@
         "TLS1_3_VERSION": "number",
         "TLS1_VERSION": "number",
         "defaultCipherList": "string",
-        "defaultCoreCipherList": "string"
+        "defaultCoreCipherList": "string",
+        "*self*": "object"
       },
       "createCipheriv": "function",
       "createDecipheriv": "function",
@@ -2430,7 +2552,8 @@
         "sign": "function",
         "unwrapKey": "function",
         "verify": "function",
-        "wrapKey": "function"
+        "wrapKey": "function",
+        "*self*": "object"
       },
       "timingSafeEqual": "function",
       "verify": "function",
@@ -2438,8 +2561,10 @@
         "CryptoKey": "function",
         "getRandomValues": "function",
         "randomUUID": "function",
-        "subtle": "object"
+        "subtle": "object",
+        "*self*": "object"
       },
+      "*self*": "object",
       "hash": "function"
     },
     "Certificate": "function",
@@ -2531,7 +2656,8 @@
       "TLS1_3_VERSION": "number",
       "TLS1_VERSION": "number",
       "defaultCipherList": "string",
-      "defaultCoreCipherList": "string"
+      "defaultCoreCipherList": "string",
+      "*self*": "object"
     },
     "createCipheriv": "function",
     "createDecipheriv": "function",
@@ -2590,7 +2716,8 @@
       "sign": "function",
       "unwrapKey": "function",
       "verify": "function",
-      "wrapKey": "function"
+      "wrapKey": "function",
+      "*self*": "object"
     },
     "timingSafeEqual": "function",
     "verify": "function",
@@ -2610,20 +2737,25 @@
         "sign": "function",
         "unwrapKey": "function",
         "verify": "function",
-        "wrapKey": "function"
-      }
+        "wrapKey": "function",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
+    "*self*": "object",
     "hash": "function"
   },
   "dgram": {
     "default": {
       "Socket": "function",
       "_createSocketHandle": "function",
-      "createSocket": "function"
+      "createSocket": "function",
+      "*self*": "object"
     },
     "Socket": "function",
     "_createSocketHandle": "function",
-    "createSocket": "function"
+    "createSocket": "function",
+    "*self*": "object"
   },
   "diagnostics_channel": {
     "default": {
@@ -2632,14 +2764,16 @@
       "hasSubscribers": "function",
       "subscribe": "function",
       "tracingChannel": "function",
-      "unsubscribe": "function"
+      "unsubscribe": "function",
+      "*self*": "object"
     },
     "Channel": "function",
     "channel": "function",
     "hasSubscribers": "function",
     "subscribe": "function",
     "tracingChannel": "function",
-    "unsubscribe": "function"
+    "unsubscribe": "function",
+    "*self*": "object"
   },
   "dns": {
     "default": {
@@ -2720,7 +2854,8 @@
         "resolveTxt": "function",
         "reverse": "function",
         "setDefaultResultOrder": "function",
-        "setServers": "function"
+        "setServers": "function",
+        "*self*": "object"
       },
       "resolve": "function",
       "resolve4": "function",
@@ -2737,7 +2872,8 @@
       "resolveTxt": "function",
       "reverse": "function",
       "setDefaultResultOrder": "function",
-      "setServers": "function"
+      "setServers": "function",
+      "*self*": "object"
     },
     "ADDRCONFIG": "number",
     "ADDRGETNETWORKPARAMS": "string",
@@ -2816,7 +2952,8 @@
       "resolveTxt": "function",
       "reverse": "function",
       "setDefaultResultOrder": "function",
-      "setServers": "function"
+      "setServers": "function",
+      "*self*": "object"
     },
     "resolve": "function",
     "resolve4": "function",
@@ -2833,7 +2970,8 @@
     "resolveTxt": "function",
     "reverse": "function",
     "setDefaultResultOrder": "function",
-    "setServers": "function"
+    "setServers": "function",
+    "*self*": "object"
   },
   "dns/promises": {
     "default": {
@@ -2881,7 +3019,8 @@
       "resolveTxt": "function",
       "reverse": "function",
       "setDefaultResultOrder": "function",
-      "setServers": "function"
+      "setServers": "function",
+      "*self*": "object"
     },
     "ADDRGETNETWORKPARAMS": "string",
     "BADFAMILY": "string",
@@ -2927,7 +3066,8 @@
     "resolveTxt": "function",
     "reverse": "function",
     "setDefaultResultOrder": "function",
-    "setServers": "function"
+    "setServers": "function",
+    "*self*": "object"
   },
   "domain": {
     "default": {
@@ -2935,13 +3075,15 @@
       "_stack": "object",
       "active": "null",
       "create": "function",
-      "createDomain": "function"
+      "createDomain": "function",
+      "*self*": "object"
     },
     "Domain": "function",
     "_stack": "object",
     "active": "null",
     "create": "function",
-    "createDomain": "function"
+    "createDomain": "function",
+    "*self*": "object"
   },
   "events": {
     "default": {
@@ -2960,7 +3102,7 @@
       "once": "function",
       "setMaxListeners": "function",
       "usingDomains": "boolean",
-      "*default*": "function"
+      "*self*": "function"
     },
     "EventEmitter": "function",
     "EventEmitterAsyncResource": "function",
@@ -2976,7 +3118,8 @@
     "on": "function",
     "once": "function",
     "setMaxListeners": "function",
-    "usingDomains": "boolean"
+    "usingDomains": "boolean",
+    "*self*": "object"
   },
   "fs": {
     "default": {
@@ -3058,6 +3201,7 @@
         "UV_FS_SYMLINK_JUNCTION": "number",
         "W_OK": "number",
         "X_OK": "number",
+        "*self*": "object",
         "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
         "EXTENSIONLESS_FORMAT_WASM": "number"
       },
@@ -3133,6 +3277,7 @@
         "utimes": "function",
         "watch": "function",
         "writeFile": "function",
+        "*self*": "object",
         "glob": "function"
       },
       "read": "function",
@@ -3174,6 +3319,7 @@
       "writeSync": "function",
       "writev": "function",
       "writevSync": "function",
+      "*self*": "object",
       "openAsBlob": "function",
       "glob": "function",
       "globSync": "function"
@@ -3256,6 +3402,7 @@
       "UV_FS_SYMLINK_JUNCTION": "number",
       "W_OK": "number",
       "X_OK": "number",
+      "*self*": "object",
       "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
       "EXTENSIONLESS_FORMAT_WASM": "number"
     },
@@ -3360,6 +3507,7 @@
         "UV_FS_SYMLINK_JUNCTION": "number",
         "W_OK": "number",
         "X_OK": "number",
+        "*self*": "object",
         "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
         "EXTENSIONLESS_FORMAT_WASM": "number"
       },
@@ -3389,6 +3537,7 @@
       "utimes": "function",
       "watch": "function",
       "writeFile": "function",
+      "*self*": "object",
       "glob": "function"
     },
     "read": "function",
@@ -3430,6 +3579,7 @@
     "writeSync": "function",
     "writev": "function",
     "writevSync": "function",
+    "*self*": "object",
     "openAsBlob": "function",
     "glob": "function",
     "globSync": "function"
@@ -3496,6 +3646,7 @@
         "UV_FS_SYMLINK_JUNCTION": "number",
         "W_OK": "number",
         "X_OK": "number",
+        "*self*": "object",
         "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
         "EXTENSIONLESS_FORMAT_WASM": "number"
       },
@@ -3525,6 +3676,7 @@
       "utimes": "function",
       "watch": "function",
       "writeFile": "function",
+      "*self*": "object",
       "glob": "function"
     },
     "access": "function",
@@ -3587,6 +3739,7 @@
       "UV_FS_SYMLINK_JUNCTION": "number",
       "W_OK": "number",
       "X_OK": "number",
+      "*self*": "object",
       "EXTENSIONLESS_FORMAT_JAVASCRIPT": "number",
       "EXTENSIONLESS_FORMAT_WASM": "number"
     },
@@ -3616,6 +3769,7 @@
     "utimes": "function",
     "watch": "function",
     "writeFile": "function",
+    "*self*": "object",
     "glob": "function"
   },
   "http": {
@@ -3688,7 +3842,8 @@
         "508": "string",
         "509": "string",
         "510": "string",
-        "511": "string"
+        "511": "string",
+        "*self*": "object"
       },
       "Server": "function",
       "ServerResponse": "function",
@@ -3734,13 +3889,15 @@
         "scheduling": "string",
         "setMaxListeners": "function",
         "sockets": "object",
-        "totalSocketCount": "number"
+        "totalSocketCount": "number",
+        "*self*": "object"
       },
       "maxHeaderSize": "number",
       "request": "function",
       "setMaxIdleHTTPParsers": "function",
       "validateHeaderName": "function",
-      "validateHeaderValue": "function"
+      "validateHeaderValue": "function",
+      "*self*": "object"
     },
     "Agent": "function",
     "ClientRequest": "function",
@@ -3810,7 +3967,8 @@
       "508": "string",
       "509": "string",
       "510": "string",
-      "511": "string"
+      "511": "string",
+      "*self*": "object"
     },
     "Server": "function",
     "ServerResponse": "function",
@@ -3820,7 +3978,8 @@
     "globalAgent": {
       "_events": {
         "free": "function",
-        "newListener": "function"
+        "newListener": "function",
+        "*self*": "object"
       },
       "_eventsCount": "number",
       "_maxListeners": "undefined",
@@ -3832,7 +3991,9 @@
       "destroy": "function",
       "emit": "function",
       "eventNames": "function",
-      "freeSockets": "{}",
+      "freeSockets": {
+        "*self*": "object"
+      },
       "getMaxListeners": "function",
       "getName": "function",
       "keepAlive": "boolean",
@@ -3849,6 +4010,7 @@
       "options": {
         "noDelay": "boolean",
         "path": "null",
+        "*self*": "object",
         "keepAlive": "boolean",
         "scheduling": "string",
         "timeout": "number"
@@ -3860,18 +4022,24 @@
       "removeAllListeners": "function",
       "removeListener": "function",
       "removeSocket": "function",
-      "requests": "{}",
+      "requests": {
+        "*self*": "object"
+      },
       "reuseSocket": "function",
       "scheduling": "string",
       "setMaxListeners": "function",
-      "sockets": "{}",
-      "totalSocketCount": "number"
+      "sockets": {
+        "*self*": "object"
+      },
+      "totalSocketCount": "number",
+      "*self*": "object"
     },
     "maxHeaderSize": "number",
     "request": "function",
     "setMaxIdleHTTPParsers": "function",
     "validateHeaderName": "function",
-    "validateHeaderValue": "function"
+    "validateHeaderValue": "function",
+    "*self*": "object"
   },
   "http2": {
     "default": {
@@ -4118,7 +4286,8 @@
         "PADDING_STRATEGY_ALIGNED": "number",
         "PADDING_STRATEGY_CALLBACK": "number",
         "PADDING_STRATEGY_MAX": "number",
-        "PADDING_STRATEGY_NONE": "number"
+        "PADDING_STRATEGY_NONE": "number",
+        "*self*": "object"
       },
       "createSecureServer": "function",
       "createServer": "function",
@@ -4126,6 +4295,7 @@
       "getPackedSettings": "function",
       "getUnpackedSettings": "function",
       "sensitiveHeaders": "symbol",
+      "*self*": "object",
       "performServerHandshake": "function"
     },
     "Http2ServerRequest": "function",
@@ -4371,7 +4541,8 @@
       "PADDING_STRATEGY_ALIGNED": "number",
       "PADDING_STRATEGY_CALLBACK": "number",
       "PADDING_STRATEGY_MAX": "number",
-      "PADDING_STRATEGY_NONE": "number"
+      "PADDING_STRATEGY_NONE": "number",
+      "*self*": "object"
     },
     "createSecureServer": "function",
     "createServer": "function",
@@ -4379,6 +4550,7 @@
     "getPackedSettings": "function",
     "getUnpackedSettings": "function",
     "sensitiveHeaders": "symbol",
+    "*self*": "object",
     "performServerHandshake": "function"
   },
   "https": {
@@ -4431,9 +4603,11 @@
         "scheduling": "string",
         "setMaxListeners": "function",
         "sockets": "object",
-        "totalSocketCount": "number"
+        "totalSocketCount": "number",
+        "*self*": "object"
       },
-      "request": "function"
+      "request": "function",
+      "*self*": "object"
     },
     "Agent": "function",
     "Server": "function",
@@ -4443,7 +4617,8 @@
       "_cacheSession": "function",
       "_events": {
         "free": "function",
-        "newListener": "function"
+        "newListener": "function",
+        "*self*": "object"
       },
       "_eventsCount": "number",
       "_evictSession": "function",
@@ -4451,7 +4626,8 @@
       "_maxListeners": "undefined",
       "_sessionCache": {
         "list": "object",
-        "map": "object"
+        "map": "object",
+        "*self*": "object"
       },
       "addListener": "function",
       "addRequest": "function",
@@ -4461,7 +4637,9 @@
       "destroy": "function",
       "emit": "function",
       "eventNames": "function",
-      "freeSockets": "{}",
+      "freeSockets": {
+        "*self*": "object"
+      },
       "getMaxListeners": "function",
       "getName": "function",
       "keepAlive": "boolean",
@@ -4479,6 +4657,7 @@
       "options": {
         "noDelay": "boolean",
         "path": "null",
+        "*self*": "object",
         "keepAlive": "boolean",
         "scheduling": "string",
         "timeout": "number"
@@ -4490,14 +4669,20 @@
       "removeAllListeners": "function",
       "removeListener": "function",
       "removeSocket": "function",
-      "requests": "{}",
+      "requests": {
+        "*self*": "object"
+      },
       "reuseSocket": "function",
       "scheduling": "string",
       "setMaxListeners": "function",
-      "sockets": "{}",
-      "totalSocketCount": "number"
+      "sockets": {
+        "*self*": "object"
+      },
+      "totalSocketCount": "number",
+      "*self*": "object"
     },
-    "request": "function"
+    "request": "function",
+    "*self*": "object"
   },
   "inspector": {
     "default": {
@@ -4526,11 +4711,13 @@
         "timeLog": "function",
         "timeStamp": "function",
         "trace": "function",
-        "warn": "function"
+        "warn": "function",
+        "*self*": "object"
       },
       "open": "function",
       "url": "function",
-      "waitForDebugger": "function"
+      "waitForDebugger": "function",
+      "*self*": "object"
     },
     "Session": "function",
     "close": "function",
@@ -4557,11 +4744,13 @@
       "timeLog": "function",
       "timeStamp": "function",
       "trace": "function",
-      "warn": "function"
+      "warn": "function",
+      "*self*": "object"
     },
     "open": "function",
     "url": "function",
-    "waitForDebugger": "function"
+    "waitForDebugger": "function",
+    "*self*": "object"
   },
   "inspector/promises": {
     "default": {
@@ -4590,11 +4779,13 @@
         "timeLog": "function",
         "timeStamp": "function",
         "trace": "function",
-        "warn": "function"
+        "warn": "function",
+        "*self*": "object"
       },
       "open": "function",
       "url": "function",
-      "waitForDebugger": "function"
+      "waitForDebugger": "function",
+      "*self*": "object"
     },
     "Session": "function",
     "close": "function",
@@ -4621,11 +4812,13 @@
       "timeLog": "function",
       "timeStamp": "function",
       "trace": "function",
-      "warn": "function"
+      "warn": "function",
+      "*self*": "object"
     },
     "open": "function",
     "url": "function",
-    "waitForDebugger": "function"
+    "waitForDebugger": "function",
+    "*self*": "object"
   },
   "module": {
     "default": {
@@ -4636,7 +4829,8 @@
       "_extensions": {
         ".js": "function",
         ".json": "function",
-        ".node": "function"
+        ".node": "function",
+        "*self*": "object"
       },
       "_findPath": "function",
       "_initPaths": "function",
@@ -4654,7 +4848,7 @@
       "register": "function",
       "runMain": "function",
       "syncBuiltinESMExports": "function",
-      "*default*": "function"
+      "*self*": "function"
     },
     "Module": "function",
     "SourceMap": "function",
@@ -4663,7 +4857,8 @@
     "_extensions": {
       ".js": "function",
       ".json": "function",
-      ".node": "function"
+      ".node": "function",
+      "*self*": "object"
     },
     "_findPath": "function",
     "_initPaths": "function",
@@ -4680,7 +4875,8 @@
     "isBuiltin": "function",
     "register": "function",
     "runMain": "function",
-    "syncBuiltinESMExports": "function"
+    "syncBuiltinESMExports": "function",
+    "*self*": "object"
   },
   "net": {
     "default": {
@@ -4701,7 +4897,8 @@
       "isIPv4": "function",
       "isIPv6": "function",
       "setDefaultAutoSelectFamily": "function",
-      "setDefaultAutoSelectFamilyAttemptTimeout": "function"
+      "setDefaultAutoSelectFamilyAttemptTimeout": "function",
+      "*self*": "object"
     },
     "BlockList": "function",
     "Server": "function",
@@ -4720,7 +4917,8 @@
     "isIPv4": "function",
     "isIPv6": "function",
     "setDefaultAutoSelectFamily": "function",
-    "setDefaultAutoSelectFamilyAttemptTimeout": "function"
+    "setDefaultAutoSelectFamilyAttemptTimeout": "function",
+    "*self*": "object"
   },
   "os": {
     "default": {
@@ -4732,7 +4930,8 @@
         "dlopen": "object",
         "errno": "object",
         "priority": "object",
-        "signals": "object"
+        "signals": "object",
+        "*self*": "object"
       },
       "cpus": "function",
       "devNull": "string",
@@ -4752,7 +4951,8 @@
       "type": "function",
       "uptime": "function",
       "userInfo": "function",
-      "version": "function"
+      "version": "function",
+      "*self*": "object"
     },
     "EOL": "string",
     "arch": "function",
@@ -4763,7 +4963,8 @@
         "RTLD_GLOBAL": "number",
         "RTLD_LAZY": "number",
         "RTLD_LOCAL": "number",
-        "RTLD_NOW": "number"
+        "RTLD_NOW": "number",
+        "*self*": "object"
       },
       "errno": {
         "E2BIG": "number",
@@ -4844,7 +5045,8 @@
         "ETIMEDOUT": "number",
         "ETXTBSY": "number",
         "EWOULDBLOCK": "number",
-        "EXDEV": "number"
+        "EXDEV": "number",
+        "*self*": "object"
       },
       "priority": {
         "PRIORITY_ABOVE_NORMAL": "number",
@@ -4852,7 +5054,8 @@
         "PRIORITY_HIGH": "number",
         "PRIORITY_HIGHEST": "number",
         "PRIORITY_LOW": "number",
-        "PRIORITY_NORMAL": "number"
+        "PRIORITY_NORMAL": "number",
+        "*self*": "object"
       },
       "signals": {
         "SIGABRT": "number",
@@ -4885,8 +5088,10 @@
         "SIGVTALRM": "number",
         "SIGWINCH": "number",
         "SIGXCPU": "number",
-        "SIGXFSZ": "number"
-      }
+        "SIGXFSZ": "number",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "cpus": "function",
     "devNull": "string",
@@ -4906,7 +5111,8 @@
     "type": "function",
     "uptime": "function",
     "userInfo": "function",
-    "version": "function"
+    "version": "function",
+    "*self*": "object"
   },
   "path": {
     "default": {
@@ -4936,7 +5142,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -4958,8 +5165,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "_makeLong": "function",
     "basename": "function",
@@ -4998,7 +5207,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5020,8 +5230,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "relative": "function",
     "resolve": "function",
@@ -5054,7 +5266,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5076,9 +5289,12 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
-    }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "path/posix": {
     "default": {
@@ -5108,7 +5324,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5130,8 +5347,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "_makeLong": "function",
     "basename": "function",
@@ -5170,7 +5389,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5192,8 +5412,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "relative": "function",
     "resolve": "function",
@@ -5226,7 +5448,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5248,9 +5471,12 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
-    }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "path/win32": {
     "default": {
@@ -5280,7 +5506,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5302,8 +5529,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "_makeLong": "function",
     "basename": "function",
@@ -5342,7 +5571,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5364,8 +5594,10 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "relative": "function",
     "resolve": "function",
@@ -5398,7 +5630,8 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
+        "win32": "object",
+        "*self*": "object"
       },
       "relative": "function",
       "resolve": "function",
@@ -5420,9 +5653,12 @@
         "resolve": "function",
         "sep": "string",
         "toNamespacedPath": "function",
-        "win32": "object"
-      }
-    }
+        "win32": "object",
+        "*self*": "object"
+      },
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "perf_hooks": {
     "default": {
@@ -5444,7 +5680,8 @@
         "NODE_PERFORMANCE_GC_INCREMENTAL": "number",
         "NODE_PERFORMANCE_GC_MAJOR": "number",
         "NODE_PERFORMANCE_GC_MINOR": "number",
-        "NODE_PERFORMANCE_GC_WEAKCB": "number"
+        "NODE_PERFORMANCE_GC_WEAKCB": "number",
+        "*self*": "object"
       },
       "createHistogram": "function",
       "monitorEventLoopDelay": "function",
@@ -5454,6 +5691,7 @@
         "removeEventListener": "function",
         "timeOrigin": "number",
         "toJSON": "function",
+        "*self*": "object",
         "clearMarks": "function",
         "clearMeasures": "function",
         "clearResourceTimings": "function",
@@ -5465,7 +5703,8 @@
         "now": "function",
         "onresourcetimingbufferfull": "null",
         "setResourceTimingBufferSize": "function"
-      }
+      },
+      "*self*": "object"
     },
     "Performance": "function",
     "PerformanceEntry": "function",
@@ -5485,7 +5724,8 @@
       "NODE_PERFORMANCE_GC_INCREMENTAL": "number",
       "NODE_PERFORMANCE_GC_MAJOR": "number",
       "NODE_PERFORMANCE_GC_MINOR": "number",
-      "NODE_PERFORMANCE_GC_WEAKCB": "number"
+      "NODE_PERFORMANCE_GC_WEAKCB": "number",
+      "*self*": "object"
     },
     "createHistogram": "function",
     "monitorEventLoopDelay": "function",
@@ -5495,6 +5735,7 @@
       "removeEventListener": "function",
       "timeOrigin": "number",
       "toJSON": "function",
+      "*self*": "object",
       "clearMarks": "function",
       "clearMeasures": "function",
       "clearResourceTimings": "function",
@@ -5506,7 +5747,8 @@
       "now": "function",
       "onresourcetimingbufferfull": "null",
       "setResourceTimingBufferSize": "function"
-    }
+    },
+    "*self*": "object"
   },
   "process": {
     "default": {
@@ -5516,7 +5758,8 @@
         "exit": "function",
         "newListener": "object",
         "removeListener": "object",
-        "warning": "function"
+        "warning": "function",
+        "*self*": "object"
       },
       "_eventsCount": "number",
       "_exiting": "boolean",
@@ -5533,7 +5776,9 @@
       "_tickCallback": "function",
       "abort": "function",
       "addListener": "function",
-      "allowedNodeEnvironmentFlags": "{}",
+      "allowedNodeEnvironmentFlags": {
+        "*self*": "object"
+      },
       "arch": "string",
       "argv": "object",
       "argv0": "string",
@@ -5542,7 +5787,8 @@
       "chdir": "function",
       "config": {
         "target_defaults": "object",
-        "variables": "object"
+        "variables": "object",
+        "*self*": "object"
       },
       "constrainedMemory": "function",
       "cpuUsage": "function",
@@ -5552,7 +5798,9 @@
       "domain": "null",
       "emit": "function",
       "emitWarning": "function",
-      "env": "{}",
+      "env": {
+        "*self*": "object"
+      },
       "eventNames": "function",
       "execArgv": "object",
       "execPath": "string",
@@ -5567,7 +5815,8 @@
         "tls_alpn": "boolean",
         "tls_ocsp": "boolean",
         "tls_sni": "boolean",
-        "uv": "boolean"
+        "uv": "boolean",
+        "*self*": "object"
       },
       "getActiveResourcesInfo": "function",
       "getMaxListeners": "function",
@@ -5600,7 +5849,8 @@
         "headersUrl": "string",
         "lts": "string",
         "name": "string",
-        "sourceUrl": "string"
+        "sourceUrl": "string",
+        "*self*": "object"
       },
       "removeAllListeners": "function",
       "removeListener": "function",
@@ -5614,6 +5864,7 @@
         "reportOnUncaughtException": "boolean",
         "signal": "string",
         "writeReport": "function",
+        "*self*": "object",
         "excludeNetwork": "boolean"
       },
       "resourceUsage": "function",
@@ -5707,7 +5958,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "stdin": {
         "_bytesDispatched": "number",
@@ -5788,7 +6040,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "stdout": {
         "_bytesDispatched": "number",
@@ -5871,7 +6124,8 @@
         "unref": "function",
         "unshift": "function",
         "wrap": "function",
-        "write": "function"
+        "write": "function",
+        "*self*": "object"
       },
       "title": "string",
       "umask": "function",
@@ -5902,8 +6156,10 @@
         "uvwasi": "string",
         "v8": "string",
         "zlib": "string",
+        "*self*": "object",
         "simdjson": "string"
       },
+      "*self*": "object",
       "availableMemory": "function",
       "loadEnvFile": "function"
     },
@@ -5913,7 +6169,8 @@
       "exit": "function",
       "newListener": "object",
       "removeListener": "object",
-      "warning": "function"
+      "warning": "function",
+      "*self*": "object"
     },
     "_eventsCount": "number",
     "_exiting": "boolean",
@@ -5929,7 +6186,9 @@
     "_stopProfilerIdleNotifier": "function",
     "_tickCallback": "function",
     "abort": "function",
-    "allowedNodeEnvironmentFlags": "{}",
+    "allowedNodeEnvironmentFlags": {
+      "*self*": "object"
+    },
     "arch": "string",
     "argv": "object",
     "argv0": "string",
@@ -5942,7 +6201,8 @@
         "default_configuration": "string",
         "defines": "object",
         "include_dirs": "object",
-        "libraries": "object"
+        "libraries": "object",
+        "*self*": "object"
       },
       "variables": {
         "arm_fpu": "string",
@@ -6026,6 +6286,7 @@
         "v8_use_siphash": "number",
         "want_separate_host_toolset": "number",
         "xcode_version": "string",
+        "*self*": "object",
         "node_write_snapshot_as_array_literals": "boolean",
         "ubsan": "number",
         "use_prefix_to_find_headers": "boolean",
@@ -6037,7 +6298,8 @@
         "node_shared_simdjson": "boolean",
         "node_shared_simdutf": "boolean",
         "node_shared_uvwasi": "boolean"
-      }
+      },
+      "*self*": "object"
     },
     "constrainedMemory": "function",
     "cpuUsage": "function",
@@ -6046,7 +6308,9 @@
     "dlopen": "function",
     "domain": "null",
     "emitWarning": "function",
-    "env": "{}",
+    "env": {
+      "*self*": "object"
+    },
     "execArgv": "object",
     "execPath": "string",
     "exit": "function",
@@ -6060,7 +6324,8 @@
       "tls_alpn": "boolean",
       "tls_ocsp": "boolean",
       "tls_sni": "boolean",
-      "uv": "boolean"
+      "uv": "boolean",
+      "*self*": "object"
     },
     "getActiveResourcesInfo": "function",
     "getegid": "function",
@@ -6084,7 +6349,8 @@
       "headersUrl": "string",
       "lts": "string",
       "name": "string",
-      "sourceUrl": "string"
+      "sourceUrl": "string",
+      "*self*": "object"
     },
     "report": {
       "compact": "boolean",
@@ -6096,6 +6362,7 @@
       "reportOnUncaughtException": "boolean",
       "signal": "string",
       "writeReport": "function",
+      "*self*": "object",
       "excludeNetwork": "boolean"
     },
     "resourceUsage": "function",
@@ -6113,6 +6380,7 @@
       "_destroy": "function",
       "_events": {
         "end": "function",
+        "*self*": "object",
         "close": "undefined",
         "data": "undefined",
         "drain": "undefined",
@@ -6147,6 +6415,7 @@
         "pipes": "object",
         "readable": "boolean",
         "state": "number",
+        "*self*": "object",
         "bufferIndex": "number"
       },
       "_reset": "function",
@@ -6188,7 +6457,8 @@
         "sync": "boolean",
         "writecb": "null",
         "writelen": "number",
-        "writing": "boolean"
+        "writing": "boolean",
+        "*self*": "object"
       },
       "_write": "function",
       "_writeGeneric": "function",
@@ -6245,7 +6515,8 @@
       "unref": "function",
       "unshift": "function",
       "wrap": "function",
-      "write": "function"
+      "write": "function",
+      "*self*": "object"
     },
     "stdin": {
       "_bytesDispatched": "number",
@@ -6254,6 +6525,7 @@
       "_events": {
         "end": "function",
         "pause": "function",
+        "*self*": "object",
         "close": "undefined",
         "data": "undefined",
         "drain": "undefined",
@@ -6286,6 +6558,7 @@
         "length": "number",
         "pipes": "object",
         "state": "number",
+        "*self*": "object",
         "bufferIndex": "number"
       },
       "_reset": "function",
@@ -6327,7 +6600,8 @@
         "writable": "boolean",
         "writecb": "null",
         "writelen": "number",
-        "writing": "boolean"
+        "writing": "boolean",
+        "*self*": "object"
       },
       "_write": "function",
       "_writeGeneric": "function",
@@ -6384,7 +6658,8 @@
       "unref": "function",
       "unshift": "function",
       "wrap": "function",
-      "write": "function"
+      "write": "function",
+      "*self*": "object"
     },
     "stdout": {
       "_bytesDispatched": "number",
@@ -6392,6 +6667,7 @@
       "_destroy": "function",
       "_events": {
         "end": "function",
+        "*self*": "object",
         "close": "undefined",
         "data": "undefined",
         "drain": "undefined",
@@ -6426,6 +6702,7 @@
         "pipes": "object",
         "readable": "boolean",
         "state": "number",
+        "*self*": "object",
         "bufferIndex": "number"
       },
       "_reset": "function",
@@ -6467,7 +6744,8 @@
         "sync": "boolean",
         "writecb": "null",
         "writelen": "number",
-        "writing": "boolean"
+        "writing": "boolean",
+        "*self*": "object"
       },
       "_write": "function",
       "_writeGeneric": "function",
@@ -6524,7 +6802,8 @@
       "unref": "function",
       "unshift": "function",
       "wrap": "function",
-      "write": "function"
+      "write": "function",
+      "*self*": "object"
     },
     "title": "string",
     "umask": "function",
@@ -6555,8 +6834,10 @@
       "uvwasi": "string",
       "v8": "string",
       "zlib": "string",
+      "*self*": "object",
       "simdjson": "string"
     },
+    "*self*": "object",
     "availableMemory": "function",
     "loadEnvFile": "function"
   },
@@ -6568,9 +6849,11 @@
       "toUnicode": "function",
       "ucs2": {
         "decode": "function",
-        "encode": "function"
+        "encode": "function",
+        "*self*": "object"
       },
-      "version": "string"
+      "version": "string",
+      "*self*": "object"
     },
     "decode": "function",
     "encode": "function",
@@ -6578,9 +6861,11 @@
     "toUnicode": "function",
     "ucs2": {
       "decode": "function",
-      "encode": "function"
+      "encode": "function",
+      "*self*": "object"
     },
-    "version": "string"
+    "version": "string",
+    "*self*": "object"
   },
   "querystring": {
     "default": {
@@ -6590,7 +6875,8 @@
       "parse": "function",
       "stringify": "function",
       "unescape": "function",
-      "unescapeBuffer": "function"
+      "unescapeBuffer": "function",
+      "*self*": "object"
     },
     "decode": "function",
     "encode": "function",
@@ -6598,7 +6884,8 @@
     "parse": "function",
     "stringify": "function",
     "unescape": "function",
-    "unescapeBuffer": "function"
+    "unescapeBuffer": "function",
+    "*self*": "object"
   },
   "readline": {
     "default": {
@@ -6612,8 +6899,10 @@
       "promises": {
         "Interface": "function",
         "Readline": "function",
-        "createInterface": "function"
-      }
+        "createInterface": "function",
+        "*self*": "object"
+      },
+      "*self*": "object"
     },
     "Interface": "function",
     "clearLine": "function",
@@ -6625,18 +6914,22 @@
     "promises": {
       "Interface": "function",
       "Readline": "function",
-      "createInterface": "function"
-    }
+      "createInterface": "function",
+      "*self*": "object"
+    },
+    "*self*": "object"
   },
   "readline/promises": {
     "default": {
       "Interface": "function",
       "Readline": "function",
-      "createInterface": "function"
+      "createInterface": "function",
+      "*self*": "object"
     },
     "Interface": "function",
     "Readline": "function",
-    "createInterface": "function"
+    "createInterface": "function",
+    "*self*": "object"
   },
   "repl": {
     "default": {
@@ -6646,7 +6939,8 @@
       "Recoverable": "function",
       "builtinModules": "object",
       "start": "function",
-      "writer": "function"
+      "writer": "function",
+      "*self*": "object"
     },
     "REPLServer": "function",
     "REPL_MODE_SLOPPY": "symbol",
@@ -6654,7 +6948,8 @@
     "Recoverable": "function",
     "builtinModules": "object",
     "start": "function",
-    "writer": "function"
+    "writer": "function",
+    "*self*": "object"
   },
   "stream": {
     "default": {
@@ -6692,12 +6987,13 @@
       "pipeline": "function",
       "promises": {
         "finished": "function",
-        "pipeline": "function"
+        "pipeline": "function",
+        "*self*": "object"
       },
       "setDefaultHighWaterMark": "function",
       "setMaxListeners": "function",
       "usingDomains": "boolean",
-      "*default*": "function",
+      "*self*": "function",
       "_isArrayBufferView": "function"
     },
     "Duplex": "function",
@@ -6721,9 +7017,11 @@
     "pipeline": "function",
     "promises": {
       "finished": "function",
-      "pipeline": "function"
+      "pipeline": "function",
+      "*self*": "object"
     },
     "setDefaultHighWaterMark": "function",
+    "*self*": "object",
     "_isArrayBufferView": "function"
   },
   "stream/consumers": {
@@ -6732,21 +7030,25 @@
       "blob": "function",
       "buffer": "function",
       "json": "function",
-      "text": "function"
+      "text": "function",
+      "*self*": "object"
     },
     "arrayBuffer": "function",
     "blob": "function",
     "buffer": "function",
     "json": "function",
-    "text": "function"
+    "text": "function",
+    "*self*": "object"
   },
   "stream/promises": {
     "default": {
       "finished": "function",
-      "pipeline": "function"
+      "pipeline": "function",
+      "*self*": "object"
     },
     "finished": "function",
-    "pipeline": "function"
+    "pipeline": "function",
+    "*self*": "object"
   },
   "stream/web": {
     "default": {
@@ -6766,7 +7068,8 @@
       "TransformStreamDefaultController": "function",
       "WritableStream": "function",
       "WritableStreamDefaultController": "function",
-      "WritableStreamDefaultWriter": "function"
+      "WritableStreamDefaultWriter": "function",
+      "*self*": "object"
     },
     "ByteLengthQueuingStrategy": "function",
     "CompressionStream": "function",
@@ -6784,13 +7087,16 @@
     "TransformStreamDefaultController": "function",
     "WritableStream": "function",
     "WritableStreamDefaultController": "function",
-    "WritableStreamDefaultWriter": "function"
+    "WritableStreamDefaultWriter": "function",
+    "*self*": "object"
   },
   "string_decoder": {
     "default": {
-      "StringDecoder": "function"
+      "StringDecoder": "function",
+      "*self*": "object"
     },
-    "StringDecoder": "function"
+    "StringDecoder": "function",
+    "*self*": "object"
   },
   "sys": {
     "default": {
@@ -6877,8 +7183,10 @@
         "isUint8Array": "function",
         "isUint8ClampedArray": "function",
         "isWeakMap": "function",
-        "isWeakSet": "function"
+        "isWeakSet": "function",
+        "*self*": "object"
       },
+      "*self*": "object",
       "parseEnv": "function",
       "styleText": "function"
     },
@@ -6965,8 +7273,10 @@
       "isUint8Array": "function",
       "isUint8ClampedArray": "function",
       "isWeakMap": "function",
-      "isWeakSet": "function"
+      "isWeakSet": "function",
+      "*self*": "object"
     },
+    "*self*": "object",
     "parseEnv": "function",
     "styleText": "function"
   },
@@ -6982,11 +7292,13 @@
       "setInterval": "function",
       "setTimeout": "function",
       "unenroll": "function",
+      "*self*": "object",
       "promises": {
         "scheduler": "object",
         "setImmediate": "function",
         "setInterval": "function",
-        "setTimeout": "function"
+        "setTimeout": "function",
+        "*self*": "object"
       }
     },
     "_unrefActive": "function",
@@ -6999,24 +7311,34 @@
     "setInterval": "function",
     "setTimeout": "function",
     "unenroll": "function",
+    "*self*": "object",
     "promises": {
-      "scheduler": "{}",
+      "scheduler": {
+        "*self*": "object"
+      },
       "setImmediate": "function",
       "setInterval": "function",
-      "setTimeout": "function"
+      "setTimeout": "function",
+      "*self*": "object"
     }
   },
   "timers/promises": {
     "default": {
-      "scheduler": "{}",
+      "scheduler": {
+        "*self*": "object"
+      },
       "setImmediate": "function",
       "setInterval": "function",
-      "setTimeout": "function"
+      "setTimeout": "function",
+      "*self*": "object"
     },
-    "scheduler": "{}",
+    "scheduler": {
+      "*self*": "object"
+    },
     "setImmediate": "function",
     "setInterval": "function",
-    "setTimeout": "function"
+    "setTimeout": "function",
+    "*self*": "object"
   },
   "tls": {
     "default": {
@@ -7036,7 +7358,8 @@
       "createSecurePair": "function",
       "createServer": "function",
       "getCiphers": "function",
-      "rootCertificates": "object"
+      "rootCertificates": "object",
+      "*self*": "object"
     },
     "CLIENT_RENEG_LIMIT": "number",
     "CLIENT_RENEG_WINDOW": "number",
@@ -7054,25 +7377,30 @@
     "createSecurePair": "function",
     "createServer": "function",
     "getCiphers": "function",
-    "rootCertificates": "object"
+    "rootCertificates": "object",
+    "*self*": "object"
   },
   "trace_events": {
     "default": {
       "createTracing": "function",
-      "getEnabledCategories": "function"
+      "getEnabledCategories": "function",
+      "*self*": "object"
     },
     "createTracing": "function",
-    "getEnabledCategories": "function"
+    "getEnabledCategories": "function",
+    "*self*": "object"
   },
   "tty": {
     "default": {
       "ReadStream": "function",
       "WriteStream": "function",
-      "isatty": "function"
+      "isatty": "function",
+      "*self*": "object"
     },
     "ReadStream": "function",
     "WriteStream": "function",
-    "isatty": "function"
+    "isatty": "function",
+    "*self*": "object"
   },
   "url": {
     "default": {
@@ -7087,7 +7415,8 @@
       "pathToFileURL": "function",
       "resolve": "function",
       "resolveObject": "function",
-      "urlToHttpOptions": "function"
+      "urlToHttpOptions": "function",
+      "*self*": "object"
     },
     "URL": "function",
     "URLSearchParams": "function",
@@ -7100,7 +7429,8 @@
     "pathToFileURL": "function",
     "resolve": "function",
     "resolveObject": "function",
-    "urlToHttpOptions": "function"
+    "urlToHttpOptions": "function",
+    "*self*": "object"
   },
   "util": {
     "default": {
@@ -7187,8 +7517,10 @@
         "isUint8Array": "function",
         "isUint8ClampedArray": "function",
         "isWeakMap": "function",
-        "isWeakSet": "function"
+        "isWeakSet": "function",
+        "*self*": "object"
       },
+      "*self*": "object",
       "parseEnv": "function",
       "styleText": "function"
     },
@@ -7275,8 +7607,10 @@
       "isUint8Array": "function",
       "isUint8ClampedArray": "function",
       "isWeakMap": "function",
-      "isWeakSet": "function"
+      "isWeakSet": "function",
+      "*self*": "object"
     },
+    "*self*": "object",
     "parseEnv": "function",
     "styleText": "function"
   },
@@ -7323,7 +7657,8 @@
       "isUint8Array": "function",
       "isUint8ClampedArray": "function",
       "isWeakMap": "function",
-      "isWeakSet": "function"
+      "isWeakSet": "function",
+      "*self*": "object"
     },
     "isAnyArrayBuffer": "function",
     "isArgumentsObject": "function",
@@ -7366,7 +7701,8 @@
     "isUint8Array": "function",
     "isUint8ClampedArray": "function",
     "isWeakMap": "function",
-    "isWeakSet": "function"
+    "isWeakSet": "function",
+    "*self*": "object"
   },
   "v8": {
     "default": {
@@ -7386,7 +7722,8 @@
         "onAfter": "function",
         "onBefore": "function",
         "onInit": "function",
-        "onSettled": "function"
+        "onSettled": "function",
+        "*self*": "object"
       },
       "serialize": "function",
       "setFlagsFromString": "function",
@@ -7395,11 +7732,13 @@
         "addDeserializeCallback": "function",
         "addSerializeCallback": "function",
         "isBuildingSnapshot": "function",
-        "setDeserializeMainFunction": "function"
+        "setDeserializeMainFunction": "function",
+        "*self*": "object"
       },
       "stopCoverage": "function",
       "takeCoverage": "function",
       "writeHeapSnapshot": "function",
+      "*self*": "object",
       "queryObjects": "function"
     },
     "DefaultDeserializer": "function",
@@ -7418,7 +7757,8 @@
       "onAfter": "function",
       "onBefore": "function",
       "onInit": "function",
-      "onSettled": "function"
+      "onSettled": "function",
+      "*self*": "object"
     },
     "serialize": "function",
     "setFlagsFromString": "function",
@@ -7427,11 +7767,13 @@
       "addDeserializeCallback": "function",
       "addSerializeCallback": "function",
       "isBuildingSnapshot": "function",
-      "setDeserializeMainFunction": "function"
+      "setDeserializeMainFunction": "function",
+      "*self*": "object"
     },
     "stopCoverage": "function",
     "takeCoverage": "function",
     "writeHeapSnapshot": "function",
+    "*self*": "object",
     "queryObjects": "function"
   },
   "vm": {
@@ -7445,8 +7787,10 @@
       "runInContext": "function",
       "runInNewContext": "function",
       "runInThisContext": "function",
+      "*self*": "object",
       "constants": {
-        "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
+        "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol",
+        "*self*": "object"
       }
     },
     "Script": "function",
@@ -7458,15 +7802,19 @@
     "runInContext": "function",
     "runInNewContext": "function",
     "runInThisContext": "function",
+    "*self*": "object",
     "constants": {
-      "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
+      "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol",
+      "*self*": "object"
     }
   },
   "wasi": {
     "default": {
-      "WASI": "function"
+      "WASI": "function",
+      "*self*": "object"
     },
-    "WASI": "function"
+    "WASI": "function",
+    "*self*": "object"
   },
   "worker_threads": {
     "default": {
@@ -7481,10 +7829,13 @@
       "moveMessagePortToContext": "function",
       "parentPort": "null",
       "receiveMessageOnPort": "function",
-      "resourceLimits": "{}",
+      "resourceLimits": {
+        "*self*": "object"
+      },
       "setEnvironmentData": "function",
       "threadId": "number",
       "workerData": "null",
+      "*self*": "object",
       "isMarkedAsUntransferable": "function"
     },
     "BroadcastChannel": "function",
@@ -7498,10 +7849,13 @@
     "moveMessagePortToContext": "function",
     "parentPort": "null",
     "receiveMessageOnPort": "function",
-    "resourceLimits": "{}",
+    "resourceLimits": {
+      "*self*": "object"
+    },
     "setEnvironmentData": "function",
     "threadId": "number",
     "workerData": "null",
+    "*self*": "object",
     "isMarkedAsUntransferable": "function"
   },
   "zlib": {
@@ -7537,7 +7891,8 @@
         "Z_OK": "number",
         "Z_STREAM_END": "number",
         "Z_STREAM_ERROR": "number",
-        "Z_VERSION_ERROR": "number"
+        "Z_VERSION_ERROR": "number",
+        "*self*": "object"
       },
       "constants": {
         "BROTLI_DECODE": "number",
@@ -7646,7 +8001,8 @@
         "Z_STREAM_END": "number",
         "Z_STREAM_ERROR": "number",
         "Z_SYNC_FLUSH": "number",
-        "Z_VERSION_ERROR": "number"
+        "Z_VERSION_ERROR": "number",
+        "*self*": "object"
       },
       "createBrotliCompress": "function",
       "createBrotliDecompress": "function",
@@ -7671,6 +8027,7 @@
       "inflateSync": "function",
       "unzip": "function",
       "unzipSync": "function",
+      "*self*": "object",
       "crc32": "function"
     },
     "BrotliCompress": "function",
@@ -7704,7 +8061,8 @@
       "Z_OK": "number",
       "Z_STREAM_END": "number",
       "Z_STREAM_ERROR": "number",
-      "Z_VERSION_ERROR": "number"
+      "Z_VERSION_ERROR": "number",
+      "*self*": "object"
     },
     "constants": {
       "BROTLI_DECODE": "number",
@@ -7813,7 +8171,8 @@
       "Z_STREAM_END": "number",
       "Z_STREAM_ERROR": "number",
       "Z_SYNC_FLUSH": "number",
-      "Z_VERSION_ERROR": "number"
+      "Z_VERSION_ERROR": "number",
+      "*self*": "object"
     },
     "createBrotliCompress": "function",
     "createBrotliDecompress": "function",
@@ -7838,6 +8197,7 @@
     "inflateSync": "function",
     "unzip": "function",
     "unzipSync": "function",
+    "*self*": "object",
     "crc32": "function"
   }
 }

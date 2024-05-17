@@ -1,4 +1,5 @@
 import { visit } from "../dump-utils.mjs";
+import baseline from "../node/baseline.json";
 
 export default {
   async fetch(request, env, ctx) {
@@ -342,7 +343,7 @@ export default {
       zlib = await import("zlib");
     } catch (err) {}
 
-    const modules = {
+    const importedModules = {
       _http_agent: _http_agent,
       _http_client: _http_client,
       _http_common: _http_common,
@@ -413,150 +414,17 @@ export default {
       zlib: zlib,
     };
 
-    const result = {};
-
-    for (const [name, module] of Object.entries(modules)) {
-      result[name] = module === null ? null : visit(module);
-    }
-
-    const nodeGlobals = [
-      "AbortController",
-      "AbortSignal",
-      "AggregateError",
-      "Array",
-      "ArrayBuffer",
-      "Atomics",
-      "BigInt",
-      "BigInt64Array",
-      "BigUint64Array",
-      "Blob",
-      "Boolean",
-      "BroadcastChannel",
-      "Buffer",
-      "ByteLengthQueuingStrategy",
-      "CompressionStream",
-      "CountQueuingStrategy",
-      "DOMException",
-      "DataView",
-      "Date",
-      "DecompressionStream",
-      "Error",
-      "EvalError",
-      "Event",
-      "EventTarget",
-      "FinalizationRegistry",
-      "Float32Array",
-      "Float64Array",
-      "FormData",
-      "Function",
-      "Headers",
-      "Infinity",
-      "Int16Array",
-      "Int32Array",
-      "Int8Array",
-      "Intl",
-      "JSON",
-      "Map",
-      "Math",
-      "MessageChannel",
-      "MessageEvent",
-      "MessagePort",
-      "NaN",
-      "Number",
-      "Object",
-      "Performance",
-      "Promise",
-      "Proxy",
-      "RangeError",
-      "ReadableByteStreamController",
-      "ReadableStream",
-      "ReadableStreamBYOBReader",
-      "ReadableStreamBYOBRequest",
-      "ReadableStreamDefaultController",
-      "ReadableStreamDefaultReader",
-      "ReferenceError",
-      "Reflect",
-      "RegExp",
-      "Request",
-      "Response",
-      "Set",
-      "SharedArrayBuffer",
-      "String",
-      "Symbol",
-      "SyntaxError",
-      "TextDecoder",
-      "TextDecoderStream",
-      "TextEncoder",
-      "TextEncoderStream",
-      "TransformStream",
-      "TransformStreamDefaultController",
-      "TypeError",
-      "URIError",
-      "URL",
-      "URLSearchParams",
-      "Uint16Array",
-      "Uint32Array",
-      "Uint8Array",
-      "Uint8ClampedArray",
-      "WeakMap",
-      "WeakRef",
-      "WeakSet",
-      "WebAssembly",
-      "WritableStream",
-      "WritableStreamDefaultController",
-      "WritableStreamDefaultWriter",
-      "atob",
-      "btoa",
-      "clearImmediate",
-      "clearInterval",
-      "clearTimeout",
-      "console",
-      "decodeURI",
-      "decodeURIComponent",
-      "encodeURI",
-      "encodeURIComponent",
-      "escape",
-      "eval",
-      "fetch",
-      "global",
-      "globalThis",
-      "isFinite",
-      "isNaN",
-      "parseFloat",
-      "parseInt",
-      "performance",
-      "process",
-      "queueMicrotask",
-      "setImmediate",
-      "setInterval",
-      "setTimeout",
-      "structuredClone",
-      "undefined",
-      "unescape",
-      "Crypto",
-      "CryptoKey",
-      "CustomEvent",
-      "File",
-      "PerformanceEntry",
-      "PerformanceMark",
-      "PerformanceMeasure",
-      "PerformanceObserver",
-      "PerformanceObserverEntryList",
-      "PerformanceResourceTiming",
-      "SubtleCrypto",
-      "crypto",
-      "Iterator",
-      "Navigator",
-      "WebSocket",
-      "navigator",
-    ];
-    const globalsMap = {};
-    for (const module of nodeGlobals) {
+    const workerdGlobals = {};
+    for (const module of Object.keys(baseline["*globals*"])) {
       if (typeof globalThis[module] !== "undefined") {
-        globalsMap[module] = globalThis[module];
+        workerdGlobals[module] = globalThis[module];
       }
     }
-    result["*globals*"] = visit(globalsMap);
+
+    const result = visit(baseline, {
+      "*globals*": workerdGlobals,
+      ...importedModules,
+    });
 
     return new Response(JSON.stringify(result, null, 2), {
       headers: { "Content-Type": "application/json" },

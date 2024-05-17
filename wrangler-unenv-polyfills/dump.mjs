@@ -21,6 +21,10 @@ const spawnWrangler = async () => {
     }
   );
 
+  wranglerProcess.stdout.on("data", (chunk) => {
+    process.stdout.write(chunk);
+  });
+
   const url = await new Promise((res) => {
     wranglerProcess.on("message", (message) => {
       const { event, ip, port } = JSON.parse(message);
