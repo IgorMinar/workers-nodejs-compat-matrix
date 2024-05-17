@@ -3,6 +3,7 @@ import deepmerge from "deepmerge";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { objectSort } from "./dump-utils.mjs";
 
 shell.set("-e");
 
@@ -54,17 +55,7 @@ const node20 = JSON.parse(shell.cat("node/node-20.json"));
 const node22 = JSON.parse(shell.cat("node/node-22.json"));
 
 // Sort the baseline by key name
-const merged = deepmerge.all([node18, node20, node22]);
-const [globals, ...rest] = Object.keys(merged);
-const baseline = rest.sort().reduce(
-  (acc, key) => ({
-    ...acc,
-    [key]: merged[key],
-  }),
-  {
-    "*globals*": merged[globals],
-  }
-);
+const baseline = objectSort(deepmerge.all([node18, node20, node22]));
 
 // Retain a copy of the baseline in the `node` folder for bun and deno
 await fs.writeFile(
@@ -144,6 +135,11 @@ await fs.writeFile(
   path.join(__dirname, "report", "src", "data", "versionMap.json"),
   JSON.stringify(versionMap, null, 2)
 );
+
+const now = Date.now();
+shell
+  .echo(JSON.stringify({ timestamp: now }))
+  .to("report/src/data/timestamp.json");
 
 function extractNpmVersion(projectName, packageName) {
   return shell

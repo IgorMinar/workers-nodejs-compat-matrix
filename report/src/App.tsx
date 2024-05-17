@@ -3,6 +3,7 @@ import "./App.css";
 
 import tableData from "./data/table-data.json";
 import versionMap from "./data/versionMap.json";
+import timestamp from "./data/timestamp.json";
 import { mismatch, stub, supported, unsupported } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
@@ -38,6 +39,8 @@ type RowData = z.infer<typeof rowSchema>;
 
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
+
+  console.log(timestamp);
 
   const expand = (key: string) => {
     if (expanded.some((k) => k.startsWith(key))) {
@@ -163,14 +166,17 @@ const App = () => {
       if (!isTopLevel) return content;
 
       return (
-        <a
-          className="text-blue-900 hover:text-blue-500"
-          href={getDocsLink(key)}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {content}
-        </a>
+        <>
+          <span className="opacity-0">{"_".repeat(pathParts.length * 2)}</span>
+          <a
+            className="text-blue-900 hover:text-blue-500"
+            href={getDocsLink(key)}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {key}
+          </a>
+        </>
       );
     };
 
@@ -251,8 +257,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="container mx-auto py-10">
-        <div className="my-5 flex justify-between">
+      <div className="max-w-[85%] mx-auto py-10">
+        <div className="my-5 flex justify-between items-center">
           <div className="flex gap-2">
             <a
               className="hover:bg-blue-500 bg-blue-700 text-white text-sm font-semibold px-3 py-2 rounded-md flex items-center"
@@ -273,6 +279,10 @@ const App = () => {
             >
               Collapse All
             </button>
+          </div>
+          <div className="text-sm">
+            <span className="font-semibold mr-1">Generated:</span>
+            {new Date(timestamp.timestamp).toLocaleString()}
           </div>
           <Legend />
         </div>

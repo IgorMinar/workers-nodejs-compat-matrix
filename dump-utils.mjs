@@ -1,6 +1,6 @@
-const sortFn = ([a], [b]) => {
+export const sortFn = (a, b) => {
+  if (a === "*self*") return -2;
   if (a === "default") return -1;
-  if (a === "*self*") return 1;
   return a < b ? -1 : 1;
 };
 
@@ -97,3 +97,15 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
     .sort(sortFn)
     .reduce((acc, key) => ({ ...acc, [key]: visitResult[key] }), {});
 }
+
+export const objectSort = (obj) => {
+  return Object.keys(obj)
+    .sort(sortFn)
+    .reduce(
+      (acc, key) => ({
+        ...acc,
+        [key]: typeof obj[key] === "object" ? objectSort(obj[key]) : obj[key],
+      }),
+      {}
+    );
+};
