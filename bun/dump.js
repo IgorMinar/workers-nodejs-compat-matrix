@@ -2,51 +2,51 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { visit } from "../dump-utils.mjs";
-import NODE_APIS from "../node/baseline.json" with { type: "json" };
+import baseline from "../node/baseline.json" with { type: "json" };
 
-const result = {};
-for (const name of Object.keys(NODE_APIS)) {
+const bunGlobals = {};
+const importedModules = {};
+for (const name of Object.keys(baseline)) {
   if (name === "*globals*") {
-    const nodeGlobals = {};
-    for (const globalProp of Object.keys(NODE_APIS[name])) {
+    for (const globalProp of Object.keys(baseline[name])) {
       if (globalProp in globalThis) {
-        nodeGlobals[globalProp] = globalThis[globalProp];
+        bunGlobals[globalProp] = globalThis[globalProp];
       }
     }
-    result[name] = visit(nodeGlobals);
-
     continue;
   }
 
   try {
     const module = await import(`node:${name}`);
-    result[name] = visit(module);
+    importedModules[name] = module;
   } catch {
     continue;
   }
 }
 
+const result = visit(baseline, { "*globals*": bunGlobals, ...importedModules });
+
 // reset process.env so that it doesn't contain user specific info
 if (result["*globals*"].process?.env) {
-  result["*globals*"].process.env = {};
+  result["*globals*"].process.env = { "*self*": "object" };
 }
 if (result["process"].env) {
-  result["process"].env = {};
+  result["process"].env = { "*self*": "object" };
 }
 if (result["process"].default?.env) {
-  result["process"].default.env = {};
+  result["process"].default.env = { "*self*": "object" };
 }
 if (result["module"]._cache) {
-  result["module"]._cache = {};
+  result["module"]._cache = { "*self*": "object" };
 }
 if (result["module"]._pathCache) {
-  result["module"]._pathCache = {};
+  result["module"]._pathCache = { "*self*": "object" };
 }
 if (result["module"].default._cache) {
-  result["module"].default._cache = {};
+  result["module"].default._cache = { "*self*": "object" };
 }
 if (result["module"].default._pathCache) {
-  result["module"].default._pathCache = {};
+  result["module"].default._pathCache = { "*self*": "object" };
 }
 
 await fs.writeFile(

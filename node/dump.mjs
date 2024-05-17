@@ -3,11 +3,10 @@ import { builtinModules } from "node:module";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { visit } from "../dump-utils.mjs";
+import baseline from "../node/baseline.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const result = {};
 
 // collect all global keys
 const nodeGlobalKeys = Object.keys(
@@ -26,15 +25,19 @@ const nodeSpecificGlobals = nodeGlobalKeys.reduce((map, g) => {
 // don't capture user-specific info in the dump
 nodeSpecificGlobals.process.env = {};
 
-result["*globals*"] = visit(nodeSpecificGlobals);
-
+const modules = {};
 for (const builtinModule of builtinModules) {
-  // TODO: determine if we care about internal modules that start with _
-  //if (builtinModule.startsWith('_')) continue;
-
   const module = await import(builtinModule);
-  result[builtinModule] = visit(module);
+  modules[builtinModule] = module;
 }
+
+const compareToBaseline = process.argv.slice(2)[0] === "--compare-to-baseline";
+if (compareToBaseline) {
+  console.log("Generating against baseline");
+}
+const result = compareToBaseline
+  ? visit(baseline, { "*globals*": nodeSpecificGlobals, ...modules })
+  : visit({ "*globals*": nodeSpecificGlobals, ...modules });
 
 // don't capture user-specific info in the dump
 result.module._pathCache = "";

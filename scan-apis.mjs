@@ -43,11 +43,9 @@ for (const version of nodeVersions) {
   shell.echo(`Generate node v${version} apis...`);
   shell.exec(volta + `run --node ${version} node node/dump.mjs`);
   shell.echo("=== Done ====================================\n\n");
-  const versionOutput = shell
-    .exec(volta + `run --node ${version} node --version`, { silent: true })
-    .stdout.match(/v(?<version>\S+)/).groups.version;
-  versionMap[`node${version}`] = versionOutput;
 }
+
+shell.echo("Generating baseline.json");
 
 // Create a merged baseline that will be used in the report
 // as well as when generating bun and deno
@@ -73,8 +71,24 @@ await fs.writeFile(
   path.join(__dirname, "node", "baseline.json"),
   JSON.stringify(baseline, null, 2)
 );
+
 // Copy to the report
 shell.cp("node/baseline.json", "report/src/data");
+
+shell.echo("=== Done ====================================\n\n");
+
+// Re-run node against the baseline
+for (const version of nodeVersions) {
+  shell.echo(`Generate node v${version} apis...`);
+  shell.exec(
+    volta + `run --node ${version} node node/dump.mjs --compare-to-baseline`
+  );
+  shell.echo("=== Done ====================================\n\n");
+  const versionOutput = shell
+    .exec(volta + `run --node ${version} node --version`, { silent: true })
+    .stdout.match(/v(?<version>\S+)/).groups.version;
+  versionMap[`node${version}`] = versionOutput;
+}
 
 // Move node output to the report folder
 for (const version of nodeVersions) {
@@ -92,7 +106,7 @@ versionMap["bun"] = shell
 // deno
 shell.echo("Generate deno apis...");
 shell.exec(
-  "deno run --allow-write=report/src/data/deno.json --allow-read=. deno/dump.js"
+  "deno run --allow-write=report/src/data/deno.json --allow-read --allow-env deno/dump.js"
 );
 shell.echo("=== Done ====================================\n\n");
 versionMap["deno"] = shell

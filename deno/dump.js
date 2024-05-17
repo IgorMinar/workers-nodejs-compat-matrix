@@ -2,28 +2,32 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { visit } from "../dump-utils.mjs";
-import NODE_APIS from "../node/baseline.json" with { type: "json" };
+import baseline from "../node/baseline.json" with { type: "json" };
 
-const result = {};
-for (const name of Object.keys(NODE_APIS)) {
+const denoGlobals = {};
+const importedModules = {};
+for (const name of Object.keys(baseline)) {
   if (name === "*globals*") {
-    const nodeGlobals = {};
-    for (const globalProp of Object.keys(NODE_APIS[name])) {
+    for (const globalProp of Object.keys(baseline["*globals*"])) {
       if (globalProp in globalThis) {
-        nodeGlobals[globalProp] = globalThis[globalProp];
+        denoGlobals[globalProp] = globalThis[globalProp];
       }
     }
-    result[name] = visit(nodeGlobals);
     continue;
   }
 
   try {
     const module = await import(`node:${name}`);
-    result[name] = visit(module);
+    importedModules[name] = module;
   } catch {
     continue;
   }
 }
+
+const result = visit(baseline, {
+  "*globals*": denoGlobals,
+  ...importedModules,
+});
 
 await fs.writeFile(
   path.join(import.meta.dirname, "..", "report", "src", "data", "deno.json"),

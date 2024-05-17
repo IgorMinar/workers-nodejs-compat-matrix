@@ -70,7 +70,7 @@ const App = () => {
         case "stub":
           return stub;
         case "unsupported":
-        case "default":
+        default:
           return unsupported;
       }
     };

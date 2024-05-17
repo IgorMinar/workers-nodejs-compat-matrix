@@ -121,6 +121,8 @@ const visit = (node, path) => {
         const targetValue = get(target, keyPath);
         if (targetValue === "stub" || isPartOfMockModule(target, keyPath)) {
           row.push("stub");
+        } else if (targetValue === "missing" && childNode !== "missing") {
+          row.push("unsupported");
         } else if (targetValue && targetValue !== childNode) {
           row.push("mismatch");
         } else if (targetValue) {

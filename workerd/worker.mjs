@@ -1,30 +1,35 @@
 import { visit } from "./dump-utils.mjs";
 
 export default {
-    async fetch(request, env, ctx) {
-        const result = {};
-        for (const name of Object.keys(env.NODE_APIS)) {
-            if (name === "*globals*") {
-                const nodeGlobals = {};
-                for (const globalProp of Object.keys(env.NODE_APIS[name])) {
-                    if (globalProp in globalThis) {
-                        nodeGlobals[globalProp] = globalThis[globalProp];
-                    }
-                }
-                result[name] = visit(nodeGlobals);
-                continue;
-            }
+  async fetch(request, env, ctx) {
+    const workerdGlobals = {};
+    const importedModules = {};
 
-            try {
-                const module = await import(`node:${name}`);
-                result[name] = visit(module);
-            } catch {
-                continue;
-            }
+    for (const name of Object.keys(env.baseline)) {
+      if (name === "*globals*") {
+        for (const globalProp of Object.keys(env.baseline["*globals*"])) {
+          if (globalProp in globalThis) {
+            workerdGlobals[globalProp] = globalThis[globalProp];
+          }
         }
-        
-        return new Response(JSON.stringify(result, null, 2), {
-            headers: { "Content-Type": "application/json" },
-        });
-    }   
-}
+        continue;
+      }
+
+      try {
+        const module = await import(`node:${name}`);
+        importedModules[name] = module;
+      } catch {
+        continue;
+      }
+    }
+
+    const result = visit(env.baseline, {
+      "*globals*": workerdGlobals,
+      ...importedModules,
+    });
+
+    return new Response(JSON.stringify(result, null, 2), {
+      headers: { "Content-Type": "application/json" },
+    });
+  },
+};

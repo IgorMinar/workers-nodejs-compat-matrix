@@ -1,13 +1,13 @@
-export function visit(root, depth = 0) {
+export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
   // create a unique object to mark keys that errored during inspection
   const INSPECTION_ERROR = {};
 
   // collect all properties of an object including inherited ones
   const entries = [];
-  for (const key in root) {
+  for (const key in traversalNode) {
     let value;
     try {
-      value = root[key];
+      value = traversalNode[key];
     } catch (e) {
       value = INSPECTION_ERROR;
     }
@@ -17,39 +17,51 @@ export function visit(root, depth = 0) {
   entries.sort(([a], [b]) => (a === "default" ? -1 : a < b ? -1 : 1));
 
   const visitResult = {};
-  for (const [key, value] of entries) {
-    if (value === INSPECTION_ERROR) {
+  for (const [key, traversalValue] of entries) {
+    let targetValue = targetNode[key];
+
+    // If a key doesn't exist on the target node AND it's undefined, we mark it as missing.
+    // For stubs, the key will not exist in the targetNode (since targetNode) but the value
+    // will be `function`, since it's a proxy.
+    if (!(key in targetNode) && typeof targetValue === "undefined") {
+      targetValue = "missing";
+    }
+
+    if (targetValue === INSPECTION_ERROR) {
       visitResult[key] = "<INSPECTION ERROR>";
       continue;
     }
 
     const isObject =
-      typeof value === "object" && value !== null && !Array.isArray(value);
+      typeof traversalValue === "object" &&
+      traversalValue !== null &&
+      !Array.isArray(traversalValue);
 
     if (isObject || key === "default") {
       // don't worry drilling into exported objects beyond listing its top properties
-      if (depth === 2) {
+      if (depth === 3) {
         visitResult[key] = "object";
       } else {
-        const partialResult = visit(value, depth + 1);
+        const partialResult = visit(
+          traversalValue,
+          targetValue === "missing" ? {} : targetValue || {},
+          depth + 1
+        );
 
-        // if the default export is not an object, insert a special key to partialResults to indicate its type
-        if (key === "default" && !isObject) {
-          partialResult["*default*"] = value === null ? "null" : typeof value;
-        }
-        // if the partial result is an empty object serialize it as a "{}" string
-        visitResult[key] =
-          Object.keys(partialResult).length > 0 ? partialResult : "{}";
+        partialResult["*self*"] =
+          traversalValue === null ? "null" : typeof traversalValue;
+
+        visitResult[key] = partialResult;
       }
     } else {
       // Detect unenv stubs
-      if (value && value.__unenv__ === true) {
+      if (targetValue && targetValue.__unenv__ === true) {
         visitResult[key] = "stub";
         continue;
       }
 
-      if (typeof value === "function") {
-        const code = value.toString();
+      if (typeof targetValue === "function") {
+        const code = targetValue.toString();
 
         // Detect unimplemented stubs
         if (
@@ -65,7 +77,13 @@ export function visit(root, depth = 0) {
         }
       }
 
-      visitResult[key] = value === null ? "null" : typeof value;
+      if (targetValue === "missing") {
+        visitResult[key] = "missing";
+      } else if (targetValue === null) {
+        visitResult[key] = "null";
+      } else {
+        visitResult[key] = typeof targetValue;
+      }
     }
   }
   return visitResult;
