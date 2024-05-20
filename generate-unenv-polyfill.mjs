@@ -20,9 +20,17 @@ if (!dest.includes("src/unenv/src/runtime/node")) {
 
 const moduleInfo = baseline[moduleName];
 
+const escapeIdentifier = (identifier) => identifier.replace("/", "_");
+
 const exports = Object.keys(moduleInfo)
   .sort()
   .filter((key) => !["*self*", "default"].includes(key));
+
+const encountered = {
+  function: false,
+  class: false,
+  object: false,
+};
 
 const generateCode = (symbolName) => {
   let type = baseline[moduleName][symbolName];
@@ -30,37 +38,67 @@ const generateCode = (symbolName) => {
     type = "object";
   }
 
-  const fullName = `${moduleName}.${symbolName}`;
+  const fullName = `${escapeIdentifier(moduleName)}.${symbolName}`;
   switch (type) {
     case "function":
+      encountered.function = true;
       return `export const ${symbolName}: typeof ${fullName} = notImplemented("${fullName}");\n`;
     case "string":
       return `export const ${symbolName}: typeof ${fullName} = ""; // TODO: double-check\n`;
-    case "string":
+    case "number":
       return `export const ${symbolName}: typeof ${fullName} = 0; // TODO: double-check\n`;
-    case "object":
     case "class":
+      encountered.class = true;
+      return `export const ${symbolName}: typeof ${fullName} = notImplementedClass("${fullName}");\n`;
+    case "object":
+      encountered.object = true;
       return `export const ${symbolName}: typeof ${fullName} =  mock.__createMock__("${fullName}");\n`;
     default:
       return `// export const ${symbolName}: typeof ${fullName} = TODO: implement\n`;
   }
 };
 
-let code = `
-import type ${moduleName} from "node:${moduleName}";
-import { notImplemented } from "../../_internal/utils";
-import mock from "../../mock/proxy";
+const generateImports = () => {
+  let mockImports = [];
 
-`;
+  const utilImports = [];
+  if (encountered.function) {
+    utilImports.push("notImplemented");
+  }
+  if (encountered.class) {
+    utilImports.push("notImplementedClass");
+  }
+  if (utilImports.length > 0) {
+    mockImports.push(
+      `import { ${utilImports.join(", ")} } from "../../_internal/utils";`
+    );
+  }
+  if (encountered.object) {
+    mockImports.push(`import mock from "../../mock/proxy";`);
+  }
+
+  return `
+${mockImports.join("\n")}
+import type ${escapeIdentifier(moduleName)} from "node:${moduleName}";
+  `.trim();
+};
+
+let body = ``;
 
 for (const symbol of exports) {
-  code += generateCode(symbol);
+  body += generateCode(symbol);
 }
 
-code += `
-export default <typeof ${moduleName}>{
+body += `
+export default <typeof ${escapeIdentifier(moduleName)}>{
   ${exports.join(",\n")}
 }
+`;
+
+const code = `
+${generateImports()}
+
+${body}
 `;
 
 if (dest) {
