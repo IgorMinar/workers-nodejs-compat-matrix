@@ -55,7 +55,11 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
         );
 
         partialResult["*self*"] =
-          traversalValue === null ? "null" : typeof traversalValue;
+          targetValue === null
+            ? "null"
+            : targetValue === "missing"
+              ? "missing"
+              : typeof targetValue;
 
         visitResult[key] = partialResult;
       }

@@ -1112,7 +1112,7 @@
   "_stream_duplex": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1168,7 +1168,7 @@
   "_stream_passthrough": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1221,7 +1221,7 @@
   "_stream_readable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1280,7 +1280,7 @@
   "_stream_transform": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1333,7 +1333,7 @@
   "_stream_wrap": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1386,7 +1386,7 @@
   "_stream_writable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1465,7 +1465,7 @@
   "assert": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "function",
       "CallTracker": "function",
       "deepEqual": "function",
@@ -1511,7 +1511,7 @@
   "assert/strict": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "function",
       "CallTracker": "function",
       "deepEqual": "function",
@@ -3088,7 +3088,7 @@
   "events": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
       "addAbortListener": "function",
@@ -4823,7 +4823,7 @@
   "module": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Module": "function",
       "SourceMap": "function",
       "_cache": "",
@@ -6954,7 +6954,7 @@
   "stream": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",

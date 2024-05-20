@@ -178,21 +178,21 @@
     "eval": "function",
     "fetch": "function",
     "global": {
-      "*self*": "object",
+      "*self*": "missing",
       "atob": "missing",
       "btoa": "missing",
       "clearImmediate": "missing",
       "clearInterval": "missing",
       "clearTimeout": "missing",
       "crypto": {
-        "*self*": "object",
+        "*self*": "missing",
         "getRandomValues": "missing",
         "randomUUID": "missing",
         "subtle": "missing"
       },
       "fetch": "missing",
       "global": {
-        "*self*": "object",
+        "*self*": "missing",
         "atob": "missing",
         "btoa": "missing",
         "clearImmediate": "missing",
@@ -210,7 +210,7 @@
         "structuredClone": "missing"
       },
       "navigator": {
-        "*self*": "object",
+        "*self*": "missing",
         "hardwareConcurrency": "missing",
         "language": "missing",
         "languages": "missing",
@@ -218,7 +218,7 @@
         "userAgent": "missing"
       },
       "performance": {
-        "*self*": "object",
+        "*self*": "missing",
         "addEventListener": "missing",
         "clearMarks": "missing",
         "clearMeasures": "missing",
@@ -257,7 +257,7 @@
       },
       "fetch": "function",
       "global": {
-        "*self*": "object",
+        "*self*": "missing",
         "atob": "missing",
         "btoa": "missing",
         "clearImmediate": "missing",
@@ -343,7 +343,7 @@
       "_debugEnd": "stub",
       "_debugProcess": "stub",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "exit": "missing",
         "newListener": "missing",
         "removeListener": "missing",
@@ -468,7 +468,7 @@
       "setuid": "stub",
       "sourceMapsEnabled": "missing",
       "stderr": {
-        "*self*": "object",
+        "*self*": "function",
         "_bytesDispatched": "stub",
         "_closeAfterHandlingError": "stub",
         "_destroy": "stub",
@@ -552,7 +552,7 @@
         "write": "stub"
       },
       "stdin": {
-        "*self*": "object",
+        "*self*": "function",
         "_bytesDispatched": "stub",
         "_closeAfterHandlingError": "stub",
         "_destroy": "stub",
@@ -634,7 +634,7 @@
         "write": "stub"
       },
       "stdout": {
-        "*self*": "object",
+        "*self*": "function",
         "_bytesDispatched": "stub",
         "_closeAfterHandlingError": "stub",
         "_destroy": "stub",
@@ -761,10 +761,10 @@
   "_http_agent": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Agent": "stub",
       "globalAgent": {
-        "*self*": "object",
+        "*self*": "function",
         "_events": "stub",
         "_eventsCount": "stub",
         "_maxListeners": "stub",
@@ -808,9 +808,9 @@
     },
     "Agent": "missing",
     "globalAgent": {
-      "*self*": "object",
+      "*self*": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "free": "missing",
         "newListener": "missing"
       },
@@ -825,7 +825,7 @@
       "emit": "missing",
       "eventNames": "missing",
       "freeSockets": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "getMaxListeners": "missing",
       "getName": "missing",
@@ -841,7 +841,7 @@
       "on": "missing",
       "once": "missing",
       "options": {
-        "*self*": "object",
+        "*self*": "missing",
         "keepAlive": "missing",
         "noDelay": "missing",
         "path": "missing",
@@ -856,13 +856,13 @@
       "removeListener": "missing",
       "removeSocket": "missing",
       "requests": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "reuseSocket": "missing",
       "scheduling": "missing",
       "setMaxListeners": "missing",
       "sockets": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "totalSocketCount": "missing"
     }
@@ -870,7 +870,7 @@
   "_http_client": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ClientRequest": "stub"
     },
     "ClientRequest": "missing"
@@ -878,23 +878,23 @@
   "_http_common": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "CRLF": "stub",
       "HTTPParser": "stub",
       "_checkInvalidHeaderChar": "stub",
       "_checkIsHttpToken": "stub",
       "chunkExpression": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "continueExpression": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "freeParser": "stub",
       "isLenient": "stub",
       "kIncomingMessage": "stub",
       "methods": "stub",
       "parsers": {
-        "*self*": "object",
+        "*self*": "function",
         "ctor": "stub",
         "list": "stub",
         "max": "stub",
@@ -907,17 +907,17 @@
     "_checkInvalidHeaderChar": "missing",
     "_checkIsHttpToken": "missing",
     "chunkExpression": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "continueExpression": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "freeParser": "missing",
     "isLenient": "missing",
     "kIncomingMessage": "missing",
     "methods": "missing",
     "parsers": {
-      "*self*": "object",
+      "*self*": "missing",
       "ctor": "missing",
       "list": "missing",
       "max": "missing",
@@ -928,7 +928,7 @@
   "_http_incoming": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "IncomingMessage": "stub",
       "readStart": "stub",
       "readStop": "stub"
@@ -940,7 +940,7 @@
   "_http_outgoing": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "OutgoingMessage": "stub",
       "kHighWaterMark": "stub",
       "kUniqueHeaders": "stub",
@@ -958,7 +958,7 @@
   "_http_server": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "STATUS_CODES": {
         "100": "stub",
         "101": "stub",
@@ -1023,7 +1023,7 @@
         "509": "stub",
         "510": "stub",
         "511": "stub",
-        "*self*": "object"
+        "*self*": "function"
       },
       "Server": "stub",
       "ServerResponse": "stub",
@@ -1098,7 +1098,7 @@
       "509": "missing",
       "510": "missing",
       "511": "missing",
-      "*self*": "object"
+      "*self*": "missing"
     },
     "Server": "missing",
     "ServerResponse": "missing",
@@ -1112,7 +1112,7 @@
   "_stream_duplex": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1168,7 +1168,7 @@
   "_stream_passthrough": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1221,7 +1221,7 @@
   "_stream_readable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1280,7 +1280,7 @@
   "_stream_transform": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1333,7 +1333,7 @@
   "_stream_wrap": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "stub",
       "EventEmitter": "stub",
       "EventEmitterAsyncResource": "stub",
@@ -1372,7 +1372,7 @@
       "once": "stub",
       "pipeline": "stub",
       "promises": {
-        "*self*": "object",
+        "*self*": "function",
         "finished": "stub",
         "pipeline": "stub"
       },
@@ -1386,7 +1386,7 @@
   "_stream_writable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1439,7 +1439,7 @@
   "_tls_common": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "SecureContext": "stub",
       "createSecureContext": "stub",
       "translatePeerCertificate": "stub"
@@ -1451,7 +1451,7 @@
   "_tls_wrap": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Server": "stub",
       "TLSSocket": "stub",
       "connect": "stub",
@@ -1465,7 +1465,7 @@
   "assert": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "function",
       "CallTracker": "missing",
       "deepEqual": "function",
@@ -1511,7 +1511,7 @@
   "assert/strict": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "stub",
       "CallTracker": "stub",
       "deepEqual": "stub",
@@ -1561,7 +1561,7 @@
       "AsyncLocalStorage": "function",
       "AsyncResource": "function",
       "asyncWrapProviders": {
-        "*self*": "object",
+        "*self*": "missing",
         "BLOBREADER": "missing",
         "CHECKPRIMEREQUEST": "missing",
         "CIPHERREQUEST": "missing",
@@ -1636,7 +1636,7 @@
     "AsyncLocalStorage": "function",
     "AsyncResource": "function",
     "asyncWrapProviders": {
-      "*self*": "object",
+      "*self*": "missing",
       "BLOBREADER": "missing",
       "CHECKPRIMEREQUEST": "missing",
       "CIPHERREQUEST": "missing",
@@ -1753,7 +1753,7 @@
   "child_process": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ChildProcess": "stub",
       "_forkChild": "stub",
       "exec": "stub",
@@ -1777,12 +1777,12 @@
   "cluster": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "SCHED_NONE": "stub",
       "SCHED_RR": "stub",
       "Worker": "stub",
       "_events": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "_eventsCount": "stub",
       "_maxListeners": "stub",
@@ -1808,19 +1808,19 @@
       "schedulingPolicy": "stub",
       "setMaxListeners": "stub",
       "settings": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "setupMaster": "stub",
       "setupPrimary": "stub",
       "workers": {
-        "*self*": "object"
+        "*self*": "function"
       }
     },
     "SCHED_NONE": "missing",
     "SCHED_RR": "missing",
     "Worker": "missing",
     "_events": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "_eventsCount": "missing",
     "_maxListeners": "missing",
@@ -1831,18 +1831,18 @@
     "isWorker": "missing",
     "schedulingPolicy": "missing",
     "settings": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "setupMaster": "missing",
     "setupPrimary": "missing",
     "workers": {
-      "*self*": "object"
+      "*self*": "missing"
     }
   },
   "console": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Console": "stub",
       "assert": "stub",
       "clear": "stub",
@@ -2146,7 +2146,7 @@
     "W_OK": "missing",
     "X_OK": "missing",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ALPN_ENABLED": "stub",
       "COPYFILE_EXCL": "stub",
       "COPYFILE_FICLONE": "stub",
@@ -2422,7 +2422,7 @@
       "checkPrime": "function",
       "checkPrimeSync": "function",
       "constants": {
-        "*self*": "object",
+        "*self*": "missing",
         "ALPN_ENABLED": "missing",
         "DH_CHECK_P_NOT_PRIME": "missing",
         "DH_CHECK_P_NOT_SAFE_PRIME": "missing",
@@ -2585,7 +2585,7 @@
     "checkPrime": "function",
     "checkPrimeSync": "function",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "ALPN_ENABLED": "missing",
       "DH_CHECK_P_NOT_PRIME": "missing",
       "DH_CHECK_P_NOT_SAFE_PRIME": "missing",
@@ -2748,7 +2748,7 @@
   "dgram": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Socket": "stub",
       "_createSocketHandle": "stub",
       "createSocket": "stub"
@@ -2778,7 +2778,7 @@
   "dns": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ADDRCONFIG": "stub",
       "ADDRGETNETWORKPARAMS": "stub",
       "ALL": "stub",
@@ -2812,7 +2812,7 @@
       "lookup": "stub",
       "lookupService": "stub",
       "promises": {
-        "*self*": "object",
+        "*self*": "function",
         "ADDRGETNETWORKPARAMS": "stub",
         "BADFAMILY": "stub",
         "BADFLAGS": "stub",
@@ -2909,7 +2909,7 @@
     "lookup": "missing",
     "lookupService": "missing",
     "promises": {
-      "*self*": "object",
+      "*self*": "missing",
       "ADDRGETNETWORKPARAMS": "missing",
       "BADFAMILY": "missing",
       "BADFLAGS": "missing",
@@ -2976,7 +2976,7 @@
   "dns/promises": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ADDRGETNETWORKPARAMS": "stub",
       "BADFAMILY": "stub",
       "BADFLAGS": "stub",
@@ -3072,7 +3072,7 @@
   "domain": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Domain": "stub",
       "_stack": "stub",
       "active": "stub",
@@ -3088,7 +3088,7 @@
   "events": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
       "addAbortListener": "missing",
@@ -3853,7 +3853,7 @@
       "createServer": "stub",
       "get": "stub",
       "globalAgent": {
-        "*self*": "object",
+        "*self*": "function",
         "_events": "stub",
         "_eventsCount": "stub",
         "_maxListeners": "stub",
@@ -3977,9 +3977,9 @@
     "createServer": "stub",
     "get": "stub",
     "globalAgent": {
-      "*self*": "object",
+      "*self*": "function",
       "_events": {
-        "*self*": "object",
+        "*self*": "function",
         "free": "stub",
         "newListener": "stub"
       },
@@ -3994,7 +3994,7 @@
       "emit": "stub",
       "eventNames": "stub",
       "freeSockets": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "getMaxListeners": "stub",
       "getName": "stub",
@@ -4010,7 +4010,7 @@
       "on": "stub",
       "once": "stub",
       "options": {
-        "*self*": "object",
+        "*self*": "function",
         "keepAlive": "stub",
         "noDelay": "stub",
         "path": "stub",
@@ -4025,13 +4025,13 @@
       "removeListener": "stub",
       "removeSocket": "stub",
       "requests": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "reuseSocket": "stub",
       "scheduling": "stub",
       "setMaxListeners": "stub",
       "sockets": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "totalSocketCount": "stub"
     },
@@ -4044,12 +4044,12 @@
   "http2": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Http2ServerRequest": "stub",
       "Http2ServerResponse": "stub",
       "connect": "stub",
       "constants": {
-        "*self*": "object",
+        "*self*": "function",
         "DEFAULT_SETTINGS_ENABLE_CONNECT_PROTOCOL": "stub",
         "DEFAULT_SETTINGS_ENABLE_PUSH": "stub",
         "DEFAULT_SETTINGS_HEADER_TABLE_SIZE": "stub",
@@ -4303,7 +4303,7 @@
     "Http2ServerResponse": "missing",
     "connect": "missing",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "DEFAULT_SETTINGS_ENABLE_CONNECT_PROTOCOL": "missing",
       "DEFAULT_SETTINGS_ENABLE_PUSH": "missing",
       "DEFAULT_SETTINGS_HEADER_TABLE_SIZE": "missing",
@@ -4556,13 +4556,13 @@
   "https": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Agent": "stub",
       "Server": "stub",
       "createServer": "stub",
       "get": "stub",
       "globalAgent": {
-        "*self*": "object",
+        "*self*": "function",
         "_cacheSession": "stub",
         "_events": "stub",
         "_eventsCount": "stub",
@@ -4615,10 +4615,10 @@
     "createServer": "missing",
     "get": "missing",
     "globalAgent": {
-      "*self*": "object",
+      "*self*": "missing",
       "_cacheSession": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "free": "missing",
         "newListener": "missing"
       },
@@ -4627,7 +4627,7 @@
       "_getSession": "missing",
       "_maxListeners": "missing",
       "_sessionCache": {
-        "*self*": "object",
+        "*self*": "missing",
         "list": "missing",
         "map": "missing"
       },
@@ -4640,7 +4640,7 @@
       "emit": "missing",
       "eventNames": "missing",
       "freeSockets": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "getMaxListeners": "missing",
       "getName": "missing",
@@ -4657,7 +4657,7 @@
       "on": "missing",
       "once": "missing",
       "options": {
-        "*self*": "object",
+        "*self*": "missing",
         "keepAlive": "missing",
         "noDelay": "missing",
         "path": "missing",
@@ -4672,13 +4672,13 @@
       "removeListener": "missing",
       "removeSocket": "missing",
       "requests": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "reuseSocket": "missing",
       "scheduling": "missing",
       "setMaxListeners": "missing",
       "sockets": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "totalSocketCount": "missing"
     },
@@ -4687,11 +4687,11 @@
   "inspector": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Session": "stub",
       "close": "stub",
       "console": {
-        "*self*": "object",
+        "*self*": "function",
         "assert": "stub",
         "clear": "stub",
         "context": "stub",
@@ -4723,7 +4723,7 @@
     "Session": "missing",
     "close": "missing",
     "console": {
-      "*self*": "object",
+      "*self*": "missing",
       "assert": "missing",
       "clear": "missing",
       "context": "missing",
@@ -4755,11 +4755,11 @@
   "inspector/promises": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Session": "stub",
       "close": "stub",
       "console": {
-        "*self*": "object",
+        "*self*": "function",
         "assert": "stub",
         "clear": "stub",
         "context": "stub",
@@ -4791,7 +4791,7 @@
     "Session": "missing",
     "close": "missing",
     "console": {
-      "*self*": "object",
+      "*self*": "missing",
       "assert": "missing",
       "clear": "missing",
       "context": "missing",
@@ -4823,13 +4823,13 @@
   "module": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Module": "stub",
       "SourceMap": "stub",
       "_cache": "stub",
       "_debug": "stub",
       "_extensions": {
-        "*self*": "object",
+        "*self*": "function",
         ".js": "stub",
         ".json": "stub",
         ".node": "stub"
@@ -4856,7 +4856,7 @@
     "_cache": "missing",
     "_debug": "missing",
     "_extensions": {
-      "*self*": "object",
+      "*self*": "missing",
       ".js": "missing",
       ".json": "missing",
       ".node": "missing"
@@ -4923,12 +4923,12 @@
   "os": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "EOL": "stub",
       "arch": "stub",
       "availableParallelism": "stub",
       "constants": {
-        "*self*": "object",
+        "*self*": "function",
         "UV_UDP_REUSEADDR": "stub",
         "dlopen": "stub",
         "errno": "stub",
@@ -4959,17 +4959,17 @@
     "arch": "missing",
     "availableParallelism": "missing",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "UV_UDP_REUSEADDR": "missing",
       "dlopen": {
-        "*self*": "object",
+        "*self*": "missing",
         "RTLD_GLOBAL": "missing",
         "RTLD_LAZY": "missing",
         "RTLD_LOCAL": "missing",
         "RTLD_NOW": "missing"
       },
       "errno": {
-        "*self*": "object",
+        "*self*": "missing",
         "E2BIG": "missing",
         "EACCES": "missing",
         "EADDRINUSE": "missing",
@@ -5051,7 +5051,7 @@
         "EXDEV": "missing"
       },
       "priority": {
-        "*self*": "object",
+        "*self*": "missing",
         "PRIORITY_ABOVE_NORMAL": "missing",
         "PRIORITY_BELOW_NORMAL": "missing",
         "PRIORITY_HIGH": "missing",
@@ -5060,7 +5060,7 @@
         "PRIORITY_NORMAL": "missing"
       },
       "signals": {
-        "*self*": "object",
+        "*self*": "missing",
         "SIGABRT": "missing",
         "SIGALRM": "missing",
         "SIGBUS": "missing",
@@ -5299,7 +5299,7 @@
   "path/posix": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "_makeLong": "stub",
       "basename": "stub",
       "delimiter": "stub",
@@ -5311,7 +5311,7 @@
       "normalize": "stub",
       "parse": "stub",
       "posix": {
-        "*self*": "object",
+        "*self*": "function",
         "_makeLong": "stub",
         "basename": "stub",
         "delimiter": "stub",
@@ -5334,7 +5334,7 @@
       "sep": "stub",
       "toNamespacedPath": "stub",
       "win32": {
-        "*self*": "object",
+        "*self*": "function",
         "_makeLong": "stub",
         "basename": "stub",
         "delimiter": "stub",
@@ -5364,7 +5364,7 @@
     "normalize": "missing",
     "parse": "missing",
     "posix": {
-      "*self*": "object",
+      "*self*": "missing",
       "_makeLong": "missing",
       "basename": "missing",
       "delimiter": "missing",
@@ -5376,7 +5376,7 @@
       "normalize": "missing",
       "parse": "missing",
       "posix": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5399,7 +5399,7 @@
       "sep": "missing",
       "toNamespacedPath": "missing",
       "win32": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5423,7 +5423,7 @@
     "sep": "missing",
     "toNamespacedPath": "missing",
     "win32": {
-      "*self*": "object",
+      "*self*": "missing",
       "_makeLong": "missing",
       "basename": "missing",
       "delimiter": "missing",
@@ -5435,7 +5435,7 @@
       "normalize": "missing",
       "parse": "missing",
       "posix": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5458,7 +5458,7 @@
       "sep": "missing",
       "toNamespacedPath": "missing",
       "win32": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5481,7 +5481,7 @@
   "path/win32": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "_makeLong": "stub",
       "basename": "stub",
       "delimiter": "stub",
@@ -5493,7 +5493,7 @@
       "normalize": "stub",
       "parse": "stub",
       "posix": {
-        "*self*": "object",
+        "*self*": "function",
         "_makeLong": "stub",
         "basename": "stub",
         "delimiter": "stub",
@@ -5516,7 +5516,7 @@
       "sep": "stub",
       "toNamespacedPath": "stub",
       "win32": {
-        "*self*": "object",
+        "*self*": "function",
         "_makeLong": "stub",
         "basename": "stub",
         "delimiter": "stub",
@@ -5546,7 +5546,7 @@
     "normalize": "missing",
     "parse": "missing",
     "posix": {
-      "*self*": "object",
+      "*self*": "missing",
       "_makeLong": "missing",
       "basename": "missing",
       "delimiter": "missing",
@@ -5558,7 +5558,7 @@
       "normalize": "missing",
       "parse": "missing",
       "posix": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5581,7 +5581,7 @@
       "sep": "missing",
       "toNamespacedPath": "missing",
       "win32": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5605,7 +5605,7 @@
     "sep": "missing",
     "toNamespacedPath": "missing",
     "win32": {
-      "*self*": "object",
+      "*self*": "missing",
       "_makeLong": "missing",
       "basename": "missing",
       "delimiter": "missing",
@@ -5617,7 +5617,7 @@
       "normalize": "missing",
       "parse": "missing",
       "posix": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5640,7 +5640,7 @@
       "sep": "missing",
       "toNamespacedPath": "missing",
       "win32": {
-        "*self*": "object",
+        "*self*": "missing",
         "_makeLong": "missing",
         "basename": "missing",
         "delimiter": "missing",
@@ -5663,7 +5663,7 @@
   "perf_hooks": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Performance": "stub",
       "PerformanceEntry": "stub",
       "PerformanceMark": "stub",
@@ -5672,7 +5672,7 @@
       "PerformanceObserverEntryList": "stub",
       "PerformanceResourceTiming": "stub",
       "constants": {
-        "*self*": "object",
+        "*self*": "function",
         "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "stub",
         "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "stub",
         "NODE_PERFORMANCE_GC_FLAGS_CONSTRUCT_RETAINED": "stub",
@@ -5688,7 +5688,7 @@
       "createHistogram": "stub",
       "monitorEventLoopDelay": "stub",
       "performance": {
-        "*self*": "object",
+        "*self*": "function",
         "addEventListener": "stub",
         "clearMarks": "stub",
         "clearMeasures": "stub",
@@ -5715,7 +5715,7 @@
     "PerformanceObserverEntryList": "missing",
     "PerformanceResourceTiming": "missing",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE": "missing",
       "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY": "missing",
       "NODE_PERFORMANCE_GC_FLAGS_CONSTRUCT_RETAINED": "missing",
@@ -5731,7 +5731,7 @@
     "createHistogram": "missing",
     "monitorEventLoopDelay": "missing",
     "performance": {
-      "*self*": "object",
+      "*self*": "missing",
       "addEventListener": "missing",
       "clearMarks": "missing",
       "clearMeasures": "missing",
@@ -5757,7 +5757,7 @@
       "_debugEnd": "missing",
       "_debugProcess": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "exit": "missing",
         "newListener": "missing",
         "removeListener": "missing",
@@ -5779,7 +5779,7 @@
       "abort": "missing",
       "addListener": "missing",
       "allowedNodeEnvironmentFlags": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "arch": "missing",
       "argv": "missing",
@@ -5789,7 +5789,7 @@
       "binding": "missing",
       "chdir": "missing",
       "config": {
-        "*self*": "object",
+        "*self*": "missing",
         "target_defaults": "missing",
         "variables": "missing"
       },
@@ -5810,7 +5810,7 @@
       "exit": "missing",
       "exitCode": "missing",
       "features": {
-        "*self*": "object",
+        "*self*": "missing",
         "cached_builtins": "missing",
         "debug": "missing",
         "inspector": "missing",
@@ -5850,7 +5850,7 @@
       "rawListeners": "missing",
       "reallyExit": "missing",
       "release": {
-        "*self*": "object",
+        "*self*": "missing",
         "headersUrl": "missing",
         "lts": "missing",
         "name": "missing",
@@ -5859,7 +5859,7 @@
       "removeAllListeners": "missing",
       "removeListener": "missing",
       "report": {
-        "*self*": "object",
+        "*self*": "missing",
         "compact": "missing",
         "directory": "missing",
         "excludeNetwork": "missing",
@@ -5882,7 +5882,7 @@
       "setuid": "missing",
       "sourceMapsEnabled": "missing",
       "stderr": {
-        "*self*": "object",
+        "*self*": "missing",
         "_bytesDispatched": "missing",
         "_closeAfterHandlingError": "missing",
         "_destroy": "missing",
@@ -5966,7 +5966,7 @@
         "write": "missing"
       },
       "stdin": {
-        "*self*": "object",
+        "*self*": "missing",
         "_bytesDispatched": "missing",
         "_closeAfterHandlingError": "missing",
         "_destroy": "missing",
@@ -6048,7 +6048,7 @@
         "write": "missing"
       },
       "stdout": {
-        "*self*": "object",
+        "*self*": "missing",
         "_bytesDispatched": "missing",
         "_closeAfterHandlingError": "missing",
         "_destroy": "missing",
@@ -6136,7 +6136,7 @@
       "uptime": "missing",
       "version": "missing",
       "versions": {
-        "*self*": "object",
+        "*self*": "missing",
         "acorn": "missing",
         "ada": "missing",
         "ares": "missing",
@@ -6167,7 +6167,7 @@
     "_debugEnd": "missing",
     "_debugProcess": "missing",
     "_events": {
-      "*self*": "object",
+      "*self*": "missing",
       "exit": "missing",
       "newListener": "missing",
       "removeListener": "missing",
@@ -6188,7 +6188,7 @@
     "_tickCallback": "missing",
     "abort": "missing",
     "allowedNodeEnvironmentFlags": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "arch": "missing",
     "argv": "missing",
@@ -6198,9 +6198,9 @@
     "binding": "missing",
     "chdir": "missing",
     "config": {
-      "*self*": "object",
+      "*self*": "missing",
       "target_defaults": {
-        "*self*": "object",
+        "*self*": "missing",
         "cflags": "missing",
         "default_configuration": "missing",
         "defines": "missing",
@@ -6208,7 +6208,7 @@
         "libraries": "missing"
       },
       "variables": {
-        "*self*": "object",
+        "*self*": "missing",
         "arm_fpu": "missing",
         "asan": "missing",
         "clang": "missing",
@@ -6318,7 +6318,7 @@
     "exit": "missing",
     "exitCode": "missing",
     "features": {
-      "*self*": "object",
+      "*self*": "missing",
       "cached_builtins": "missing",
       "debug": "missing",
       "inspector": "missing",
@@ -6349,14 +6349,14 @@
     "ppid": "missing",
     "reallyExit": "missing",
     "release": {
-      "*self*": "object",
+      "*self*": "missing",
       "headersUrl": "missing",
       "lts": "missing",
       "name": "missing",
       "sourceUrl": "missing"
     },
     "report": {
-      "*self*": "object",
+      "*self*": "missing",
       "compact": "missing",
       "directory": "missing",
       "excludeNetwork": "missing",
@@ -6378,12 +6378,12 @@
     "setuid": "missing",
     "sourceMapsEnabled": "missing",
     "stderr": {
-      "*self*": "object",
+      "*self*": "missing",
       "_bytesDispatched": "missing",
       "_closeAfterHandlingError": "missing",
       "_destroy": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "close": "missing",
         "data": "missing",
         "drain": "missing",
@@ -6407,7 +6407,7 @@
       "_pendingEncoding": "missing",
       "_read": "missing",
       "_readableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "awaitDrainWriters": "missing",
         "buffer": "missing",
         "bufferIndex": "missing",
@@ -6429,7 +6429,7 @@
       "_undestroy": "missing",
       "_unrefTimer": "missing",
       "_writableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "afterWriteTickInfo": "missing",
         "allBuffers": "missing",
         "allNoop": "missing",
@@ -6522,12 +6522,12 @@
       "write": "missing"
     },
     "stdin": {
-      "*self*": "object",
+      "*self*": "missing",
       "_bytesDispatched": "missing",
       "_closeAfterHandlingError": "missing",
       "_destroy": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "close": "missing",
         "data": "missing",
         "drain": "missing",
@@ -6551,7 +6551,7 @@
       "_pendingEncoding": "missing",
       "_read": "missing",
       "_readableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "awaitDrainWriters": "missing",
         "buffer": "missing",
         "bufferIndex": "missing",
@@ -6571,7 +6571,7 @@
       "_undestroy": "missing",
       "_unrefTimer": "missing",
       "_writableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "afterWriteTickInfo": "missing",
         "allBuffers": "missing",
         "allNoop": "missing",
@@ -6665,12 +6665,12 @@
       "write": "missing"
     },
     "stdout": {
-      "*self*": "object",
+      "*self*": "missing",
       "_bytesDispatched": "missing",
       "_closeAfterHandlingError": "missing",
       "_destroy": "missing",
       "_events": {
-        "*self*": "object",
+        "*self*": "missing",
         "close": "missing",
         "data": "missing",
         "drain": "missing",
@@ -6694,7 +6694,7 @@
       "_pendingEncoding": "missing",
       "_read": "missing",
       "_readableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "awaitDrainWriters": "missing",
         "buffer": "missing",
         "bufferIndex": "missing",
@@ -6716,7 +6716,7 @@
       "_undestroy": "missing",
       "_unrefTimer": "missing",
       "_writableState": {
-        "*self*": "object",
+        "*self*": "missing",
         "afterWriteTickInfo": "missing",
         "allBuffers": "missing",
         "allNoop": "missing",
@@ -6813,7 +6813,7 @@
     "uptime": "missing",
     "version": "missing",
     "versions": {
-      "*self*": "object",
+      "*self*": "missing",
       "acorn": "missing",
       "ada": "missing",
       "ares": "missing",
@@ -6844,13 +6844,13 @@
   "punycode": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "decode": "stub",
       "encode": "stub",
       "toASCII": "stub",
       "toUnicode": "stub",
       "ucs2": {
-        "*self*": "object",
+        "*self*": "function",
         "decode": "stub",
         "encode": "stub"
       },
@@ -6861,7 +6861,7 @@
     "toASCII": "missing",
     "toUnicode": "missing",
     "ucs2": {
-      "*self*": "object",
+      "*self*": "missing",
       "decode": "missing",
       "encode": "missing"
     },
@@ -6870,7 +6870,7 @@
   "querystring": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "decode": "stub",
       "encode": "stub",
       "escape": "stub",
@@ -6890,7 +6890,7 @@
   "readline": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Interface": "stub",
       "clearLine": "stub",
       "clearScreenDown": "stub",
@@ -6899,7 +6899,7 @@
       "emitKeypressEvents": "stub",
       "moveCursor": "stub",
       "promises": {
-        "*self*": "object",
+        "*self*": "function",
         "Interface": "stub",
         "Readline": "stub",
         "createInterface": "stub"
@@ -6913,7 +6913,7 @@
     "emitKeypressEvents": "missing",
     "moveCursor": "missing",
     "promises": {
-      "*self*": "object",
+      "*self*": "missing",
       "Interface": "missing",
       "Readline": "missing",
       "createInterface": "missing"
@@ -6922,7 +6922,7 @@
   "readline/promises": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Interface": "stub",
       "Readline": "stub",
       "createInterface": "stub"
@@ -6934,7 +6934,7 @@
   "repl": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "REPLServer": "stub",
       "REPL_MODE_SLOPPY": "stub",
       "REPL_MODE_STRICT": "stub",
@@ -6954,7 +6954,7 @@
   "stream": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -7051,9 +7051,9 @@
     "pipeline": "function"
   },
   "stream/web": {
-    "*self*": "object",
+    "*self*": "null",
     "default": {
-      "*self*": "object",
+      "*self*": "missing",
       "ByteLengthQueuingStrategy": "missing",
       "CompressionStream": "missing",
       "CountQueuingStrategy": "missing",
@@ -7101,7 +7101,7 @@
   "sys": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "MIMEParams": "stub",
       "MIMEType": "stub",
       "TextDecoder": "stub",
@@ -7146,7 +7146,7 @@
       "transferableAbortController": "stub",
       "transferableAbortSignal": "stub",
       "types": {
-        "*self*": "object",
+        "*self*": "function",
         "isAnyArrayBuffer": "stub",
         "isArgumentsObject": "stub",
         "isArrayBuffer": "stub",
@@ -7235,7 +7235,7 @@
     "transferableAbortController": "missing",
     "transferableAbortSignal": "missing",
     "types": {
-      "*self*": "object",
+      "*self*": "missing",
       "isAnyArrayBuffer": "missing",
       "isArgumentsObject": "missing",
       "isArrayBuffer": "missing",
@@ -7283,7 +7283,7 @@
   "timers": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "_unrefActive": "stub",
       "active": "stub",
       "clearImmediate": "stub",
@@ -7291,7 +7291,7 @@
       "clearTimeout": "stub",
       "enroll": "stub",
       "promises": {
-        "*self*": "object",
+        "*self*": "function",
         "scheduler": "stub",
         "setImmediate": "stub",
         "setInterval": "stub",
@@ -7309,9 +7309,9 @@
     "clearTimeout": "missing",
     "enroll": "missing",
     "promises": {
-      "*self*": "object",
+      "*self*": "missing",
       "scheduler": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "setImmediate": "missing",
       "setInterval": "missing",
@@ -7325,16 +7325,16 @@
   "timers/promises": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "scheduler": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "setImmediate": "stub",
       "setInterval": "stub",
       "setTimeout": "stub"
     },
     "scheduler": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "setImmediate": "missing",
     "setInterval": "missing",
@@ -7343,7 +7343,7 @@
   "tls": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "CLIENT_RENEG_LIMIT": "stub",
       "CLIENT_RENEG_WINDOW": "stub",
       "DEFAULT_CIPHERS": "stub",
@@ -7383,7 +7383,7 @@
   "trace_events": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "createTracing": "stub",
       "getEnabledCategories": "stub"
     },
@@ -7393,7 +7393,7 @@
   "tty": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "ReadStream": "stub",
       "WriteStream": "stub",
       "isatty": "stub"
@@ -7707,7 +7707,7 @@
   "v8": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "DefaultDeserializer": "stub",
       "DefaultSerializer": "stub",
       "Deserializer": "stub",
@@ -7720,7 +7720,7 @@
       "getHeapSpaceStatistics": "stub",
       "getHeapStatistics": "stub",
       "promiseHooks": {
-        "*self*": "object",
+        "*self*": "function",
         "createHook": "stub",
         "onAfter": "stub",
         "onBefore": "stub",
@@ -7732,7 +7732,7 @@
       "setFlagsFromString": "stub",
       "setHeapSnapshotNearHeapLimit": "stub",
       "startupSnapshot": {
-        "*self*": "object",
+        "*self*": "function",
         "addDeserializeCallback": "stub",
         "addSerializeCallback": "stub",
         "isBuildingSnapshot": "stub",
@@ -7754,7 +7754,7 @@
     "getHeapSpaceStatistics": "missing",
     "getHeapStatistics": "missing",
     "promiseHooks": {
-      "*self*": "object",
+      "*self*": "missing",
       "createHook": "missing",
       "onAfter": "missing",
       "onBefore": "missing",
@@ -7766,7 +7766,7 @@
     "setFlagsFromString": "missing",
     "setHeapSnapshotNearHeapLimit": "missing",
     "startupSnapshot": {
-      "*self*": "object",
+      "*self*": "missing",
       "addDeserializeCallback": "missing",
       "addSerializeCallback": "missing",
       "isBuildingSnapshot": "missing",
@@ -7779,11 +7779,11 @@
   "vm": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Script": "stub",
       "compileFunction": "stub",
       "constants": {
-        "*self*": "object",
+        "*self*": "function",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "stub"
       },
       "createContext": "stub",
@@ -7797,7 +7797,7 @@
     "Script": "missing",
     "compileFunction": "missing",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
     },
     "createContext": "missing",
@@ -7811,7 +7811,7 @@
   "wasi": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "WASI": "stub"
     },
     "WASI": "missing"
@@ -7819,7 +7819,7 @@
   "worker_threads": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "BroadcastChannel": "stub",
       "MessageChannel": "stub",
       "MessagePort": "stub",
@@ -7833,7 +7833,7 @@
       "parentPort": "stub",
       "receiveMessageOnPort": "stub",
       "resourceLimits": {
-        "*self*": "object"
+        "*self*": "function"
       },
       "setEnvironmentData": "stub",
       "threadId": "stub",
@@ -7852,7 +7852,7 @@
     "parentPort": "missing",
     "receiveMessageOnPort": "missing",
     "resourceLimits": {
-      "*self*": "object"
+      "*self*": "missing"
     },
     "setEnvironmentData": "missing",
     "threadId": "missing",
@@ -7861,7 +7861,7 @@
   "zlib": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "BrotliCompress": "stub",
       "BrotliDecompress": "stub",
       "Deflate": "stub",
@@ -7879,7 +7879,7 @@
         "0": "stub",
         "1": "stub",
         "2": "stub",
-        "*self*": "object",
+        "*self*": "function",
         "-1": "stub",
         "-2": "stub",
         "-3": "stub",
@@ -7897,7 +7897,7 @@
         "Z_VERSION_ERROR": "stub"
       },
       "constants": {
-        "*self*": "object",
+        "*self*": "function",
         "BROTLI_DECODE": "stub",
         "BROTLI_DECODER_ERROR_ALLOC_BLOCK_TYPE_TREES": "stub",
         "BROTLI_DECODER_ERROR_ALLOC_CONTEXT_MAP": "stub",
@@ -8048,7 +8048,7 @@
       "0": "missing",
       "1": "missing",
       "2": "missing",
-      "*self*": "object",
+      "*self*": "missing",
       "-1": "missing",
       "-2": "missing",
       "-3": "missing",
@@ -8066,7 +8066,7 @@
       "Z_VERSION_ERROR": "missing"
     },
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "BROTLI_DECODE": "missing",
       "BROTLI_DECODER_ERROR_ALLOC_BLOCK_TYPE_TREES": "missing",
       "BROTLI_DECODER_ERROR_ALLOC_CONTEXT_MAP": "missing",

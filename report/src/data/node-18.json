@@ -151,11 +151,11 @@
       "warn": "function"
     },
     "crypto": {
-      "*self*": "object",
+      "*self*": "missing",
       "getRandomValues": "missing",
       "randomUUID": "missing",
       "subtle": {
-        "*self*": "object",
+        "*self*": "missing",
         "decrypt": "missing",
         "deriveBits": "missing",
         "deriveKey": "missing",
@@ -185,7 +185,7 @@
       "clearInterval": "function",
       "clearTimeout": "function",
       "crypto": {
-        "*self*": "object",
+        "*self*": "missing",
         "getRandomValues": "missing",
         "randomUUID": "missing",
         "subtle": "missing"
@@ -210,7 +210,7 @@
         "structuredClone": "function"
       },
       "navigator": {
-        "*self*": "object",
+        "*self*": "missing",
         "hardwareConcurrency": "missing",
         "language": "missing",
         "languages": "missing",
@@ -250,7 +250,7 @@
       "clearInterval": "function",
       "clearTimeout": "function",
       "crypto": {
-        "*self*": "object",
+        "*self*": "missing",
         "getRandomValues": "missing",
         "randomUUID": "missing",
         "subtle": "missing"
@@ -275,7 +275,7 @@
         "structuredClone": "function"
       },
       "navigator": {
-        "*self*": "object",
+        "*self*": "missing",
         "hardwareConcurrency": "missing",
         "language": "missing",
         "languages": "missing",
@@ -310,7 +310,7 @@
     "isFinite": "function",
     "isNaN": "function",
     "navigator": {
-      "*self*": "object",
+      "*self*": "missing",
       "hardwareConcurrency": "missing",
       "language": "missing",
       "languages": "missing",
@@ -1112,7 +1112,7 @@
   "_stream_duplex": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1168,7 +1168,7 @@
   "_stream_passthrough": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1221,7 +1221,7 @@
   "_stream_readable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1280,7 +1280,7 @@
   "_stream_transform": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1333,7 +1333,7 @@
   "_stream_wrap": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1386,7 +1386,7 @@
   "_stream_writable": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -1465,7 +1465,7 @@
   "assert": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "function",
       "CallTracker": "function",
       "deepEqual": "function",
@@ -1511,7 +1511,7 @@
   "assert/strict": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "AssertionError": "function",
       "CallTracker": "function",
       "deepEqual": "function",
@@ -3088,7 +3088,7 @@
   "events": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
       "addAbortListener": "function",
@@ -4753,13 +4753,13 @@
     "waitForDebugger": "function"
   },
   "inspector/promises": {
-    "*self*": "object",
+    "*self*": "missing",
     "default": {
-      "*self*": "object",
+      "*self*": "missing",
       "Session": "missing",
       "close": "missing",
       "console": {
-        "*self*": "object",
+        "*self*": "missing",
         "assert": "missing",
         "clear": "missing",
         "context": "missing",
@@ -4791,7 +4791,7 @@
     "Session": "missing",
     "close": "missing",
     "console": {
-      "*self*": "object",
+      "*self*": "missing",
       "assert": "missing",
       "clear": "missing",
       "context": "missing",
@@ -4823,7 +4823,7 @@
   "module": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Module": "function",
       "SourceMap": "function",
       "_cache": "",
@@ -6954,7 +6954,7 @@
   "stream": {
     "*self*": "object",
     "default": {
-      "*self*": "object",
+      "*self*": "function",
       "Duplex": "function",
       "EventEmitter": "function",
       "EventEmitterAsyncResource": "function",
@@ -7291,7 +7291,7 @@
       "clearTimeout": "function",
       "enroll": "function",
       "promises": {
-        "*self*": "object",
+        "*self*": "missing",
         "scheduler": "missing",
         "setImmediate": "missing",
         "setInterval": "missing",
@@ -7309,9 +7309,9 @@
     "clearTimeout": "function",
     "enroll": "function",
     "promises": {
-      "*self*": "object",
+      "*self*": "missing",
       "scheduler": {
-        "*self*": "object"
+        "*self*": "missing"
       },
       "setImmediate": "missing",
       "setInterval": "missing",
@@ -7783,7 +7783,7 @@
       "Script": "function",
       "compileFunction": "function",
       "constants": {
-        "*self*": "object",
+        "*self*": "missing",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
       },
       "createContext": "function",
@@ -7797,7 +7797,7 @@
     "Script": "function",
     "compileFunction": "function",
     "constants": {
-      "*self*": "object",
+      "*self*": "missing",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
     },
     "createContext": "function",
