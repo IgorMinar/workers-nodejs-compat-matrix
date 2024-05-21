@@ -11,7 +11,7 @@
     "985/4/0/6540",
     "1145/36/0/6348",
     "2508/190/287/4544",
-    "1579/107/2265/3578"
+    "1411/87/2226/3805"
   ],
   [
     "*globals*",
@@ -25,7 +25,7 @@
     "174/0/0/517",
     "174/0/0/517",
     "178/0/0/513",
-    "220/24/272/175"
+    "196/0/0/495"
   ],
   [
     "*globals*.*self*",
@@ -235,7 +235,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.ByteLengthQueuingStrategy",
@@ -4477,7 +4477,7 @@
     "0/0/0/388",
     "0/0/0/388",
     "0/0/0/388",
-    "46/24/272/46"
+    "21/0/0/367"
   ],
   [
     "*globals*.process.*self*",
@@ -4505,7 +4505,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._debugProcess",
@@ -4519,7 +4519,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._events",
@@ -4617,7 +4617,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process._exiting",
@@ -4645,7 +4645,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._getActiveHandles",
@@ -4659,7 +4659,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._getActiveRequests",
@@ -4673,7 +4673,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._kill",
@@ -4687,7 +4687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._linkedBinding",
@@ -4729,7 +4729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process._rawDebug",
@@ -4743,7 +4743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._startProfilerIdleNotifier",
@@ -4757,7 +4757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._stopProfilerIdleNotifier",
@@ -4771,7 +4771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process._tickCallback",
@@ -4785,7 +4785,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.abort",
@@ -4799,7 +4799,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.addListener",
@@ -4827,7 +4827,7 @@
     "0/0/0/1",
     "0/0/0/1",
     "0/0/0/1",
-    "1/0/0/0"
+    "0/0/0/1"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.*self*",
@@ -4841,7 +4841,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.arch",
@@ -4855,7 +4855,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.argv",
@@ -4883,7 +4883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.assert",
@@ -4897,7 +4897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.availableMemory",
@@ -4953,7 +4953,7 @@
     "0/0/0/3",
     "0/0/0/3",
     "0/0/0/3",
-    "1/0/0/2"
+    "0/0/0/3"
   ],
   [
     "*globals*.process.config.*self*",
@@ -4967,7 +4967,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.config.target_defaults",
@@ -5009,7 +5009,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.cpuUsage",
@@ -5023,7 +5023,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.cwd",
@@ -5051,7 +5051,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.dlopen",
@@ -5065,7 +5065,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.domain",
@@ -5107,7 +5107,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.env",
@@ -5149,7 +5149,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.execArgv",
@@ -5163,7 +5163,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.execPath",
@@ -5177,7 +5177,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.exit",
@@ -5191,7 +5191,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.exitCode",
@@ -5219,7 +5219,7 @@
     "0/0/0/10",
     "0/0/0/10",
     "0/0/0/10",
-    "1/9/0/0"
+    "0/0/0/10"
   ],
   [
     "*globals*.process.features.*self*",
@@ -5233,7 +5233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.features.cached_builtins",
@@ -5247,7 +5247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.debug",
@@ -5261,7 +5261,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.inspector",
@@ -5275,7 +5275,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.ipv6",
@@ -5289,7 +5289,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.tls",
@@ -5303,7 +5303,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.tls_alpn",
@@ -5317,7 +5317,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.tls_ocsp",
@@ -5331,7 +5331,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.tls_sni",
@@ -5345,7 +5345,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.features.uv",
@@ -5359,7 +5359,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.getActiveResourcesInfo",
@@ -5373,7 +5373,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.getMaxListeners",
@@ -5387,7 +5387,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.getegid",
@@ -5401,7 +5401,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.geteuid",
@@ -5415,7 +5415,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.getgid",
@@ -5429,7 +5429,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.getgroups",
@@ -5443,7 +5443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.getuid",
@@ -5457,7 +5457,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.hasUncaughtExceptionCaptureCallback",
@@ -5485,7 +5485,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.initgroups",
@@ -5513,7 +5513,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.listenerCount",
@@ -5527,7 +5527,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.listeners",
@@ -5569,7 +5569,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.moduleLoadList",
@@ -5653,7 +5653,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.pid",
@@ -5667,7 +5667,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.platform",
@@ -5681,7 +5681,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.ppid",
@@ -5695,7 +5695,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.prependListener",
@@ -5737,7 +5737,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.reallyExit",
@@ -5765,7 +5765,7 @@
     "0/0/0/5",
     "0/0/0/5",
     "0/0/0/5",
-    "3/2/0/0"
+    "0/0/0/5"
   ],
   [
     "*globals*.process.release.*self*",
@@ -5779,7 +5779,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.release.headersUrl",
@@ -5793,7 +5793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.release.lts",
@@ -5807,7 +5807,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.release.name",
@@ -5821,7 +5821,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.release.sourceUrl",
@@ -5835,7 +5835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.removeAllListeners",
@@ -5877,7 +5877,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "1/7/2/1"
+    "0/0/0/11"
   ],
   [
     "*globals*.process.report.*self*",
@@ -5891,7 +5891,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.process.report.compact",
@@ -5905,7 +5905,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.directory",
@@ -5919,7 +5919,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.excludeNetwork",
@@ -5947,7 +5947,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.getReport",
@@ -5961,7 +5961,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.report.reportOnFatalError",
@@ -5975,7 +5975,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.reportOnSignal",
@@ -5989,7 +5989,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.reportOnUncaughtException",
@@ -6003,7 +6003,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.signal",
@@ -6017,7 +6017,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.report.writeReport",
@@ -6031,7 +6031,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.resourceUsage",
@@ -6045,7 +6045,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setMaxListeners",
@@ -6059,7 +6059,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setSourceMapsEnabled",
@@ -6073,7 +6073,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setUncaughtExceptionCaptureCallback",
@@ -6101,7 +6101,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.seteuid",
@@ -6115,7 +6115,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setgid",
@@ -6129,7 +6129,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setgroups",
@@ -6143,7 +6143,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.setuid",
@@ -6157,7 +6157,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.sourceMapsEnabled",
@@ -6185,7 +6185,7 @@
     "0/0/0/82",
     "0/0/0/82",
     "0/0/0/82",
-    "0/1/81/0"
+    "0/0/0/82"
   ],
   [
     "*globals*.process.stderr.*self*",
@@ -6199,7 +6199,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._bytesDispatched",
@@ -6213,7 +6213,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._closeAfterHandlingError",
@@ -6227,7 +6227,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._destroy",
@@ -6241,7 +6241,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._events",
@@ -6255,7 +6255,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._eventsCount",
@@ -6269,7 +6269,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._final",
@@ -6283,7 +6283,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._getpeername",
@@ -6297,7 +6297,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._getsockname",
@@ -6311,7 +6311,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._hadError",
@@ -6325,7 +6325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._host",
@@ -6339,7 +6339,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._isStdio",
@@ -6353,7 +6353,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._maxListeners",
@@ -6367,7 +6367,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._onTimeout",
@@ -6381,7 +6381,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._parent",
@@ -6395,7 +6395,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._pendingData",
@@ -6409,7 +6409,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._pendingEncoding",
@@ -6423,7 +6423,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._read",
@@ -6437,7 +6437,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._readableState",
@@ -6451,7 +6451,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._reset",
@@ -6465,7 +6465,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._server",
@@ -6479,7 +6479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._sockname",
@@ -6493,7 +6493,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._type",
@@ -6507,7 +6507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._undestroy",
@@ -6521,7 +6521,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._unrefTimer",
@@ -6535,7 +6535,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._writableState",
@@ -6549,7 +6549,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._write",
@@ -6563,7 +6563,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._writeGeneric",
@@ -6577,7 +6577,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr._writev",
@@ -6591,7 +6591,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.addListener",
@@ -6605,7 +6605,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.address",
@@ -6619,7 +6619,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.allowHalfOpen",
@@ -6633,7 +6633,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.bytesRead",
@@ -6647,7 +6647,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.bytesWritten",
@@ -6661,7 +6661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.connect",
@@ -6675,7 +6675,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.connecting",
@@ -6689,7 +6689,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.cork",
@@ -6703,7 +6703,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.destroy",
@@ -6717,7 +6717,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.destroySoon",
@@ -6731,7 +6731,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.emit",
@@ -6745,7 +6745,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.end",
@@ -6759,7 +6759,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.eventNames",
@@ -6773,7 +6773,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.fd",
@@ -6787,7 +6787,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.getMaxListeners",
@@ -6801,7 +6801,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.isPaused",
@@ -6815,7 +6815,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.iterator",
@@ -6829,7 +6829,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.listenerCount",
@@ -6843,7 +6843,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.listeners",
@@ -6857,7 +6857,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.localAddress",
@@ -6871,7 +6871,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.localFamily",
@@ -6885,7 +6885,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.localPort",
@@ -6899,7 +6899,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.off",
@@ -6913,7 +6913,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.on",
@@ -6927,7 +6927,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.once",
@@ -6941,7 +6941,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.pause",
@@ -6955,7 +6955,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.pipe",
@@ -6969,7 +6969,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.prependListener",
@@ -6983,7 +6983,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.prependOnceListener",
@@ -6997,7 +6997,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.push",
@@ -7011,7 +7011,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.rawListeners",
@@ -7025,7 +7025,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.read",
@@ -7039,7 +7039,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.ref",
@@ -7053,7 +7053,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.remoteAddress",
@@ -7067,7 +7067,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.remoteFamily",
@@ -7081,7 +7081,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.remotePort",
@@ -7095,7 +7095,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.removeAllListeners",
@@ -7109,7 +7109,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.removeListener",
@@ -7123,7 +7123,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.resetAndDestroy",
@@ -7137,7 +7137,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.resume",
@@ -7151,7 +7151,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.server",
@@ -7165,7 +7165,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setDefaultEncoding",
@@ -7179,7 +7179,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setEncoding",
@@ -7193,7 +7193,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setKeepAlive",
@@ -7207,7 +7207,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setMaxListeners",
@@ -7221,7 +7221,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setNoDelay",
@@ -7235,7 +7235,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.setTimeout",
@@ -7249,7 +7249,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.uncork",
@@ -7263,7 +7263,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.unpipe",
@@ -7277,7 +7277,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.unref",
@@ -7291,7 +7291,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.unshift",
@@ -7305,7 +7305,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.wrap",
@@ -7319,7 +7319,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stderr.write",
@@ -7333,7 +7333,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin",
@@ -7347,7 +7347,7 @@
     "0/0/0/80",
     "0/0/0/80",
     "0/0/0/80",
-    "0/1/79/0"
+    "0/0/0/80"
   ],
   [
     "*globals*.process.stdin.*self*",
@@ -7361,7 +7361,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._bytesDispatched",
@@ -7375,7 +7375,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._closeAfterHandlingError",
@@ -7389,7 +7389,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._destroy",
@@ -7403,7 +7403,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._events",
@@ -7417,7 +7417,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._eventsCount",
@@ -7431,7 +7431,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._final",
@@ -7445,7 +7445,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._getpeername",
@@ -7459,7 +7459,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._getsockname",
@@ -7473,7 +7473,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._hadError",
@@ -7487,7 +7487,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._host",
@@ -7501,7 +7501,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._maxListeners",
@@ -7515,7 +7515,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._onTimeout",
@@ -7529,7 +7529,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._parent",
@@ -7543,7 +7543,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._pendingData",
@@ -7557,7 +7557,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._pendingEncoding",
@@ -7571,7 +7571,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._read",
@@ -7585,7 +7585,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._readableState",
@@ -7599,7 +7599,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._reset",
@@ -7613,7 +7613,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._server",
@@ -7627,7 +7627,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._sockname",
@@ -7641,7 +7641,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._undestroy",
@@ -7655,7 +7655,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._unrefTimer",
@@ -7669,7 +7669,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._writableState",
@@ -7683,7 +7683,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._write",
@@ -7697,7 +7697,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._writeGeneric",
@@ -7711,7 +7711,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin._writev",
@@ -7725,7 +7725,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.addListener",
@@ -7739,7 +7739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.address",
@@ -7753,7 +7753,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.allowHalfOpen",
@@ -7767,7 +7767,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.bytesRead",
@@ -7781,7 +7781,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.bytesWritten",
@@ -7795,7 +7795,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.connect",
@@ -7809,7 +7809,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.connecting",
@@ -7823,7 +7823,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.cork",
@@ -7837,7 +7837,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.destroy",
@@ -7851,7 +7851,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.destroySoon",
@@ -7865,7 +7865,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.emit",
@@ -7879,7 +7879,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.end",
@@ -7893,7 +7893,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.eventNames",
@@ -7907,7 +7907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.fd",
@@ -7921,7 +7921,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.getMaxListeners",
@@ -7935,7 +7935,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.isPaused",
@@ -7949,7 +7949,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.iterator",
@@ -7963,7 +7963,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.listenerCount",
@@ -7977,7 +7977,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.listeners",
@@ -7991,7 +7991,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.localAddress",
@@ -8005,7 +8005,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.localFamily",
@@ -8019,7 +8019,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.localPort",
@@ -8033,7 +8033,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.off",
@@ -8047,7 +8047,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.on",
@@ -8061,7 +8061,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.once",
@@ -8075,7 +8075,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.pause",
@@ -8089,7 +8089,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.pipe",
@@ -8103,7 +8103,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.prependListener",
@@ -8117,7 +8117,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.prependOnceListener",
@@ -8131,7 +8131,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.push",
@@ -8145,7 +8145,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.rawListeners",
@@ -8159,7 +8159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.read",
@@ -8173,7 +8173,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.ref",
@@ -8187,7 +8187,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.remoteAddress",
@@ -8201,7 +8201,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.remoteFamily",
@@ -8215,7 +8215,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.remotePort",
@@ -8229,7 +8229,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.removeAllListeners",
@@ -8243,7 +8243,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.removeListener",
@@ -8257,7 +8257,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.resetAndDestroy",
@@ -8271,7 +8271,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.resume",
@@ -8285,7 +8285,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.server",
@@ -8299,7 +8299,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setDefaultEncoding",
@@ -8313,7 +8313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setEncoding",
@@ -8327,7 +8327,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setKeepAlive",
@@ -8341,7 +8341,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setMaxListeners",
@@ -8355,7 +8355,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setNoDelay",
@@ -8369,7 +8369,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.setTimeout",
@@ -8383,7 +8383,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.uncork",
@@ -8397,7 +8397,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.unpipe",
@@ -8411,7 +8411,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.unref",
@@ -8425,7 +8425,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.unshift",
@@ -8439,7 +8439,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.wrap",
@@ -8453,7 +8453,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdin.write",
@@ -8467,7 +8467,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout",
@@ -8481,7 +8481,7 @@
     "0/0/0/82",
     "0/0/0/82",
     "0/0/0/82",
-    "0/1/81/0"
+    "0/0/0/82"
   ],
   [
     "*globals*.process.stdout.*self*",
@@ -8495,7 +8495,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._bytesDispatched",
@@ -8509,7 +8509,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._closeAfterHandlingError",
@@ -8523,7 +8523,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._destroy",
@@ -8537,7 +8537,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._events",
@@ -8551,7 +8551,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._eventsCount",
@@ -8565,7 +8565,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._final",
@@ -8579,7 +8579,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._getpeername",
@@ -8593,7 +8593,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._getsockname",
@@ -8607,7 +8607,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._hadError",
@@ -8621,7 +8621,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._host",
@@ -8635,7 +8635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._isStdio",
@@ -8649,7 +8649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._maxListeners",
@@ -8663,7 +8663,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._onTimeout",
@@ -8677,7 +8677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._parent",
@@ -8691,7 +8691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._pendingData",
@@ -8705,7 +8705,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._pendingEncoding",
@@ -8719,7 +8719,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._read",
@@ -8733,7 +8733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._readableState",
@@ -8747,7 +8747,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._reset",
@@ -8761,7 +8761,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._server",
@@ -8775,7 +8775,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._sockname",
@@ -8789,7 +8789,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._type",
@@ -8803,7 +8803,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._undestroy",
@@ -8817,7 +8817,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._unrefTimer",
@@ -8831,7 +8831,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._writableState",
@@ -8845,7 +8845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._write",
@@ -8859,7 +8859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._writeGeneric",
@@ -8873,7 +8873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout._writev",
@@ -8887,7 +8887,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.addListener",
@@ -8901,7 +8901,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.address",
@@ -8915,7 +8915,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.allowHalfOpen",
@@ -8929,7 +8929,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.bytesRead",
@@ -8943,7 +8943,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.bytesWritten",
@@ -8957,7 +8957,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.connect",
@@ -8971,7 +8971,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.connecting",
@@ -8985,7 +8985,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.cork",
@@ -8999,7 +8999,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.destroy",
@@ -9013,7 +9013,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.destroySoon",
@@ -9027,7 +9027,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.emit",
@@ -9041,7 +9041,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.end",
@@ -9055,7 +9055,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.eventNames",
@@ -9069,7 +9069,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.fd",
@@ -9083,7 +9083,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.getMaxListeners",
@@ -9097,7 +9097,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.isPaused",
@@ -9111,7 +9111,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.iterator",
@@ -9125,7 +9125,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.listenerCount",
@@ -9139,7 +9139,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.listeners",
@@ -9153,7 +9153,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.localAddress",
@@ -9167,7 +9167,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.localFamily",
@@ -9181,7 +9181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.localPort",
@@ -9195,7 +9195,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.off",
@@ -9209,7 +9209,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.on",
@@ -9223,7 +9223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.once",
@@ -9237,7 +9237,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.pause",
@@ -9251,7 +9251,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.pipe",
@@ -9265,7 +9265,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.prependListener",
@@ -9279,7 +9279,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.prependOnceListener",
@@ -9293,7 +9293,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.push",
@@ -9307,7 +9307,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.rawListeners",
@@ -9321,7 +9321,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.read",
@@ -9335,7 +9335,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.ref",
@@ -9349,7 +9349,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.remoteAddress",
@@ -9363,7 +9363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.remoteFamily",
@@ -9377,7 +9377,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.remotePort",
@@ -9391,7 +9391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.removeAllListeners",
@@ -9405,7 +9405,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.removeListener",
@@ -9419,7 +9419,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.resetAndDestroy",
@@ -9433,7 +9433,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.resume",
@@ -9447,7 +9447,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.server",
@@ -9461,7 +9461,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setDefaultEncoding",
@@ -9475,7 +9475,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setEncoding",
@@ -9489,7 +9489,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setKeepAlive",
@@ -9503,7 +9503,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setMaxListeners",
@@ -9517,7 +9517,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setNoDelay",
@@ -9531,7 +9531,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.setTimeout",
@@ -9545,7 +9545,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.uncork",
@@ -9559,7 +9559,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.unpipe",
@@ -9573,7 +9573,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.unref",
@@ -9587,7 +9587,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.unshift",
@@ -9601,7 +9601,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.wrap",
@@ -9615,7 +9615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.stdout.write",
@@ -9629,7 +9629,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.process.title",
@@ -9671,7 +9671,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.process.version",
@@ -14711,7 +14711,7 @@
     "39/0/0/11",
     "2/0/0/48",
     "2/1/0/47",
-    "39/0/0/11"
+    "2/1/44/3"
   ],
   [
     "_stream_duplex.*self*",
@@ -14739,7 +14739,7 @@
     "38/0/0/8",
     "1/0/0/45",
     "1/0/0/45",
-    "38/0/0/8"
+    "1/1/44/0"
   ],
   [
     "_stream_duplex.default.*self*",
@@ -14767,7 +14767,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.EventEmitter",
@@ -14781,7 +14781,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.EventEmitterAsyncResource",
@@ -14795,7 +14795,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.PassThrough",
@@ -14809,7 +14809,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.Readable",
@@ -14823,7 +14823,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.ReadableState",
@@ -14837,7 +14837,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.Stream",
@@ -14851,7 +14851,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.Transform",
@@ -14865,7 +14865,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.Writable",
@@ -14879,7 +14879,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default._fromList",
@@ -14893,7 +14893,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default._isArrayBufferView",
@@ -14907,7 +14907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default._isUint8Array",
@@ -14921,7 +14921,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default._uint8ArrayToBuffer",
@@ -14935,7 +14935,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.addAbortListener",
@@ -14949,7 +14949,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.addAbortSignal",
@@ -14963,7 +14963,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.captureRejectionSymbol",
@@ -14977,7 +14977,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.captureRejections",
@@ -14991,7 +14991,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.compose",
@@ -15005,7 +15005,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.defaultMaxListeners",
@@ -15019,7 +15019,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.destroy",
@@ -15033,7 +15033,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.errorMonitor",
@@ -15047,7 +15047,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.finished",
@@ -15061,7 +15061,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.from",
@@ -15075,7 +15075,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.fromWeb",
@@ -15089,7 +15089,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.getDefaultHighWaterMark",
@@ -15103,7 +15103,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.getEventListeners",
@@ -15117,7 +15117,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.getMaxListeners",
@@ -15131,7 +15131,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.init",
@@ -15145,7 +15145,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.isDestroyed",
@@ -15159,7 +15159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.isDisturbed",
@@ -15173,7 +15173,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.isErrored",
@@ -15187,7 +15187,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.isReadable",
@@ -15201,7 +15201,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.isWritable",
@@ -15215,7 +15215,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.listenerCount",
@@ -15229,7 +15229,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.on",
@@ -15243,7 +15243,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.once",
@@ -15257,7 +15257,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.pipeline",
@@ -15271,7 +15271,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.promises",
@@ -15285,7 +15285,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "3/0/0/0"
+    "0/1/2/0"
   ],
   [
     "_stream_duplex.default.promises.*self*",
@@ -15299,7 +15299,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "_stream_duplex.default.promises.finished",
@@ -15313,7 +15313,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.promises.pipeline",
@@ -15327,7 +15327,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.setDefaultHighWaterMark",
@@ -15341,7 +15341,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_duplex.default.setMaxListeners",
@@ -15355,7 +15355,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.toWeb",
@@ -15369,7 +15369,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.usingDomains",
@@ -15383,7 +15383,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.default.wrap",
@@ -15397,7 +15397,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_duplex.from",
@@ -15453,7 +15453,7 @@
     "39/0/0/8",
     "2/0/0/45",
     "2/0/0/45",
-    "39/0/0/8"
+    "2/1/44/0"
   ],
   [
     "_stream_passthrough.*self*",
@@ -15481,7 +15481,7 @@
     "38/0/0/8",
     "1/0/0/45",
     "1/0/0/45",
-    "38/0/0/8"
+    "1/1/44/0"
   ],
   [
     "_stream_passthrough.default.*self*",
@@ -15509,7 +15509,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.EventEmitter",
@@ -15523,7 +15523,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.EventEmitterAsyncResource",
@@ -15537,7 +15537,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.PassThrough",
@@ -15551,7 +15551,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.Readable",
@@ -15565,7 +15565,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.ReadableState",
@@ -15579,7 +15579,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.Stream",
@@ -15593,7 +15593,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.Transform",
@@ -15607,7 +15607,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.Writable",
@@ -15621,7 +15621,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default._fromList",
@@ -15635,7 +15635,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default._isArrayBufferView",
@@ -15649,7 +15649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default._isUint8Array",
@@ -15663,7 +15663,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default._uint8ArrayToBuffer",
@@ -15677,7 +15677,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.addAbortListener",
@@ -15691,7 +15691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.addAbortSignal",
@@ -15705,7 +15705,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.captureRejectionSymbol",
@@ -15719,7 +15719,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.captureRejections",
@@ -15733,7 +15733,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.compose",
@@ -15747,7 +15747,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.defaultMaxListeners",
@@ -15761,7 +15761,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.destroy",
@@ -15775,7 +15775,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.errorMonitor",
@@ -15789,7 +15789,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.finished",
@@ -15803,7 +15803,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.from",
@@ -15817,7 +15817,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.fromWeb",
@@ -15831,7 +15831,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.getDefaultHighWaterMark",
@@ -15845,7 +15845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.getEventListeners",
@@ -15859,7 +15859,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.getMaxListeners",
@@ -15873,7 +15873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.init",
@@ -15887,7 +15887,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.isDestroyed",
@@ -15901,7 +15901,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.isDisturbed",
@@ -15915,7 +15915,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.isErrored",
@@ -15929,7 +15929,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.isReadable",
@@ -15943,7 +15943,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.isWritable",
@@ -15957,7 +15957,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.listenerCount",
@@ -15971,7 +15971,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.on",
@@ -15985,7 +15985,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.once",
@@ -15999,7 +15999,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.pipeline",
@@ -16013,7 +16013,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.promises",
@@ -16027,7 +16027,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "3/0/0/0"
+    "0/1/2/0"
   ],
   [
     "_stream_passthrough.default.promises.*self*",
@@ -16041,7 +16041,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "_stream_passthrough.default.promises.finished",
@@ -16055,7 +16055,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.promises.pipeline",
@@ -16069,7 +16069,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.setDefaultHighWaterMark",
@@ -16083,7 +16083,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.setMaxListeners",
@@ -16097,7 +16097,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.toWeb",
@@ -16111,7 +16111,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.usingDomains",
@@ -16125,7 +16125,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_passthrough.default.wrap",
@@ -16139,7 +16139,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable",
@@ -16153,7 +16153,7 @@
     "39/0/0/14",
     "4/0/0/49",
     "17/0/0/36",
-    "39/0/0/14"
+    "2/1/44/6"
   ],
   [
     "_stream_readable.*self*",
@@ -16181,7 +16181,7 @@
     "38/0/0/8",
     "3/0/0/43",
     "13/0/0/33",
-    "38/0/0/8"
+    "1/1/44/0"
   ],
   [
     "_stream_readable.default.*self*",
@@ -16209,7 +16209,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.EventEmitter",
@@ -16223,7 +16223,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.EventEmitterAsyncResource",
@@ -16237,7 +16237,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.PassThrough",
@@ -16251,7 +16251,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.Readable",
@@ -16265,7 +16265,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.ReadableState",
@@ -16279,7 +16279,7 @@
     "supported",
     "supported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.Stream",
@@ -16293,7 +16293,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.Transform",
@@ -16307,7 +16307,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.Writable",
@@ -16321,7 +16321,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default._fromList",
@@ -16335,7 +16335,7 @@
     "supported",
     "supported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default._isArrayBufferView",
@@ -16349,7 +16349,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default._isUint8Array",
@@ -16363,7 +16363,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default._uint8ArrayToBuffer",
@@ -16377,7 +16377,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.addAbortListener",
@@ -16391,7 +16391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.addAbortSignal",
@@ -16405,7 +16405,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.captureRejectionSymbol",
@@ -16419,7 +16419,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.captureRejections",
@@ -16433,7 +16433,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.compose",
@@ -16447,7 +16447,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.defaultMaxListeners",
@@ -16461,7 +16461,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.destroy",
@@ -16475,7 +16475,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.errorMonitor",
@@ -16489,7 +16489,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.finished",
@@ -16503,7 +16503,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.from",
@@ -16517,7 +16517,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.fromWeb",
@@ -16531,7 +16531,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.getDefaultHighWaterMark",
@@ -16545,7 +16545,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.getEventListeners",
@@ -16559,7 +16559,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.getMaxListeners",
@@ -16573,7 +16573,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.init",
@@ -16587,7 +16587,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.isDestroyed",
@@ -16601,7 +16601,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.isDisturbed",
@@ -16615,7 +16615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.isErrored",
@@ -16629,7 +16629,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.isReadable",
@@ -16643,7 +16643,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.isWritable",
@@ -16657,7 +16657,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.listenerCount",
@@ -16671,7 +16671,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.on",
@@ -16685,7 +16685,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.once",
@@ -16699,7 +16699,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.pipeline",
@@ -16713,7 +16713,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.promises",
@@ -16727,7 +16727,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "3/0/0/0"
+    "0/1/2/0"
   ],
   [
     "_stream_readable.default.promises.*self*",
@@ -16741,7 +16741,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "_stream_readable.default.promises.finished",
@@ -16755,7 +16755,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.promises.pipeline",
@@ -16769,7 +16769,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.setDefaultHighWaterMark",
@@ -16783,7 +16783,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_readable.default.setMaxListeners",
@@ -16797,7 +16797,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.toWeb",
@@ -16811,7 +16811,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.usingDomains",
@@ -16825,7 +16825,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.default.wrap",
@@ -16839,7 +16839,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_readable.ReadableState",
@@ -16937,7 +16937,7 @@
     "39/0/0/8",
     "2/0/0/45",
     "2/0/0/45",
-    "39/0/0/8"
+    "2/1/44/0"
   ],
   [
     "_stream_transform.*self*",
@@ -16965,7 +16965,7 @@
     "38/0/0/8",
     "1/0/0/45",
     "1/0/0/45",
-    "38/0/0/8"
+    "1/1/44/0"
   ],
   [
     "_stream_transform.default.*self*",
@@ -16993,7 +16993,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.EventEmitter",
@@ -17007,7 +17007,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.EventEmitterAsyncResource",
@@ -17021,7 +17021,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.PassThrough",
@@ -17035,7 +17035,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.Readable",
@@ -17049,7 +17049,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.ReadableState",
@@ -17063,7 +17063,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.Stream",
@@ -17077,7 +17077,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.Transform",
@@ -17091,7 +17091,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.Writable",
@@ -17105,7 +17105,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default._fromList",
@@ -17119,7 +17119,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default._isArrayBufferView",
@@ -17133,7 +17133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default._isUint8Array",
@@ -17147,7 +17147,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default._uint8ArrayToBuffer",
@@ -17161,7 +17161,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.addAbortListener",
@@ -17175,7 +17175,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.addAbortSignal",
@@ -17189,7 +17189,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.captureRejectionSymbol",
@@ -17203,7 +17203,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.captureRejections",
@@ -17217,7 +17217,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.compose",
@@ -17231,7 +17231,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.defaultMaxListeners",
@@ -17245,7 +17245,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.destroy",
@@ -17259,7 +17259,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.errorMonitor",
@@ -17273,7 +17273,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.finished",
@@ -17287,7 +17287,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.from",
@@ -17301,7 +17301,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.fromWeb",
@@ -17315,7 +17315,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.getDefaultHighWaterMark",
@@ -17329,7 +17329,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.getEventListeners",
@@ -17343,7 +17343,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.getMaxListeners",
@@ -17357,7 +17357,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.init",
@@ -17371,7 +17371,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.isDestroyed",
@@ -17385,7 +17385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.isDisturbed",
@@ -17399,7 +17399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.isErrored",
@@ -17413,7 +17413,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.isReadable",
@@ -17427,7 +17427,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.isWritable",
@@ -17441,7 +17441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.listenerCount",
@@ -17455,7 +17455,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.on",
@@ -17469,7 +17469,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.once",
@@ -17483,7 +17483,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.pipeline",
@@ -17497,7 +17497,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.promises",
@@ -17511,7 +17511,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "3/0/0/0"
+    "0/1/2/0"
   ],
   [
     "_stream_transform.default.promises.*self*",
@@ -17525,7 +17525,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "_stream_transform.default.promises.finished",
@@ -17539,7 +17539,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.promises.pipeline",
@@ -17553,7 +17553,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.setDefaultHighWaterMark",
@@ -17567,7 +17567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_transform.default.setMaxListeners",
@@ -17581,7 +17581,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.toWeb",
@@ -17595,7 +17595,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.usingDomains",
@@ -17609,7 +17609,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_transform.default.wrap",
@@ -17623,7 +17623,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_wrap",
@@ -18337,7 +18337,7 @@
     "36/0/0/11",
     "3/0/0/44",
     "4/0/0/43",
-    "36/0/0/11"
+    "2/1/41/3"
   ],
   [
     "_stream_writable.*self*",
@@ -18365,7 +18365,7 @@
     "35/0/0/8",
     "2/0/0/41",
     "2/0/0/41",
-    "35/0/0/8"
+    "1/1/41/0"
   ],
   [
     "_stream_writable.default.*self*",
@@ -18393,7 +18393,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.EventEmitter",
@@ -18407,7 +18407,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.EventEmitterAsyncResource",
@@ -18421,7 +18421,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.PassThrough",
@@ -18435,7 +18435,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.Readable",
@@ -18449,7 +18449,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.Stream",
@@ -18463,7 +18463,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.Transform",
@@ -18477,7 +18477,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.Writable",
@@ -18491,7 +18491,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.WritableState",
@@ -18505,7 +18505,7 @@
     "supported",
     "supported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default._isArrayBufferView",
@@ -18519,7 +18519,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default._isUint8Array",
@@ -18533,7 +18533,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default._uint8ArrayToBuffer",
@@ -18547,7 +18547,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.addAbortListener",
@@ -18561,7 +18561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.addAbortSignal",
@@ -18575,7 +18575,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.captureRejectionSymbol",
@@ -18589,7 +18589,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.captureRejections",
@@ -18603,7 +18603,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.compose",
@@ -18617,7 +18617,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.defaultMaxListeners",
@@ -18631,7 +18631,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.destroy",
@@ -18645,7 +18645,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.errorMonitor",
@@ -18659,7 +18659,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.finished",
@@ -18673,7 +18673,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.fromWeb",
@@ -18687,7 +18687,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.getDefaultHighWaterMark",
@@ -18701,7 +18701,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.getEventListeners",
@@ -18715,7 +18715,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.getMaxListeners",
@@ -18729,7 +18729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.init",
@@ -18743,7 +18743,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.isDestroyed",
@@ -18757,7 +18757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.isDisturbed",
@@ -18771,7 +18771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.isErrored",
@@ -18785,7 +18785,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.isReadable",
@@ -18799,7 +18799,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.isWritable",
@@ -18813,7 +18813,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.listenerCount",
@@ -18827,7 +18827,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.on",
@@ -18841,7 +18841,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.once",
@@ -18855,7 +18855,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.pipeline",
@@ -18869,7 +18869,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.promises",
@@ -18883,7 +18883,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
-    "3/0/0/0"
+    "0/1/2/0"
   ],
   [
     "_stream_writable.default.promises.*self*",
@@ -18897,7 +18897,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "_stream_writable.default.promises.finished",
@@ -18911,7 +18911,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.promises.pipeline",
@@ -18925,7 +18925,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.setDefaultHighWaterMark",
@@ -18939,7 +18939,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "_stream_writable.default.setMaxListeners",
@@ -18953,7 +18953,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.toWeb",
@@ -18967,7 +18967,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.default.usingDomains",
@@ -18981,7 +18981,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "_stream_writable.WritableState",
@@ -94469,7 +94469,7 @@
     "12/0/0/0",
     "0/1/0/11",
     "0/1/0/11",
-    "12/0/0/0"
+    "2/0/10/0"
   ],
   [
     "stream/consumers.*self*",
@@ -94497,7 +94497,7 @@
     "6/0/0/0",
     "0/0/0/6",
     "0/0/0/6",
-    "6/0/0/0"
+    "1/0/5/0"
   ],
   [
     "stream/consumers.default.*self*",
@@ -94525,7 +94525,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.default.blob",
@@ -94539,7 +94539,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.default.buffer",
@@ -94553,7 +94553,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.default.json",
@@ -94567,7 +94567,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.default.text",
@@ -94581,7 +94581,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.arrayBuffer",
@@ -94595,7 +94595,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.blob",
@@ -94609,7 +94609,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.buffer",
@@ -94623,7 +94623,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.json",
@@ -94637,7 +94637,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/consumers.text",
@@ -94651,7 +94651,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "stream/promises",
@@ -94665,7 +94665,7 @@
     "6/0/0/0",
     "0/1/0/5",
     "6/0/0/0",
-    "6/0/0/0"
+    "2/0/4/0"
   ],
   [
     "stream/promises.*self*",
@@ -94693,7 +94693,7 @@
     "3/0/0/0",
     "0/0/0/3",
     "3/0/0/0",
-    "3/0/0/0"
+    "1/0/2/0"
   ],
   [
     "stream/promises.default.*self*",
@@ -94721,7 +94721,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "stream/promises.default.pipeline",
@@ -94735,7 +94735,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "stream/promises.finished",
@@ -94749,7 +94749,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "stream/promises.pipeline",
@@ -94763,7 +94763,7 @@
     "supported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "stream/web",
@@ -94777,7 +94777,7 @@
     "34/2/0/0",
     "0/1/0/35",
     "30/2/0/4",
-    "0/1/0/35"
+    "30/0/2/4"
   ],
   [
     "stream/web.*self*",
@@ -94791,7 +94791,7 @@
     "supported",
     "mismatch",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "stream/web.default",
@@ -94805,7 +94805,7 @@
     "17/1/0/0",
     "0/0/0/18",
     "15/1/0/2",
-    "0/0/0/18"
+    "15/0/1/2"
   ],
   [
     "stream/web.default.*self*",
@@ -94819,7 +94819,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ByteLengthQueuingStrategy",
@@ -94833,7 +94833,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.CompressionStream",
@@ -94861,7 +94861,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.DecompressionStream",
@@ -94889,7 +94889,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ReadableStream",
@@ -94903,7 +94903,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ReadableStreamBYOBReader",
@@ -94917,7 +94917,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ReadableStreamBYOBRequest",
@@ -94931,7 +94931,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ReadableStreamDefaultController",
@@ -94945,7 +94945,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.ReadableStreamDefaultReader",
@@ -94959,7 +94959,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.TextDecoderStream",
@@ -94973,7 +94973,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.TextEncoderStream",
@@ -94987,7 +94987,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.TransformStream",
@@ -95001,7 +95001,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.TransformStreamDefaultController",
@@ -95015,7 +95015,7 @@
     "mismatch",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "stub"
   ],
   [
     "stream/web.default.WritableStream",
@@ -95029,7 +95029,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.WritableStreamDefaultController",
@@ -95043,7 +95043,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.default.WritableStreamDefaultWriter",
@@ -95057,7 +95057,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ByteLengthQueuingStrategy",
@@ -95071,7 +95071,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.CompressionStream",
@@ -95099,7 +95099,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.DecompressionStream",
@@ -95127,7 +95127,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ReadableStream",
@@ -95141,7 +95141,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ReadableStreamBYOBReader",
@@ -95155,7 +95155,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ReadableStreamBYOBRequest",
@@ -95169,7 +95169,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ReadableStreamDefaultController",
@@ -95183,7 +95183,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.ReadableStreamDefaultReader",
@@ -95197,7 +95197,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.TextDecoderStream",
@@ -95211,7 +95211,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.TextEncoderStream",
@@ -95225,7 +95225,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.TransformStream",
@@ -95239,7 +95239,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.TransformStreamDefaultController",
@@ -95253,7 +95253,7 @@
     "mismatch",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "stub"
   ],
   [
     "stream/web.WritableStream",
@@ -95267,7 +95267,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.WritableStreamDefaultController",
@@ -95281,7 +95281,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/web.WritableStreamDefaultWriter",
@@ -95295,7 +95295,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "string_decoder",
@@ -99775,7 +99775,7 @@
     "128/0/0/46",
     "46/0/0/128",
     "136/0/0/38",
-    "106/0/0/68"
+    "128/0/0/46"
   ],
   [
     "util.*self*",
@@ -99803,7 +99803,7 @@
     "64/0/0/23",
     "23/0/0/64",
     "68/0/0/19",
-    "53/0/0/34"
+    "64/0/0/23"
   ],
   [
     "util.default.*self*",
@@ -99859,7 +99859,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.TextEncoder",
@@ -99873,7 +99873,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default._errnoException",
@@ -99929,7 +99929,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.callbackify",
@@ -99957,7 +99957,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.debuglog",
@@ -99971,7 +99971,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.deprecate",
@@ -99985,7 +99985,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.format",
@@ -100307,7 +100307,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.parseArgs",
@@ -100321,7 +100321,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.parseEnv",
@@ -100391,7 +100391,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.transferableAbortController",
@@ -100405,7 +100405,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.transferableAbortSignal",
@@ -100419,7 +100419,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.default.types",
@@ -101077,7 +101077,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.TextEncoder",
@@ -101091,7 +101091,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util._errnoException",
@@ -101147,7 +101147,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.callbackify",
@@ -101175,7 +101175,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.debuglog",
@@ -101189,7 +101189,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.deprecate",
@@ -101203,7 +101203,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.format",
@@ -101525,7 +101525,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.parseArgs",
@@ -101539,7 +101539,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.parseEnv",
@@ -101609,7 +101609,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.transferableAbortController",
@@ -101623,7 +101623,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.transferableAbortSignal",
@@ -101637,7 +101637,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "util.types",
