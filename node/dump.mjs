@@ -3,7 +3,6 @@ import { builtinModules } from "node:module";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { visit } from "../dump-utils.mjs";
-import baseline from "../node/baseline.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -31,13 +30,20 @@ for (const builtinModule of builtinModules) {
   modules[builtinModule] = module;
 }
 
+let result;
 const compareToBaseline = process.argv.slice(2)[0] === "--compare-to-baseline";
 if (compareToBaseline) {
-  console.log("Generating against baseline");
+  console.log("Comparing to baseline");
+  const baseline = await import("../data/baseline.json", {
+    with: { type: "json" },
+  });
+  result = visit(baseline.default, {
+    "*globals*": nodeSpecificGlobals,
+    ...modules,
+  });
+} else {
+  result = visit({ "*globals*": nodeSpecificGlobals, ...modules });
 }
-const result = compareToBaseline
-  ? visit(baseline, { "*globals*": nodeSpecificGlobals, ...modules })
-  : visit({ "*globals*": nodeSpecificGlobals, ...modules });
 
 // don't capture user-specific info in the dump
 result.module._pathCache = "";

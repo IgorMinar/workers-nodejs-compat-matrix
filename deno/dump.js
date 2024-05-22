@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { visit } from "../dump-utils.mjs";
-import baseline from "../node/baseline.json" with { type: "json" };
+import baseline from "../data/baseline.json" with { type: "json" };
 
 const denoGlobals = {};
 const importedModules = {};
@@ -30,6 +30,6 @@ const result = visit(baseline, {
 });
 
 await fs.writeFile(
-  path.join(import.meta.dirname, "..", "report", "src", "data", "deno.json"),
+  path.join(import.meta.dirname, "..", "data", "deno.json"),
   JSON.stringify(result, null, 2)
 );

@@ -10,10 +10,11 @@
     "generate:script": "node ./generate-worker-script.mjs > worker.mjs && prettier worker.mjs --write && pnpm run copy:script",
     "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-jspm-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
     "scan:apis": "node ./scan-apis.mjs",
+    "generate:baseline": "node ./generate-baseline.mjs",
     "generate:table": "node ./generate-table-data.mjs",
     "generate:timestamp": "echo '{ \"date\": \"${date}\"}' > report/src/data/timestamp",
     "generate:polyfill": "node ./generate-unenv-polyfill.mjs",
-    "generate": "pnpm generate:script && pnpm scan:apis && pnpm run generate:table",
+    "generate": "pnpm generate:baseline && pnpm generate:script && pnpm scan:apis && pnpm run generate:table",
     "report:dev": "pnpm run --filter report start",
     "report:deploy": "pnpm run --filter report deploy"
   },

@@ -39,6 +39,6 @@ const res = await fetch(url);
 await kill();
 
 await fs.writeFile(
-  path.join(__dirname, "..", "report", "src", "data", "workerd.json"),
+  path.join(__dirname, "..", "data", "workerd.json"),
   Buffer.from(await res.arrayBuffer())
 );

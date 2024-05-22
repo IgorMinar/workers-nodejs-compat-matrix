@@ -5892,7 +5892,7 @@ process,stderr._events.close,supported,supported,supported,unsupported,unsupport
 process,stderr._events.data,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stderr._events.drain,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stderr._events.end,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
-process,stderr._events.error,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+process,stderr._events.error,supported,supported,supported,mismatch,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stderr._events.finish,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stderr._events.prefinish,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stderr._events.readable,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
@@ -6163,7 +6163,7 @@ process,stdout._events.close,supported,supported,supported,unsupported,unsupport
 process,stdout._events.data,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._events.drain,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._events.end,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
-process,stdout._events.error,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+process,stdout._events.error,supported,supported,supported,mismatch,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._events.finish,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._events.prefinish,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._events.readable,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
@@ -6201,7 +6201,7 @@ process,stdout._type,supported,supported,supported,supported,supported,unsupport
 process,stdout._undestroy,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported
 process,stdout._unrefTimer,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
 process,stdout._writableState.*self*,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported
-process,stdout._writableState.afterWriteTickInfo,supported,mismatch,mismatch,mismatch,supported,supported,unsupported,unsupported,unsupported,unsupported
+process,stdout._writableState.afterWriteTickInfo,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported
 process,stdout._writableState.allBuffers,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported
 process,stdout._writableState.allNoop,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported
 process,stdout._writableState.autoDestroy,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported

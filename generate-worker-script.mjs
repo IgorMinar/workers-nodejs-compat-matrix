@@ -1,4 +1,4 @@
-import baseline from "./node/baseline.json" with { type: "json" };
+import baseline from "./data/baseline.json" with { type: "json" };
 
 let code = "";
 
@@ -23,7 +23,7 @@ code += `
 console.log(
   `
 import { visit } from "../dump-utils.mjs";
-import baseline from "../node/baseline.json";
+import baseline from "../data/baseline.json";
 
 export default {
   async fetch(request, env, ctx) {

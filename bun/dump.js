@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import { visit } from "../dump-utils.mjs";
-import baseline from "../node/baseline.json" with { type: "json" };
+import baseline from "../data/baseline.json" with { type: "json" };
 
 const bunGlobals = {};
 const importedModules = {};
@@ -50,6 +50,6 @@ if (result["module"].default._pathCache) {
 }
 
 await fs.writeFile(
-  path.join(__dirname, "..", "report", "src", "data", "bun.json"),
+  path.join(__dirname, "..", "data", "bun.json"),
   JSON.stringify(result, null, 2)
 );

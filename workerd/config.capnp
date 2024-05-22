@@ -11,7 +11,7 @@ const worker :Workerd.Worker = (
     ( name = "dump-utils.mjs", esModule = embed "../dump-utils.mjs" )
   ],
   bindings = [
-    ( name = "baseline", json = embed "../node/baseline.json" )
+    ( name = "baseline", json = embed "../data/baseline.json" )
   ],
   compatibilityDate = "2024-05-01",
   compatibilityFlags = ["nodejs_compat"]

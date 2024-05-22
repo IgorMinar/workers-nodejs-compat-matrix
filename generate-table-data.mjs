@@ -2,16 +2,16 @@ import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-import baseline from "./node/baseline.json" with { type: "json" };
-import node18 from "./report/src/data/node-18.json" with { type: "json" };
-import node20 from "./report/src/data/node-20.json" with { type: "json" };
-import node22 from "./report/src/data/node-22.json" with { type: "json" };
-import bun from "./report/src/data/bun.json" with { type: "json" };
-import deno from "./report/src/data/deno.json" with { type: "json" };
-import workerd from "./report/src/data/workerd.json" with { type: "json" };
-import wranglerJspm from "./report/src/data/wrangler-jspm-polyfills.json" with { type: "json" };
-import wranglerUnenv from "./report/src/data/wrangler-unenv-polyfills.json" with { type: "json" };
-import wranglerV3 from "./report/src/data/wrangler-v3-polyfills.json" with { type: "json" };
+import baseline from "./data/baseline.json" with { type: "json" };
+import node18 from "./data/node-18.json" with { type: "json" };
+import node20 from "./data/node-20.json" with { type: "json" };
+import node22 from "./data/node-22.json" with { type: "json" };
+import bun from "./data/bun.json" with { type: "json" };
+import deno from "./data/deno.json" with { type: "json" };
+import workerd from "./data/workerd.json" with { type: "json" };
+import wranglerJspm from "./data/wrangler-jspm-polyfills.json" with { type: "json" };
+import wranglerUnenv from "./data/wrangler-unenv-polyfills.json" with { type: "json" };
+import wranglerV3 from "./data/wrangler-v3-polyfills.json" with { type: "json" };
 import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);

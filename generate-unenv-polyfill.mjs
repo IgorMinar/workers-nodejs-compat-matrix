@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import baseline from "./node/baseline.json" with { type: "json" };
+import baseline from "./data/baseline.json" with { type: "json" };
 
 const args = process.argv.slice(2);
 

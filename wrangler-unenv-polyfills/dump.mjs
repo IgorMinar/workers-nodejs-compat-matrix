@@ -25,6 +25,10 @@ const spawnWrangler = async () => {
     process.stdout.write(chunk);
   });
 
+  wranglerProcess.stderr.on("data", (chunk) => {
+    process.stderr.write(chunk);
+  });
+
   const url = await new Promise((res) => {
     wranglerProcess.on("message", (message) => {
       const { event, ip, port } = JSON.parse(message);
@@ -60,8 +64,6 @@ const dump = async () => {
   const filepath = path.join(
     __dirname,
     "..",
-    "report",
-    "src",
     "data",
     "wrangler-unenv-polyfills.json"
   );

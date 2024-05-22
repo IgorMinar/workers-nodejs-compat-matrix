@@ -35,40 +35,10 @@ if (!shell.which("deno")) {
 // into your PATH variable, so a lookup is needed.
 // Trailing space is intentional, for DX
 const volta = `${shell.env.VOLTA_HOME}/bin/volta `;
-
 const versionMap = {};
 
-// Node
+// Compare node versions to the baseline
 const nodeVersions = [18, 20, 22];
-for (const version of nodeVersions) {
-  shell.echo(`Generate node v${version} apis...`);
-  shell.exec(volta + `run --node ${version} node node/dump.mjs`);
-  shell.echo("=== Done ====================================\n\n");
-}
-
-shell.echo("Generating baseline.json");
-
-// Create a merged baseline that will be used in the report
-// as well as when generating bun and deno
-const node18 = JSON.parse(shell.cat("node/node-18.json"));
-const node20 = JSON.parse(shell.cat("node/node-20.json"));
-const node22 = JSON.parse(shell.cat("node/node-22.json"));
-
-// Sort the baseline by key name
-const baseline = objectSort(deepmerge.all([node18, node20, node22]));
-
-// Retain a copy of the baseline in the `node` folder for bun and deno
-await fs.writeFile(
-  path.join(__dirname, "node", "baseline.json"),
-  JSON.stringify(baseline, null, 2)
-);
-
-// Copy to the report
-shell.cp("node/baseline.json", "report/src/data");
-
-shell.echo("=== Done ====================================\n\n");
-
-// Re-run node against the baseline
 for (const version of nodeVersions) {
   shell.echo(`Generate node v${version} apis...`);
   shell.exec(
@@ -83,7 +53,7 @@ for (const version of nodeVersions) {
 
 // Move node output to the report folder
 for (const version of nodeVersions) {
-  shell.mv(`node/node-${version}.json`, "report/src/data");
+  shell.mv(`node/node-${version}.json`, "./data");
 }
 
 // bun
@@ -97,7 +67,7 @@ versionMap["bun"] = shell
 // deno
 shell.echo("Generate deno apis...");
 shell.exec(
-  "deno run --allow-write=report/src/data/deno.json --allow-read --allow-env deno/dump.js"
+  "deno run --allow-write=./data/deno.json --allow-read --allow-env deno/dump.js"
 );
 shell.echo("=== Done ====================================\n\n");
 versionMap["deno"] = shell
