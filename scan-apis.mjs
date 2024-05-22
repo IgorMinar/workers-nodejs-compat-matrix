@@ -129,7 +129,7 @@ shell.echo("Generate wrangler-unenv + --node_compat apis...");
 shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
 shell.echo("=== Done ====================================\n\n");
 versionMap["wranglerUnenv"] =
-  "unenv@" + extractNpmVersion("wrangler-unenv-polyfills", "unenv");
+  "unenv@" + extractNpmVersion("wrangler-unenv-polyfills", "unenv-nightly");
 
 await fs.writeFile(
   path.join(__dirname, "report", "src", "data", "versionMap.json"),

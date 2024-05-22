@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  unenv: npm:unenv-nightly
+
 importers:
 
   .:
@@ -74,9 +77,6 @@ importers:
 
   wrangler-unenv-polyfills:
     devDependencies:
-      unenv:
-        specifier: ^1.9.0
-        version: 1.9.0
       wrangler:
         specifier: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9183658807/npm-package-wrangler-5878
         version: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9183658807/npm-package-wrangler-5878
@@ -5659,8 +5659,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  unenv@1.9.0:
-    resolution: {integrity: sha512-QKnFNznRxmbOF1hDgzpqrlIf6NC5sbZ2OJ+5Wl3OX8uM+LUJXbj4TXvLJCtwbPTmbMHCLIz6JLKNinNsMShK9g==}
+  unenv-nightly@1.10.0-1716334681.5c7590f:
+    resolution: {integrity: sha512-2dUICt+KWDRDF68hd9mgMS7e50/23+m7ibBNPhJSw52gwYoU21YraoC0iwB/BjPOqQyHiXEE+TLP5xbXNuERxA==}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
@@ -12513,7 +12513,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  unenv@1.9.0:
+  unenv-nightly@1.10.0-1716334681.5c7590f:
     dependencies:
       consola: 3.2.3
       defu: 6.1.4
@@ -13006,7 +13006,7 @@ snapshots:
       resolve.exports: 2.0.2
       selfsigned: 2.4.1
       source-map: 0.6.1
-      unenv: 1.9.0
+      unenv: unenv-nightly@1.10.0-1716334681.5c7590f
       xxhash-wasm: 1.0.2
     optionalDependencies:
       fsevents: 2.3.3

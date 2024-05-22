@@ -16,5 +16,10 @@
     "generate": "pnpm generate:script && pnpm scan:apis && pnpm run generate:table",
     "report:dev": "pnpm run --filter report start",
     "report:deploy": "pnpm run --filter report deploy"
+  },
+  "pnpm": {
+    "overrides": {
+      "unenv": "npm:unenv-nightly"
+    }
   }
 }
