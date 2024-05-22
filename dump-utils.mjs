@@ -91,6 +91,8 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
         visitResult[key] = "missing";
       } else if (targetValue === null) {
         visitResult[key] = "null";
+      } else if (isClass(targetValue)) {
+        visitResult[key] = "class";
       } else {
         visitResult[key] = typeof targetValue;
       }
@@ -101,6 +103,9 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
     .sort(sortFn)
     .reduce((acc, key) => ({ ...acc, [key]: visitResult[key] }), {});
 }
+
+const isClass = (node) =>
+  typeof node === "function" && /^\s*class\s+/.test(node.toString());
 
 export const objectSort = (obj) => {
   return Object.keys(obj)

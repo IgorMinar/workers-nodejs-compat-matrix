@@ -124,7 +124,15 @@ const visit = (node, path) => {
         } else if (targetValue === "missing" && childNode !== "missing") {
           row.push("unsupported");
         } else if (targetValue && targetValue !== childNode) {
-          row.push("mismatch");
+          // Don't detect mismatches between functions and classes
+          if (
+            (targetValue === "function" && childNode === "class") ||
+            (childNode === "function" && targetValue === "class")
+          ) {
+            row.push("supported");
+          } else {
+            row.push("mismatch");
+          }
         } else if (targetValue) {
           row.push("supported");
         } else {

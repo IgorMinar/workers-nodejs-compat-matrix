@@ -2761,14 +2761,14 @@
     "*self*": "object",
     "default": {
       "*self*": "object",
-      "Channel": "function",
+      "Channel": "class",
       "channel": "function",
       "hasSubscribers": "function",
       "subscribe": "missing",
       "tracingChannel": "missing",
       "unsubscribe": "missing"
     },
-    "Channel": "function",
+    "Channel": "class",
     "channel": "function",
     "hasSubscribers": "function",
     "subscribe": "missing",
@@ -4045,8 +4045,8 @@
     "*self*": "object",
     "default": {
       "*self*": "object",
-      "Http2ServerRequest": "function",
-      "Http2ServerResponse": "function",
+      "Http2ServerRequest": "class",
+      "Http2ServerResponse": "class",
       "connect": "function",
       "constants": {
         "*self*": "object",
@@ -4299,8 +4299,8 @@
       "performServerHandshake": "missing",
       "sensitiveHeaders": "symbol"
     },
-    "Http2ServerRequest": "function",
-    "Http2ServerResponse": "function",
+    "Http2ServerRequest": "class",
+    "Http2ServerResponse": "class",
     "connect": "function",
     "constants": {
       "*self*": "object",
@@ -7824,7 +7824,7 @@
       "MessageChannel": "undefined",
       "MessagePort": "undefined",
       "SHARE_ENV": "symbol",
-      "Worker": "function",
+      "Worker": "class",
       "getEnvironmentData": "function",
       "isMainThread": "boolean",
       "isMarkedAsUntransferable": "missing",
@@ -7843,7 +7843,7 @@
     "MessageChannel": "undefined",
     "MessagePort": "undefined",
     "SHARE_ENV": "symbol",
-    "Worker": "function",
+    "Worker": "class",
     "getEnvironmentData": "function",
     "isMainThread": "boolean",
     "isMarkedAsUntransferable": "missing",

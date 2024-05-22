@@ -42,14 +42,14 @@ const generateCode = (symbolName) => {
   switch (type) {
     case "function":
       encountered.function = true;
-      return `export const ${symbolName}: typeof ${fullName} = notImplemented("${fullName}");\n`;
+      return `export const ${symbolName}: typeof ${fullName} = noop;\n`;
     case "string":
-      return `export const ${symbolName}: typeof ${fullName} = ""; // TODO: double-check\n`;
+      return `export const ${symbolName}: typeof ${fullName} = "";\n`;
     case "number":
-      return `export const ${symbolName}: typeof ${fullName} = 0; // TODO: double-check\n`;
+      return `export const ${symbolName}: typeof ${fullName} = 0;\n`;
     case "class":
       encountered.class = true;
-      return `export const ${symbolName}: typeof ${fullName} = notImplementedClass("${fullName}");\n`;
+      return `export const ${symbolName}: typeof ${fullName} =  mock.__createMock__("${fullName}");\n`;
     case "object":
       encountered.object = true;
       return `export const ${symbolName}: typeof ${fullName} =  mock.__createMock__("${fullName}");\n`;
@@ -61,19 +61,10 @@ const generateCode = (symbolName) => {
 const generateImports = () => {
   let mockImports = [];
 
-  const utilImports = [];
   if (encountered.function) {
-    utilImports.push("notImplemented");
+    mockImports.push(`import noop from "../../mock/noop";`);
   }
-  if (encountered.class) {
-    utilImports.push("notImplementedClass");
-  }
-  if (utilImports.length > 0) {
-    mockImports.push(
-      `import { ${utilImports.join(", ")} } from "../../_internal/utils";`
-    );
-  }
-  if (encountered.object) {
+  if (encountered.object || encountered.class) {
     mockImports.push(`import mock from "../../mock/proxy";`);
   }
 
