@@ -1,0 +1,38 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Build
+        run: pnpm --filter report build
+
+      - name: Generate Timestamp
+        run: pnpm generate:timestamp
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 8ed4d03ac99f77561d0e8c9cbcc76cb6
+          projectName: workers-nodejs-compat
+          directory: build
+          branch: main
+          workingDirectory: report
+          wranglerVersion: "3"
