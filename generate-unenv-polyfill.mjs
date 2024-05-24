@@ -4,6 +4,28 @@ import baseline from "./data/baseline.json" with { type: "json" };
 
 const args = process.argv.slice(2);
 
+const workerdSupportedModules = [
+  "_stream_duplex",
+  "_stream_passthrough",
+  "_stream_readable",
+  "_stream_transform",
+  "_stream_writable",
+  "assert",
+  "async_hooks",
+  "buffer",
+  "crypto",
+  "diagnostics_channel",
+  "events",
+  "path",
+  "process",
+  "stream",
+  "stream/consumers",
+  "stream/promises",
+  "stream/web",
+  "string_decoder",
+  "util",
+];
+
 if (args.length < 1) {
   console.log("ERROR: Must specify a module to generate a polyfill for");
   process.exit(1);
@@ -11,6 +33,13 @@ if (args.length < 1) {
 
 const moduleName = args[0];
 const dest = args[1];
+
+if (workerdSupportedModules.includes(moduleName)) {
+  console.log(
+    `STOP!!!! ${moduleName} is already supported by workerd, don't create a polyfill for this.`
+  );
+  process.exit(1);
+}
 
 if (!dest.includes("src/unenv/src/runtime/node")) {
   console.log(dest);
