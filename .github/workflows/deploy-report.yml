@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - main
+  # Run daily at 1:15am
+  schedule:
+    - 15 1 * * *
+  # Allow ad-hoc triggering
+  workflow_dispatch:
 
 jobs:
   publish:
