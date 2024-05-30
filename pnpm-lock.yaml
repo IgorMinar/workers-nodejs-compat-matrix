@@ -5629,8 +5629,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  unenv-nightly@1.10.0-1716334681.5c7590f:
-    resolution: {integrity: sha512-2dUICt+KWDRDF68hd9mgMS7e50/23+m7ibBNPhJSw52gwYoU21YraoC0iwB/BjPOqQyHiXEE+TLP5xbXNuERxA==}
+  unenv-nightly@1.10.0-1717057665.118a0c7:
+    resolution: {integrity: sha512-STYjkT/qCojbpJmm0/uzGjXSbNdG9uNnAIHOhQR66jFwBY+lsK2zoyY4Xr0jBWSUjG4yXN6TyAqcWKK8lXVHWg==}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
@@ -12463,13 +12463,14 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  unenv-nightly@1.10.0-1716334681.5c7590f:
+  unenv-nightly@1.10.0-1717057665.118a0c7:
     dependencies:
       consola: 3.2.3
       defu: 6.1.4
       mime: 3.0.0
       node-fetch-native: 1.6.4
       pathe: 1.1.2
+      ufo: 1.5.3
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
@@ -12948,7 +12949,7 @@ snapshots:
       resolve.exports: 2.0.2
       selfsigned: 2.4.1
       source-map: 0.6.1
-      unenv: unenv-nightly@1.10.0-1716334681.5c7590f
+      unenv: unenv-nightly@1.10.0-1717057665.118a0c7
       xxhash-wasm: 1.0.2
     optionalDependencies:
       fsevents: 2.3.3
