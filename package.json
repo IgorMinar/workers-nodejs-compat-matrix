@@ -20,7 +20,9 @@
   },
   "pnpm": {
     "overrides": {
-      "unenv": "npm:unenv-nightly"
+      "note": "overrides for wrangler-unenv-polyfills",
+      "wrangler@0.0.0-5480a22d>unenv": "npm:unenv-nightly",
+      "miniflare@0.0.0-5480a22d>workerd": "1.20240529.0"
     }
   }
 }
