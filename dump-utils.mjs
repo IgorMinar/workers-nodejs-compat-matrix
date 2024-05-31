@@ -8,29 +8,40 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
   // create a unique object to mark keys that errored during inspection
   const INSPECTION_ERROR = {};
 
-  // collect all properties of an object including inherited ones
+  const props = collectObjectProps(traversalNode);
   const entries = [];
-  for (const key in traversalNode) {
+
+  for (const prop of props) {
     let value;
     try {
-      value = traversalNode[key];
+      value = traversalNode[prop];
     } catch (e) {
       value = INSPECTION_ERROR;
     }
-    entries.push([key, value]);
+    entries.push([prop, value]);
   }
 
   entries.sort(([a], [b]) => (a === "default" ? -1 : a < b ? -1 : 1));
 
   const visitResult = {};
   for (const [key, traversalValue] of entries) {
-    let targetValue = targetNode[key];
-
-    // If a key doesn't exist on the target node AND it's undefined, we mark it as missing.
+    // If targetNode doesn't exist OR
+    // a key doesn't exist on the target node AND it's undefined, we mark it as missing.
     // For stubs, the key will not exist in the targetNode (since targetNode) but the value
     // will be `function`, since it's a proxy.
-    if (!(key in targetNode) && typeof targetValue === "undefined") {
+    let targetValue;
+
+    if (
+      targetNode == null ||
+      (!(key in targetNode) && typeof targetNode[key] === "undefined")
+    ) {
       targetValue = "missing";
+    } else {
+      try {
+        targetValue = targetNode[key];
+      } catch {
+        targetValue = INSPECTION_ERROR;
+      }
     }
 
     if (targetValue === INSPECTION_ERROR) {
@@ -118,3 +129,19 @@ export const objectSort = (obj) => {
       {}
     );
 };
+
+/**
+ * Collects all properties of an object including inherited ones and non-enumerable ones.
+ * This is done by combining all property descriptors of the object and its prototypes.
+ */
+export function collectObjectProps(obj, props = []) {
+  props = [...Object.keys(Object.getOwnPropertyDescriptors(obj)), ...props];
+
+  const proto = Object.getPrototypeOf(obj);
+
+  return proto !== null &&
+    proto !== Function.prototype &&
+    proto !== Object.prototype
+    ? collectObjectProps(proto, props)
+    : props.sort();
+}
