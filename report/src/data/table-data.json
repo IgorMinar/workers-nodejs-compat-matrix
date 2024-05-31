@@ -11,7 +11,7 @@
     "1807/23/0/8803",
     "1731/36/0/8866",
     "3251/199/287/6896",
-    "5060/108/1999/3466"
+    "5287/97/1875/3374"
   ],
   [
     "*globals*",
@@ -135685,7 +135685,7 @@
     "0/0/0/24",
     "2/0/0/22",
     "2/0/14/8",
-    "1/2/10/11"
+    "22/0/2/0"
   ],
   [
     "readline.*self*",
@@ -135713,7 +135713,7 @@
     "0/0/0/12",
     "1/0/0/11",
     "1/0/7/4",
-    "0/2/10/0"
+    "11/0/1/0"
   ],
   [
     "readline.default.*self*",
@@ -135727,7 +135727,7 @@
     "unsupported",
     "supported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "readline.default.Interface",
@@ -135741,7 +135741,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.clearLine",
@@ -135755,7 +135755,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.clearScreenDown",
@@ -135769,7 +135769,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.createInterface",
@@ -135783,7 +135783,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.cursorTo",
@@ -135797,7 +135797,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.emitKeypressEvents",
@@ -135825,7 +135825,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.promises",
@@ -135839,7 +135839,7 @@
     "0/0/0/4",
     "0/0/0/4",
     "0/0/0/4",
-    "0/1/3/0"
+    "4/0/0/0"
   ],
   [
     "readline.default.promises.*self*",
@@ -135853,7 +135853,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "readline.default.promises.Interface",
@@ -135867,7 +135867,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.promises.Readline",
@@ -135881,7 +135881,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline.default.promises.createInterface",
@@ -135895,7 +135895,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline.Interface",
@@ -135909,7 +135909,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.clearLine",
@@ -135923,7 +135923,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.clearScreenDown",
@@ -135937,7 +135937,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.createInterface",
@@ -135951,7 +135951,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.cursorTo",
@@ -135965,7 +135965,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.emitKeypressEvents",
@@ -135979,7 +135979,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "readline.moveCursor",
@@ -135993,7 +135993,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.promises",
@@ -136007,7 +136007,7 @@
     "0/0/0/4",
     "0/0/0/4",
     "0/0/0/4",
-    "0/0/0/4"
+    "4/0/0/0"
   ],
   [
     "readline.promises.*self*",
@@ -136021,7 +136021,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.promises.Interface",
@@ -136035,7 +136035,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.promises.Readline",
@@ -136049,7 +136049,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline.promises.createInterface",
@@ -136063,7 +136063,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline/promises",
@@ -136077,7 +136077,7 @@
     "0/0/0/8",
     "0/1/0/7",
     "0/1/0/7",
-    "1/1/3/3"
+    "8/0/0/0"
   ],
   [
     "readline/promises.*self*",
@@ -136105,7 +136105,7 @@
     "0/0/0/4",
     "0/0/0/4",
     "0/0/0/4",
-    "0/1/3/0"
+    "4/0/0/0"
   ],
   [
     "readline/promises.default.*self*",
@@ -136119,7 +136119,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "readline/promises.default.Interface",
@@ -136133,7 +136133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline/promises.default.Readline",
@@ -136147,7 +136147,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline/promises.default.createInterface",
@@ -136161,7 +136161,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "readline/promises.Interface",
@@ -136175,7 +136175,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline/promises.Readline",
@@ -136189,7 +136189,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "readline/promises.createInterface",
@@ -136203,7 +136203,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "repl",
@@ -138723,7 +138723,7 @@
     "0/0/0/174",
     "46/0/0/128",
     "136/0/0/38",
-    "1/2/85/86"
+    "128/0/0/46"
   ],
   [
     "sys.*self*",
@@ -138751,7 +138751,7 @@
     "0/0/0/87",
     "23/0/0/64",
     "68/0/0/19",
-    "0/2/85/0"
+    "64/0/0/23"
   ],
   [
     "sys.default.*self*",
@@ -138765,7 +138765,7 @@
     "unsupported",
     "supported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "sys.default.MIMEParams",
@@ -138779,7 +138779,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.MIMEType",
@@ -138793,7 +138793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.TextDecoder",
@@ -138807,7 +138807,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.TextEncoder",
@@ -138821,7 +138821,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default._errnoException",
@@ -138835,7 +138835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default._exceptionWithHostPort",
@@ -138849,7 +138849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default._extend",
@@ -138863,7 +138863,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.aborted",
@@ -138877,7 +138877,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.callbackify",
@@ -138891,7 +138891,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.debug",
@@ -138905,7 +138905,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.debuglog",
@@ -138919,7 +138919,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.deprecate",
@@ -138933,7 +138933,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.format",
@@ -138947,7 +138947,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.formatWithOptions",
@@ -138961,7 +138961,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.getSystemErrorMap",
@@ -138975,7 +138975,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.getSystemErrorName",
@@ -138989,7 +138989,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.inherits",
@@ -139003,7 +139003,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.inspect",
@@ -139017,7 +139017,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.isArray",
@@ -139031,7 +139031,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isBoolean",
@@ -139045,7 +139045,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isBuffer",
@@ -139059,7 +139059,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isDate",
@@ -139073,7 +139073,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isDeepStrictEqual",
@@ -139087,7 +139087,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isError",
@@ -139101,7 +139101,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isFunction",
@@ -139115,7 +139115,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isNull",
@@ -139129,7 +139129,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isNullOrUndefined",
@@ -139143,7 +139143,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isNumber",
@@ -139157,7 +139157,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isObject",
@@ -139171,7 +139171,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isPrimitive",
@@ -139185,7 +139185,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isRegExp",
@@ -139199,7 +139199,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isString",
@@ -139213,7 +139213,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isSymbol",
@@ -139227,7 +139227,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.isUndefined",
@@ -139241,7 +139241,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.log",
@@ -139255,7 +139255,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.parseArgs",
@@ -139269,7 +139269,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.parseEnv",
@@ -139283,7 +139283,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.promisify",
@@ -139297,7 +139297,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.stripVTControlCharacters",
@@ -139311,7 +139311,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.styleText",
@@ -139325,7 +139325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.toUSVString",
@@ -139339,7 +139339,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.transferableAbortController",
@@ -139353,7 +139353,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.transferableAbortSignal",
@@ -139367,7 +139367,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types",
@@ -139381,7 +139381,7 @@
     "0/0/0/43",
     "0/0/0/43",
     "41/0/0/2",
-    "0/1/42/0"
+    "42/0/0/1"
   ],
   [
     "sys.default.types.*self*",
@@ -139395,7 +139395,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "sys.default.types.isAnyArrayBuffer",
@@ -139409,7 +139409,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isArgumentsObject",
@@ -139423,7 +139423,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isArrayBuffer",
@@ -139437,7 +139437,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isArrayBufferView",
@@ -139451,7 +139451,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isAsyncFunction",
@@ -139465,7 +139465,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isBigInt64Array",
@@ -139479,7 +139479,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isBigIntObject",
@@ -139493,7 +139493,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isBigUint64Array",
@@ -139507,7 +139507,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isBooleanObject",
@@ -139521,7 +139521,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isBoxedPrimitive",
@@ -139535,7 +139535,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isCryptoKey",
@@ -139549,7 +139549,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isDataView",
@@ -139563,7 +139563,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isDate",
@@ -139577,7 +139577,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isExternal",
@@ -139591,7 +139591,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "unsupported"
   ],
   [
     "sys.default.types.isFloat32Array",
@@ -139605,7 +139605,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isFloat64Array",
@@ -139619,7 +139619,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isGeneratorFunction",
@@ -139633,7 +139633,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isGeneratorObject",
@@ -139647,7 +139647,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isInt16Array",
@@ -139661,7 +139661,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isInt32Array",
@@ -139675,7 +139675,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isInt8Array",
@@ -139689,7 +139689,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isKeyObject",
@@ -139703,7 +139703,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isMap",
@@ -139717,7 +139717,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isMapIterator",
@@ -139731,7 +139731,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isModuleNamespaceObject",
@@ -139745,7 +139745,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isNativeError",
@@ -139759,7 +139759,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isNumberObject",
@@ -139773,7 +139773,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isPromise",
@@ -139787,7 +139787,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isProxy",
@@ -139801,7 +139801,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isRegExp",
@@ -139815,7 +139815,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isSet",
@@ -139829,7 +139829,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isSetIterator",
@@ -139843,7 +139843,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isSharedArrayBuffer",
@@ -139857,7 +139857,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isStringObject",
@@ -139871,7 +139871,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isSymbolObject",
@@ -139885,7 +139885,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isTypedArray",
@@ -139899,7 +139899,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isUint16Array",
@@ -139913,7 +139913,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isUint32Array",
@@ -139927,7 +139927,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isUint8Array",
@@ -139941,7 +139941,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isUint8ClampedArray",
@@ -139955,7 +139955,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isWeakMap",
@@ -139969,7 +139969,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isWeakSet",
@@ -139983,7 +139983,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.MIMEParams",
@@ -139997,7 +139997,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.MIMEType",
@@ -140011,7 +140011,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.TextDecoder",
@@ -140025,7 +140025,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.TextEncoder",
@@ -140039,7 +140039,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys._errnoException",
@@ -140081,7 +140081,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.aborted",
@@ -140095,7 +140095,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.callbackify",
@@ -140109,7 +140109,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.debug",
@@ -140123,7 +140123,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.debuglog",
@@ -140137,7 +140137,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.deprecate",
@@ -140151,7 +140151,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.format",
@@ -140165,7 +140165,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.formatWithOptions",
@@ -140179,7 +140179,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.getSystemErrorMap",
@@ -140221,7 +140221,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.inspect",
@@ -140235,7 +140235,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.isArray",
@@ -140473,7 +140473,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.parseArgs",
@@ -140487,7 +140487,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.parseEnv",
@@ -140515,7 +140515,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.stripVTControlCharacters",
@@ -140529,7 +140529,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.styleText",
@@ -140557,7 +140557,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.transferableAbortController",
@@ -140571,7 +140571,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.transferableAbortSignal",
@@ -140585,7 +140585,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types",
@@ -140599,7 +140599,7 @@
     "0/0/0/43",
     "0/0/0/43",
     "41/0/0/2",
-    "0/0/0/43"
+    "42/0/0/1"
   ],
   [
     "sys.types.*self*",
@@ -140613,7 +140613,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isAnyArrayBuffer",
@@ -140627,7 +140627,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isArgumentsObject",
@@ -140641,7 +140641,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isArrayBuffer",
@@ -140655,7 +140655,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isArrayBufferView",
@@ -140669,7 +140669,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isAsyncFunction",
@@ -140683,7 +140683,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isBigInt64Array",
@@ -140697,7 +140697,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isBigIntObject",
@@ -140711,7 +140711,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isBigUint64Array",
@@ -140725,7 +140725,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isBooleanObject",
@@ -140739,7 +140739,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isBoxedPrimitive",
@@ -140753,7 +140753,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isCryptoKey",
@@ -140767,7 +140767,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isDataView",
@@ -140781,7 +140781,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isDate",
@@ -140795,7 +140795,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isExternal",
@@ -140823,7 +140823,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isFloat64Array",
@@ -140837,7 +140837,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isGeneratorFunction",
@@ -140851,7 +140851,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isGeneratorObject",
@@ -140865,7 +140865,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isInt16Array",
@@ -140879,7 +140879,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isInt32Array",
@@ -140893,7 +140893,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isInt8Array",
@@ -140907,7 +140907,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isKeyObject",
@@ -140921,7 +140921,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isMap",
@@ -140935,7 +140935,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isMapIterator",
@@ -140949,7 +140949,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isModuleNamespaceObject",
@@ -140963,7 +140963,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isNativeError",
@@ -140977,7 +140977,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isNumberObject",
@@ -140991,7 +140991,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isPromise",
@@ -141005,7 +141005,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isProxy",
@@ -141019,7 +141019,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isRegExp",
@@ -141033,7 +141033,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isSet",
@@ -141047,7 +141047,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isSetIterator",
@@ -141061,7 +141061,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isSharedArrayBuffer",
@@ -141075,7 +141075,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isStringObject",
@@ -141089,7 +141089,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isSymbolObject",
@@ -141103,7 +141103,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isTypedArray",
@@ -141117,7 +141117,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isUint16Array",
@@ -141131,7 +141131,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isUint32Array",
@@ -141145,7 +141145,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isUint8Array",
@@ -141159,7 +141159,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isUint8ClampedArray",
@@ -141173,7 +141173,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isWeakMap",
@@ -141187,7 +141187,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "sys.types.isWeakSet",
@@ -141201,7 +141201,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "timers",
@@ -142013,7 +142013,7 @@
     "0/0/0/36",
     "2/0/0/34",
     "2/14/20/0",
-    "1/1/17/17"
+    "26/0/10/0"
   ],
   [
     "tls.*self*",
@@ -142041,7 +142041,7 @@
     "0/0/0/18",
     "1/0/0/17",
     "1/7/10/0",
-    "0/1/17/0"
+    "13/0/5/0"
   ],
   [
     "tls.default.*self*",
@@ -142055,7 +142055,7 @@
     "unsupported",
     "supported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "tls.default.CLIENT_RENEG_LIMIT",
@@ -142069,7 +142069,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.CLIENT_RENEG_WINDOW",
@@ -142083,7 +142083,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.DEFAULT_CIPHERS",
@@ -142097,7 +142097,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.DEFAULT_ECDH_CURVE",
@@ -142111,7 +142111,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.DEFAULT_MAX_VERSION",
@@ -142125,7 +142125,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.DEFAULT_MIN_VERSION",
@@ -142139,7 +142139,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.SecureContext",
@@ -142153,7 +142153,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.Server",
@@ -142167,7 +142167,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.TLSSocket",
@@ -142181,7 +142181,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.checkServerIdentity",
@@ -142209,7 +142209,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.convertALPNProtocols",
@@ -142265,7 +142265,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "stub"
+    "supported"
   ],
   [
     "tls.default.getCiphers",
@@ -142293,7 +142293,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "tls.CLIENT_RENEG_LIMIT",
@@ -142307,7 +142307,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.CLIENT_RENEG_WINDOW",
@@ -142321,7 +142321,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.DEFAULT_CIPHERS",
@@ -142335,7 +142335,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.DEFAULT_ECDH_CURVE",
@@ -142349,7 +142349,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.DEFAULT_MAX_VERSION",
@@ -142363,7 +142363,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.DEFAULT_MIN_VERSION",
@@ -142377,7 +142377,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.SecureContext",
@@ -142391,7 +142391,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.Server",
@@ -142405,7 +142405,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.TLSSocket",
@@ -142419,7 +142419,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.checkServerIdentity",
@@ -142433,7 +142433,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "tls.connect",
@@ -142447,7 +142447,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.convertALPNProtocols",
@@ -142461,7 +142461,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "tls.createSecureContext",
@@ -142475,7 +142475,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "tls.createSecurePair",
@@ -142489,7 +142489,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "tls.createServer",
@@ -142503,7 +142503,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "tls.getCiphers",
@@ -142517,7 +142517,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "stub"
   ],
   [
     "tls.rootCertificates",
@@ -142531,7 +142531,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "trace_events",
@@ -142545,7 +142545,7 @@
     "0/0/0/6",
     "0/1/0/5",
     "0/1/0/5",
-    "1/1/2/2"
+    "6/0/0/0"
   ],
   [
     "trace_events.*self*",
@@ -142573,7 +142573,7 @@
     "0/0/0/3",
     "0/0/0/3",
     "0/0/0/3",
-    "0/1/2/0"
+    "3/0/0/0"
   ],
   [
     "trace_events.default.*self*",
@@ -142587,7 +142587,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "trace_events.default.createTracing",
@@ -142601,7 +142601,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "trace_events.default.getEnabledCategories",
@@ -142615,7 +142615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "trace_events.createTracing",
@@ -142629,7 +142629,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "trace_events.getEnabledCategories",
@@ -142643,7 +142643,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "tty",
@@ -142657,7 +142657,7 @@
     "0/0/0/8",
     "8/0/0/0",
     "8/0/0/0",
-    "1/1/3/3"
+    "8/0/0/0"
   ],
   [
     "tty.*self*",
@@ -142685,7 +142685,7 @@
     "0/0/0/4",
     "4/0/0/0",
     "4/0/0/0",
-    "0/1/3/0"
+    "4/0/0/0"
   ],
   [
     "tty.default.*self*",
@@ -142699,7 +142699,7 @@
     "unsupported",
     "supported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "tty.default.ReadStream",
@@ -142713,7 +142713,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "tty.default.WriteStream",
@@ -142727,7 +142727,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "tty.default.isatty",
@@ -142741,7 +142741,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "tty.ReadStream",
@@ -142755,7 +142755,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "tty.WriteStream",
@@ -142769,7 +142769,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "tty.isatty",
@@ -142783,7 +142783,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "url",
@@ -148229,7 +148229,7 @@
     "0/0/0/4",
     "0/1/0/3",
     "0/1/0/3",
-    "1/1/1/1"
+    "3/0/0/1"
   ],
   [
     "wasi.*self*",
@@ -148257,7 +148257,7 @@
     "0/0/0/2",
     "0/0/0/2",
     "0/0/0/2",
-    "0/1/1/0"
+    "2/0/0/0"
   ],
   [
     "wasi.default.*self*",
@@ -148271,7 +148271,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "wasi.default.WASI",
@@ -148285,7 +148285,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "wasi.WASI",
@@ -148313,7 +148313,7 @@
     "0/0/0/34",
     "0/1/0/33",
     "26/6/0/2",
-    "1/2/15/16"
+    "34/0/0/0"
   ],
   [
     "worker_threads.*self*",
@@ -148341,7 +148341,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "13/3/0/1",
-    "0/2/15/0"
+    "17/0/0/0"
   ],
   [
     "worker_threads.default.*self*",
@@ -148355,7 +148355,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "worker_threads.default.BroadcastChannel",
@@ -148369,7 +148369,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.MessageChannel",
@@ -148383,7 +148383,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.MessagePort",
@@ -148397,7 +148397,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.SHARE_ENV",
@@ -148411,7 +148411,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.Worker",
@@ -148425,7 +148425,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.getEnvironmentData",
@@ -148439,7 +148439,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.isMainThread",
@@ -148453,7 +148453,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.isMarkedAsUntransferable",
@@ -148467,7 +148467,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.markAsUntransferable",
@@ -148481,7 +148481,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.moveMessagePortToContext",
@@ -148495,7 +148495,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.parentPort",
@@ -148509,7 +148509,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.receiveMessageOnPort",
@@ -148523,7 +148523,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.resourceLimits",
@@ -148537,7 +148537,7 @@
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0",
-    "0/1/0/0"
+    "1/0/0/0"
   ],
   [
     "worker_threads.default.resourceLimits.*self*",
@@ -148551,7 +148551,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "mismatch"
+    "supported"
   ],
   [
     "worker_threads.default.setEnvironmentData",
@@ -148565,7 +148565,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.threadId",
@@ -148579,7 +148579,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.default.workerData",
@@ -148593,7 +148593,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "worker_threads.BroadcastChannel",
@@ -148607,7 +148607,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.MessageChannel",
@@ -148621,7 +148621,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.MessagePort",
@@ -148635,7 +148635,7 @@
     "unsupported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.SHARE_ENV",
@@ -148649,7 +148649,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.Worker",
@@ -148663,7 +148663,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.getEnvironmentData",
@@ -148677,7 +148677,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.isMainThread",
@@ -148691,7 +148691,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.isMarkedAsUntransferable",
@@ -148705,7 +148705,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.markAsUntransferable",
@@ -148719,7 +148719,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.moveMessagePortToContext",
@@ -148733,7 +148733,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.parentPort",
@@ -148747,7 +148747,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.receiveMessageOnPort",
@@ -148761,7 +148761,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.resourceLimits",
@@ -148775,7 +148775,7 @@
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0",
-    "0/0/0/1"
+    "1/0/0/0"
   ],
   [
     "worker_threads.resourceLimits.*self*",
@@ -148789,7 +148789,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.setEnvironmentData",
@@ -148803,7 +148803,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.threadId",
@@ -148817,7 +148817,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads.workerData",
@@ -148831,7 +148831,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib",
