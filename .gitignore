@@ -3,7 +3,3 @@ generated
 node_modules
 .wrangler
 .DS_Store
-# TODO: once we are happy with the results we should remove this gitignore
-# so that we keep track of api changes in the git repo
-apis.json
-apis-*.json

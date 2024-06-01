@@ -91,11 +91,6 @@ if (regenerateEnvs.includes("node")) {
       .stdout.match(/v(?<version>\S+)/).groups.version;
     versionMap[`node${version}`] = versionOutput;
   }
-
-  // Move node output to the report folder
-  for (const version of nodeVersions) {
-    shell.mv(`node/node-${version}.json`, "./data");
-  }
 }
 
 // bun

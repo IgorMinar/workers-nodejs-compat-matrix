@@ -34,9 +34,9 @@ shell.echo("Generating baseline.json");
 
 // Create a merged baseline that will be used in the report
 // as well as when generating bun and deno
-const node18 = JSON.parse(shell.cat("node/node-18.json"));
-const node20 = JSON.parse(shell.cat("node/node-20.json"));
-const node22 = JSON.parse(shell.cat("node/node-22.json"));
+const node18 = JSON.parse(shell.cat("data/node-18.json"));
+const node20 = JSON.parse(shell.cat("data/node-20.json"));
+const node22 = JSON.parse(shell.cat("data/node-22.json"));
 
 // Sort the baseline by key name
 const baseline = objectSort(deepmerge.all([node18, node20, node22]));

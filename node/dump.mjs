@@ -52,8 +52,8 @@ result.module.default._cache = "";
 // extract node version
 const nodeMajorVersion = process.versions.node.split(".")[0];
 
-// serialize results in apis-<nodeVersion>.json
+// serialize results in /data/node-<nodeVersion>.json
 await fs.writeFile(
-  path.join(__dirname, `node-${nodeMajorVersion}.json`),
+  path.join(__dirname, "..", "data", `node-${nodeMajorVersion}.json`),
   JSON.stringify(result, null, 2)
 );
