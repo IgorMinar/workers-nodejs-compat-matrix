@@ -168,9 +168,12 @@ shell
   .to("report/src/data/timestamp.json");
 
 function extractNpmVersion(projectName, packageName) {
-  return shell
-    .exec(`pnpm --filter ./${projectName} list ${packageName} --depth=2`, {
-      silent: true,
-    })
-    .stdout.match(`${packageName} (?<version>\\S+)`).groups.version;
+  return (
+    shell
+      .exec(`pnpm --dir ./${projectName}/ list ${packageName} --depth=2`, {
+        silent: true,
+      })
+      .stdout.match(`${packageName} (?<version>\\S+)`)?.groups.version ??
+    `${packageName}@???`
+  );
 }
