@@ -1,3 +1,4 @@
+name = "unenv-worker"
 main = "worker.mjs"
 node_compat = true
 compatibility_flags = ["nodejs_compat"]
