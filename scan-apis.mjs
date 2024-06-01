@@ -1,14 +1,54 @@
 import shell from "shelljs";
-import deepmerge from "deepmerge";
 import fs from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { objectSort } from "./dump-utils.mjs";
 
 shell.set("-e");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const supportedEnvironments = [
+  "node",
+  "bun",
+  "deno",
+  "workerd",
+  "wrangler-v3",
+  "wrangler-jspm",
+  "wrangler-unenv",
+];
+
+// args check
+if (
+  !(
+    process.argv.length === 2 ||
+    (process.argv.length === 4 &&
+      process.argv[2] === "--only" &&
+      process.argv[3]
+        .split(",")
+        .every((env) => supportedEnvironments.includes(env)))
+  )
+) {
+  console.error(`
+  Error: Incorrect arguments!
+
+  ${process.argv.length} ${process.argv[2]} ${process.argv[3]}
+
+  This script can be called with --only option followed by comma separated list of environments to scan.
+
+  Examples:
+    --only wrangler-unenv
+    --only workerd,wrangler-unenv
+
+  Supported environments: node, bun, deno, workerd, wrangler-v3, wrangler-jspm, and wrangler-unenv
+  `);
+  process.exit(1);
+}
+
+const regenerateEnvs =
+  process.argv.length === 4
+    ? process.argv[3].split(",")
+    : supportedEnvironments;
 
 if (!shell.env.VOLTA_HOME) {
   console.error(
@@ -38,68 +78,84 @@ const volta = `${shell.env.VOLTA_HOME}/bin/volta `;
 const versionMap = {};
 
 // Compare node versions to the baseline
-const nodeVersions = [18, 20, 22];
-for (const version of nodeVersions) {
-  shell.echo(`Generate node v${version} apis...`);
-  shell.exec(
-    volta + `run --node ${version} node node/dump.mjs --compare-to-baseline`
-  );
-  shell.echo("=== Done ====================================\n\n");
-  const versionOutput = shell
-    .exec(volta + `run --node ${version} node --version`, { silent: true })
-    .stdout.match(/v(?<version>\S+)/).groups.version;
-  versionMap[`node${version}`] = versionOutput;
-}
+if (regenerateEnvs.includes("node")) {
+  const nodeVersions = [18, 20, 22];
+  for (const version of nodeVersions) {
+    shell.echo(`Generate node v${version} apis...`);
+    shell.exec(
+      volta + `run --node ${version} node node/dump.mjs --compare-to-baseline`
+    );
+    shell.echo("=== Done ====================================\n\n");
+    const versionOutput = shell
+      .exec(volta + `run --node ${version} node --version`, { silent: true })
+      .stdout.match(/v(?<version>\S+)/).groups.version;
+    versionMap[`node${version}`] = versionOutput;
+  }
 
-// Move node output to the report folder
-for (const version of nodeVersions) {
-  shell.mv(`node/node-${version}.json`, "./data");
+  // Move node output to the report folder
+  for (const version of nodeVersions) {
+    shell.mv(`node/node-${version}.json`, "./data");
+  }
 }
 
 // bun
-shell.echo("Generate bun apis...");
-shell.exec("bun run bun/dump.js");
-shell.echo("=== Done ====================================\n\n");
-versionMap["bun"] = shell
-  .exec(`bun --version`, { silent: true })
-  .stdout.match(/(?<version>\S+)/).groups.version;
+if (regenerateEnvs.includes("bun")) {
+  shell.echo("Generate bun apis...");
+  shell.exec("bun run bun/dump.js");
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["bun"] = shell
+    .exec(`bun --version`, { silent: true })
+    .stdout.match(/(?<version>\S+)/).groups.version;
+}
 
 // deno
-shell.echo("Generate deno apis...");
-shell.exec(
-  "deno run --allow-write=./data/deno.json --allow-read --allow-env deno/dump.js"
-);
-shell.echo("=== Done ====================================\n\n");
-versionMap["deno"] = shell
-  .exec(`deno --version`, { silent: true })
-  .stdout.match(/deno (?<version>\S+)/).groups.version;
+if (regenerateEnvs.includes("deno")) {
+  shell.echo("Generate deno apis...");
+  shell.exec(
+    "deno run --allow-write=./data/deno.json --allow-read --allow-env deno/dump.js"
+  );
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["deno"] = shell
+    .exec(`deno --version`, { silent: true })
+    .stdout.match(/deno (?<version>\S+)/).groups.version;
+}
 
-// Workerd
-shell.echo("Generate workerd + --node_compat apis...");
-shell.exec("node workerd/dump.mjs");
-shell.echo("=== Done ====================================\n\n");
-versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
+// workerd
+if (regenerateEnvs.includes("workerd")) {
+  shell.echo("Generate workerd + --node_compat apis...");
+  shell.exec("node workerd/dump.mjs");
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
+}
 
-// Wrangler with polyfills
-shell.echo("Generate wrangler-v3 + --node_compat apis...");
-shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
-shell.echo("=== Done ====================================\n\n");
-versionMap["wranglerV3"] = extractNpmVersion(
-  "wrangler-v3-polyfills",
-  "wrangler"
-);
+// wrangler-v3 (with polyfills)
+if (regenerateEnvs.includes("wrangler-v3")) {
+  shell.echo("Generate wrangler-v3 + --node_compat apis...");
+  shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["wranglerV3"] = extractNpmVersion(
+    "wrangler-v3-polyfills",
+    "wrangler"
+  );
+}
 
-shell.echo("Generate wrangler-jspm + --node_compat apis...");
-shell.exec(volta + "run --node 20 node wrangler-jspm-polyfills/dump.mjs");
-shell.echo("=== Done ====================================\n\n");
-versionMap["wranglerJspm"] =
-  "@jspm/core@" + extractNpmVersion("wrangler-jspm-polyfills", "@jspm/core");
+// wrangler-jspm
+if (regenerateEnvs.includes("wrangler-jspm")) {
+  shell.echo("Generate wrangler-jspm + --node_compat apis...");
+  shell.exec(volta + "run --node 20 node wrangler-jspm-polyfills/dump.mjs");
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["wranglerJspm"] =
+    "@jspm/core@" + extractNpmVersion("wrangler-jspm-polyfills", "@jspm/core");
+}
 
-shell.echo("Generate wrangler-unenv + --node_compat apis...");
-shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
-shell.echo("=== Done ====================================\n\n");
-versionMap["wranglerUnenv"] =
-  "unenv@" + extractNpmVersion("wrangler-unenv-polyfills", "unenv-nightly");
+// wrangler-unenv
+if (regenerateEnvs.includes("wrangler-unenv")) {
+  shell.echo("Generate wrangler-unenv + --node_compat apis...");
+  shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
+  shell.echo("=== Done ====================================\n\n");
+  versionMap["wranglerUnenv"] =
+    "unenv@" + extractNpmVersion("wrangler-unenv-polyfills", "unenv-nightly");
+}
 
 await fs.writeFile(
   path.join(__dirname, "report", "src", "data", "versionMap.json"),
