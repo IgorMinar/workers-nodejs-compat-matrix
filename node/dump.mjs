@@ -7,6 +7,17 @@ import { visit, collectObjectProps } from "../dump-utils.mjs";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// extract node version
+const nodeMajorVersion = process.versions.node.split(".")[0];
+
+const outputFilePath = path.join(
+  __dirname,
+  "..",
+  "data",
+  `node-${nodeMajorVersion}.json`
+);
+await fs.rm(outputFilePath, { force: true });
+
 // collect all global keys
 const nodeGlobalKeys = collectObjectProps(globalThis);
 
@@ -49,11 +60,5 @@ result.module._cache = "";
 result.module.default._pathCache = "";
 result.module.default._cache = "";
 
-// extract node version
-const nodeMajorVersion = process.versions.node.split(".")[0];
-
 // serialize results in /data/node-<nodeVersion>.json
-await fs.writeFile(
-  path.join(__dirname, "..", "data", `node-${nodeMajorVersion}.json`),
-  JSON.stringify(result, null, 2)
-);
+await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2));

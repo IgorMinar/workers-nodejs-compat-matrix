@@ -34,11 +34,10 @@ async function spawnWorkerd(configPath) {
   };
 }
 
+const outputFilePath = path.join(__dirname, "..", "data", "workerd.json");
+await fs.rm(outputFilePath, { force: true });
 const { url, kill } = await spawnWorkerd(path.join(__dirname, "config.capnp"));
 const res = await fetch(url);
 await kill();
 
-await fs.writeFile(
-  path.join(__dirname, "..", "data", "workerd.json"),
-  Buffer.from(await res.arrayBuffer())
-);
+await fs.writeFile(outputFilePath, Buffer.from(await res.arrayBuffer()));

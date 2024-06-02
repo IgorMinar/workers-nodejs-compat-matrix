@@ -4,6 +4,9 @@ import path from "node:path";
 import { visit } from "../dump-utils.mjs";
 import baseline from "../data/baseline.json" with { type: "json" };
 
+const outputFilePath = path.join(__dirname, "..", "data", "bun.json");
+await fs.rm(outputFilePath, { force: true });
+
 const bunGlobals = {};
 const importedModules = {};
 for (const name of Object.keys(baseline)) {
@@ -49,7 +52,4 @@ if (result["module"].default._pathCache) {
   result["module"].default._pathCache = "object";
 }
 
-await fs.writeFile(
-  path.join(__dirname, "..", "data", "bun.json"),
-  JSON.stringify(result, null, 2)
-);
+await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2));

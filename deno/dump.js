@@ -4,6 +4,14 @@ import path from "node:path";
 import { visit } from "../dump-utils.mjs";
 import baseline from "../data/baseline.json" with { type: "json" };
 
+const outputFilePath = path.join(
+  import.meta.dirname,
+  "..",
+  "data",
+  "deno.json"
+);
+await fs.rm(outputFilePath, { force: true });
+
 const denoGlobals = {};
 const importedModules = {};
 for (const name of Object.keys(baseline)) {
@@ -29,7 +37,4 @@ const result = visit(baseline, {
   ...importedModules,
 });
 
-await fs.writeFile(
-  path.join(import.meta.dirname, "..", "data", "deno.json"),
-  JSON.stringify(result, null, 2)
-);
+await fs.writeFile(outputFilePath, JSON.stringify(result, null, 2));

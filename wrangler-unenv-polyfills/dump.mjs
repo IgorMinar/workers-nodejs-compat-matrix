@@ -52,6 +52,15 @@ const spawnWrangler = async () => {
 };
 
 const dump = async () => {
+  const outputFilePath = path.join(
+    __dirname,
+    "..",
+    "data",
+    "wrangler-unenv-polyfills.json"
+  );
+  console.log("Deleting ", outputFilePath);
+  await fs.rm(outputFilePath, { force: true });
+
   // Spawn wrangler
   console.log("Spawning wrangler");
   const { kill, url } = await spawnWrangler();
@@ -61,14 +70,11 @@ const dump = async () => {
   const res = await fetch(url);
 
   // Write results to file
-  const filepath = path.join(
-    __dirname,
-    "..",
-    "data",
-    "wrangler-unenv-polyfills.json"
+  await fs.writeFile(outputFilePath, Buffer.from(await res.arrayBuffer()));
+  console.log(
+    "Done! Result written to",
+    path.relative(__dirname, outputFilePath)
   );
-  await fs.writeFile(filepath, Buffer.from(await res.arrayBuffer()));
-  console.log("Done! Result written to", path.relative(__dirname, filepath));
   await kill();
 };
 
