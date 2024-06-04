@@ -14,6 +14,7 @@ async function spawnWorkerd(configPath) {
     workerd.default,
     [
       "serve",
+      "--experimental",
       "--verbose",
       "--control-fd=3",
       "--socket-addr=http=127.0.0.1:0",

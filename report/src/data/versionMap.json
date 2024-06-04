@@ -4,8 +4,8 @@
   "node22": "22.2.0",
   "bun": "1.1.7",
   "deno": "1.43.1",
-  "workerd": "1.20240529.0",
+  "workerd": "1.20240603.0",
   "wranglerV3": "3.53.1",
   "wranglerJspm": "@jspm/core@2.0.1",
-  "wranglerUnenv": "unenv@1.10.0-1717169155.21d0699"
+  "wranglerUnenv": "unenv@1.10.0-1717522572.87b9352"
 }

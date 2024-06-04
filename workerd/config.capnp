@@ -14,5 +14,5 @@ const worker :Workerd.Worker = (
     ( name = "baseline", json = embed "../data/baseline.json" )
   ],
   compatibilityDate = "2024-05-01",
-  compatibilityFlags = ["nodejs_compat"]
+  compatibilityFlags = ["nodejs_compat_v2"]
 );
