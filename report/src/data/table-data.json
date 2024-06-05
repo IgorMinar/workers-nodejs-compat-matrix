@@ -11,7 +11,7 @@
     "2424/23/0/8186",
     "1731/36/0/8866",
     "3251/199/287/6896",
-    "5857/123/2317/2336"
+    "5868/123/2319/2323"
   ],
   [
     "*globals*",
@@ -135125,7 +135125,7 @@
     "0/0/0/18",
     "18/0/0/0",
     "18/0/0/0",
-    "14/0/0/4"
+    "18/0/0/0"
   ],
   [
     "punycode.*self*",
@@ -135363,7 +135363,7 @@
     "0/0/0/3",
     "3/0/0/0",
     "3/0/0/0",
-    "0/0/0/3"
+    "3/0/0/0"
   ],
   [
     "punycode.ucs2.*self*",
@@ -135377,7 +135377,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "punycode.ucs2.decode",
@@ -135391,7 +135391,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "punycode.ucs2.encode",
@@ -135405,7 +135405,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "punycode.version",
@@ -135419,7 +135419,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "querystring",
@@ -148229,7 +148229,7 @@
     "0/0/0/4",
     "0/1/0/3",
     "0/1/0/3",
-    "3/0/0/1"
+    "4/0/0/0"
   ],
   [
     "wasi.*self*",
@@ -148299,7 +148299,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "worker_threads",
@@ -148845,7 +148845,7 @@
     "0/0/0/374",
     "88/4/0/282",
     "122/4/0/248",
-    "346/0/18/10"
+    "352/0/20/2"
   ],
   [
     "zlib.*self*",
@@ -151897,7 +151897,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.Gzip",
@@ -151911,7 +151911,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.Inflate",
@@ -153899,7 +153899,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.createGzip",
@@ -153913,7 +153913,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.createInflate",
@@ -154025,7 +154025,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.gunzipSync",
@@ -154039,7 +154039,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "stub"
   ],
   [
     "zlib.gzip",
@@ -154053,7 +154053,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.gzipSync",
@@ -154067,7 +154067,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "stub"
   ],
   [
     "zlib.inflate",

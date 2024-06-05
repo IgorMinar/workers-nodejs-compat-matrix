@@ -9970,11 +9970,11 @@
     "toASCII": "function",
     "toUnicode": "function",
     "ucs2": {
-      "*self*": "missing",
-      "decode": "missing",
-      "encode": "missing"
+      "*self*": "object",
+      "decode": "function",
+      "encode": "function"
     },
-    "version": "missing"
+    "version": "string"
   },
   "querystring": {
     "*self*": "object",
@@ -10952,7 +10952,7 @@
   },
   "wasi": {
     "*self*": "object",
-    "WASI": "missing",
+    "WASI": "class",
     "default": {
       "*self*": "object",
       "WASI": "class"
@@ -11006,8 +11006,8 @@
     "BrotliDecompress": "class",
     "Deflate": "class",
     "DeflateRaw": "class",
-    "Gunzip": "missing",
-    "Gzip": "missing",
+    "Gunzip": "class",
+    "Gzip": "class",
     "Inflate": "class",
     "InflateRaw": "class",
     "Unzip": "class",
@@ -11151,8 +11151,8 @@
     "createBrotliDecompress": "function",
     "createDeflate": "function",
     "createDeflateRaw": "function",
-    "createGunzip": "missing",
-    "createGzip": "missing",
+    "createGunzip": "function",
+    "createGzip": "function",
     "createInflate": "function",
     "createInflateRaw": "function",
     "createUnzip": "function",
@@ -11375,10 +11375,10 @@
     "deflateRaw": "function",
     "deflateRawSync": "stub",
     "deflateSync": "stub",
-    "gunzip": "missing",
-    "gunzipSync": "missing",
-    "gzip": "missing",
-    "gzipSync": "missing",
+    "gunzip": "function",
+    "gunzipSync": "stub",
+    "gzip": "function",
+    "gzipSync": "stub",
     "inflate": "function",
     "inflateRaw": "function",
     "inflateRawSync": "stub",

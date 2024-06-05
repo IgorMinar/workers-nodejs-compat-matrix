@@ -1,5 +1,5 @@
 Module,Path,baseline,node22,node20,node18,bun,deno,workerd,wranglerV3,wranglerJspm,wranglerUnenv
-,,,22.2.0,20.14.0,18.20.3,1.1.7,1.43.1,1.20240603.0,3.53.1,@jspm/core@2.0.1,unenv@1.10.0-1717522572.87b9352
+,,,22.2.0,20.14.0,18.20.3,1.1.7,1.43.1,1.20240603.0,3.53.1,@jspm/core@2.0.1,unenv@1.10.0-1717570167.1349fa9
 *globals*,*self*,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
@@ -9363,10 +9363,10 @@ punycode,decode,supported,supported,supported,supported,supported,supported,unsu
 punycode,encode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 punycode,toASCII,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 punycode,toUnicode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
-punycode,ucs2.*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-punycode,ucs2.decode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-punycode,ucs2.encode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-punycode,version,supported,supported,supported,supported,supported,unsupported,unsupported,supported,supported,unsupported
+punycode,ucs2.*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+punycode,ucs2.decode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+punycode,ucs2.encode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+punycode,version,supported,supported,supported,supported,supported,unsupported,unsupported,supported,supported,supported
 querystring,*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 querystring,default.*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 querystring,default.decode,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
@@ -10224,7 +10224,7 @@ vm,runInThisContext,supported,supported,supported,supported,supported,supported,
 wasi,*self*,supported,supported,supported,supported,supported,unsupported,unsupported,mismatch,mismatch,supported
 wasi,default.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,supported
 wasi,default.WASI,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,supported
-wasi,WASI,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported
+wasi,WASI,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,supported
 worker_threads,*self*,supported,supported,supported,supported,supported,supported,unsupported,mismatch,supported,supported
 worker_threads,default.*self*,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported,supported
 worker_threads,default.BroadcastChannel,supported,supported,supported,supported,supported,supported,unsupported,unsupported,mismatch,supported
@@ -10473,8 +10473,8 @@ zlib,BrotliCompress,supported,supported,supported,supported,supported,stub,unsup
 zlib,BrotliDecompress,supported,supported,supported,supported,supported,stub,unsupported,unsupported,unsupported,supported
 zlib,Deflate,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,DeflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
-zlib,Gunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-zlib,Gzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
+zlib,Gunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+zlib,Gzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,Inflate,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,InflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,Unzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
@@ -10614,8 +10614,8 @@ zlib,createBrotliCompress,supported,supported,supported,supported,supported,supp
 zlib,createBrotliDecompress,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 zlib,createDeflate,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,createDeflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
-zlib,createGunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-zlib,createGzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
+zlib,createGunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+zlib,createGzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,createInflate,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,createInflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,createUnzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
@@ -10623,10 +10623,10 @@ zlib,deflate,supported,supported,supported,supported,supported,supported,unsuppo
 zlib,deflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,deflateRawSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,stub
 zlib,deflateSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,stub
-zlib,gunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-zlib,gunzipSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-zlib,gzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
-zlib,gzipSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,unsupported
+zlib,gunzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+zlib,gunzipSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,stub
+zlib,gzip,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
+zlib,gzipSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,stub
 zlib,inflate,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,inflateRaw,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,supported
 zlib,inflateRawSync,supported,supported,supported,supported,supported,supported,unsupported,supported,supported,stub
