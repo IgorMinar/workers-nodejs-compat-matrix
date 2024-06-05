@@ -6,8 +6,8 @@ settings:
 
 overrides:
   note: overrides for wrangler-unenv-polyfills
-  wrangler@0.0.0-188b09dc>unenv: npm:unenv-nightly
-  miniflare@0.0.0-188b09dc>workerd: 1.20240603.0
+  wrangler@0.0.0-7568f1f5>unenv: npm:unenv-nightly
+  miniflare@0.0.0-7568f1f5>workerd: 1.20240603.0
 
 importers:
 
@@ -80,8 +80,8 @@ importers:
   wrangler-unenv-polyfills:
     devDependencies:
       wrangler:
-        specifier: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-wrangler-5878
-        version: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-wrangler-5878
+        specifier: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-wrangler-5878
+        version: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-wrangler-5878
 
   wrangler-v3-polyfills:
     devDependencies:
@@ -835,9 +835,9 @@ packages:
     resolution: {integrity: sha512-EeEjMobfuJrwoctj7FA1y1KEbM0+Q1xSjobIEyie9k4haVEBB7vkDvsasw1pM3rO39mL2akxIAzLMUAtrMHZhA==}
     engines: {node: '>=16.13'}
 
-  '@cloudflare/kv-asset-handler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-cloudflare-kv-asset-handler-5878':
-    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-cloudflare-kv-asset-handler-5878}
-    version: 0.0.0-188b09dc
+  '@cloudflare/kv-asset-handler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-cloudflare-kv-asset-handler-5878':
+    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-cloudflare-kv-asset-handler-5878}
+    version: 0.0.0-7568f1f5
     engines: {node: '>=16.13'}
 
   '@cloudflare/workerd-darwin-64@1.20240304.0':
@@ -4097,9 +4097,9 @@ packages:
     engines: {node: '>=16.13'}
     hasBin: true
 
-  miniflare@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-miniflare-5878:
-    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-miniflare-5878}
-    version: 0.0.0-188b09dc
+  miniflare@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-miniflare-5878:
+    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-miniflare-5878}
+    version: 0.0.0-7568f1f5
     engines: {node: '>=16.13'}
     hasBin: true
 
@@ -5945,9 +5945,9 @@ packages:
       '@cloudflare/workers-types':
         optional: true
 
-  wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-wrangler-5878:
-    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-wrangler-5878}
-    version: 0.0.0-188b09dc
+  wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-wrangler-5878:
+    resolution: {tarball: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-wrangler-5878}
+    version: 0.0.0-7568f1f5
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -6932,7 +6932,7 @@ snapshots:
     dependencies:
       mime: 3.0.0
 
-  '@cloudflare/kv-asset-handler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-cloudflare-kv-asset-handler-5878':
+  '@cloudflare/kv-asset-handler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-cloudflare-kv-asset-handler-5878':
     dependencies:
       mime: 3.0.0
 
@@ -10744,7 +10744,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  miniflare@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-miniflare-5878:
+  miniflare@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-miniflare-5878:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.11.3
@@ -12955,15 +12955,15 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-wrangler-5878:
+  wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-wrangler-5878:
     dependencies:
-      '@cloudflare/kv-asset-handler': https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-cloudflare-kv-asset-handler-5878
+      '@cloudflare/kv-asset-handler': https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-cloudflare-kv-asset-handler-5878
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
       chokidar: 3.6.0
       esbuild: 0.17.19
-      miniflare: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9375802380/npm-package-miniflare-5878
+      miniflare: https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/9378407142/npm-package-miniflare-5878
       nanoid: 3.3.7
       path-to-regexp: 6.2.2
       resolve: 1.22.8
