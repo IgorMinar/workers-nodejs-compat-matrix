@@ -11,7 +11,7 @@
     "2424/23/0/8186",
     "1731/36/0/8866",
     "3251/199/287/6896",
-    "5868/123/2319/2323"
+    "6004/123/2319/2187"
   ],
   [
     "*globals*",
@@ -52063,7 +52063,7 @@
     "6/0/0/140",
     "0/1/0/145",
     "2/0/12/132",
-    "6/0/0/140"
+    "142/0/0/4"
   ],
   [
     "async_hooks.*self*",
@@ -52091,7 +52091,7 @@
     "3/0/0/70",
     "0/0/0/73",
     "1/0/6/66",
-    "3/0/0/70"
+    "71/0/0/2"
   ],
   [
     "async_hooks.default.*self*",
@@ -52147,7 +52147,7 @@
     "0/0/0/66",
     "0/0/0/66",
     "0/0/0/66",
-    "0/0/0/66"
+    "64/0/0/2"
   ],
   [
     "async_hooks.default.asyncWrapProviders.*self*",
@@ -52161,7 +52161,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.BLOBREADER",
@@ -52175,7 +52175,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.CHECKPRIMEREQUEST",
@@ -52189,7 +52189,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.CIPHERREQUEST",
@@ -52203,7 +52203,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.DERIVEBITSREQUEST",
@@ -52217,7 +52217,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.DIRHANDLE",
@@ -52231,7 +52231,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.DNSCHANNEL",
@@ -52245,7 +52245,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.ELDHISTOGRAM",
@@ -52259,7 +52259,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.FILEHANDLE",
@@ -52273,7 +52273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.FILEHANDLECLOSEREQ",
@@ -52287,7 +52287,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.FIXEDSIZEBLOBCOPY",
@@ -52315,7 +52315,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.FSREQCALLBACK",
@@ -52329,7 +52329,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.FSREQPROMISE",
@@ -52343,7 +52343,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.GETADDRINFOREQWRAP",
@@ -52357,7 +52357,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.GETNAMEINFOREQWRAP",
@@ -52371,7 +52371,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HASHREQUEST",
@@ -52385,7 +52385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HEAPSNAPSHOT",
@@ -52399,7 +52399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTP2PING",
@@ -52413,7 +52413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTP2SESSION",
@@ -52427,7 +52427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTP2SETTINGS",
@@ -52441,7 +52441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTP2STREAM",
@@ -52455,7 +52455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTPCLIENTREQUEST",
@@ -52469,7 +52469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.HTTPINCOMINGMESSAGE",
@@ -52483,7 +52483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.INSPECTORJSBINDING",
@@ -52511,7 +52511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.JSUDPWRAP",
@@ -52525,7 +52525,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.KEYEXPORTREQUEST",
@@ -52539,7 +52539,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.KEYGENREQUEST",
@@ -52553,7 +52553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.KEYPAIRGENREQUEST",
@@ -52567,7 +52567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.MESSAGEPORT",
@@ -52581,7 +52581,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.NONE",
@@ -52595,7 +52595,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PBKDF2REQUEST",
@@ -52609,7 +52609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PIPECONNECTWRAP",
@@ -52623,7 +52623,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PIPESERVERWRAP",
@@ -52637,7 +52637,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PIPEWRAP",
@@ -52651,7 +52651,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PROCESSWRAP",
@@ -52665,7 +52665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.PROMISE",
@@ -52679,7 +52679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUERYWRAP",
@@ -52693,7 +52693,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_ENDPOINT",
@@ -52707,7 +52707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_LOGSTREAM",
@@ -52721,7 +52721,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_PACKET",
@@ -52735,7 +52735,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_SESSION",
@@ -52749,7 +52749,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_STREAM",
@@ -52763,7 +52763,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.QUIC_UDP",
@@ -52777,7 +52777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.RANDOMBYTESREQUEST",
@@ -52791,7 +52791,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.RANDOMPRIMEREQUEST",
@@ -52805,7 +52805,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.SCRYPTREQUEST",
@@ -52819,7 +52819,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.SHUTDOWNWRAP",
@@ -52833,7 +52833,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.SIGINTWATCHDOG",
@@ -52847,7 +52847,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.SIGNALWRAP",
@@ -52861,7 +52861,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.SIGNREQUEST",
@@ -52875,7 +52875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.STATWATCHER",
@@ -52889,7 +52889,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.STREAMPIPE",
@@ -52903,7 +52903,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.TCPCONNECTWRAP",
@@ -52917,7 +52917,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.TCPSERVERWRAP",
@@ -52931,7 +52931,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.TCPWRAP",
@@ -52945,7 +52945,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.TLSWRAP",
@@ -52959,7 +52959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.TTYWRAP",
@@ -52973,7 +52973,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.UDPSENDWRAP",
@@ -52987,7 +52987,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.UDPWRAP",
@@ -53001,7 +53001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.VERIFYREQUEST",
@@ -53015,7 +53015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.WORKER",
@@ -53029,7 +53029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.WORKERHEAPSNAPSHOT",
@@ -53043,7 +53043,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.WRITEWRAP",
@@ -53057,7 +53057,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.asyncWrapProviders.ZLIB",
@@ -53071,7 +53071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.createHook",
@@ -53085,7 +53085,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.executionAsyncId",
@@ -53099,7 +53099,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.executionAsyncResource",
@@ -53113,7 +53113,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.default.triggerAsyncId",
@@ -53127,7 +53127,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.AsyncLocalStorage",
@@ -53169,7 +53169,7 @@
     "0/0/0/66",
     "0/0/0/66",
     "0/0/0/66",
-    "0/0/0/66"
+    "64/0/0/2"
   ],
   [
     "async_hooks.asyncWrapProviders.*self*",
@@ -53183,7 +53183,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.BLOBREADER",
@@ -53197,7 +53197,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.CHECKPRIMEREQUEST",
@@ -53211,7 +53211,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.CIPHERREQUEST",
@@ -53225,7 +53225,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.DERIVEBITSREQUEST",
@@ -53239,7 +53239,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.DIRHANDLE",
@@ -53253,7 +53253,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.DNSCHANNEL",
@@ -53267,7 +53267,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.ELDHISTOGRAM",
@@ -53281,7 +53281,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.FILEHANDLE",
@@ -53295,7 +53295,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.FILEHANDLECLOSEREQ",
@@ -53309,7 +53309,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.FIXEDSIZEBLOBCOPY",
@@ -53337,7 +53337,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.FSREQCALLBACK",
@@ -53351,7 +53351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.FSREQPROMISE",
@@ -53365,7 +53365,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.GETADDRINFOREQWRAP",
@@ -53379,7 +53379,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.GETNAMEINFOREQWRAP",
@@ -53393,7 +53393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HASHREQUEST",
@@ -53407,7 +53407,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HEAPSNAPSHOT",
@@ -53421,7 +53421,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTP2PING",
@@ -53435,7 +53435,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTP2SESSION",
@@ -53449,7 +53449,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTP2SETTINGS",
@@ -53463,7 +53463,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTP2STREAM",
@@ -53477,7 +53477,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTPCLIENTREQUEST",
@@ -53491,7 +53491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.HTTPINCOMINGMESSAGE",
@@ -53505,7 +53505,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.INSPECTORJSBINDING",
@@ -53533,7 +53533,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.JSUDPWRAP",
@@ -53547,7 +53547,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.KEYEXPORTREQUEST",
@@ -53561,7 +53561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.KEYGENREQUEST",
@@ -53575,7 +53575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.KEYPAIRGENREQUEST",
@@ -53589,7 +53589,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.MESSAGEPORT",
@@ -53603,7 +53603,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.NONE",
@@ -53617,7 +53617,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PBKDF2REQUEST",
@@ -53631,7 +53631,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PIPECONNECTWRAP",
@@ -53645,7 +53645,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PIPESERVERWRAP",
@@ -53659,7 +53659,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PIPEWRAP",
@@ -53673,7 +53673,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PROCESSWRAP",
@@ -53687,7 +53687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.PROMISE",
@@ -53701,7 +53701,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUERYWRAP",
@@ -53715,7 +53715,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_ENDPOINT",
@@ -53729,7 +53729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_LOGSTREAM",
@@ -53743,7 +53743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_PACKET",
@@ -53757,7 +53757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_SESSION",
@@ -53771,7 +53771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_STREAM",
@@ -53785,7 +53785,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.QUIC_UDP",
@@ -53799,7 +53799,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.RANDOMBYTESREQUEST",
@@ -53813,7 +53813,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.RANDOMPRIMEREQUEST",
@@ -53827,7 +53827,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.SCRYPTREQUEST",
@@ -53841,7 +53841,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.SHUTDOWNWRAP",
@@ -53855,7 +53855,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.SIGINTWATCHDOG",
@@ -53869,7 +53869,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.SIGNALWRAP",
@@ -53883,7 +53883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.SIGNREQUEST",
@@ -53897,7 +53897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.STATWATCHER",
@@ -53911,7 +53911,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.STREAMPIPE",
@@ -53925,7 +53925,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.TCPCONNECTWRAP",
@@ -53939,7 +53939,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.TCPSERVERWRAP",
@@ -53953,7 +53953,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.TCPWRAP",
@@ -53967,7 +53967,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.TLSWRAP",
@@ -53981,7 +53981,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.TTYWRAP",
@@ -53995,7 +53995,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.UDPSENDWRAP",
@@ -54009,7 +54009,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.UDPWRAP",
@@ -54023,7 +54023,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.VERIFYREQUEST",
@@ -54037,7 +54037,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.WORKER",
@@ -54051,7 +54051,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.WORKERHEAPSNAPSHOT",
@@ -54065,7 +54065,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.WRITEWRAP",
@@ -54079,7 +54079,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.asyncWrapProviders.ZLIB",
@@ -54093,7 +54093,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.createHook",
@@ -54107,7 +54107,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.executionAsyncId",
@@ -54121,7 +54121,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.executionAsyncResource",
@@ -54135,7 +54135,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "async_hooks.triggerAsyncId",
@@ -54149,7 +54149,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "buffer",
