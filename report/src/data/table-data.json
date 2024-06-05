@@ -11,7 +11,7 @@
     "2424/23/0/8186",
     "1731/36/0/8866",
     "3251/199/287/6896",
-    "6004/123/2319/2187"
+    "6172/147/2779/1535"
   ],
   [
     "*globals*",
@@ -25,7 +25,7 @@
     "1205/0/0/1163",
     "601/0/0/1767",
     "607/0/0/1761",
-    "1256/0/0/1112"
+    "1424/24/460/460"
   ],
   [
     "*globals*.*self*",
@@ -7403,7 +7403,7 @@
     "475/0/0/164",
     "0/0/0/639",
     "0/0/0/639",
-    "497/0/0/142"
+    "544/1/33/61"
   ],
   [
     "*globals*.global.*self*",
@@ -15131,7 +15131,7 @@
     "3/0/0/90",
     "0/0/0/93",
     "0/0/0/93",
-    "3/0/0/90"
+    "50/1/33/9"
   ],
   [
     "*globals*.global.process.*self*",
@@ -15159,7 +15159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._debugProcess",
@@ -15173,7 +15173,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._events",
@@ -15201,7 +15201,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process._exiting",
@@ -15229,7 +15229,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._getActiveHandles",
@@ -15243,7 +15243,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._getActiveRequests",
@@ -15257,7 +15257,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._kill",
@@ -15271,7 +15271,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._linkedBinding",
@@ -15313,7 +15313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process._rawDebug",
@@ -15327,7 +15327,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._startProfilerIdleNotifier",
@@ -15341,7 +15341,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._stopProfilerIdleNotifier",
@@ -15355,7 +15355,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process._tickCallback",
@@ -15369,7 +15369,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.abort",
@@ -15383,7 +15383,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.addListener",
@@ -15397,7 +15397,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.allowedNodeEnvironmentFlags",
@@ -15411,7 +15411,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.arch",
@@ -15425,7 +15425,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.argv",
@@ -15439,7 +15439,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.argv0",
@@ -15453,7 +15453,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.assert",
@@ -15467,7 +15467,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.availableMemory",
@@ -15481,7 +15481,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.binding",
@@ -15495,7 +15495,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.chdir",
@@ -15509,7 +15509,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.config",
@@ -15523,7 +15523,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.constrainedMemory",
@@ -15537,7 +15537,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.cpuUsage",
@@ -15551,7 +15551,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.cwd",
@@ -15565,7 +15565,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.debugPort",
@@ -15579,7 +15579,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.dlopen",
@@ -15593,7 +15593,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.domain",
@@ -15621,7 +15621,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.emitWarning",
@@ -15635,7 +15635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.env",
@@ -15663,7 +15663,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.execArgv",
@@ -15677,7 +15677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.execPath",
@@ -15691,7 +15691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.exit",
@@ -15705,7 +15705,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.exitCode",
@@ -15719,7 +15719,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.global.process.features",
@@ -15733,7 +15733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.getActiveResourcesInfo",
@@ -15747,7 +15747,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.getMaxListeners",
@@ -15761,7 +15761,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.getegid",
@@ -15775,7 +15775,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.geteuid",
@@ -15789,7 +15789,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.getgid",
@@ -15803,7 +15803,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.getgroups",
@@ -15817,7 +15817,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.getuid",
@@ -15831,7 +15831,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.hasUncaughtExceptionCaptureCallback",
@@ -15845,7 +15845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.hrtime",
@@ -15859,7 +15859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.initgroups",
@@ -15887,7 +15887,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.listenerCount",
@@ -15901,7 +15901,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.listeners",
@@ -15915,7 +15915,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.loadEnvFile",
@@ -15929,7 +15929,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.memoryUsage",
@@ -15943,7 +15943,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.moduleLoadList",
@@ -15985,7 +15985,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.on",
@@ -15999,7 +15999,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.once",
@@ -16013,7 +16013,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.openStdin",
@@ -16041,7 +16041,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.platform",
@@ -16055,7 +16055,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.ppid",
@@ -16069,7 +16069,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.prependListener",
@@ -16083,7 +16083,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.prependOnceListener",
@@ -16097,7 +16097,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.rawListeners",
@@ -16111,7 +16111,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.reallyExit",
@@ -16139,7 +16139,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.removeAllListeners",
@@ -16153,7 +16153,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.removeListener",
@@ -16167,7 +16167,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.report",
@@ -16181,7 +16181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.resourceUsage",
@@ -16195,7 +16195,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setMaxListeners",
@@ -16209,7 +16209,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setSourceMapsEnabled",
@@ -16223,7 +16223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setUncaughtExceptionCaptureCallback",
@@ -16237,7 +16237,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setegid",
@@ -16251,7 +16251,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.seteuid",
@@ -16265,7 +16265,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setgid",
@@ -16279,7 +16279,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setgroups",
@@ -16293,7 +16293,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.setuid",
@@ -16307,7 +16307,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.sourceMapsEnabled",
@@ -16321,7 +16321,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.stderr",
@@ -16335,7 +16335,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.stdin",
@@ -16349,7 +16349,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.stdout",
@@ -16363,7 +16363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.process.title",
@@ -16377,7 +16377,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.umask",
@@ -16391,7 +16391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.uptime",
@@ -16405,7 +16405,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.version",
@@ -16419,7 +16419,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.process.versions",
@@ -16433,7 +16433,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.queueMicrotask",
@@ -16545,7 +16545,7 @@
     "475/0/0/164",
     "351/0/0/288",
     "355/0/0/284",
-    "497/0/0/142"
+    "544/1/33/61"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -24273,7 +24273,7 @@
     "3/0/0/90",
     "0/0/0/93",
     "0/0/0/93",
-    "3/0/0/90"
+    "50/1/33/9"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -24301,7 +24301,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._debugProcess",
@@ -24315,7 +24315,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._events",
@@ -24343,7 +24343,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process._exiting",
@@ -24371,7 +24371,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._getActiveHandles",
@@ -24385,7 +24385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._getActiveRequests",
@@ -24399,7 +24399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._kill",
@@ -24413,7 +24413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._linkedBinding",
@@ -24455,7 +24455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process._rawDebug",
@@ -24469,7 +24469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._startProfilerIdleNotifier",
@@ -24483,7 +24483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._stopProfilerIdleNotifier",
@@ -24497,7 +24497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process._tickCallback",
@@ -24511,7 +24511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.abort",
@@ -24525,7 +24525,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.addListener",
@@ -24539,7 +24539,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.allowedNodeEnvironmentFlags",
@@ -24553,7 +24553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.arch",
@@ -24567,7 +24567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.argv",
@@ -24581,7 +24581,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.argv0",
@@ -24595,7 +24595,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.assert",
@@ -24609,7 +24609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.availableMemory",
@@ -24623,7 +24623,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.binding",
@@ -24637,7 +24637,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.chdir",
@@ -24651,7 +24651,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.config",
@@ -24665,7 +24665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.constrainedMemory",
@@ -24679,7 +24679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.cpuUsage",
@@ -24693,7 +24693,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.cwd",
@@ -24707,7 +24707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.debugPort",
@@ -24721,7 +24721,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.dlopen",
@@ -24735,7 +24735,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.domain",
@@ -24763,7 +24763,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.emitWarning",
@@ -24777,7 +24777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.env",
@@ -24805,7 +24805,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.execArgv",
@@ -24819,7 +24819,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.execPath",
@@ -24833,7 +24833,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.exit",
@@ -24847,7 +24847,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.exitCode",
@@ -24861,7 +24861,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.globalThis.process.features",
@@ -24875,7 +24875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.getActiveResourcesInfo",
@@ -24889,7 +24889,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.getMaxListeners",
@@ -24903,7 +24903,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.getegid",
@@ -24917,7 +24917,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.geteuid",
@@ -24931,7 +24931,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.getgid",
@@ -24945,7 +24945,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.getgroups",
@@ -24959,7 +24959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.getuid",
@@ -24973,7 +24973,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.hasUncaughtExceptionCaptureCallback",
@@ -24987,7 +24987,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.hrtime",
@@ -25001,7 +25001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.initgroups",
@@ -25029,7 +25029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.listenerCount",
@@ -25043,7 +25043,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.listeners",
@@ -25057,7 +25057,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.loadEnvFile",
@@ -25071,7 +25071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.memoryUsage",
@@ -25085,7 +25085,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.moduleLoadList",
@@ -25127,7 +25127,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.on",
@@ -25141,7 +25141,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.once",
@@ -25155,7 +25155,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.openStdin",
@@ -25183,7 +25183,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.platform",
@@ -25197,7 +25197,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.ppid",
@@ -25211,7 +25211,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.prependListener",
@@ -25225,7 +25225,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.prependOnceListener",
@@ -25239,7 +25239,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.rawListeners",
@@ -25253,7 +25253,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.reallyExit",
@@ -25281,7 +25281,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.removeAllListeners",
@@ -25295,7 +25295,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.removeListener",
@@ -25309,7 +25309,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.report",
@@ -25323,7 +25323,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.resourceUsage",
@@ -25337,7 +25337,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setMaxListeners",
@@ -25351,7 +25351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setSourceMapsEnabled",
@@ -25365,7 +25365,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setUncaughtExceptionCaptureCallback",
@@ -25379,7 +25379,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setegid",
@@ -25393,7 +25393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.seteuid",
@@ -25407,7 +25407,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setgid",
@@ -25421,7 +25421,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setgroups",
@@ -25435,7 +25435,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.setuid",
@@ -25449,7 +25449,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.sourceMapsEnabled",
@@ -25463,7 +25463,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.stderr",
@@ -25477,7 +25477,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.stdin",
@@ -25491,7 +25491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.stdout",
@@ -25505,7 +25505,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.process.title",
@@ -25519,7 +25519,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.umask",
@@ -25533,7 +25533,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.uptime",
@@ -25547,7 +25547,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.version",
@@ -25561,7 +25561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.process.versions",
@@ -25575,7 +25575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.queueMicrotask",
@@ -26345,7 +26345,7 @@
     "3/0/0/523",
     "0/0/0/526",
     "0/0/0/526",
-    "3/0/0/523"
+    "77/22/394/33"
   ],
   [
     "*globals*.process.*self*",
@@ -26373,7 +26373,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._debugProcess",
@@ -26387,7 +26387,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._events",
@@ -26485,7 +26485,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process._exiting",
@@ -26513,7 +26513,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._getActiveHandles",
@@ -26527,7 +26527,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._getActiveRequests",
@@ -26541,7 +26541,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._kill",
@@ -26555,7 +26555,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._linkedBinding",
@@ -26597,7 +26597,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process._rawDebug",
@@ -26611,7 +26611,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._startProfilerIdleNotifier",
@@ -26625,7 +26625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._stopProfilerIdleNotifier",
@@ -26639,7 +26639,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process._tickCallback",
@@ -26653,7 +26653,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.abort",
@@ -26667,7 +26667,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.addListener",
@@ -26681,7 +26681,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags",
@@ -26695,7 +26695,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/0/0/17",
-    "0/0/0/17"
+    "17/0/0/0"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.*self*",
@@ -26709,7 +26709,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.add",
@@ -26723,7 +26723,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.clear",
@@ -26737,7 +26737,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.delete",
@@ -26751,7 +26751,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.difference",
@@ -26765,7 +26765,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.entries",
@@ -26779,7 +26779,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.forEach",
@@ -26793,7 +26793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.has",
@@ -26807,7 +26807,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.intersection",
@@ -26821,7 +26821,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.isDisjointFrom",
@@ -26835,7 +26835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.isSubsetOf",
@@ -26849,7 +26849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.isSupersetOf",
@@ -26863,7 +26863,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.keys",
@@ -26877,7 +26877,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.size",
@@ -26891,7 +26891,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.symmetricDifference",
@@ -26905,7 +26905,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.union",
@@ -26919,7 +26919,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.allowedNodeEnvironmentFlags.values",
@@ -26933,7 +26933,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.arch",
@@ -26947,7 +26947,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.argv",
@@ -26961,7 +26961,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.argv0",
@@ -26975,7 +26975,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.assert",
@@ -26989,7 +26989,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.availableMemory",
@@ -27003,7 +27003,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.binding",
@@ -27017,7 +27017,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.chdir",
@@ -27031,7 +27031,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.config",
@@ -27045,7 +27045,7 @@
     "0/0/0/3",
     "0/0/0/3",
     "0/0/0/3",
-    "0/0/0/3"
+    "1/0/0/2"
   ],
   [
     "*globals*.process.config.*self*",
@@ -27059,7 +27059,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.config.target_defaults",
@@ -27101,7 +27101,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.cpuUsage",
@@ -27115,7 +27115,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.cwd",
@@ -27129,7 +27129,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.debugPort",
@@ -27143,7 +27143,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.dlopen",
@@ -27157,7 +27157,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.domain",
@@ -27185,7 +27185,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.emitWarning",
@@ -27199,7 +27199,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.env",
@@ -27241,7 +27241,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.execArgv",
@@ -27255,7 +27255,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.execPath",
@@ -27269,7 +27269,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.exit",
@@ -27283,7 +27283,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.exitCode",
@@ -27297,7 +27297,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features",
@@ -27311,7 +27311,7 @@
     "0/0/0/10",
     "0/0/0/10",
     "0/0/0/10",
-    "0/0/0/10"
+    "1/9/0/0"
   ],
   [
     "*globals*.process.features.*self*",
@@ -27325,7 +27325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.features.cached_builtins",
@@ -27339,7 +27339,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.debug",
@@ -27353,7 +27353,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.inspector",
@@ -27367,7 +27367,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.ipv6",
@@ -27381,7 +27381,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.tls",
@@ -27395,7 +27395,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.tls_alpn",
@@ -27409,7 +27409,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.tls_ocsp",
@@ -27423,7 +27423,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.tls_sni",
@@ -27437,7 +27437,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.features.uv",
@@ -27451,7 +27451,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.getActiveResourcesInfo",
@@ -27465,7 +27465,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.getMaxListeners",
@@ -27479,7 +27479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.getegid",
@@ -27493,7 +27493,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.geteuid",
@@ -27507,7 +27507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.getgid",
@@ -27521,7 +27521,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.getgroups",
@@ -27535,7 +27535,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.getuid",
@@ -27549,7 +27549,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.hasUncaughtExceptionCaptureCallback",
@@ -27563,7 +27563,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.hrtime",
@@ -27577,7 +27577,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.initgroups",
@@ -27605,7 +27605,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.listenerCount",
@@ -27619,7 +27619,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.listeners",
@@ -27633,7 +27633,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.loadEnvFile",
@@ -27647,7 +27647,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.memoryUsage",
@@ -27661,7 +27661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.moduleLoadList",
@@ -27703,7 +27703,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.on",
@@ -27717,7 +27717,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.once",
@@ -27731,7 +27731,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.openStdin",
@@ -27759,7 +27759,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.platform",
@@ -27773,7 +27773,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.ppid",
@@ -27787,7 +27787,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.prependListener",
@@ -27801,7 +27801,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.prependOnceListener",
@@ -27815,7 +27815,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.rawListeners",
@@ -27829,7 +27829,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.reallyExit",
@@ -27857,7 +27857,7 @@
     "0/0/0/5",
     "0/0/0/5",
     "0/0/0/5",
-    "0/0/0/5"
+    "3/2/0/0"
   ],
   [
     "*globals*.process.release.*self*",
@@ -27871,7 +27871,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.release.headersUrl",
@@ -27885,7 +27885,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.release.lts",
@@ -27899,7 +27899,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.release.name",
@@ -27913,7 +27913,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.release.sourceUrl",
@@ -27927,7 +27927,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.removeAllListeners",
@@ -27941,7 +27941,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.removeListener",
@@ -27955,7 +27955,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.report",
@@ -27969,7 +27969,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/0/0/11"
+    "1/7/2/1"
   ],
   [
     "*globals*.process.report.*self*",
@@ -27983,7 +27983,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.report.compact",
@@ -27997,7 +27997,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.directory",
@@ -28011,7 +28011,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.excludeNetwork",
@@ -28039,7 +28039,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.getReport",
@@ -28053,7 +28053,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.report.reportOnFatalError",
@@ -28067,7 +28067,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.reportOnSignal",
@@ -28081,7 +28081,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.reportOnUncaughtException",
@@ -28095,7 +28095,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.signal",
@@ -28109,7 +28109,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.report.writeReport",
@@ -28123,7 +28123,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.resourceUsage",
@@ -28137,7 +28137,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setMaxListeners",
@@ -28151,7 +28151,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setSourceMapsEnabled",
@@ -28165,7 +28165,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setUncaughtExceptionCaptureCallback",
@@ -28179,7 +28179,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setegid",
@@ -28193,7 +28193,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.seteuid",
@@ -28207,7 +28207,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setgid",
@@ -28221,7 +28221,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setgroups",
@@ -28235,7 +28235,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.setuid",
@@ -28249,7 +28249,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.sourceMapsEnabled",
@@ -28263,7 +28263,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.stderr",
@@ -28277,7 +28277,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "0/0/0/122"
+    "0/1/121/0"
   ],
   [
     "*globals*.process.stderr.*self*",
@@ -28291,7 +28291,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stderr._bytesDispatched",
@@ -28305,7 +28305,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._closeAfterHandlingError",
@@ -28319,7 +28319,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._connecting",
@@ -28333,7 +28333,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._destroy",
@@ -28347,7 +28347,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._events",
@@ -28361,7 +28361,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._eventsCount",
@@ -28375,7 +28375,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._final",
@@ -28389,7 +28389,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._getpeername",
@@ -28403,7 +28403,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._getsockname",
@@ -28417,7 +28417,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._hadError",
@@ -28431,7 +28431,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._handle",
@@ -28445,7 +28445,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._host",
@@ -28459,7 +28459,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._isStdio",
@@ -28473,7 +28473,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._maxListeners",
@@ -28487,7 +28487,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._onTimeout",
@@ -28501,7 +28501,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._parent",
@@ -28515,7 +28515,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._pendingData",
@@ -28529,7 +28529,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._pendingEncoding",
@@ -28543,7 +28543,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._read",
@@ -28557,7 +28557,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._readableState",
@@ -28571,7 +28571,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._reset",
@@ -28585,7 +28585,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._server",
@@ -28599,7 +28599,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._sockname",
@@ -28613,7 +28613,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._type",
@@ -28627,7 +28627,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._undestroy",
@@ -28641,7 +28641,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._unrefTimer",
@@ -28655,7 +28655,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._writableState",
@@ -28669,7 +28669,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._write",
@@ -28683,7 +28683,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._writeGeneric",
@@ -28697,7 +28697,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr._writev",
@@ -28711,7 +28711,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.addListener",
@@ -28725,7 +28725,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.address",
@@ -28739,7 +28739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.allowHalfOpen",
@@ -28753,7 +28753,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.asIndexedPairs",
@@ -28767,7 +28767,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.bufferSize",
@@ -28781,7 +28781,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.bytesRead",
@@ -28795,7 +28795,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.bytesWritten",
@@ -28809,7 +28809,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.closed",
@@ -28823,7 +28823,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.compose",
@@ -28837,7 +28837,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.connect",
@@ -28851,7 +28851,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.connecting",
@@ -28865,7 +28865,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.cork",
@@ -28879,7 +28879,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.destroy",
@@ -28893,7 +28893,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.destroySoon",
@@ -28907,7 +28907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.destroyed",
@@ -28921,7 +28921,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.drop",
@@ -28935,7 +28935,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.emit",
@@ -28949,7 +28949,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.end",
@@ -28963,7 +28963,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.errored",
@@ -28977,7 +28977,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.eventNames",
@@ -28991,7 +28991,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.every",
@@ -29005,7 +29005,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.fd",
@@ -29019,7 +29019,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.filter",
@@ -29033,7 +29033,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.find",
@@ -29047,7 +29047,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.flatMap",
@@ -29061,7 +29061,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.forEach",
@@ -29075,7 +29075,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.getMaxListeners",
@@ -29089,7 +29089,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.isPaused",
@@ -29103,7 +29103,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.iterator",
@@ -29117,7 +29117,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.listenerCount",
@@ -29131,7 +29131,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.listeners",
@@ -29145,7 +29145,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.localAddress",
@@ -29159,7 +29159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.localFamily",
@@ -29173,7 +29173,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.localPort",
@@ -29187,7 +29187,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.map",
@@ -29201,7 +29201,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.off",
@@ -29215,7 +29215,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.on",
@@ -29229,7 +29229,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.once",
@@ -29243,7 +29243,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.pause",
@@ -29257,7 +29257,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.pending",
@@ -29271,7 +29271,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.pipe",
@@ -29285,7 +29285,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.prependListener",
@@ -29299,7 +29299,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.prependOnceListener",
@@ -29313,7 +29313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.push",
@@ -29327,7 +29327,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.rawListeners",
@@ -29341,7 +29341,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.read",
@@ -29355,7 +29355,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readable",
@@ -29369,7 +29369,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableAborted",
@@ -29383,7 +29383,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableBuffer",
@@ -29397,7 +29397,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableDidRead",
@@ -29411,7 +29411,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableEncoding",
@@ -29425,7 +29425,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableEnded",
@@ -29439,7 +29439,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableFlowing",
@@ -29453,7 +29453,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableHighWaterMark",
@@ -29467,7 +29467,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableLength",
@@ -29481,7 +29481,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readableObjectMode",
@@ -29495,7 +29495,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.readyState",
@@ -29509,7 +29509,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.reduce",
@@ -29523,7 +29523,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.ref",
@@ -29537,7 +29537,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.remoteAddress",
@@ -29551,7 +29551,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.remoteFamily",
@@ -29565,7 +29565,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.remotePort",
@@ -29579,7 +29579,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.removeAllListeners",
@@ -29593,7 +29593,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.removeListener",
@@ -29607,7 +29607,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.resetAndDestroy",
@@ -29621,7 +29621,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.resume",
@@ -29635,7 +29635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.server",
@@ -29649,7 +29649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setDefaultEncoding",
@@ -29663,7 +29663,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setEncoding",
@@ -29677,7 +29677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setKeepAlive",
@@ -29691,7 +29691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setMaxListeners",
@@ -29705,7 +29705,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setNoDelay",
@@ -29719,7 +29719,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.setTimeout",
@@ -29733,7 +29733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.some",
@@ -29747,7 +29747,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.take",
@@ -29761,7 +29761,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.toArray",
@@ -29775,7 +29775,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.uncork",
@@ -29789,7 +29789,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.unpipe",
@@ -29803,7 +29803,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.unref",
@@ -29817,7 +29817,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.unshift",
@@ -29831,7 +29831,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.wrap",
@@ -29845,7 +29845,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writable",
@@ -29859,7 +29859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableBuffer",
@@ -29873,7 +29873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableCorked",
@@ -29887,7 +29887,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableEnded",
@@ -29901,7 +29901,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableFinished",
@@ -29915,7 +29915,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableHighWaterMark",
@@ -29929,7 +29929,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableLength",
@@ -29943,7 +29943,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableNeedDrain",
@@ -29957,7 +29957,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.writableObjectMode",
@@ -29971,7 +29971,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stderr.write",
@@ -29985,7 +29985,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin",
@@ -29999,7 +29999,7 @@
     "0/0/0/121",
     "0/0/0/121",
     "0/0/0/121",
-    "0/0/0/121"
+    "0/1/120/0"
   ],
   [
     "*globals*.process.stdin.*self*",
@@ -30013,7 +30013,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdin._bytesDispatched",
@@ -30027,7 +30027,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._closeAfterHandlingError",
@@ -30041,7 +30041,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._connecting",
@@ -30055,7 +30055,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._destroy",
@@ -30069,7 +30069,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._events",
@@ -30083,7 +30083,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._eventsCount",
@@ -30097,7 +30097,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._final",
@@ -30111,7 +30111,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._getpeername",
@@ -30125,7 +30125,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._getsockname",
@@ -30139,7 +30139,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._hadError",
@@ -30153,7 +30153,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._handle",
@@ -30167,7 +30167,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._host",
@@ -30181,7 +30181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._maxListeners",
@@ -30195,7 +30195,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._onTimeout",
@@ -30209,7 +30209,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._parent",
@@ -30223,7 +30223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._pendingData",
@@ -30237,7 +30237,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._pendingEncoding",
@@ -30251,7 +30251,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._read",
@@ -30265,7 +30265,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._readableState",
@@ -30279,7 +30279,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._reset",
@@ -30293,7 +30293,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._server",
@@ -30307,7 +30307,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._sockname",
@@ -30321,7 +30321,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._undestroy",
@@ -30335,7 +30335,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._unrefTimer",
@@ -30349,7 +30349,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._writableState",
@@ -30363,7 +30363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._write",
@@ -30377,7 +30377,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._writeGeneric",
@@ -30391,7 +30391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin._writev",
@@ -30405,7 +30405,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.addListener",
@@ -30419,7 +30419,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.address",
@@ -30433,7 +30433,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.allowHalfOpen",
@@ -30447,7 +30447,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.asIndexedPairs",
@@ -30461,7 +30461,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.bufferSize",
@@ -30475,7 +30475,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.bytesRead",
@@ -30489,7 +30489,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.bytesWritten",
@@ -30503,7 +30503,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.closed",
@@ -30517,7 +30517,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.compose",
@@ -30531,7 +30531,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.connect",
@@ -30545,7 +30545,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.connecting",
@@ -30559,7 +30559,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.cork",
@@ -30573,7 +30573,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.destroy",
@@ -30587,7 +30587,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.destroySoon",
@@ -30601,7 +30601,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.destroyed",
@@ -30615,7 +30615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.domain",
@@ -30629,7 +30629,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.drop",
@@ -30643,7 +30643,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.emit",
@@ -30657,7 +30657,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.end",
@@ -30671,7 +30671,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.errored",
@@ -30685,7 +30685,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.eventNames",
@@ -30699,7 +30699,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.every",
@@ -30713,7 +30713,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.fd",
@@ -30727,7 +30727,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.filter",
@@ -30741,7 +30741,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.find",
@@ -30755,7 +30755,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.flatMap",
@@ -30769,7 +30769,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.forEach",
@@ -30783,7 +30783,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.getMaxListeners",
@@ -30797,7 +30797,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.isPaused",
@@ -30811,7 +30811,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.iterator",
@@ -30825,7 +30825,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.listenerCount",
@@ -30839,7 +30839,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.listeners",
@@ -30853,7 +30853,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.localAddress",
@@ -30867,7 +30867,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.localFamily",
@@ -30881,7 +30881,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.localPort",
@@ -30895,7 +30895,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.map",
@@ -30909,7 +30909,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.off",
@@ -30923,7 +30923,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.on",
@@ -30937,7 +30937,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.once",
@@ -30951,7 +30951,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.pause",
@@ -30965,7 +30965,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.pending",
@@ -30979,7 +30979,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.pipe",
@@ -30993,7 +30993,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.prependListener",
@@ -31007,7 +31007,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.prependOnceListener",
@@ -31021,7 +31021,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.push",
@@ -31035,7 +31035,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.rawListeners",
@@ -31049,7 +31049,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.read",
@@ -31063,7 +31063,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readable",
@@ -31077,7 +31077,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableAborted",
@@ -31091,7 +31091,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableBuffer",
@@ -31105,7 +31105,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableDidRead",
@@ -31119,7 +31119,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableEncoding",
@@ -31133,7 +31133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableEnded",
@@ -31147,7 +31147,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableFlowing",
@@ -31161,7 +31161,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableHighWaterMark",
@@ -31175,7 +31175,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableLength",
@@ -31189,7 +31189,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readableObjectMode",
@@ -31203,7 +31203,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.readyState",
@@ -31217,7 +31217,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.reduce",
@@ -31231,7 +31231,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.ref",
@@ -31245,7 +31245,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.remoteAddress",
@@ -31259,7 +31259,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.remoteFamily",
@@ -31273,7 +31273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.remotePort",
@@ -31287,7 +31287,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.removeAllListeners",
@@ -31301,7 +31301,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.removeListener",
@@ -31315,7 +31315,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.resetAndDestroy",
@@ -31329,7 +31329,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.resume",
@@ -31343,7 +31343,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.server",
@@ -31357,7 +31357,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setDefaultEncoding",
@@ -31371,7 +31371,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setEncoding",
@@ -31385,7 +31385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setKeepAlive",
@@ -31399,7 +31399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setMaxListeners",
@@ -31413,7 +31413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setNoDelay",
@@ -31427,7 +31427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.setTimeout",
@@ -31441,7 +31441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.some",
@@ -31455,7 +31455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.take",
@@ -31469,7 +31469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.toArray",
@@ -31483,7 +31483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.uncork",
@@ -31497,7 +31497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.unpipe",
@@ -31511,7 +31511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.unref",
@@ -31525,7 +31525,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.unshift",
@@ -31539,7 +31539,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.wrap",
@@ -31553,7 +31553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writable",
@@ -31567,7 +31567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableBuffer",
@@ -31581,7 +31581,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableCorked",
@@ -31595,7 +31595,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableEnded",
@@ -31609,7 +31609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableFinished",
@@ -31623,7 +31623,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableHighWaterMark",
@@ -31637,7 +31637,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableLength",
@@ -31651,7 +31651,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableNeedDrain",
@@ -31665,7 +31665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.writableObjectMode",
@@ -31679,7 +31679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdin.write",
@@ -31693,7 +31693,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout",
@@ -31707,7 +31707,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "0/0/0/123"
+    "0/1/122/0"
   ],
   [
     "*globals*.process.stdout.*self*",
@@ -31721,7 +31721,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.process.stdout._bytesDispatched",
@@ -31735,7 +31735,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._closeAfterHandlingError",
@@ -31749,7 +31749,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._connecting",
@@ -31763,7 +31763,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._destroy",
@@ -31777,7 +31777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._events",
@@ -31791,7 +31791,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._eventsCount",
@@ -31805,7 +31805,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._final",
@@ -31819,7 +31819,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._getpeername",
@@ -31833,7 +31833,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._getsockname",
@@ -31847,7 +31847,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._hadError",
@@ -31861,7 +31861,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._handle",
@@ -31875,7 +31875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._host",
@@ -31889,7 +31889,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._isStdio",
@@ -31903,7 +31903,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._maxListeners",
@@ -31917,7 +31917,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._onTimeout",
@@ -31931,7 +31931,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._parent",
@@ -31945,7 +31945,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._pendingData",
@@ -31959,7 +31959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._pendingEncoding",
@@ -31973,7 +31973,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._read",
@@ -31987,7 +31987,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._readableState",
@@ -32001,7 +32001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._reset",
@@ -32015,7 +32015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._server",
@@ -32029,7 +32029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._sockname",
@@ -32043,7 +32043,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._type",
@@ -32057,7 +32057,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._undestroy",
@@ -32071,7 +32071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._unrefTimer",
@@ -32085,7 +32085,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._writableState",
@@ -32099,7 +32099,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._write",
@@ -32113,7 +32113,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._writeGeneric",
@@ -32127,7 +32127,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout._writev",
@@ -32141,7 +32141,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.addListener",
@@ -32155,7 +32155,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.address",
@@ -32169,7 +32169,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.allowHalfOpen",
@@ -32183,7 +32183,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.asIndexedPairs",
@@ -32197,7 +32197,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.bufferSize",
@@ -32211,7 +32211,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.bytesRead",
@@ -32225,7 +32225,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.bytesWritten",
@@ -32239,7 +32239,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.closed",
@@ -32253,7 +32253,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.compose",
@@ -32267,7 +32267,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.connect",
@@ -32281,7 +32281,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.connecting",
@@ -32295,7 +32295,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.cork",
@@ -32309,7 +32309,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.destroy",
@@ -32323,7 +32323,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.destroySoon",
@@ -32337,7 +32337,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.destroyed",
@@ -32351,7 +32351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.domain",
@@ -32365,7 +32365,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.drop",
@@ -32379,7 +32379,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.emit",
@@ -32393,7 +32393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.end",
@@ -32407,7 +32407,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.errored",
@@ -32421,7 +32421,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.eventNames",
@@ -32435,7 +32435,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.every",
@@ -32449,7 +32449,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.fd",
@@ -32463,7 +32463,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.filter",
@@ -32477,7 +32477,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.find",
@@ -32491,7 +32491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.flatMap",
@@ -32505,7 +32505,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.forEach",
@@ -32519,7 +32519,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.getMaxListeners",
@@ -32533,7 +32533,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.isPaused",
@@ -32547,7 +32547,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.iterator",
@@ -32561,7 +32561,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.listenerCount",
@@ -32575,7 +32575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.listeners",
@@ -32589,7 +32589,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.localAddress",
@@ -32603,7 +32603,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.localFamily",
@@ -32617,7 +32617,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.localPort",
@@ -32631,7 +32631,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.map",
@@ -32645,7 +32645,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.off",
@@ -32659,7 +32659,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.on",
@@ -32673,7 +32673,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.once",
@@ -32687,7 +32687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.pause",
@@ -32701,7 +32701,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.pending",
@@ -32715,7 +32715,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.pipe",
@@ -32729,7 +32729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.prependListener",
@@ -32743,7 +32743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.prependOnceListener",
@@ -32757,7 +32757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.push",
@@ -32771,7 +32771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.rawListeners",
@@ -32785,7 +32785,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.read",
@@ -32799,7 +32799,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readable",
@@ -32813,7 +32813,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableAborted",
@@ -32827,7 +32827,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableBuffer",
@@ -32841,7 +32841,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableDidRead",
@@ -32855,7 +32855,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableEncoding",
@@ -32869,7 +32869,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableEnded",
@@ -32883,7 +32883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableFlowing",
@@ -32897,7 +32897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableHighWaterMark",
@@ -32911,7 +32911,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableLength",
@@ -32925,7 +32925,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readableObjectMode",
@@ -32939,7 +32939,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.readyState",
@@ -32953,7 +32953,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.reduce",
@@ -32967,7 +32967,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.ref",
@@ -32981,7 +32981,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.remoteAddress",
@@ -32995,7 +32995,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.remoteFamily",
@@ -33009,7 +33009,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.remotePort",
@@ -33023,7 +33023,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.removeAllListeners",
@@ -33037,7 +33037,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.removeListener",
@@ -33051,7 +33051,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.resetAndDestroy",
@@ -33065,7 +33065,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.resume",
@@ -33079,7 +33079,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.server",
@@ -33093,7 +33093,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setDefaultEncoding",
@@ -33107,7 +33107,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setEncoding",
@@ -33121,7 +33121,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setKeepAlive",
@@ -33135,7 +33135,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setMaxListeners",
@@ -33149,7 +33149,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setNoDelay",
@@ -33163,7 +33163,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.setTimeout",
@@ -33177,7 +33177,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.some",
@@ -33191,7 +33191,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.take",
@@ -33205,7 +33205,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.toArray",
@@ -33219,7 +33219,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.uncork",
@@ -33233,7 +33233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.unpipe",
@@ -33247,7 +33247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.unref",
@@ -33261,7 +33261,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.unshift",
@@ -33275,7 +33275,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.wrap",
@@ -33289,7 +33289,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writable",
@@ -33303,7 +33303,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableBuffer",
@@ -33317,7 +33317,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableCorked",
@@ -33331,7 +33331,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableEnded",
@@ -33345,7 +33345,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableFinished",
@@ -33359,7 +33359,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableHighWaterMark",
@@ -33373,7 +33373,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableLength",
@@ -33387,7 +33387,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableNeedDrain",
@@ -33401,7 +33401,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.writableObjectMode",
@@ -33415,7 +33415,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.stdout.write",
@@ -33429,7 +33429,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.process.title",
@@ -33443,7 +33443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.umask",
@@ -33457,7 +33457,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.uptime",
@@ -33471,7 +33471,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.version",
@@ -33485,7 +33485,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions",
@@ -33499,7 +33499,7 @@
     "0/0/0/26",
     "0/0/0/26",
     "0/0/0/26",
-    "0/0/0/26"
+    "9/0/0/17"
   ],
   [
     "*globals*.process.versions.*self*",
@@ -33513,7 +33513,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.acorn",
@@ -33555,7 +33555,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.base64",
@@ -33625,7 +33625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.llhttp",
@@ -33653,7 +33653,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.napi",
@@ -33723,7 +33723,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.openssl",
@@ -33737,7 +33737,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.simdjson",
@@ -33821,7 +33821,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.uvwasi",
@@ -33849,7 +33849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.process.versions.zlib",
@@ -33863,7 +33863,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.queueMicrotask",
