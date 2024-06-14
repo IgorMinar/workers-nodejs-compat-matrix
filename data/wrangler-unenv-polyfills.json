@@ -2481,7 +2481,7 @@
     "setInterval": "function",
     "setTimeout": "function",
     "structuredClone": "function",
-    "undefined": "missing",
+    "undefined": "undefined",
     "unescape": "function"
   },
   "_http_agent": {

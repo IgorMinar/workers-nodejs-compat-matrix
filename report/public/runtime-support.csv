@@ -2369,7 +2369,7 @@ Module,Path,baseline,node22,node20,node18,bun,deno,workerd,wranglerV3,wranglerJs
 *globals*,setInterval,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,setTimeout,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,structuredClone,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
-*globals*,undefined,supported,supported,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported
+*globals*,undefined,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,unescape,supported,supported,supported,supported,supported,supported,supported,supported,supported,supported
 _http_agent,*self*,supported,supported,supported,supported,unsupported,unsupported,unsupported,mismatch,mismatch,supported
 _http_agent,default.*self*,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,mismatch

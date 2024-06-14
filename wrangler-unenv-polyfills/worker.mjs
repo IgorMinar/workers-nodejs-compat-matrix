@@ -420,10 +420,273 @@ export default {
       zlib: zlib,
     };
 
-    const workerdGlobals = {};
-    for (const module of Object.keys(baseline["*globals*"])) {
-      if (typeof globalThis[module] !== "undefined") {
-        workerdGlobals[module] = globalThis[module];
+    const workerdGlobals = {
+      AbortController: globalThis.AbortController,
+
+      AbortSignal: globalThis.AbortSignal,
+
+      AggregateError: globalThis.AggregateError,
+
+      Array: globalThis.Array,
+
+      ArrayBuffer: globalThis.ArrayBuffer,
+
+      Atomics: globalThis.Atomics,
+
+      BigInt: globalThis.BigInt,
+
+      BigInt64Array: globalThis.BigInt64Array,
+
+      BigUint64Array: globalThis.BigUint64Array,
+
+      Blob: globalThis.Blob,
+
+      Boolean: globalThis.Boolean,
+
+      BroadcastChannel: globalThis.BroadcastChannel,
+
+      Buffer: globalThis.Buffer,
+
+      ByteLengthQueuingStrategy: globalThis.ByteLengthQueuingStrategy,
+
+      CompressionStream: globalThis.CompressionStream,
+
+      CountQueuingStrategy: globalThis.CountQueuingStrategy,
+
+      Crypto: globalThis.Crypto,
+
+      CryptoKey: globalThis.CryptoKey,
+
+      CustomEvent: globalThis.CustomEvent,
+
+      DOMException: globalThis.DOMException,
+
+      DataView: globalThis.DataView,
+
+      Date: globalThis.Date,
+
+      DecompressionStream: globalThis.DecompressionStream,
+
+      Error: globalThis.Error,
+
+      EvalError: globalThis.EvalError,
+
+      Event: globalThis.Event,
+
+      EventTarget: globalThis.EventTarget,
+
+      File: globalThis.File,
+
+      FinalizationRegistry: globalThis.FinalizationRegistry,
+
+      Float32Array: globalThis.Float32Array,
+
+      Float64Array: globalThis.Float64Array,
+
+      FormData: globalThis.FormData,
+
+      Function: globalThis.Function,
+
+      Headers: globalThis.Headers,
+
+      Infinity: globalThis.Infinity,
+
+      Int16Array: globalThis.Int16Array,
+
+      Int32Array: globalThis.Int32Array,
+
+      Int8Array: globalThis.Int8Array,
+
+      Intl: globalThis.Intl,
+
+      Iterator: globalThis.Iterator,
+
+      JSON: globalThis.JSON,
+
+      Map: globalThis.Map,
+
+      Math: globalThis.Math,
+
+      MessageChannel: globalThis.MessageChannel,
+
+      MessageEvent: globalThis.MessageEvent,
+
+      MessagePort: globalThis.MessagePort,
+
+      NaN: globalThis.NaN,
+
+      Navigator: globalThis.Navigator,
+
+      Number: globalThis.Number,
+
+      Object: globalThis.Object,
+
+      Performance: globalThis.Performance,
+
+      PerformanceEntry: globalThis.PerformanceEntry,
+
+      PerformanceMark: globalThis.PerformanceMark,
+
+      PerformanceMeasure: globalThis.PerformanceMeasure,
+
+      PerformanceObserver: globalThis.PerformanceObserver,
+
+      PerformanceObserverEntryList: globalThis.PerformanceObserverEntryList,
+
+      PerformanceResourceTiming: globalThis.PerformanceResourceTiming,
+
+      Promise: globalThis.Promise,
+
+      Proxy: globalThis.Proxy,
+
+      RangeError: globalThis.RangeError,
+
+      ReadableByteStreamController: globalThis.ReadableByteStreamController,
+
+      ReadableStream: globalThis.ReadableStream,
+
+      ReadableStreamBYOBReader: globalThis.ReadableStreamBYOBReader,
+
+      ReadableStreamBYOBRequest: globalThis.ReadableStreamBYOBRequest,
+
+      ReadableStreamDefaultController:
+        globalThis.ReadableStreamDefaultController,
+
+      ReadableStreamDefaultReader: globalThis.ReadableStreamDefaultReader,
+
+      ReferenceError: globalThis.ReferenceError,
+
+      Reflect: globalThis.Reflect,
+
+      RegExp: globalThis.RegExp,
+
+      Request: globalThis.Request,
+
+      Response: globalThis.Response,
+
+      Set: globalThis.Set,
+
+      SharedArrayBuffer: globalThis.SharedArrayBuffer,
+
+      String: globalThis.String,
+
+      SubtleCrypto: globalThis.SubtleCrypto,
+
+      Symbol: globalThis.Symbol,
+
+      SyntaxError: globalThis.SyntaxError,
+
+      TextDecoder: globalThis.TextDecoder,
+
+      TextDecoderStream: globalThis.TextDecoderStream,
+
+      TextEncoder: globalThis.TextEncoder,
+
+      TextEncoderStream: globalThis.TextEncoderStream,
+
+      TransformStream: globalThis.TransformStream,
+
+      TransformStreamDefaultController:
+        globalThis.TransformStreamDefaultController,
+
+      TypeError: globalThis.TypeError,
+
+      URIError: globalThis.URIError,
+
+      URL: globalThis.URL,
+
+      URLSearchParams: globalThis.URLSearchParams,
+
+      Uint16Array: globalThis.Uint16Array,
+
+      Uint32Array: globalThis.Uint32Array,
+
+      Uint8Array: globalThis.Uint8Array,
+
+      Uint8ClampedArray: globalThis.Uint8ClampedArray,
+
+      WeakMap: globalThis.WeakMap,
+
+      WeakRef: globalThis.WeakRef,
+
+      WeakSet: globalThis.WeakSet,
+
+      WebAssembly: globalThis.WebAssembly,
+
+      WebSocket: globalThis.WebSocket,
+
+      WritableStream: globalThis.WritableStream,
+
+      WritableStreamDefaultController:
+        globalThis.WritableStreamDefaultController,
+
+      WritableStreamDefaultWriter: globalThis.WritableStreamDefaultWriter,
+
+      atob: globalThis.atob,
+
+      btoa: globalThis.btoa,
+
+      clearImmediate: globalThis.clearImmediate,
+
+      clearInterval: globalThis.clearInterval,
+
+      clearTimeout: globalThis.clearTimeout,
+
+      console: globalThis.console,
+
+      crypto: globalThis.crypto,
+
+      decodeURI: globalThis.decodeURI,
+
+      decodeURIComponent: globalThis.decodeURIComponent,
+
+      encodeURI: globalThis.encodeURI,
+
+      encodeURIComponent: globalThis.encodeURIComponent,
+
+      escape: globalThis.escape,
+
+      eval: globalThis.eval,
+
+      fetch: globalThis.fetch,
+
+      global: globalThis.global,
+
+      globalThis: globalThis.globalThis,
+
+      isFinite: globalThis.isFinite,
+
+      isNaN: globalThis.isNaN,
+
+      navigator: globalThis.navigator,
+
+      parseFloat: globalThis.parseFloat,
+
+      parseInt: globalThis.parseInt,
+
+      performance: globalThis.performance,
+
+      process: globalThis.process,
+
+      queueMicrotask: globalThis.queueMicrotask,
+
+      setImmediate: globalThis.setImmediate,
+
+      setInterval: globalThis.setInterval,
+
+      setTimeout: globalThis.setTimeout,
+
+      structuredClone: globalThis.structuredClone,
+
+      undefined: globalThis.undefined,
+
+      unescape: globalThis.unescape,
+    };
+
+    // delete any workerdGlobals that are undefined so that we can distinguish between undefined and missing globals
+    for (const global of Object.keys(workerdGlobals)) {
+      if (workerdGlobals[global] === undefined && !(global in globalThis)) {
+        delete workerdGlobals[global];
       }
     }
 

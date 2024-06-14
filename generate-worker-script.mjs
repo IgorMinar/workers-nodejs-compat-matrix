@@ -20,6 +20,24 @@ code += `
   }
 `;
 
+const globals = Object.keys(baseline["*globals*"]);
+code += `
+  const workerdGlobals = {
+`;
+for (const global of globals) {
+  if (global === "*self*") {
+    // skip synthetic synthetic *self* node
+    continue;
+  }
+
+  code += `
+    ${global}: globalThis.${global},
+  `;
+}
+code += `
+  };
+`;
+
 console.log(
   `
 import { visit } from "../dump-utils.mjs";
@@ -30,10 +48,10 @@ export default {
 
     ${code}
 
-    const workerdGlobals = {};
-    for (const module of Object.keys(baseline["*globals*"])) {
-      if (typeof globalThis[module] !== "undefined") {
-        workerdGlobals[module] = globalThis[module];
+    // delete any workerdGlobals that are undefined so that we can distinguish between undefined and missing globals
+    for (const global of Object.keys(workerdGlobals)) {
+      if (workerdGlobals[global] === undefined && !(global in globalThis)) {
+        delete workerdGlobals[global];
       }
     }
 
