@@ -31,6 +31,13 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
     // will be `function`, since it's a proxy.
     let targetValue;
 
+    if (key === "*self*") {
+      // skip synthetic *self* nodes as they'll be set later when we recursively call `visit`
+      // initialize the key with a temporary value so that we don't *self* naturally sorts at the top
+      visitResult[key] = "<TODO>";
+      continue;
+    }
+
     if (
       targetNode == null ||
       (!(key in targetNode) && typeof targetNode[key] === "undefined")
