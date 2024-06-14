@@ -1,31 +1,31 @@
 [
   [
     "Totals",
-    10633,
-    10633,
-    "10521/0/0/112",
-    "10442/4/0/187",
-    "10227/9/0/397",
-    "7097/66/0/3470",
-    "5246/37/108/5242",
-    "2424/23/0/8186",
-    "1731/36/0/8866",
-    "3251/199/287/6896",
-    "6172/147/2779/1535"
+    10646,
+    10646,
+    "10534/0/0/112",
+    "10442/4/0/200",
+    "10227/9/0/410",
+    "7097/66/0/3483",
+    "5246/37/108/5255",
+    "2431/21/0/8194",
+    "1731/37/0/8878",
+    "3251/200/287/6908",
+    "6381/152/2812/1301"
   ],
   [
     "*globals*",
-    2368,
-    2368,
-    "2360/0/0/8",
-    "2307/0/0/61",
-    "2190/0/0/178",
-    "1803/9/0/556",
-    "657/0/0/1711",
-    "1205/0/0/1163",
-    "601/0/0/1767",
-    "607/0/0/1761",
-    "1424/24/460/460"
+    2371,
+    2371,
+    "2363/0/0/8",
+    "2307/0/0/64",
+    "2190/0/0/181",
+    "1803/9/0/559",
+    "657/0/0/1714",
+    "1208/0/0/1163",
+    "601/0/0/1770",
+    "607/0/0/1764",
+    "1518/27/481/345"
   ],
   [
     "*globals*.*self*",
@@ -3007,7 +3007,7 @@
     "24/0/0/261",
     "25/0/0/260",
     "25/0/0/260",
-    "25/0/0/260"
+    "110/3/13/159"
   ],
   [
     "*globals*.console.*self*",
@@ -3035,7 +3035,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._ignoreErrors",
@@ -3049,7 +3049,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr",
@@ -3063,7 +3063,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "0/0/0/122"
+    "42/1/0/79"
   ],
   [
     "*globals*.console._stderr.*self*",
@@ -3077,7 +3077,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._bytesDispatched",
@@ -3133,7 +3133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._events",
@@ -3147,7 +3147,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._eventsCount",
@@ -3161,7 +3161,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._final",
@@ -3273,7 +3273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._onTimeout",
@@ -3427,7 +3427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._unrefTimer",
@@ -3455,7 +3455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._write",
@@ -3469,7 +3469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._writeGeneric",
@@ -3497,7 +3497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._stderr.addListener",
@@ -3511,7 +3511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.address",
@@ -3609,7 +3609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.compose",
@@ -3665,7 +3665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.destroy",
@@ -3679,7 +3679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.destroySoon",
@@ -3707,7 +3707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.drop",
@@ -3735,7 +3735,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.end",
@@ -3749,7 +3749,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.errored",
@@ -3763,7 +3763,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.eventNames",
@@ -3777,7 +3777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.every",
@@ -3875,7 +3875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.isPaused",
@@ -3917,7 +3917,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.listeners",
@@ -3931,7 +3931,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.localAddress",
@@ -4001,7 +4001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.on",
@@ -4015,7 +4015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.once",
@@ -4029,7 +4029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.pause",
@@ -4071,7 +4071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.prependListener",
@@ -4085,7 +4085,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.prependOnceListener",
@@ -4099,7 +4099,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.push",
@@ -4127,7 +4127,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.read",
@@ -4379,7 +4379,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.removeListener",
@@ -4393,7 +4393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.resetAndDestroy",
@@ -4449,7 +4449,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.setEncoding",
@@ -4491,7 +4491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.setNoDelay",
@@ -4575,7 +4575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.unpipe",
@@ -4645,7 +4645,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableBuffer",
@@ -4659,7 +4659,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableCorked",
@@ -4673,7 +4673,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableEnded",
@@ -4687,7 +4687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableFinished",
@@ -4701,7 +4701,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableHighWaterMark",
@@ -4715,7 +4715,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableLength",
@@ -4729,7 +4729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableNeedDrain",
@@ -4743,7 +4743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableObjectMode",
@@ -4757,7 +4757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.write",
@@ -4771,7 +4771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderrErrorHandler",
@@ -4785,7 +4785,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._stdout",
@@ -4799,7 +4799,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "0/0/0/123"
+    "42/1/0/80"
   ],
   [
     "*globals*.console._stdout.*self*",
@@ -4813,7 +4813,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._bytesDispatched",
@@ -4869,7 +4869,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._events",
@@ -4883,7 +4883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._eventsCount",
@@ -4897,7 +4897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._final",
@@ -5009,7 +5009,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._onTimeout",
@@ -5163,7 +5163,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._unrefTimer",
@@ -5191,7 +5191,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._write",
@@ -5205,7 +5205,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._writeGeneric",
@@ -5233,7 +5233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._stdout.addListener",
@@ -5247,7 +5247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.address",
@@ -5345,7 +5345,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.compose",
@@ -5401,7 +5401,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.destroy",
@@ -5415,7 +5415,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.destroySoon",
@@ -5443,7 +5443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.domain",
@@ -5485,7 +5485,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.end",
@@ -5499,7 +5499,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.errored",
@@ -5513,7 +5513,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.eventNames",
@@ -5527,7 +5527,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.every",
@@ -5625,7 +5625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.isPaused",
@@ -5667,7 +5667,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.listeners",
@@ -5681,7 +5681,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.localAddress",
@@ -5751,7 +5751,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.on",
@@ -5765,7 +5765,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.once",
@@ -5779,7 +5779,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.pause",
@@ -5821,7 +5821,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.prependListener",
@@ -5835,7 +5835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.prependOnceListener",
@@ -5849,7 +5849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.push",
@@ -5877,7 +5877,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.read",
@@ -6129,7 +6129,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.removeListener",
@@ -6143,7 +6143,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.resetAndDestroy",
@@ -6199,7 +6199,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.setEncoding",
@@ -6241,7 +6241,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.setNoDelay",
@@ -6325,7 +6325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.unpipe",
@@ -6395,7 +6395,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableBuffer",
@@ -6409,7 +6409,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableCorked",
@@ -6423,7 +6423,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableEnded",
@@ -6437,7 +6437,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableFinished",
@@ -6451,7 +6451,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableHighWaterMark",
@@ -6465,7 +6465,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableLength",
@@ -6479,7 +6479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableNeedDrain",
@@ -6493,7 +6493,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableObjectMode",
@@ -6507,7 +6507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.write",
@@ -6521,7 +6521,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdoutErrorHandler",
@@ -6535,7 +6535,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times",
@@ -6549,7 +6549,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/0/0/11"
+    "0/1/10/0"
   ],
   [
     "*globals*.console._times.*self*",
@@ -6563,7 +6563,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._times.clear",
@@ -6577,7 +6577,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.delete",
@@ -6591,7 +6591,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.entries",
@@ -6605,7 +6605,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.forEach",
@@ -6619,7 +6619,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.get",
@@ -6633,7 +6633,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.has",
@@ -6647,7 +6647,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.keys",
@@ -6661,7 +6661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.set",
@@ -6675,7 +6675,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.size",
@@ -6689,7 +6689,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.values",
@@ -6703,7 +6703,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console.assert",
@@ -7393,17 +7393,17 @@
   ],
   [
     "*globals*.global",
-    639,
-    639,
-    "639/0/0/0",
-    "619/0/0/20",
-    "576/0/0/63",
-    "580/1/0/58",
-    "0/0/0/639",
-    "475/0/0/164",
-    "0/0/0/639",
-    "0/0/0/639",
-    "544/1/33/61"
+    640,
+    640,
+    "640/0/0/0",
+    "619/0/0/21",
+    "576/0/0/64",
+    "580/1/0/59",
+    "0/0/0/640",
+    "476/0/0/164",
+    "0/0/0/640",
+    "0/0/0/640",
+    "548/1/37/54"
   ],
   [
     "*globals*.global.*self*",
@@ -10371,7 +10371,7 @@
     "24/0/0/8",
     "0/0/0/32",
     "0/0/0/32",
-    "25/0/0/7"
+    "28/0/4/0"
   ],
   [
     "*globals*.global.console.*self*",
@@ -10399,7 +10399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._ignoreErrors",
@@ -10413,7 +10413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stderr",
@@ -10427,7 +10427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stderrErrorHandler",
@@ -10441,7 +10441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._stdout",
@@ -10455,7 +10455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stdoutErrorHandler",
@@ -10469,7 +10469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._times",
@@ -10483,7 +10483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console.assert",
@@ -15121,17 +15121,17 @@
   ],
   [
     "*globals*.global.process",
-    93,
-    93,
-    "93/0/0/0",
-    "93/0/0/0",
-    "91/0/0/2",
-    "75/1/0/17",
-    "0/0/0/93",
-    "3/0/0/90",
-    "0/0/0/93",
-    "0/0/0/93",
-    "50/1/33/9"
+    94,
+    94,
+    "94/0/0/0",
+    "93/0/0/1",
+    "91/0/0/3",
+    "75/1/0/18",
+    "0/0/0/94",
+    "4/0/0/90",
+    "0/0/0/94",
+    "0/0/0/94",
+    "51/1/33/9"
   ],
   [
     "*globals*.global.process.*self*",
@@ -15745,6 +15745,20 @@
     "supported",
     "unsupported",
     "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "*globals*.global.process.getBuiltinModule",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -16535,17 +16549,17 @@
   ],
   [
     "*globals*.globalThis",
-    639,
-    639,
-    "639/0/0/0",
-    "619/0/0/20",
-    "576/0/0/63",
-    "580/1/0/58",
-    "383/0/0/256",
-    "475/0/0/164",
-    "351/0/0/288",
-    "355/0/0/284",
-    "544/1/33/61"
+    640,
+    640,
+    "640/0/0/0",
+    "619/0/0/21",
+    "576/0/0/64",
+    "580/1/0/59",
+    "383/0/0/257",
+    "476/0/0/164",
+    "351/0/0/289",
+    "355/0/0/285",
+    "548/1/37/54"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -19513,7 +19527,7 @@
     "24/0/0/8",
     "25/0/0/7",
     "25/0/0/7",
-    "25/0/0/7"
+    "28/0/4/0"
   ],
   [
     "*globals*.globalThis.console.*self*",
@@ -19541,7 +19555,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._ignoreErrors",
@@ -19555,7 +19569,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stderr",
@@ -19569,7 +19583,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stderrErrorHandler",
@@ -19583,7 +19597,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._stdout",
@@ -19597,7 +19611,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stdoutErrorHandler",
@@ -19611,7 +19625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._times",
@@ -19625,7 +19639,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console.assert",
@@ -24263,17 +24277,17 @@
   ],
   [
     "*globals*.globalThis.process",
-    93,
-    93,
-    "93/0/0/0",
-    "93/0/0/0",
-    "91/0/0/2",
-    "75/1/0/17",
-    "0/0/0/93",
-    "3/0/0/90",
-    "0/0/0/93",
-    "0/0/0/93",
-    "50/1/33/9"
+    94,
+    94,
+    "94/0/0/0",
+    "93/0/0/1",
+    "91/0/0/3",
+    "75/1/0/18",
+    "0/0/0/94",
+    "4/0/0/90",
+    "0/0/0/94",
+    "0/0/0/94",
+    "51/1/33/9"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -24887,6 +24901,20 @@
     "supported",
     "unsupported",
     "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "*globals*.globalThis.process.getBuiltinModule",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -26335,17 +26363,17 @@
   ],
   [
     "*globals*.process",
-    526,
-    526,
-    "521/0/0/5",
-    "518/0/0/8",
-    "515/0/0/11",
-    "276/5/0/245",
-    "0/0/0/526",
-    "3/0/0/523",
-    "0/0/0/526",
-    "0/0/0/526",
-    "77/22/394/33"
+    527,
+    527,
+    "522/0/0/5",
+    "518/0/0/9",
+    "515/0/0/12",
+    "276/5/0/246",
+    "0/0/0/527",
+    "4/0/0/523",
+    "0/0/0/527",
+    "0/0/0/527",
+    "78/22/394/33"
   ],
   [
     "*globals*.process.*self*",
@@ -27463,6 +27491,20 @@
     "supported",
     "unsupported",
     "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "*globals*.process.getBuiltinModule",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -55801,7 +55843,7 @@
     "0/0/0/311",
     "26/0/0/285",
     "48/0/0/263",
-    "44/0/4/263"
+    "135/3/14/159"
   ],
   [
     "console.*self*",
@@ -55829,7 +55871,7 @@
     "0/0/0/285",
     "25/0/0/260",
     "25/0/0/260",
-    "22/0/2/261"
+    "110/3/13/159"
   ],
   [
     "console.default.*self*",
@@ -55871,7 +55913,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr",
@@ -55885,7 +55927,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "0/0/0/122"
+    "42/1/0/79"
   ],
   [
     "console.default._stderr.*self*",
@@ -55899,7 +55941,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._bytesDispatched",
@@ -55955,7 +55997,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._events",
@@ -55969,7 +56011,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._eventsCount",
@@ -55983,7 +56025,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._final",
@@ -56095,7 +56137,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._onTimeout",
@@ -56249,7 +56291,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._unrefTimer",
@@ -56277,7 +56319,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._write",
@@ -56291,7 +56333,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._writeGeneric",
@@ -56319,7 +56361,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._stderr.addListener",
@@ -56333,7 +56375,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.address",
@@ -56431,7 +56473,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.compose",
@@ -56487,7 +56529,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.destroy",
@@ -56501,7 +56543,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.destroySoon",
@@ -56529,7 +56571,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.drop",
@@ -56557,7 +56599,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.end",
@@ -56571,7 +56613,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.errored",
@@ -56585,7 +56627,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.eventNames",
@@ -56599,7 +56641,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.every",
@@ -56697,7 +56739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.isPaused",
@@ -56739,7 +56781,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.listeners",
@@ -56753,7 +56795,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.localAddress",
@@ -56823,7 +56865,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.on",
@@ -56837,7 +56879,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.once",
@@ -56851,7 +56893,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.pause",
@@ -56893,7 +56935,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.prependListener",
@@ -56907,7 +56949,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.prependOnceListener",
@@ -56921,7 +56963,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.push",
@@ -56949,7 +56991,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.read",
@@ -57201,7 +57243,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.removeListener",
@@ -57215,7 +57257,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.resetAndDestroy",
@@ -57271,7 +57313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.setEncoding",
@@ -57313,7 +57355,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.setNoDelay",
@@ -57397,7 +57439,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.unpipe",
@@ -57467,7 +57509,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableBuffer",
@@ -57481,7 +57523,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableCorked",
@@ -57495,7 +57537,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableEnded",
@@ -57509,7 +57551,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableFinished",
@@ -57523,7 +57565,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableHighWaterMark",
@@ -57537,7 +57579,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableLength",
@@ -57551,7 +57593,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableNeedDrain",
@@ -57565,7 +57607,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableObjectMode",
@@ -57579,7 +57621,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.write",
@@ -57593,7 +57635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderrErrorHandler",
@@ -57607,7 +57649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._stdout",
@@ -57621,7 +57663,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "0/0/0/123"
+    "42/1/0/80"
   ],
   [
     "console.default._stdout.*self*",
@@ -57635,7 +57677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._bytesDispatched",
@@ -57691,7 +57733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._events",
@@ -57705,7 +57747,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._eventsCount",
@@ -57719,7 +57761,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._final",
@@ -57831,7 +57873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._onTimeout",
@@ -57985,7 +58027,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._unrefTimer",
@@ -58013,7 +58055,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._write",
@@ -58027,7 +58069,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._writeGeneric",
@@ -58055,7 +58097,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._stdout.addListener",
@@ -58069,7 +58111,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.address",
@@ -58167,7 +58209,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.compose",
@@ -58223,7 +58265,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.destroy",
@@ -58237,7 +58279,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.destroySoon",
@@ -58265,7 +58307,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.domain",
@@ -58307,7 +58349,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.end",
@@ -58321,7 +58363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.errored",
@@ -58335,7 +58377,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.eventNames",
@@ -58349,7 +58391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.every",
@@ -58447,7 +58489,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.isPaused",
@@ -58489,7 +58531,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.listeners",
@@ -58503,7 +58545,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.localAddress",
@@ -58573,7 +58615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.on",
@@ -58587,7 +58629,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.once",
@@ -58601,7 +58643,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.pause",
@@ -58643,7 +58685,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.prependListener",
@@ -58657,7 +58699,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.prependOnceListener",
@@ -58671,7 +58713,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.push",
@@ -58699,7 +58741,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.read",
@@ -58951,7 +58993,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.removeListener",
@@ -58965,7 +59007,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.resetAndDestroy",
@@ -59021,7 +59063,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.setEncoding",
@@ -59063,7 +59105,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.setNoDelay",
@@ -59147,7 +59189,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.unpipe",
@@ -59217,7 +59259,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableBuffer",
@@ -59231,7 +59273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableCorked",
@@ -59245,7 +59287,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableEnded",
@@ -59259,7 +59301,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableFinished",
@@ -59273,7 +59315,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableHighWaterMark",
@@ -59287,7 +59329,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableLength",
@@ -59301,7 +59343,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableNeedDrain",
@@ -59315,7 +59357,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableObjectMode",
@@ -59329,7 +59371,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.write",
@@ -59343,7 +59385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdoutErrorHandler",
@@ -59357,7 +59399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times",
@@ -59371,7 +59413,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/0/0/11"
+    "0/1/10/0"
   ],
   [
     "console.default._times.*self*",
@@ -59385,7 +59427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._times.clear",
@@ -59399,7 +59441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.delete",
@@ -59413,7 +59455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.entries",
@@ -59427,7 +59469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.forEach",
@@ -59441,7 +59483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.get",
@@ -59455,7 +59497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.has",
@@ -59469,7 +59511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.keys",
@@ -59483,7 +59525,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.set",
@@ -59497,7 +59539,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.size",
@@ -59511,7 +59553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.values",
@@ -59525,7 +59567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default.assert",
@@ -59539,7 +59581,7 @@
     "unsupported",
     "supported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "console.default.clear",
@@ -59567,7 +59609,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default.count",
@@ -59609,7 +59651,7 @@
     "unsupported",
     "supported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default.debug",
@@ -59889,7 +59931,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "console.clear",
@@ -59917,7 +59959,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.count",
@@ -59959,7 +60001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.debug",
@@ -67278,10 +67320,10 @@
     "327/4/0/2",
     "226/4/0/103",
     "293/2/24/14",
-    "124/3/0/206",
+    "126/1/0/206",
     "2/0/0/331",
     "113/4/0/216",
-    "142/7/35/149"
+    "144/5/35/149"
   ],
   [
     "crypto.*self*",
@@ -67306,10 +67348,10 @@
     "161/2/0/1",
     "110/2/0/52",
     "141/1/12/10",
-    "56/2/0/106",
+    "57/1/0/106",
     "1/0/0/163",
     "53/2/0/109",
-    "65/4/19/76"
+    "66/3/19/76"
   ],
   [
     "crypto.default.*self*",
@@ -69546,10 +69588,10 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "crypto.default.verify",
@@ -71772,10 +71814,10 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "supported"
   ],
   [
     "crypto.verify",
@@ -86433,7 +86475,7 @@
     "0/0/0/247",
     "0/1/0/246",
     "142/0/0/105",
-    "138/7/100/2"
+    "138/7/102/0"
   ],
   [
     "http.*self*",
@@ -86461,7 +86503,7 @@
     "0/0/0/120",
     "0/0/0/120",
     "71/0/0/49",
-    "69/1/49/1"
+    "69/1/50/0"
   ],
   [
     "http.default.*self*",
@@ -87497,7 +87539,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "http.default.createServer",
@@ -89191,7 +89233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "http.createServer",
@@ -107545,7 +107587,7 @@
     "0/0/0/162",
     "0/1/0/161",
     "72/5/0/85",
-    "152/0/0/10"
+    "162/0/0/0"
   ],
   [
     "path/posix.*self*",
@@ -107573,7 +107615,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "29/2/0/18",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/posix.default.*self*",
@@ -107601,7 +107643,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.basename",
@@ -107741,7 +107783,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "15/1/0/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.default.posix.*self*",
@@ -107769,7 +107811,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.posix.basename",
@@ -108049,7 +108091,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/1/0/16",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.default.win32.*self*",
@@ -108077,7 +108119,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.win32.basename",
@@ -108301,7 +108343,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.basename",
@@ -108441,7 +108483,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "29/2/0/18",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/posix.posix.*self*",
@@ -108469,7 +108511,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.basename",
@@ -108609,7 +108651,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "15/1/0/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.posix.posix.*self*",
@@ -108637,7 +108679,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.posix.basename",
@@ -108917,7 +108959,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/1/0/16",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.posix.win32.*self*",
@@ -108945,7 +108987,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.win32.basename",
@@ -109225,7 +109267,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "0/1/0/48",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/posix.win32.*self*",
@@ -109253,7 +109295,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.basename",
@@ -109393,7 +109435,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/0/0/17",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.win32.posix.*self*",
@@ -109421,7 +109463,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.posix.basename",
@@ -109701,7 +109743,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/0/0/17",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/posix.win32.win32.*self*",
@@ -109729,7 +109771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.win32.basename",
@@ -109953,7 +109995,7 @@
     "0/0/0/162",
     "0/1/0/161",
     "68/4/65/25",
-    "152/0/0/10"
+    "162/0/0/0"
   ],
   [
     "path/win32.*self*",
@@ -109981,7 +110023,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "19/1/26/3",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/win32.default.*self*",
@@ -110009,7 +110051,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.basename",
@@ -110149,7 +110191,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "15/1/0/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.default.posix.*self*",
@@ -110177,7 +110219,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.posix.basename",
@@ -110457,7 +110499,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "3/0/13/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.default.win32.*self*",
@@ -110485,7 +110527,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.win32.basename",
@@ -110709,7 +110751,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.basename",
@@ -110849,7 +110891,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "29/2/0/18",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/win32.posix.*self*",
@@ -110877,7 +110919,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.basename",
@@ -111017,7 +111059,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "15/1/0/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.posix.posix.*self*",
@@ -111045,7 +111087,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.posix.basename",
@@ -111325,7 +111367,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "0/1/0/16",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.posix.win32.*self*",
@@ -111353,7 +111395,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.win32.basename",
@@ -111633,7 +111675,7 @@
     "0/0/0/49",
     "0/0/0/49",
     "19/1/26/3",
-    "46/0/0/3"
+    "49/0/0/0"
   ],
   [
     "path/win32.win32.*self*",
@@ -111661,7 +111703,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.basename",
@@ -111801,7 +111843,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "15/1/0/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.win32.posix.*self*",
@@ -111829,7 +111871,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.posix.basename",
@@ -112109,7 +112151,7 @@
     "0/0/0/17",
     "0/0/0/17",
     "3/0/13/1",
-    "16/0/0/1"
+    "17/0/0/0"
   ],
   [
     "path/win32.win32.win32.*self*",
@@ -112137,7 +112179,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.win32.basename",
@@ -114199,17 +114241,17 @@
   ],
   [
     "process",
-    1456,
-    1456,
-    "1441/0/0/15",
-    "1430/0/0/26",
-    "1394/5/0/57",
-    "633/13/0/810",
-    "609/14/0/833",
-    "6/0/0/1450",
-    "39/0/0/1417",
-    "142/10/0/1304",
-    "143/56/1094/163"
+    1458,
+    1458,
+    "1443/0/0/15",
+    "1430/0/0/28",
+    "1394/5/0/59",
+    "633/13/0/812",
+    "609/14/0/835",
+    "8/0/0/1450",
+    "39/0/0/1419",
+    "142/10/0/1306",
+    "145/56/1094/163"
   ],
   [
     "process.*self*",
@@ -114227,17 +114269,17 @@
   ],
   [
     "process.default",
-    526,
-    526,
-    "521/0/0/5",
-    "518/0/0/8",
-    "515/0/0/11",
-    "276/5/0/245",
-    "273/5/0/248",
-    "3/0/0/523",
-    "23/0/0/503",
-    "76/5/0/445",
-    "77/22/394/33"
+    527,
+    527,
+    "522/0/0/5",
+    "518/0/0/9",
+    "515/0/0/12",
+    "276/5/0/246",
+    "273/5/0/249",
+    "4/0/0/523",
+    "23/0/0/504",
+    "76/5/0/446",
+    "78/22/394/33"
   ],
   [
     "process.default.*self*",
@@ -115355,6 +115397,20 @@
     "supported",
     "unsupported",
     "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.default.getBuiltinModule",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -124203,6 +124259,20 @@
     "supported",
     "unsupported",
     "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "process.getBuiltinModule",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -141202,6 +141272,146 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "test/mock_loader",
+    8,
+    8,
+    "8/0/0/0",
+    "0/0/0/8",
+    "0/0/0/8",
+    "0/0/0/8",
+    "0/0/0/8",
+    "0/0/0/8",
+    "0/1/0/7",
+    "0/1/0/7",
+    "0/1/0/7"
+  ],
+  [
+    "test/mock_loader.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "mismatch",
+    "mismatch",
+    "mismatch"
+  ],
+  [
+    "test/mock_loader.default",
+    4,
+    4,
+    "4/0/0/0",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4"
+  ],
+  [
+    "test/mock_loader.default.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.default.initialize",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.default.load",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.default.resolve",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.initialize",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.load",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "test/mock_loader.resolve",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "timers",

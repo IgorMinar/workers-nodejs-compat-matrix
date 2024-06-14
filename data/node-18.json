@@ -1148,6 +1148,7 @@
         "exitCode": "undefined",
         "features": "object",
         "getActiveResourcesInfo": "function",
+        "getBuiltinModule": "missing",
         "getMaxListeners": "function",
         "getegid": "function",
         "geteuid": "function",
@@ -1815,6 +1816,7 @@
         "exitCode": "undefined",
         "features": "object",
         "getActiveResourcesInfo": "function",
+        "getBuiltinModule": "missing",
         "getMaxListeners": "function",
         "getegid": "function",
         "geteuid": "function",
@@ -2009,6 +2011,7 @@
         "uv": "boolean"
       },
       "getActiveResourcesInfo": "function",
+      "getBuiltinModule": "missing",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -8665,6 +8668,7 @@
         "uv": "boolean"
       },
       "getActiveResourcesInfo": "function",
+      "getBuiltinModule": "missing",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -9152,6 +9156,7 @@
       "uv": "boolean"
     },
     "getActiveResourcesInfo": "function",
+    "getBuiltinModule": "missing",
     "getegid": "function",
     "geteuid": "function",
     "getgid": "function",
@@ -10415,6 +10420,18 @@
       "isWeakMap": "function",
       "isWeakSet": "function"
     }
+  },
+  "test/mock_loader": {
+    "*self*": "missing",
+    "default": {
+      "*self*": "missing",
+      "initialize": "missing",
+      "load": "missing",
+      "resolve": "missing"
+    },
+    "initialize": "missing",
+    "load": "missing",
+    "resolve": "missing"
   },
   "timers": {
     "*self*": "object",

@@ -1148,6 +1148,7 @@
         "exitCode": "missing",
         "features": "missing",
         "getActiveResourcesInfo": "missing",
+        "getBuiltinModule": "function",
         "getMaxListeners": "missing",
         "getegid": "missing",
         "geteuid": "missing",
@@ -1815,6 +1816,7 @@
         "exitCode": "missing",
         "features": "missing",
         "getActiveResourcesInfo": "missing",
+        "getBuiltinModule": "function",
         "getMaxListeners": "missing",
         "getegid": "missing",
         "geteuid": "missing",
@@ -2009,6 +2011,7 @@
         "uv": "missing"
       },
       "getActiveResourcesInfo": "missing",
+      "getBuiltinModule": "function",
       "getMaxListeners": "missing",
       "getegid": "missing",
       "geteuid": "missing",
@@ -5214,7 +5217,7 @@
         "verify": "function",
         "wrapKey": "function"
       },
-      "timingSafeEqual": "undefined",
+      "timingSafeEqual": "function",
       "verify": "missing",
       "webcrypto": {
         "*self*": "object",
@@ -5273,7 +5276,7 @@
       "verify": "function",
       "wrapKey": "function"
     },
-    "timingSafeEqual": "undefined",
+    "timingSafeEqual": "function",
     "verify": "missing",
     "webcrypto": {
       "*self*": "object",
@@ -8665,6 +8668,7 @@
         "uv": "missing"
       },
       "getActiveResourcesInfo": "missing",
+      "getBuiltinModule": "function",
       "getMaxListeners": "missing",
       "getegid": "missing",
       "geteuid": "missing",
@@ -9152,6 +9156,7 @@
       "uv": "missing"
     },
     "getActiveResourcesInfo": "missing",
+    "getBuiltinModule": "function",
     "getegid": "missing",
     "geteuid": "missing",
     "getgid": "missing",
@@ -10415,6 +10420,18 @@
       "isWeakMap": "missing",
       "isWeakSet": "missing"
     }
+  },
+  "test/mock_loader": {
+    "*self*": "missing",
+    "default": {
+      "*self*": "missing",
+      "initialize": "missing",
+      "load": "missing",
+      "resolve": "missing"
+    },
+    "initialize": "missing",
+    "load": "missing",
+    "resolve": "missing"
   },
   "timers": {
     "*self*": "missing",

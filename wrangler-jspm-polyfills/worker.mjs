@@ -278,6 +278,11 @@ export default {
       sys = await import("sys");
     } catch (err) {}
 
+    let test_mock_loader = null;
+    try {
+      test_mock_loader = await import("test/mock_loader");
+    } catch (err) {}
+
     let timers = null;
     try {
       timers = await import("timers");
@@ -399,6 +404,7 @@ export default {
       "stream/web": stream_web,
       string_decoder: string_decoder,
       sys: sys,
+      "test/mock_loader": test_mock_loader,
       timers: timers,
       "timers/promises": timers_promises,
       tls: tls,

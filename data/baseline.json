@@ -1148,6 +1148,7 @@
         "exitCode": "undefined",
         "features": "object",
         "getActiveResourcesInfo": "function",
+        "getBuiltinModule": "function",
         "getMaxListeners": "function",
         "getegid": "function",
         "geteuid": "function",
@@ -1815,6 +1816,7 @@
         "exitCode": "undefined",
         "features": "object",
         "getActiveResourcesInfo": "function",
+        "getBuiltinModule": "function",
         "getMaxListeners": "function",
         "getegid": "function",
         "geteuid": "function",
@@ -2009,6 +2011,7 @@
         "uv": "boolean"
       },
       "getActiveResourcesInfo": "function",
+      "getBuiltinModule": "function",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -8506,6 +8509,7 @@
         "uv": "boolean"
       },
       "getActiveResourcesInfo": "function",
+      "getBuiltinModule": "function",
       "getMaxListeners": "function",
       "getegid": "function",
       "geteuid": "function",
@@ -9152,6 +9156,7 @@
       "uv": "boolean"
     },
     "getActiveResourcesInfo": "function",
+    "getBuiltinModule": "function",
     "getegid": "function",
     "geteuid": "function",
     "getgid": "function",
@@ -10415,6 +10420,18 @@
       "isWeakMap": "function",
       "isWeakSet": "function"
     }
+  },
+  "test/mock_loader": {
+    "*self*": "object",
+    "default": {
+      "*self*": "object",
+      "initialize": "function",
+      "load": "function",
+      "resolve": "function"
+    },
+    "initialize": "function",
+    "load": "function",
+    "resolve": "function"
   },
   "timers": {
     "*self*": "object",
