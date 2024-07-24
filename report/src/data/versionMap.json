@@ -1,11 +1,11 @@
 {
-  "node18": "18.20.3",
-  "node20": "20.14.0",
-  "node22": "22.3.0",
+  "node18": "18.20.4",
+  "node20": "20.16.0",
+  "node22": "22.5.1",
   "bun": "1.1.7",
-  "deno": "1.43.1",
-  "workerd": "1.20240614.0",
-  "wranglerV3": "3.53.1",
+  "deno": "1.44.2",
+  "workerd": "1.20240722.0",
+  "wranglerV3": "3.66.0",
   "wranglerJspm": "@jspm/core@2.0.1",
-  "wranglerUnenv": "unenv@1.10.0-1718203560.f994fdf"
+  "wranglerUnenv": "unenv@1.10.0-1717606461.a117952"
 }

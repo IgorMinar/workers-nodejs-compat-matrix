@@ -1,31 +1,31 @@
 [
   [
     "Totals",
-    10646,
-    10646,
-    "10534/0/0/112",
-    "10442/4/0/200",
-    "10227/9/0/410",
-    "7097/66/0/3483",
-    "5246/37/108/5255",
-    "2691/21/0/7934",
-    "1732/37/0/8877",
-    "3252/200/287/6907",
-    "6382/152/2812/1300"
+    10705,
+    10705,
+    "10590/0/0/115",
+    "10452/4/0/249",
+    "10227/9/0/469",
+    "7097/66/0/3542",
+    "5398/35/110/5162",
+    "2737/21/0/7947",
+    "1735/37/0/8933",
+    "3252/200/287/6966",
+    "6248/146/2775/1536"
   ],
   [
     "*globals*",
-    2371,
-    2371,
-    "2363/0/0/8",
-    "2307/0/0/64",
-    "2190/0/0/181",
-    "1803/9/0/559",
-    "657/0/0/1714",
-    "1208/0/0/1163",
-    "602/0/0/1769",
-    "608/0/0/1763",
-    "1519/27/481/344"
+    2379,
+    2379,
+    "2370/0/0/9",
+    "2310/0/0/69",
+    "2190/0/0/189",
+    "1803/9/0/567",
+    "657/0/0/1722",
+    "1208/0/0/1171",
+    "605/0/0/1774",
+    "608/0/0/1771",
+    "1428/24/460/467"
   ],
   [
     "*globals*.*self*",
@@ -2445,7 +2445,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -3007,7 +3007,7 @@
     "24/0/0/261",
     "25/0/0/260",
     "25/0/0/260",
-    "110/3/13/159"
+    "25/0/0/260"
   ],
   [
     "*globals*.console.*self*",
@@ -3035,7 +3035,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._ignoreErrors",
@@ -3049,7 +3049,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr",
@@ -3063,7 +3063,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "42/1/0/79"
+    "0/0/0/122"
   ],
   [
     "*globals*.console._stderr.*self*",
@@ -3077,7 +3077,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._bytesDispatched",
@@ -3133,7 +3133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._events",
@@ -3147,7 +3147,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._eventsCount",
@@ -3161,7 +3161,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._final",
@@ -3273,7 +3273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._onTimeout",
@@ -3427,7 +3427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._unrefTimer",
@@ -3455,7 +3455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._write",
@@ -3469,7 +3469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr._writeGeneric",
@@ -3497,7 +3497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.addListener",
@@ -3511,7 +3511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.address",
@@ -3609,7 +3609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.compose",
@@ -3665,7 +3665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.destroy",
@@ -3679,7 +3679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.destroySoon",
@@ -3707,7 +3707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.drop",
@@ -3735,7 +3735,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.end",
@@ -3749,7 +3749,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.errored",
@@ -3763,7 +3763,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.eventNames",
@@ -3777,7 +3777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.every",
@@ -3875,7 +3875,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.isPaused",
@@ -3917,7 +3917,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.listeners",
@@ -3931,7 +3931,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.localAddress",
@@ -4001,7 +4001,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.on",
@@ -4015,7 +4015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.once",
@@ -4029,7 +4029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.pause",
@@ -4071,7 +4071,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.prependListener",
@@ -4085,7 +4085,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.prependOnceListener",
@@ -4099,7 +4099,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.push",
@@ -4127,7 +4127,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.read",
@@ -4379,7 +4379,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.removeListener",
@@ -4393,7 +4393,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.resetAndDestroy",
@@ -4449,7 +4449,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.setEncoding",
@@ -4491,7 +4491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.setNoDelay",
@@ -4575,7 +4575,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.unpipe",
@@ -4645,7 +4645,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableBuffer",
@@ -4659,7 +4659,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableCorked",
@@ -4673,7 +4673,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableEnded",
@@ -4687,7 +4687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableFinished",
@@ -4701,7 +4701,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableHighWaterMark",
@@ -4715,7 +4715,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableLength",
@@ -4729,7 +4729,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableNeedDrain",
@@ -4743,7 +4743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.writableObjectMode",
@@ -4757,7 +4757,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderr.write",
@@ -4771,7 +4771,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stderrErrorHandler",
@@ -4785,7 +4785,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout",
@@ -4799,7 +4799,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "42/1/0/80"
+    "0/0/0/123"
   ],
   [
     "*globals*.console._stdout.*self*",
@@ -4813,7 +4813,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._bytesDispatched",
@@ -4869,7 +4869,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._events",
@@ -4883,7 +4883,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._eventsCount",
@@ -4897,7 +4897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._final",
@@ -5009,7 +5009,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._onTimeout",
@@ -5163,7 +5163,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._unrefTimer",
@@ -5191,7 +5191,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._write",
@@ -5205,7 +5205,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout._writeGeneric",
@@ -5233,7 +5233,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.addListener",
@@ -5247,7 +5247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.address",
@@ -5345,7 +5345,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.compose",
@@ -5401,7 +5401,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.destroy",
@@ -5415,7 +5415,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.destroySoon",
@@ -5443,7 +5443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.domain",
@@ -5485,7 +5485,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.end",
@@ -5499,7 +5499,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.errored",
@@ -5513,7 +5513,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.eventNames",
@@ -5527,7 +5527,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.every",
@@ -5625,7 +5625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.isPaused",
@@ -5667,7 +5667,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.listeners",
@@ -5681,7 +5681,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.localAddress",
@@ -5751,7 +5751,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.on",
@@ -5765,7 +5765,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.once",
@@ -5779,7 +5779,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.pause",
@@ -5821,7 +5821,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.prependListener",
@@ -5835,7 +5835,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.prependOnceListener",
@@ -5849,7 +5849,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.push",
@@ -5877,7 +5877,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.read",
@@ -6129,7 +6129,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.removeListener",
@@ -6143,7 +6143,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.resetAndDestroy",
@@ -6199,7 +6199,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.setEncoding",
@@ -6241,7 +6241,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.setNoDelay",
@@ -6325,7 +6325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.unpipe",
@@ -6395,7 +6395,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableBuffer",
@@ -6409,7 +6409,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableCorked",
@@ -6423,7 +6423,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableEnded",
@@ -6437,7 +6437,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableFinished",
@@ -6451,7 +6451,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableHighWaterMark",
@@ -6465,7 +6465,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableLength",
@@ -6479,7 +6479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableNeedDrain",
@@ -6493,7 +6493,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.writableObjectMode",
@@ -6507,7 +6507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdout.write",
@@ -6521,7 +6521,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.console._stdoutErrorHandler",
@@ -6535,7 +6535,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times",
@@ -6549,7 +6549,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/1/10/0"
+    "0/0/0/11"
   ],
   [
     "*globals*.console._times.*self*",
@@ -6563,7 +6563,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "*globals*.console._times.clear",
@@ -6577,7 +6577,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.delete",
@@ -6591,7 +6591,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.entries",
@@ -6605,7 +6605,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.forEach",
@@ -6619,7 +6619,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.get",
@@ -6633,7 +6633,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.has",
@@ -6647,7 +6647,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.keys",
@@ -6661,7 +6661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.set",
@@ -6675,7 +6675,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.size",
@@ -6689,7 +6689,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console._times.values",
@@ -6703,7 +6703,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.console.assert",
@@ -7393,17 +7393,17 @@
   ],
   [
     "*globals*.global",
-    640,
-    640,
-    "640/0/0/0",
-    "619/0/0/21",
-    "576/0/0/64",
-    "580/1/0/59",
-    "0/0/0/640",
-    "476/0/0/164",
-    "0/0/0/640",
-    "0/0/0/640",
-    "548/1/37/54"
+    641,
+    641,
+    "641/0/0/0",
+    "620/0/0/21",
+    "576/0/0/65",
+    "580/1/0/60",
+    "0/0/0/641",
+    "476/0/0/165",
+    "0/0/0/641",
+    "0/0/0/641",
+    "545/1/33/62"
   ],
   [
     "*globals*.global.*self*",
@@ -10371,7 +10371,7 @@
     "24/0/0/8",
     "0/0/0/32",
     "0/0/0/32",
-    "28/0/4/0"
+    "25/0/0/7"
   ],
   [
     "*globals*.global.console.*self*",
@@ -10399,7 +10399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.global.console._ignoreErrors",
@@ -10413,7 +10413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.global.console._stderr",
@@ -10427,7 +10427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.global.console._stderrErrorHandler",
@@ -10441,7 +10441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.global.console._stdout",
@@ -10455,7 +10455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.global.console._stdoutErrorHandler",
@@ -10469,7 +10469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.global.console._times",
@@ -10483,7 +10483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.global.console.assert",
@@ -15121,17 +15121,17 @@
   ],
   [
     "*globals*.global.process",
-    94,
-    94,
-    "94/0/0/0",
-    "93/0/0/1",
-    "91/0/0/3",
-    "75/1/0/18",
-    "0/0/0/94",
-    "4/0/0/90",
-    "0/0/0/94",
-    "0/0/0/94",
-    "51/1/33/9"
+    95,
+    95,
+    "95/0/0/0",
+    "94/0/0/1",
+    "91/0/0/4",
+    "75/1/0/19",
+    "0/0/0/95",
+    "4/0/0/91",
+    "0/0/0/95",
+    "0/0/0/95",
+    "51/1/33/10"
   ],
   [
     "*globals*.global.process.*self*",
@@ -15736,6 +15736,20 @@
     "supported"
   ],
   [
+    "*globals*.global.process.finalization",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.global.process.getActiveResourcesInfo",
     0,
     "supported",
@@ -15754,7 +15768,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -16549,17 +16563,17 @@
   ],
   [
     "*globals*.globalThis",
-    640,
-    640,
-    "640/0/0/0",
-    "619/0/0/21",
-    "576/0/0/64",
-    "580/1/0/59",
-    "383/0/0/257",
-    "476/0/0/164",
-    "351/0/0/289",
-    "355/0/0/285",
-    "548/1/37/54"
+    641,
+    641,
+    "641/0/0/0",
+    "620/0/0/21",
+    "576/0/0/65",
+    "580/1/0/60",
+    "383/0/0/258",
+    "476/0/0/165",
+    "353/0/0/288",
+    "355/0/0/286",
+    "545/1/33/62"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -18979,7 +18993,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -19527,7 +19541,7 @@
     "24/0/0/8",
     "25/0/0/7",
     "25/0/0/7",
-    "28/0/4/0"
+    "25/0/0/7"
   ],
   [
     "*globals*.globalThis.console.*self*",
@@ -19555,7 +19569,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._ignoreErrors",
@@ -19569,7 +19583,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._stderr",
@@ -19583,7 +19597,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._stderrErrorHandler",
@@ -19597,7 +19611,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._stdout",
@@ -19611,7 +19625,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._stdoutErrorHandler",
@@ -19625,7 +19639,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console._times",
@@ -19639,7 +19653,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "*globals*.globalThis.console.assert",
@@ -21989,7 +22003,7 @@
     "123/0/0/7",
     "121/0/0/9",
     "116/0/0/14",
-    "112/0/0/18",
+    "113/0/0/17",
     "114/0/0/16",
     "123/0/0/7"
   ],
@@ -23165,7 +23179,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -24277,17 +24291,17 @@
   ],
   [
     "*globals*.globalThis.process",
-    94,
-    94,
-    "94/0/0/0",
-    "93/0/0/1",
-    "91/0/0/3",
-    "75/1/0/18",
-    "0/0/0/94",
-    "4/0/0/90",
-    "0/0/0/94",
-    "0/0/0/94",
-    "51/1/33/9"
+    95,
+    95,
+    "95/0/0/0",
+    "94/0/0/1",
+    "91/0/0/4",
+    "75/1/0/19",
+    "0/0/0/95",
+    "4/0/0/91",
+    "0/0/0/95",
+    "0/0/0/95",
+    "51/1/33/10"
   ],
   [
     "*globals*.globalThis.process.*self*",
@@ -24892,6 +24906,20 @@
     "supported"
   ],
   [
+    "*globals*.globalThis.process.finalization",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.globalThis.process.getActiveResourcesInfo",
     0,
     "supported",
@@ -24910,7 +24938,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -26363,17 +26391,17 @@
   ],
   [
     "*globals*.process",
-    527,
-    527,
-    "522/0/0/5",
-    "518/0/0/9",
-    "515/0/0/12",
-    "276/5/0/246",
-    "0/0/0/527",
-    "4/0/0/523",
-    "0/0/0/527",
-    "0/0/0/527",
-    "78/22/394/33"
+    533,
+    533,
+    "527/0/0/6",
+    "519/0/0/14",
+    "515/0/0/18",
+    "276/5/0/252",
+    "0/0/0/533",
+    "4/0/0/529",
+    "0/0/0/533",
+    "0/0/0/533",
+    "78/22/394/39"
   ],
   [
     "*globals*.process.*self*",
@@ -27482,6 +27510,76 @@
     "mismatch"
   ],
   [
+    "*globals*.process.finalization",
+    4,
+    4,
+    "4/0/0/0",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4"
+  ],
+  [
+    "*globals*.process.finalization.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "*globals*.process.finalization.register",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "*globals*.process.finalization.registerBeforeExit",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "*globals*.process.finalization.unregister",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.process.getActiveResourcesInfo",
     0,
     "supported",
@@ -27500,7 +27598,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -33531,17 +33629,17 @@
   ],
   [
     "*globals*.process.versions",
-    26,
-    26,
-    "26/0/0/0",
-    "25/0/0/1",
-    "25/0/0/1",
-    "11/0/0/15",
-    "0/0/0/26",
-    "0/0/0/26",
-    "0/0/0/26",
-    "0/0/0/26",
-    "9/0/0/17"
+    28,
+    28,
+    "27/0/0/1",
+    "25/0/0/3",
+    "25/0/0/3",
+    "11/0/0/17",
+    "0/0/0/28",
+    "0/0/0/28",
+    "0/0/0/28",
+    "0/0/0/28",
+    "9/0/0/19"
   ],
   [
     "*globals*.process.versions.*self*",
@@ -33603,7 +33701,7 @@
     "*globals*.process.versions.base64",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "supported",
     "unsupported",
@@ -33712,6 +33810,20 @@
     "unsupported"
   ],
   [
+    "*globals*.process.versions.nbytes",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.process.versions.nghttp2",
     0,
     "supported",
@@ -33802,6 +33914,20 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "*globals*.process.versions.sqlite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -39390,10 +39516,10 @@
     "129/0/0/1",
     "0/0/0/130",
     "0/0/0/130",
-    "121/5/0/4",
+    "125/5/0/0",
     "38/0/0/92",
     "50/3/0/77",
-    "116/5/0/9"
+    "125/5/0/0"
   ],
   [
     "_stream_duplex.*self*",
@@ -39418,10 +39544,10 @@
     "125/0/0/1",
     "0/0/0/126",
     "0/0/0/126",
-    "120/5/0/1",
+    "121/5/0/0",
     "37/0/0/89",
     "49/2/0/75",
-    "115/5/0/6"
+    "121/5/0/0"
   ],
   [
     "_stream_duplex.default.*self*",
@@ -39589,7 +39715,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default._isUint8Array",
@@ -39628,10 +39754,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default.addAbortSignal",
@@ -39785,7 +39911,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default.getEventListeners",
@@ -39841,7 +39967,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default.isDisturbed",
@@ -39897,7 +40023,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default.kMaxEventTargetListeners",
@@ -41157,7 +41283,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.default.setMaxListeners",
@@ -41224,10 +41350,10 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "mismatch",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.fromWeb",
@@ -41238,10 +41364,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_duplex.toWeb",
@@ -41252,10 +41378,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough",
@@ -41266,10 +41392,10 @@
     "128/0/0/1",
     "0/0/0/129",
     "0/0/0/129",
-    "123/5/0/1",
+    "124/5/0/0",
     "16/0/0/113",
     "51/2/0/76",
-    "118/5/0/6"
+    "124/5/0/0"
   ],
   [
     "_stream_passthrough.*self*",
@@ -41294,10 +41420,10 @@
     "127/0/0/1",
     "0/0/0/128",
     "0/0/0/128",
-    "122/5/0/1",
+    "123/5/0/0",
     "15/0/0/113",
     "50/2/0/76",
-    "117/5/0/6"
+    "123/5/0/0"
   ],
   [
     "_stream_passthrough.default.*self*",
@@ -41465,7 +41591,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default._isUint8Array",
@@ -41504,10 +41630,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default.addAbortSignal",
@@ -41661,7 +41787,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default.getEventListeners",
@@ -41717,7 +41843,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default.isDisturbed",
@@ -41773,7 +41899,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default.kMaxEventTargetListeners",
@@ -43061,7 +43187,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_passthrough.default.setMaxListeners",
@@ -43128,10 +43254,10 @@
     "116/0/0/1",
     "0/0/0/117",
     "0/0/0/117",
-    "105/5/0/7",
+    "111/5/0/1",
     "33/0/0/84",
     "57/0/0/60",
-    "100/5/0/12"
+    "111/5/0/1"
   ],
   [
     "_stream_readable.*self*",
@@ -43156,10 +43282,10 @@
     "109/0/0/1",
     "0/0/0/110",
     "0/0/0/110",
-    "104/5/0/1",
+    "105/5/0/0",
     "32/0/0/78",
     "53/0/0/57",
-    "99/5/0/6"
+    "105/5/0/0"
   ],
   [
     "_stream_readable.default.*self*",
@@ -43327,7 +43453,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default._isUint8Array",
@@ -43366,10 +43492,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default.addAbortSignal",
@@ -43523,7 +43649,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default.getEventListeners",
@@ -43579,7 +43705,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default.isDisturbed",
@@ -43635,7 +43761,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default.kMaxEventTargetListeners",
@@ -44671,7 +44797,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.default.setMaxListeners",
@@ -44738,10 +44864,10 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable._fromList",
@@ -44766,10 +44892,10 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.fromWeb",
@@ -44780,10 +44906,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.toWeb",
@@ -44794,10 +44920,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_readable.wrap",
@@ -44808,10 +44934,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform",
@@ -44822,10 +44948,10 @@
     "128/0/0/1",
     "0/0/0/129",
     "0/0/0/129",
-    "123/5/0/1",
+    "124/5/0/0",
     "16/0/0/113",
     "51/2/0/76",
-    "118/5/0/6"
+    "124/5/0/0"
   ],
   [
     "_stream_transform.*self*",
@@ -44850,10 +44976,10 @@
     "127/0/0/1",
     "0/0/0/128",
     "0/0/0/128",
-    "122/5/0/1",
+    "123/5/0/0",
     "15/0/0/113",
     "50/2/0/76",
-    "117/5/0/6"
+    "123/5/0/0"
   ],
   [
     "_stream_transform.default.*self*",
@@ -45021,7 +45147,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default._isUint8Array",
@@ -45060,10 +45186,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default.addAbortSignal",
@@ -45217,7 +45343,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default.getEventListeners",
@@ -45273,7 +45399,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default.isDisturbed",
@@ -45329,7 +45455,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default.kMaxEventTargetListeners",
@@ -46617,7 +46743,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_transform.default.setMaxListeners",
@@ -49078,10 +49204,10 @@
     "93/0/0/1",
     "0/0/0/94",
     "0/0/0/94",
-    "90/0/0/4",
+    "94/0/0/0",
     "29/0/0/65",
     "38/2/0/54",
-    "85/0/0/9"
+    "94/0/0/0"
   ],
   [
     "_stream_writable.*self*",
@@ -49106,10 +49232,10 @@
     "89/0/0/1",
     "0/0/0/90",
     "0/0/0/90",
-    "89/0/0/1",
+    "90/0/0/0",
     "28/0/0/62",
     "36/2/0/52",
-    "84/0/0/6"
+    "90/0/0/0"
   ],
   [
     "_stream_writable.default.*self*",
@@ -49263,7 +49389,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default._isUint8Array",
@@ -49302,10 +49428,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default.addAbortSignal",
@@ -49445,7 +49571,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default.getEventListeners",
@@ -49501,7 +49627,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default.isDisturbed",
@@ -49557,7 +49683,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default.kMaxEventTargetListeners",
@@ -50355,7 +50481,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.default.setMaxListeners",
@@ -50408,10 +50534,10 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.fromWeb",
@@ -50422,10 +50548,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_stream_writable.toWeb",
@@ -50436,10 +50562,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "_tls_common",
@@ -54201,8 +54327,8 @@
     "34/0/0/0",
     "34/0/0/0",
     "30/4/0/0",
-    "22/0/0/12",
-    "22/0/0/12",
+    "26/0/0/8",
+    "26/0/0/8",
     "5/0/0/29",
     "9/0/0/25",
     "26/0/8/0"
@@ -54229,8 +54355,8 @@
     "17/0/0/0",
     "17/0/0/0",
     "15/2/0/0",
-    "11/0/0/6",
-    "11/0/0/6",
+    "13/0/0/4",
+    "13/0/0/4",
     "0/0/0/17",
     "5/0/0/12",
     "13/0/4/0"
@@ -54411,8 +54537,8 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -54425,8 +54551,8 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -54649,8 +54775,8 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -54663,8 +54789,8 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
-    "unsupported",
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -55843,7 +55969,7 @@
     "0/0/0/311",
     "26/0/0/285",
     "48/0/0/263",
-    "135/3/14/159"
+    "44/0/4/263"
   ],
   [
     "console.*self*",
@@ -55871,7 +55997,7 @@
     "0/0/0/285",
     "25/0/0/260",
     "25/0/0/260",
-    "110/3/13/159"
+    "22/0/2/261"
   ],
   [
     "console.default.*self*",
@@ -55913,7 +56039,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr",
@@ -55927,7 +56053,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "42/1/0/79"
+    "0/0/0/122"
   ],
   [
     "console.default._stderr.*self*",
@@ -55941,7 +56067,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._bytesDispatched",
@@ -55997,7 +56123,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._events",
@@ -56011,7 +56137,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._eventsCount",
@@ -56025,7 +56151,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._final",
@@ -56137,7 +56263,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._onTimeout",
@@ -56291,7 +56417,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._unrefTimer",
@@ -56319,7 +56445,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._write",
@@ -56333,7 +56459,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr._writeGeneric",
@@ -56361,7 +56487,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "console.default._stderr.addListener",
@@ -56375,7 +56501,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.address",
@@ -56473,7 +56599,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.compose",
@@ -56529,7 +56655,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.destroy",
@@ -56543,7 +56669,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.destroySoon",
@@ -56571,7 +56697,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.drop",
@@ -56599,7 +56725,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.end",
@@ -56613,7 +56739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.errored",
@@ -56627,7 +56753,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.eventNames",
@@ -56641,7 +56767,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.every",
@@ -56739,7 +56865,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.isPaused",
@@ -56781,7 +56907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.listeners",
@@ -56795,7 +56921,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.localAddress",
@@ -56865,7 +56991,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.on",
@@ -56879,7 +57005,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.once",
@@ -56893,7 +57019,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.pause",
@@ -56935,7 +57061,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.prependListener",
@@ -56949,7 +57075,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.prependOnceListener",
@@ -56963,7 +57089,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.push",
@@ -56991,7 +57117,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.read",
@@ -57243,7 +57369,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.removeListener",
@@ -57257,7 +57383,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.resetAndDestroy",
@@ -57313,7 +57439,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.setEncoding",
@@ -57355,7 +57481,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.setNoDelay",
@@ -57439,7 +57565,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.unpipe",
@@ -57509,7 +57635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableBuffer",
@@ -57523,7 +57649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableCorked",
@@ -57537,7 +57663,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableEnded",
@@ -57551,7 +57677,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableFinished",
@@ -57565,7 +57691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableHighWaterMark",
@@ -57579,7 +57705,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableLength",
@@ -57593,7 +57719,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableNeedDrain",
@@ -57607,7 +57733,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.writableObjectMode",
@@ -57621,7 +57747,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderr.write",
@@ -57635,7 +57761,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stderrErrorHandler",
@@ -57649,7 +57775,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._stdout",
@@ -57663,7 +57789,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "42/1/0/80"
+    "0/0/0/123"
   ],
   [
     "console.default._stdout.*self*",
@@ -57677,7 +57803,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._bytesDispatched",
@@ -57733,7 +57859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._events",
@@ -57747,7 +57873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._eventsCount",
@@ -57761,7 +57887,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._final",
@@ -57873,7 +57999,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._onTimeout",
@@ -58027,7 +58153,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._unrefTimer",
@@ -58055,7 +58181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._write",
@@ -58069,7 +58195,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout._writeGeneric",
@@ -58097,7 +58223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "console.default._stdout.addListener",
@@ -58111,7 +58237,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.address",
@@ -58209,7 +58335,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.compose",
@@ -58265,7 +58391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.destroy",
@@ -58279,7 +58405,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.destroySoon",
@@ -58307,7 +58433,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.domain",
@@ -58349,7 +58475,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.end",
@@ -58363,7 +58489,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.errored",
@@ -58377,7 +58503,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.eventNames",
@@ -58391,7 +58517,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.every",
@@ -58489,7 +58615,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.isPaused",
@@ -58531,7 +58657,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.listeners",
@@ -58545,7 +58671,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.localAddress",
@@ -58615,7 +58741,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.on",
@@ -58629,7 +58755,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.once",
@@ -58643,7 +58769,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.pause",
@@ -58685,7 +58811,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.prependListener",
@@ -58699,7 +58825,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.prependOnceListener",
@@ -58713,7 +58839,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.push",
@@ -58741,7 +58867,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.read",
@@ -58993,7 +59119,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.removeListener",
@@ -59007,7 +59133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.resetAndDestroy",
@@ -59063,7 +59189,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.setEncoding",
@@ -59105,7 +59231,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.setNoDelay",
@@ -59189,7 +59315,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.unpipe",
@@ -59259,7 +59385,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableBuffer",
@@ -59273,7 +59399,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableCorked",
@@ -59287,7 +59413,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableEnded",
@@ -59301,7 +59427,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableFinished",
@@ -59315,7 +59441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableHighWaterMark",
@@ -59329,7 +59455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableLength",
@@ -59343,7 +59469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableNeedDrain",
@@ -59357,7 +59483,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.writableObjectMode",
@@ -59371,7 +59497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdout.write",
@@ -59385,7 +59511,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default._stdoutErrorHandler",
@@ -59399,7 +59525,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times",
@@ -59413,7 +59539,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/1/10/0"
+    "0/0/0/11"
   ],
   [
     "console.default._times.*self*",
@@ -59427,7 +59553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "mismatch"
+    "unsupported"
   ],
   [
     "console.default._times.clear",
@@ -59441,7 +59567,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.delete",
@@ -59455,7 +59581,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.entries",
@@ -59469,7 +59595,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.forEach",
@@ -59483,7 +59609,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.get",
@@ -59497,7 +59623,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.has",
@@ -59511,7 +59637,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.keys",
@@ -59525,7 +59651,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.set",
@@ -59539,7 +59665,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.size",
@@ -59553,7 +59679,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default._times.values",
@@ -59567,7 +59693,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "console.default.assert",
@@ -59581,7 +59707,7 @@
     "unsupported",
     "supported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "console.default.clear",
@@ -59609,7 +59735,7 @@
     "unsupported",
     "supported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default.count",
@@ -59651,7 +59777,7 @@
     "unsupported",
     "supported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.default.debug",
@@ -59931,7 +60057,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "stub"
   ],
   [
     "console.clear",
@@ -59959,7 +60085,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.count",
@@ -60001,7 +60127,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "console.debug",
@@ -60263,7 +60389,7 @@
     "468/0/0/34",
     "498/0/0/4",
     "422/0/0/80",
-    "307/0/0/195",
+    "451/0/0/51",
     "0/0/0/502",
     "486/0/0/16",
     "404/0/0/98",
@@ -60319,7 +60445,7 @@
     "234/0/0/17",
     "249/0/0/2",
     "211/0/0/40",
-    "154/0/0/97",
+    "226/0/0/25",
     "0/0/0/251",
     "243/0/0/8",
     "202/0/0/49",
@@ -60347,7 +60473,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -60403,7 +60529,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -60417,7 +60543,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -60431,7 +60557,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -60445,7 +60571,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61033,7 +61159,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61047,7 +61173,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61061,7 +61187,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61075,7 +61201,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61089,7 +61215,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61103,7 +61229,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -61117,7 +61243,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61131,7 +61257,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61145,7 +61271,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61159,7 +61285,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61173,7 +61299,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -61761,7 +61887,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -61971,7 +62097,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61985,7 +62111,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -61999,7 +62125,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62097,7 +62223,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62111,7 +62237,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62125,7 +62251,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62139,7 +62265,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62153,7 +62279,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -62167,7 +62293,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -62181,7 +62307,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -62195,7 +62321,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62713,7 +62839,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62727,7 +62853,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -62741,7 +62867,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62755,7 +62881,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62769,7 +62895,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62783,7 +62909,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62797,7 +62923,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62811,7 +62937,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62825,7 +62951,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62839,7 +62965,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62853,7 +62979,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62867,7 +62993,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62881,7 +63007,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62895,7 +63021,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62909,7 +63035,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62923,7 +63049,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62937,7 +63063,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62951,7 +63077,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62965,7 +63091,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -62979,7 +63105,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -62993,7 +63119,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -63007,7 +63133,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63021,7 +63147,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63035,7 +63161,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63049,7 +63175,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63063,7 +63189,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63077,7 +63203,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63091,7 +63217,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63105,7 +63231,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -63119,7 +63245,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63133,7 +63259,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63147,7 +63273,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -63161,7 +63287,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63175,7 +63301,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63189,7 +63315,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63203,7 +63329,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63217,7 +63343,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63231,7 +63357,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63245,7 +63371,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63539,7 +63665,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63553,7 +63679,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63567,7 +63693,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63581,7 +63707,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63833,7 +63959,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63847,7 +63973,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -63903,7 +64029,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63917,7 +64043,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63931,7 +64057,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -63945,7 +64071,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64533,7 +64659,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64547,7 +64673,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64561,7 +64687,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64575,7 +64701,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64589,7 +64715,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64603,7 +64729,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -64617,7 +64743,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64631,7 +64757,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64645,7 +64771,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64659,7 +64785,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -64673,7 +64799,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -65233,7 +65359,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -65443,7 +65569,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65457,7 +65583,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65471,7 +65597,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65569,7 +65695,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65583,7 +65709,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65597,7 +65723,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65611,7 +65737,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -65625,7 +65751,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -65639,7 +65765,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -65653,7 +65779,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -65667,7 +65793,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66185,7 +66311,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66199,7 +66325,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -66213,7 +66339,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66227,7 +66353,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66241,7 +66367,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66255,7 +66381,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66269,7 +66395,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66283,7 +66409,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66297,7 +66423,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66311,7 +66437,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66325,7 +66451,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66339,7 +66465,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66353,7 +66479,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66367,7 +66493,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66381,7 +66507,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66395,7 +66521,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66409,7 +66535,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66423,7 +66549,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66437,7 +66563,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -66451,7 +66577,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66465,7 +66591,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -66479,7 +66605,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66493,7 +66619,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66507,7 +66633,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66521,7 +66647,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66535,7 +66661,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66549,7 +66675,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66563,7 +66689,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66577,7 +66703,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -66591,7 +66717,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66605,7 +66731,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66619,7 +66745,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -66633,7 +66759,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66647,7 +66773,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66661,7 +66787,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66675,7 +66801,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66689,7 +66815,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66703,7 +66829,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -66717,7 +66843,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "supported",
@@ -67011,7 +67137,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -67025,7 +67151,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -67039,7 +67165,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -67053,7 +67179,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -67305,7 +67431,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
@@ -67320,7 +67446,7 @@
     "327/4/0/2",
     "226/4/0/103",
     "293/2/24/14",
-    "126/1/0/206",
+    "133/1/0/199",
     "2/0/0/331",
     "113/4/0/216",
     "144/5/35/149"
@@ -67348,7 +67474,7 @@
     "161/2/0/1",
     "110/2/0/52",
     "141/1/12/10",
-    "57/1/0/106",
+    "60/1/0/103",
     "1/0/0/163",
     "53/2/0/109",
     "66/3/19/76"
@@ -67572,7 +67698,7 @@
     "supported",
     "unsupported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -69308,7 +69434,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -69322,7 +69448,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -69700,7 +69826,7 @@
     "supported",
     "unsupported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -69882,7 +70008,7 @@
     "supported",
     "unsupported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -71534,7 +71660,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -71548,7 +71674,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -76700,10 +76826,10 @@
     "55/0/0/0",
     "51/0/0/4",
     "47/1/0/7",
-    "51/0/0/4",
+    "53/0/0/2",
     "26/0/0/29",
     "35/0/0/20",
-    "51/0/0/4"
+    "53/0/0/2"
   ],
   [
     "events.*self*",
@@ -76728,10 +76854,10 @@
     "39/0/0/0",
     "37/0/0/2",
     "37/0/0/2",
-    "38/0/0/1",
+    "39/0/0/0",
     "24/0/0/15",
     "28/0/0/11",
-    "38/0/0/1"
+    "39/0/0/0"
   ],
   [
     "events.default.*self*",
@@ -76784,10 +76910,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "events.default.captureRejectionSymbol",
@@ -77330,10 +77456,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "events.captureRejectionSymbol",
@@ -86465,17 +86591,17 @@
   ],
   [
     "http",
-    247,
-    247,
-    "247/0/0/0",
-    "247/0/0/0",
-    "244/0/0/3",
-    "238/2/0/7",
-    "233/0/4/10",
-    "0/0/0/247",
-    "0/1/0/246",
-    "142/0/0/105",
-    "138/7/102/0"
+    253,
+    253,
+    "253/0/0/0",
+    "247/0/0/6",
+    "244/0/0/9",
+    "238/2/0/13",
+    "233/0/4/16",
+    "0/0/0/253",
+    "0/1/0/252",
+    "142/0/0/111",
+    "138/7/100/8"
   ],
   [
     "http.*self*",
@@ -86493,17 +86619,17 @@
   ],
   [
     "http.default",
-    120,
-    120,
-    "120/0/0/0",
-    "120/0/0/0",
-    "120/0/0/0",
-    "118/1/0/1",
-    "115/0/2/3",
-    "0/0/0/120",
-    "0/0/0/120",
-    "71/0/0/49",
-    "69/1/50/0"
+    123,
+    123,
+    "123/0/0/0",
+    "120/0/0/3",
+    "120/0/0/3",
+    "118/1/0/4",
+    "115/0/2/6",
+    "0/0/0/123",
+    "0/0/0/123",
+    "71/0/0/52",
+    "69/1/49/4"
   ],
   [
     "http.default.*self*",
@@ -86548,6 +86674,20 @@
     "stub"
   ],
   [
+    "http.default.CloseEvent",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "http.default.IncomingMessage",
     0,
     "supported",
@@ -86574,6 +86714,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "http.default.MessageEvent",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "http.default.OutgoingMessage",
@@ -87528,6 +87682,20 @@
     "supported"
   ],
   [
+    "http.default.WebSocket",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "http.default._connectionListener",
     0,
     "supported",
@@ -87539,7 +87707,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "http.default.createServer",
@@ -88242,6 +88410,20 @@
     "stub"
   ],
   [
+    "http.CloseEvent",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "http.IncomingMessage",
     0,
     "supported",
@@ -88268,6 +88450,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "http.MessageEvent",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "http.OutgoingMessage",
@@ -89222,6 +89418,20 @@
     "supported"
   ],
   [
+    "http.WebSocket",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "http._connectionListener",
     0,
     "supported",
@@ -89233,7 +89443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported"
   ],
   [
     "http.createServer",
@@ -101073,7 +101283,7 @@
     "58/0/0/4",
     "58/0/0/4",
     "28/10/0/24",
-    "44/4/0/14",
+    "45/4/0/13",
     "0/0/0/62",
     "1/1/0/60",
     "3/9/28/22",
@@ -101927,7 +102137,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub",
@@ -105169,17 +105379,17 @@
   ],
   [
     "path",
-    162,
-    162,
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "152/0/0/10",
-    "152/0/0/10",
-    "22/0/0/140",
-    "72/5/0/85",
-    "152/0/0/10"
+    172,
+    172,
+    "172/0/0/0",
+    "162/0/0/10",
+    "162/0/0/10",
+    "162/0/0/10",
+    "152/0/0/20",
+    "162/0/0/10",
+    "22/0/0/150",
+    "72/5/0/95",
+    "162/0/0/10"
   ],
   [
     "path.*self*",
@@ -105197,17 +105407,17 @@
   ],
   [
     "path.default",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "46/0/0/3",
-    "46/0/0/3",
-    "11/0/0/38",
-    "29/2/0/18",
-    "46/0/0/3"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "46/0/0/6",
+    "49/0/0/3",
+    "11/0/0/41",
+    "29/2/0/21",
+    "49/0/0/3"
   ],
   [
     "path.default.*self*",
@@ -105336,6 +105546,20 @@
     "supported"
   ],
   [
+    "path.default.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "path.default.normalize",
     0,
     "supported",
@@ -105365,17 +105589,17 @@
   ],
   [
     "path.default.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "15/1/0/1",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "15/1/0/2",
+    "17/0/0/1"
   ],
   [
     "path.default.posix.*self*",
@@ -105501,6 +105725,20 @@
     "supported",
     "unsupported",
     "supported",
+    "supported"
+  ],
+  [
+    "path.default.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "supported"
   ],
   [
@@ -105673,17 +105911,17 @@
   ],
   [
     "path.default.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "0/1/0/16",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/1/0/17",
+    "17/0/0/1"
   ],
   [
     "path.default.win32.*self*",
@@ -105806,6 +106044,20 @@
     "supported",
     "supported",
     "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "path.default.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "supported",
     "unsupported",
     "unsupported",
@@ -106036,6 +106288,20 @@
     "supported"
   ],
   [
+    "path.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "path.normalize",
     0,
     "supported",
@@ -106065,17 +106331,17 @@
   ],
   [
     "path.posix",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "46/0/0/3",
-    "46/0/0/3",
-    "0/0/0/49",
-    "29/2/0/18",
-    "46/0/0/3"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "46/0/0/6",
+    "49/0/0/3",
+    "0/0/0/52",
+    "29/2/0/21",
+    "49/0/0/3"
   ],
   [
     "path.posix.*self*",
@@ -106204,6 +106470,20 @@
     "supported"
   ],
   [
+    "path.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "path.posix.normalize",
     0,
     "supported",
@@ -106233,17 +106513,17 @@
   ],
   [
     "path.posix.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "15/1/0/1",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "15/1/0/2",
+    "17/0/0/1"
   ],
   [
     "path.posix.posix.*self*",
@@ -106369,6 +106649,20 @@
     "supported",
     "unsupported",
     "supported",
+    "supported"
+  ],
+  [
+    "path.posix.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "supported"
   ],
   [
@@ -106541,17 +106835,17 @@
   ],
   [
     "path.posix.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "0/1/0/16",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/1/0/17",
+    "17/0/0/1"
   ],
   [
     "path.posix.win32.*self*",
@@ -106674,6 +106968,20 @@
     "supported",
     "supported",
     "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "path.posix.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "supported",
     "unsupported",
     "unsupported",
@@ -106849,17 +107157,17 @@
   ],
   [
     "path.win32",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "46/0/0/3",
-    "46/0/0/3",
-    "0/0/0/49",
-    "0/1/0/48",
-    "46/0/0/3"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "46/0/0/6",
+    "49/0/0/3",
+    "0/0/0/52",
+    "0/1/0/51",
+    "49/0/0/3"
   ],
   [
     "path.win32.*self*",
@@ -106988,6 +107296,20 @@
     "supported"
   ],
   [
+    "path.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "path.win32.normalize",
     0,
     "supported",
@@ -107017,17 +107339,17 @@
   ],
   [
     "path.win32.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "0/0/0/17",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "17/0/0/1"
   ],
   [
     "path.win32.posix.*self*",
@@ -107150,6 +107472,20 @@
     "supported",
     "supported",
     "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "path.win32.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
     "supported",
     "unsupported",
     "unsupported",
@@ -107325,17 +107661,17 @@
   ],
   [
     "path.win32.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "0/0/0/17",
-    "16/0/0/1"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "17/0/0/1"
   ],
   [
     "path.win32.win32.*self*",
@@ -107464,6 +107800,20 @@
     "supported"
   ],
   [
+    "path.win32.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "supported"
+  ],
+  [
     "path.win32.win32.normalize",
     0,
     "supported",
@@ -107577,17 +107927,17 @@
   ],
   [
     "path/posix",
-    162,
-    162,
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "60/0/0/102",
-    "47/0/0/115",
-    "0/1/0/161",
-    "72/5/0/85",
-    "162/0/0/0"
+    172,
+    172,
+    "172/0/0/0",
+    "162/0/0/10",
+    "162/0/0/10",
+    "162/0/0/10",
+    "60/0/0/112",
+    "50/0/0/122",
+    "0/1/0/171",
+    "72/5/0/95",
+    "152/0/0/20"
   ],
   [
     "path/posix.*self*",
@@ -107605,17 +107955,17 @@
   ],
   [
     "path/posix.default",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "46/0/0/3",
-    "46/0/0/3",
-    "0/0/0/49",
-    "29/2/0/18",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "46/0/0/6",
+    "49/0/0/3",
+    "0/0/0/52",
+    "29/2/0/21",
+    "46/0/0/6"
   ],
   [
     "path/posix.default.*self*",
@@ -107643,7 +107993,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.default.basename",
@@ -107744,6 +108094,20 @@
     "supported"
   ],
   [
+    "path/posix.default.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/posix.default.normalize",
     0,
     "supported",
@@ -107773,17 +108137,17 @@
   ],
   [
     "path/posix.default.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "15/1/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "15/1/0/2",
+    "16/0/0/2"
   ],
   [
     "path/posix.default.posix.*self*",
@@ -107811,7 +108175,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.default.posix.basename",
@@ -107910,6 +108274,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "path/posix.default.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.default.posix.normalize",
@@ -108081,17 +108459,17 @@
   ],
   [
     "path/posix.default.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "0/1/0/16",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/1/0/17",
+    "16/0/0/2"
   ],
   [
     "path/posix.default.win32.*self*",
@@ -108119,7 +108497,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.default.win32.basename",
@@ -108218,6 +108596,20 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "path/posix.default.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.default.win32.normalize",
@@ -108343,7 +108735,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.basename",
@@ -108444,6 +108836,20 @@
     "supported"
   ],
   [
+    "path/posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/posix.normalize",
     0,
     "supported",
@@ -108473,17 +108879,17 @@
   ],
   [
     "path/posix.posix",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "0/0/0/49",
-    "0/0/0/49",
-    "0/0/0/49",
-    "29/2/0/18",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "0/0/0/52",
+    "0/0/0/52",
+    "0/0/0/52",
+    "29/2/0/21",
+    "46/0/0/6"
   ],
   [
     "path/posix.posix.*self*",
@@ -108511,7 +108917,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.posix.basename",
@@ -108612,6 +109018,20 @@
     "supported"
   ],
   [
+    "path/posix.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/posix.posix.normalize",
     0,
     "supported",
@@ -108641,17 +109061,17 @@
   ],
   [
     "path/posix.posix.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "15/1/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "15/1/0/2",
+    "16/0/0/2"
   ],
   [
     "path/posix.posix.posix.*self*",
@@ -108679,7 +109099,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.posix.posix.basename",
@@ -108778,6 +109198,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "path/posix.posix.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.posix.posix.normalize",
@@ -108949,17 +109383,17 @@
   ],
   [
     "path/posix.posix.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/1/0/16",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/1/0/17",
+    "16/0/0/2"
   ],
   [
     "path/posix.posix.win32.*self*",
@@ -108987,7 +109421,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.posix.win32.basename",
@@ -109086,6 +109520,20 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "path/posix.posix.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.posix.win32.normalize",
@@ -109257,17 +109705,17 @@
   ],
   [
     "path/posix.win32",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "0/0/0/49",
-    "0/0/0/49",
-    "0/0/0/49",
-    "0/1/0/48",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "0/0/0/52",
+    "0/0/0/52",
+    "0/0/0/52",
+    "0/1/0/51",
+    "46/0/0/6"
   ],
   [
     "path/posix.win32.*self*",
@@ -109295,7 +109743,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.win32.basename",
@@ -109396,6 +109844,20 @@
     "supported"
   ],
   [
+    "path/posix.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/posix.win32.normalize",
     0,
     "supported",
@@ -109425,17 +109887,17 @@
   ],
   [
     "path/posix.win32.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "16/0/0/2"
   ],
   [
     "path/posix.win32.posix.*self*",
@@ -109463,7 +109925,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.win32.posix.basename",
@@ -109562,6 +110024,20 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "path/posix.win32.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.win32.posix.normalize",
@@ -109733,17 +110209,17 @@
   ],
   [
     "path/posix.win32.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "16/0/0/2"
   ],
   [
     "path/posix.win32.win32.*self*",
@@ -109771,7 +110247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/posix.win32.win32.basename",
@@ -109870,6 +110346,20 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "path/posix.win32.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/posix.win32.win32.normalize",
@@ -109985,17 +110475,17 @@
   ],
   [
     "path/win32",
-    162,
-    162,
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "162/0/0/0",
-    "60/0/0/102",
-    "47/0/0/115",
-    "0/1/0/161",
-    "68/4/65/25",
-    "162/0/0/0"
+    172,
+    172,
+    "172/0/0/0",
+    "162/0/0/10",
+    "162/0/0/10",
+    "162/0/0/10",
+    "60/0/0/112",
+    "50/0/0/122",
+    "0/1/0/171",
+    "68/4/65/35",
+    "152/0/0/20"
   ],
   [
     "path/win32.*self*",
@@ -110013,17 +110503,17 @@
   ],
   [
     "path/win32.default",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "46/0/0/3",
-    "46/0/0/3",
-    "0/0/0/49",
-    "19/1/26/3",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "46/0/0/6",
+    "49/0/0/3",
+    "0/0/0/52",
+    "19/1/26/6",
+    "46/0/0/6"
   ],
   [
     "path/win32.default.*self*",
@@ -110051,7 +110541,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.default.basename",
@@ -110152,6 +110642,20 @@
     "supported"
   ],
   [
+    "path/win32.default.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/win32.default.normalize",
     0,
     "supported",
@@ -110181,17 +110685,17 @@
   ],
   [
     "path/win32.default.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "15/1/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "15/1/0/2",
+    "16/0/0/2"
   ],
   [
     "path/win32.default.posix.*self*",
@@ -110219,7 +110723,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.default.posix.basename",
@@ -110318,6 +110822,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "path/win32.default.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.default.posix.normalize",
@@ -110489,17 +111007,17 @@
   ],
   [
     "path/win32.default.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "0/0/0/17",
-    "3/0/13/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "16/0/0/2",
+    "17/0/0/1",
+    "0/0/0/18",
+    "3/0/13/2",
+    "16/0/0/2"
   ],
   [
     "path/win32.default.win32.*self*",
@@ -110527,7 +111045,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.default.win32.basename",
@@ -110626,6 +111144,20 @@
     "unsupported",
     "stub",
     "supported"
+  ],
+  [
+    "path/win32.default.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.default.win32.normalize",
@@ -110751,7 +111283,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.basename",
@@ -110852,6 +111384,20 @@
     "supported"
   ],
   [
+    "path/win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/win32.normalize",
     0,
     "supported",
@@ -110881,17 +111427,17 @@
   ],
   [
     "path/win32.posix",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "0/0/0/49",
-    "0/0/0/49",
-    "0/0/0/49",
-    "29/2/0/18",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "0/0/0/52",
+    "0/0/0/52",
+    "0/0/0/52",
+    "29/2/0/21",
+    "46/0/0/6"
   ],
   [
     "path/win32.posix.*self*",
@@ -110919,7 +111465,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.posix.basename",
@@ -111020,6 +111566,20 @@
     "supported"
   ],
   [
+    "path/win32.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/win32.posix.normalize",
     0,
     "supported",
@@ -111049,17 +111609,17 @@
   ],
   [
     "path/win32.posix.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "15/1/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "15/1/0/2",
+    "16/0/0/2"
   ],
   [
     "path/win32.posix.posix.*self*",
@@ -111087,7 +111647,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.posix.posix.basename",
@@ -111186,6 +111746,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "path/win32.posix.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.posix.posix.normalize",
@@ -111357,17 +111931,17 @@
   ],
   [
     "path/win32.posix.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/1/0/16",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/1/0/17",
+    "16/0/0/2"
   ],
   [
     "path/win32.posix.win32.*self*",
@@ -111395,7 +111969,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.posix.win32.basename",
@@ -111494,6 +112068,20 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "path/win32.posix.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.posix.win32.normalize",
@@ -111665,17 +112253,17 @@
   ],
   [
     "path/win32.win32",
-    49,
-    49,
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "49/0/0/0",
-    "0/0/0/49",
-    "0/0/0/49",
-    "0/0/0/49",
-    "19/1/26/3",
-    "49/0/0/0"
+    52,
+    52,
+    "52/0/0/0",
+    "49/0/0/3",
+    "49/0/0/3",
+    "49/0/0/3",
+    "0/0/0/52",
+    "0/0/0/52",
+    "0/0/0/52",
+    "19/1/26/6",
+    "46/0/0/6"
   ],
   [
     "path/win32.win32.*self*",
@@ -111703,7 +112291,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.win32.basename",
@@ -111804,6 +112392,20 @@
     "supported"
   ],
   [
+    "path/win32.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "path/win32.win32.normalize",
     0,
     "supported",
@@ -111833,17 +112435,17 @@
   ],
   [
     "path/win32.win32.posix",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "15/1/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "15/1/0/2",
+    "16/0/0/2"
   ],
   [
     "path/win32.win32.posix.*self*",
@@ -111871,7 +112473,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.win32.posix.basename",
@@ -111970,6 +112572,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "path/win32.win32.posix.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.win32.posix.normalize",
@@ -112141,17 +112757,17 @@
   ],
   [
     "path/win32.win32.win32",
-    17,
-    17,
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "17/0/0/0",
-    "0/0/0/17",
-    "0/0/0/17",
-    "0/0/0/17",
-    "3/0/13/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "17/0/0/1",
+    "17/0/0/1",
+    "17/0/0/1",
+    "0/0/0/18",
+    "0/0/0/18",
+    "0/0/0/18",
+    "3/0/13/2",
+    "16/0/0/2"
   ],
   [
     "path/win32.win32.win32.*self*",
@@ -112179,7 +112795,7 @@
     "unsupported",
     "unsupported",
     "stub",
-    "supported"
+    "unsupported"
   ],
   [
     "path/win32.win32.win32.basename",
@@ -112278,6 +112894,20 @@
     "unsupported",
     "stub",
     "supported"
+  ],
+  [
+    "path/win32.win32.win32.matchesGlob",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "path/win32.win32.win32.normalize",
@@ -112399,7 +113029,7 @@
     "124/0/0/1",
     "119/0/0/6",
     "86/2/0/37",
-    "34/2/6/83",
+    "34/0/8/83",
     "0/0/0/125",
     "0/1/0/124",
     "18/8/0/99",
@@ -112427,7 +113057,7 @@
     "56/0/0/0",
     "53/0/0/3",
     "37/1/0/18",
-    "17/1/3/35",
+    "17/0/4/35",
     "0/0/0/56",
     "0/0/0/56",
     "9/4/0/43",
@@ -112511,7 +113141,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "stub",
     "unsupported",
     "unsupported",
     "mismatch",
@@ -113309,7 +113939,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "stub",
     "unsupported",
     "unsupported",
     "mismatch",
@@ -114241,17 +114871,17 @@
   ],
   [
     "process",
-    1458,
-    1458,
-    "1443/0/0/15",
-    "1430/0/0/28",
-    "1394/5/0/59",
-    "633/13/0/812",
-    "609/14/0/835",
-    "8/0/0/1450",
-    "39/0/0/1419",
-    "142/10/0/1306",
-    "145/56/1094/163"
+    1471,
+    1471,
+    "1454/0/0/17",
+    "1435/0/0/36",
+    "1394/5/0/72",
+    "633/13/0/825",
+    "612/14/0/845",
+    "8/0/0/1463",
+    "39/0/0/1432",
+    "142/10/0/1319",
+    "145/56/1094/176"
   ],
   [
     "process.*self*",
@@ -114269,17 +114899,17 @@
   ],
   [
     "process.default",
-    527,
-    527,
-    "522/0/0/5",
-    "518/0/0/9",
-    "515/0/0/12",
-    "276/5/0/246",
-    "273/5/0/249",
-    "4/0/0/523",
-    "23/0/0/504",
-    "76/5/0/446",
-    "78/22/394/33"
+    533,
+    533,
+    "527/0/0/6",
+    "519/0/0/14",
+    "515/0/0/18",
+    "276/5/0/252",
+    "273/5/0/255",
+    "4/0/0/529",
+    "23/0/0/510",
+    "76/5/0/452",
+    "78/22/394/39"
   ],
   [
     "process.default.*self*",
@@ -115388,6 +116018,76 @@
     "mismatch"
   ],
   [
+    "process.default.finalization",
+    4,
+    4,
+    "4/0/0/0",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4"
+  ],
+  [
+    "process.default.finalization.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.default.finalization.register",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.default.finalization.registerBeforeExit",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.default.finalization.unregister",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.default.getActiveResourcesInfo",
     0,
     "supported",
@@ -115406,7 +116106,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -121437,17 +122137,17 @@
   ],
   [
     "process.default.versions",
-    26,
-    26,
-    "26/0/0/0",
-    "25/0/0/1",
-    "25/0/0/1",
-    "11/0/0/15",
-    "18/0/0/8",
-    "0/0/0/26",
-    "1/0/0/25",
-    "1/0/0/25",
-    "9/0/0/17"
+    28,
+    28,
+    "27/0/0/1",
+    "25/0/0/3",
+    "25/0/0/3",
+    "11/0/0/17",
+    "18/0/0/10",
+    "0/0/0/28",
+    "1/0/0/27",
+    "1/0/0/27",
+    "9/0/0/19"
   ],
   [
     "process.default.versions.*self*",
@@ -121509,7 +122209,7 @@
     "process.default.versions.base64",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "supported",
     "unsupported",
@@ -121618,6 +122318,20 @@
     "unsupported"
   ],
   [
+    "process.default.versions.nbytes",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.default.versions.nghttp2",
     0,
     "supported",
@@ -121708,6 +122422,20 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.default.versions.sqlite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -122473,17 +123201,17 @@
   ],
   [
     "process.config",
-    100,
-    100,
-    "98/0/0/2",
-    "93/0/0/7",
-    "89/0/0/11",
-    "3/0/0/97",
-    "0/0/0/100",
-    "0/0/0/100",
-    "1/0/0/99",
-    "1/0/0/99",
-    "1/0/0/99"
+    101,
+    101,
+    "99/0/0/2",
+    "96/0/0/5",
+    "89/0/0/12",
+    "3/0/0/98",
+    "0/0/0/101",
+    "0/0/0/101",
+    "1/0/0/100",
+    "1/0/0/100",
+    "1/0/0/100"
   ],
   [
     "process.config.*self*",
@@ -122599,17 +123327,17 @@
   ],
   [
     "process.config.variables",
-    93,
-    93,
-    "91/0/0/2",
-    "86/0/0/7",
-    "82/0/0/11",
-    "1/0/0/92",
-    "0/0/0/93",
-    "0/0/0/93",
-    "0/0/0/93",
-    "0/0/0/93",
-    "0/0/0/93"
+    94,
+    94,
+    "92/0/0/2",
+    "89/0/0/5",
+    "82/0/0/12",
+    "1/0/0/93",
+    "0/0/0/94",
+    "0/0/0/94",
+    "0/0/0/94",
+    "0/0/0/94",
+    "0/0/0/94"
   ],
   [
     "process.config.variables.*self*",
@@ -123148,7 +123876,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -123274,7 +124002,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -123285,6 +124013,20 @@
   ],
   [
     "process.config.variables.node_shared_simdutf",
+    0,
+    "supported",
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.config.variables.node_shared_sqlite",
     0,
     "supported",
     "supported",
@@ -124250,6 +124992,76 @@
     "mismatch"
   ],
   [
+    "process.finalization",
+    4,
+    4,
+    "4/0/0/0",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4",
+    "0/0/0/4"
+  ],
+  [
+    "process.finalization.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.finalization.register",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.finalization.registerBeforeExit",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.finalization.unregister",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.getActiveResourcesInfo",
     0,
     "supported",
@@ -124268,7 +125080,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -124299,7 +125111,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -124313,7 +125125,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -124341,7 +125153,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -134807,17 +135619,17 @@
   ],
   [
     "process.versions",
-    26,
-    26,
-    "26/0/0/0",
-    "25/0/0/1",
-    "25/0/0/1",
-    "11/0/0/15",
-    "18/0/0/8",
-    "0/0/0/26",
-    "1/0/0/25",
-    "1/0/0/25",
-    "9/0/0/17"
+    28,
+    28,
+    "27/0/0/1",
+    "25/0/0/3",
+    "25/0/0/3",
+    "11/0/0/17",
+    "18/0/0/10",
+    "0/0/0/28",
+    "1/0/0/27",
+    "1/0/0/27",
+    "9/0/0/19"
   ],
   [
     "process.versions.*self*",
@@ -134879,7 +135691,7 @@
     "process.versions.base64",
     0,
     "supported",
-    "supported",
+    "unsupported",
     "supported",
     "supported",
     "unsupported",
@@ -134988,6 +135800,20 @@
     "unsupported"
   ],
   [
+    "process.versions.nbytes",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "process.versions.nghttp2",
     0,
     "supported",
@@ -135078,6 +135904,20 @@
     "supported",
     "supported",
     "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "process.versions.sqlite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -136550,10 +137390,10 @@
     "87/0/0/2",
     "67/0/0/22",
     "59/0/0/30",
-    "88/0/0/1",
+    "89/0/0/0",
     "33/0/0/56",
     "43/0/0/46",
-    "78/0/0/11"
+    "89/0/0/0"
   ],
   [
     "stream.*self*",
@@ -136578,10 +137418,10 @@
     "63/0/0/1",
     "44/0/0/20",
     "47/0/0/17",
-    "63/0/0/1",
+    "64/0/0/0",
     "26/0/0/38",
     "31/0/0/33",
-    "58/0/0/6"
+    "64/0/0/0"
   ],
   [
     "stream.default.*self*",
@@ -136721,7 +137561,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default._isUint8Array",
@@ -136760,10 +137600,10 @@
     "supported",
     "unsupported",
     "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
-    "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default.addAbortSignal",
@@ -136889,7 +137729,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default.getEventListeners",
@@ -136945,7 +137785,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default.isDisturbed",
@@ -137001,7 +137841,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default.kMaxEventTargetListeners",
@@ -137477,7 +138317,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.default.setMaxListeners",
@@ -137603,7 +138443,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream._isUint8Array",
@@ -137701,7 +138541,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.isDestroyed",
@@ -137715,7 +138555,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.isDisturbed",
@@ -137771,7 +138611,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream.pipeline",
@@ -137855,7 +138695,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "stream/consumers",
@@ -138793,7 +139633,7 @@
     "0/0/0/174",
     "46/0/0/128",
     "136/0/0/38",
-    "160/0/14/0"
+    "162/0/12/0"
   ],
   [
     "sys.*self*",
@@ -138821,7 +139661,7 @@
     "0/0/0/87",
     "23/0/0/64",
     "68/0/0/19",
-    "80/0/7/0"
+    "81/0/6/0"
   ],
   [
     "sys.default.*self*",
@@ -139451,7 +140291,7 @@
     "0/0/0/43",
     "0/0/0/43",
     "41/0/0/2",
-    "42/0/1/0"
+    "43/0/0/0"
   ],
   [
     "sys.default.types.*self*",
@@ -139661,7 +140501,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.default.types.isFloat32Array",
@@ -140669,7 +141509,7 @@
     "0/0/0/43",
     "0/0/0/43",
     "41/0/0/2",
-    "42/0/1/0"
+    "43/0/0/0"
   ],
   [
     "sys.types.*self*",
@@ -140879,7 +141719,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "sys.types.isFloat32Array",
@@ -143399,7 +144239,7 @@
     "130/0/0/44",
     "46/0/0/128",
     "136/0/0/38",
-    "160/0/14/0"
+    "162/0/12/0"
   ],
   [
     "util.*self*",
@@ -143427,7 +144267,7 @@
     "65/0/0/22",
     "23/0/0/64",
     "68/0/0/19",
-    "80/0/7/0"
+    "81/0/6/0"
   ],
   [
     "util.default.*self*",
@@ -144057,7 +144897,7 @@
     "43/0/0/0",
     "0/0/0/43",
     "41/0/0/2",
-    "42/0/1/0"
+    "43/0/0/0"
   ],
   [
     "util.default.types.*self*",
@@ -144267,7 +145107,7 @@
     "supported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "util.default.types.isFloat32Array",
@@ -145275,7 +146115,7 @@
     "43/0/0/0",
     "0/0/0/43",
     "41/0/0/2",
-    "42/0/1/0"
+    "43/0/0/0"
   ],
   [
     "util.types.*self*",
@@ -145485,7 +146325,7 @@
     "supported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "util.types.isFloat32Array",
@@ -148513,17 +149353,17 @@
   ],
   [
     "worker_threads",
-    34,
-    34,
-    "34/0/0/0",
-    "32/0/0/2",
-    "32/0/0/2",
-    "30/2/0/2",
-    "26/0/6/2",
-    "0/0/0/34",
-    "0/1/0/33",
-    "26/6/0/2",
-    "34/0/0/0"
+    36,
+    36,
+    "36/0/0/0",
+    "32/0/0/4",
+    "32/0/0/4",
+    "30/2/0/4",
+    "26/0/6/4",
+    "0/0/0/36",
+    "0/1/0/35",
+    "26/6/0/4",
+    "34/0/0/2"
   ],
   [
     "worker_threads.*self*",
@@ -148541,17 +149381,17 @@
   ],
   [
     "worker_threads.default",
-    17,
-    17,
-    "17/0/0/0",
-    "16/0/0/1",
-    "16/0/0/1",
-    "15/1/0/1",
-    "13/0/3/1",
-    "0/0/0/17",
-    "0/0/0/17",
-    "13/3/0/1",
-    "17/0/0/0"
+    18,
+    18,
+    "18/0/0/0",
+    "16/0/0/2",
+    "16/0/0/2",
+    "15/1/0/2",
+    "13/0/3/2",
+    "0/0/0/18",
+    "0/0/0/18",
+    "13/3/0/2",
+    "17/0/0/1"
   ],
   [
     "worker_threads.default.*self*",
@@ -148720,6 +149560,20 @@
     "unsupported",
     "supported",
     "supported"
+  ],
+  [
+    "worker_threads.default.postMessageToThread",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "worker_threads.default.receiveMessageOnPort",
@@ -148960,6 +149814,20 @@
     "supported"
   ],
   [
+    "worker_threads.postMessageToThread",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "worker_threads.receiveMessageOnPort",
     0,
     "supported",
@@ -149048,7 +149916,7 @@
     374,
     374,
     "374/0/0/0",
-    "372/0/0/2",
+    "374/0/0/0",
     "372/0/0/2",
     "184/4/0/186",
     "324/0/4/46",
@@ -149076,7 +149944,7 @@
     209,
     209,
     "209/0/0/0",
-    "208/0/0/1",
+    "209/0/0/0",
     "208/0/0/1",
     "109/2/0/98",
     "162/0/2/45",
@@ -151708,7 +152576,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -154032,7 +154900,7 @@
     0,
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
