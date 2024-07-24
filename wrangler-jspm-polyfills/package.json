@@ -1,7 +1,0 @@
-{
-  "name": "wrangler-jspm-dump",
-  "private": "true",
-  "devDependencies": {
-    "wrangler": "0.0.0-97cb5b13"
-  }
-}

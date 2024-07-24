@@ -9,7 +9,6 @@ import node22 from "./data/node-22.json" with { type: "json" };
 import bun from "./data/bun.json" with { type: "json" };
 import deno from "./data/deno.json" with { type: "json" };
 import workerd from "./data/workerd.json" with { type: "json" };
-import wranglerJspm from "./data/wrangler-jspm-polyfills.json" with { type: "json" };
 import wranglerUnenv from "./data/wrangler-unenv-polyfills.json" with { type: "json" };
 import wranglerV3 from "./data/wrangler-v3-polyfills.json" with { type: "json" };
 import versionMap from "./report/src/data/versionMap.json" with { type: "json" };
@@ -26,7 +25,6 @@ const targets = {
   deno,
   workerd,
   wranglerV3,
-  wranglerJspm,
   wranglerUnenv,
 };
 
@@ -204,7 +202,6 @@ csvData.unshift([
   "deno",
   "workerd",
   "wranglerV3",
-  "wranglerJspm",
   "wranglerUnenv",
 ]);
 

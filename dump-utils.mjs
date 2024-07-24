@@ -93,9 +93,6 @@ export function visit(traversalNode, targetNode = traversalNode, depth = 0) {
 
         // Detect unimplemented stubs
         if (
-          // jspm
-          code.includes("not supported by JSPM") || // https://github.com/jspm/jspm-core/blob/7af7d7413f472305d08d0d78ec3d1f15588be50a/src-browser/fs.js#L8
-          code.includes("unimplemented(") || // https://github.com/jspm/jspm-core/blob/7af7d7413f472305d08d0d78ec3d1f15588be50a/src-browser/tls.js#L1
           // unenv https://github.com/unjs/unenv/blob/c6dca1dfac95bd6359e8575d4456635914823701/src/runtime/_internal/utils.ts#L30
           // deno https://github.com/denoland/deno/blob/8eb1f11112c3ced0ff4a35f3487a4da507db05c2/ext/node/polyfills/_utils.ts#L25
           code.includes("notImplemented(")

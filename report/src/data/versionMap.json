@@ -6,6 +6,5 @@
   "deno": "1.44.2",
   "workerd": "1.20240722.0",
   "wranglerV3": "3.66.0",
-  "wranglerJspm": "@jspm/core@2.0.1",
   "wranglerUnenv": "unenv@1.10.0-1717606461.a117952"
 }

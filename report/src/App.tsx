@@ -23,7 +23,6 @@ const targetTitles = {
   deno: "deno",
   workerd: "workerd",
   wranglerV3: "wrangler",
-  wranglerJspm: "wrangler",
   wranglerUnenv: "wrangler",
 };
 
