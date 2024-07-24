@@ -285,6 +285,20 @@ const App = () => {
           </div>
           <Legend />
         </div>
+        <div className="text-left mb-5 text-sm">
+          <h3 className="font-semibold text-lg mb-1">Notes</h3>
+          <ul className="list-disc list-inside">
+            <li className="mb-1">
+              All percentages in the table represent API presence whether the shape of the API 
+              matches against the baseline. They are not a calculation of implementation compliance. 
+            </li>
+            <li className="mb-1">
+              The <span className="font-semibold">Baseline</span> column represents a union of Node.js v18, v20, and v22 API surfaces 
+              that we use as node API compatibility target.
+            </li>
+          </ul>
+
+        </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="sticky top-0 bg-white">
