@@ -20,9 +20,6 @@ export const getPolyfillSearchLink = (target: string, symbol: string) => {
     case "wranglerV3":
       filter = `repo:ionic-team/rollup-plugin-node-polyfills path:/^polyfills\\//`;
       break;
-    case "wranglerJspm":
-      filter = `repo:jspm/jspm-core path:/^src-browser\\//`;
-      break;
     case "wranglerUnenv":
       filter = `repo:unjs/unenv path:/^src\\/runtime\\/node\\//`;
       break;

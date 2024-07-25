@@ -21,7 +21,6 @@ const WORKERD_APIS = readAPIs("workerd");
 // TODO: update directory names and add 3rd wrangler version
 // const WRANGLER_OLD_POLYFILLS_APIS = readAPIs("wrangler-old-polyfills");
 // const WRANGLER_NEW_POLYFILLS_APIS = readAPIs("wrangler-new-polyfills");
-const WRANGLER_OLD_POLYFILLS_APIS = readAPIs("wrangler-jspm-polyfills");
 const WRANGLER_NEW_POLYFILLS_APIS = readAPIs("wrangler-v3-polyfills");
 
 function get(object, path) {

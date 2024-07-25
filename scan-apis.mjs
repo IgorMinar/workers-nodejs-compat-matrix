@@ -14,7 +14,6 @@ const supportedEnvironments = [
   "deno",
   "workerd",
   "wrangler-v3",
-  "wrangler-jspm",
   "wrangler-unenv",
 ];
 
@@ -40,7 +39,7 @@ if (
     --only wrangler-unenv
     --only workerd,wrangler-unenv
 
-  Supported environments: node, bun, deno, workerd, wrangler-v3, wrangler-jspm, and wrangler-unenv
+  Supported environments: node, bun, deno, workerd, wrangler-v3, and wrangler-unenv
   `);
   process.exit(1);
 }
@@ -132,15 +131,6 @@ if (regenerateEnvs.includes("wrangler-v3")) {
     "wrangler-v3-polyfills",
     "wrangler"
   );
-}
-
-// wrangler-jspm
-if (regenerateEnvs.includes("wrangler-jspm")) {
-  shell.echo("Generate wrangler-jspm + --node_compat apis...");
-  shell.exec(volta + "run --node 20 node wrangler-jspm-polyfills/dump.mjs");
-  shell.echo("=== Done ====================================\n\n");
-  versionMap["wranglerJspm"] =
-    "@jspm/core@" + extractNpmVersion("wrangler-jspm-polyfills", "@jspm/core");
 }
 
 // wrangler-unenv

@@ -2,7 +2,7 @@
   "name": "wrangler-unvenv-dump",
   "private": "true",
   "devDependencies": {
-    "wrangler": "^3.60.2"
+    "wrangler": "^3.66.0"
   },
   "scripts": {
     "dev": "wrangler dev",

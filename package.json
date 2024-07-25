@@ -8,7 +8,7 @@
   },
   "scripts": {
     "generate:script": "node ./generate-worker-script.mjs > worker.mjs && prettier worker.mjs --write && pnpm run copy:script",
-    "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-jspm-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
+    "copy:script": "cp worker.mjs wrangler-v3-polyfills && cp worker.mjs wrangler-unenv-polyfills && rm worker.mjs",
     "scan:apis": "node ./scan-apis.mjs",
     "scan:apis:unenv": "node ./scan-apis.mjs --only wrangler-unenv",
     "generate:baseline": "node ./generate-baseline.mjs",
@@ -23,8 +23,8 @@
   "pnpm": {
     "overrides": {
       "note": "overrides for wrangler-unenv-polyfills",
-      "wrangler@3.60.2>unenv": "npm:unenv-nightly",
-      "miniflare@3.60.2>workerd": "1.20240610.1"
+      "wrangler@3.66.0>unenv": "npm:unenv-nightly",
+      "miniflare@3.66.0>workerd": "1.20240610.1"
     }
   }
 }

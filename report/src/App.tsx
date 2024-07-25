@@ -23,7 +23,6 @@ const targetTitles = {
   deno: "deno",
   workerd: "workerd",
   wranglerV3: "wrangler",
-  wranglerJspm: "wrangler",
   wranglerUnenv: "wrangler",
 };
 
@@ -192,13 +191,13 @@ const App = () => {
         key={path}
       >
         <TableCell>
-          <div className="flex justify-start items-center gap-2">
+          <div className="flex justify-start items-center gap-2 text-sm">
             {renderKeyValue()}
             {leafCount > 0 && !expanded.includes(path) && (
-              <span className="text-sm">▶</span>
+              <span className="text-xs">▶</span>
             )}
             {leafCount > 0 && expanded.includes(path) && (
-              <span className="text-sm">▼</span>
+              <span className="text-xs">▼</span>
             )}
           </div>
         </TableCell>
@@ -257,7 +256,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="max-w-[85%] mx-auto py-10">
+      <div className="container mx-auto py-10">
         <div className="my-5 flex justify-between items-center">
           <div className="flex gap-2">
             <a
@@ -286,16 +285,30 @@ const App = () => {
           </div>
           <Legend />
         </div>
+        <div className="text-left mb-5 text-sm">
+          <h3 className="font-semibold text-lg mb-1">Notes</h3>
+          <ul className="list-disc list-inside">
+            <li className="mb-1">
+              All percentages in the table represent API presence whether the shape of the API 
+              matches against the baseline. They are not a calculation of implementation compliance. 
+            </li>
+            <li className="mb-1">
+              The <span className="font-semibold">Baseline</span> column represents a union of Node.js v18, v20, and v22 API surfaces 
+              that we use as node API compatibility target.
+            </li>
+          </ul>
+
+        </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="sticky top-0 bg-white">
-              <TableHeaderCell width="min-w-[40ch]">API</TableHeaderCell>
+              <TableHeaderCell width="min-w-[35ch]">API</TableHeaderCell>
               <TableHeaderCell width="min-w-[8ch]">
                 <div>baseline</div>
                 <div className="text-xs font-light">22+20+18</div>
               </TableHeaderCell>
               {Object.entries(targetTitles).map(([targetKey, title]) => (
-                <TableHeaderCell width="w-[18ch]">
+                <TableHeaderCell width="w-[15ch]">
                   <div>{title}</div>
                   <div className="text-xs font-light">
                     {versionMap[targetKey as keyof typeof versionMap]}
