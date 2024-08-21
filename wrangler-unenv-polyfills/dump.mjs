@@ -39,7 +39,7 @@ const spawnWrangler = async () => {
 
   const kill = async () => {
     wranglerProcess.kill("SIGTERM");
-    return new Promise((res) => {
+    return new Promise((res, rej) => {
       wranglerProcess.on("close", () => res());
       wranglerProcess.on("error", () => rej());
     });

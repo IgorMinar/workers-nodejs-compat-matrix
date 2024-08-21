@@ -2459,6 +2459,7 @@
         "*self*": "object",
         "acorn": "string",
         "ada": "string",
+        "amaro": "string",
         "ares": "string",
         "base64": "missing",
         "brotli": "string",
@@ -2469,6 +2470,7 @@
         "modules": "string",
         "napi": "string",
         "nbytes": "string",
+        "ncrypto": "string",
         "nghttp2": "string",
         "nghttp3": "string",
         "ngtcp2": "string",
@@ -2929,6 +2931,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3067,6 +3070,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3206,6 +3210,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3329,6 +3334,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3467,6 +3473,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3641,6 +3648,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "fromWeb": "function",
@@ -7310,6 +7318,12 @@
   },
   "inspector": {
     "*self*": "object",
+    "Network": {
+      "*self*": "object",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
+    },
     "Session": "class",
     "close": "function",
     "console": {
@@ -7340,6 +7354,12 @@
     },
     "default": {
       "*self*": "object",
+      "Network": {
+        "*self*": "object",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
+      },
       "Session": "class",
       "close": "function",
       "console": {
@@ -7378,6 +7398,12 @@
   },
   "inspector/promises": {
     "*self*": "object",
+    "Network": {
+      "*self*": "object",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
+    },
     "Session": "class",
     "close": "function",
     "console": {
@@ -7408,6 +7434,12 @@
     },
     "default": {
       "*self*": "object",
+      "Network": {
+        "*self*": "object",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
+      },
       "Session": "class",
       "close": "function",
       "console": {
@@ -8523,6 +8555,7 @@
       "target_defaults": {
         "*self*": "object",
         "cflags": "object",
+        "configurations": "object",
         "default_configuration": "string",
         "defines": "object",
         "include_dirs": "object",
@@ -8549,7 +8582,7 @@
         "icu_path": "string",
         "icu_small": "boolean",
         "icu_ver_major": "string",
-        "is_debug": "number",
+        "is_debug": "missing",
         "libdir": "string",
         "llvm_version": "string",
         "napi_build_version": "string",
@@ -8612,8 +8645,9 @@
         "v8_enable_maglev": "number",
         "v8_enable_object_print": "number",
         "v8_enable_pointer_compression": "number",
+        "v8_enable_sandbox": "number",
         "v8_enable_shared_ro_heap": "number",
-        "v8_enable_v8_checks": "number",
+        "v8_enable_v8_checks": "missing",
         "v8_enable_webassembly": "number",
         "v8_no_strict_aliasing": "number",
         "v8_optimized_debug": "number",
@@ -9161,6 +9195,7 @@
         "*self*": "object",
         "acorn": "string",
         "ada": "string",
+        "amaro": "string",
         "ares": "string",
         "base64": "missing",
         "brotli": "string",
@@ -9171,6 +9206,7 @@
         "modules": "string",
         "napi": "string",
         "nbytes": "string",
+        "ncrypto": "string",
         "nghttp2": "string",
         "nghttp3": "string",
         "ngtcp2": "string",
@@ -9991,6 +10027,7 @@
       "*self*": "object",
       "acorn": "string",
       "ada": "string",
+      "amaro": "string",
       "ares": "string",
       "base64": "missing",
       "brotli": "string",
@@ -10001,6 +10038,7 @@
       "modules": "string",
       "napi": "string",
       "nbytes": "string",
+      "ncrypto": "string",
       "nghttp2": "string",
       "nghttp3": "string",
       "ngtcp2": "string",
@@ -10162,6 +10200,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "function",
       "errorMonitor": "symbol",
       "finished": "function",
       "getDefaultHighWaterMark": "function",
@@ -10213,6 +10252,7 @@
       "usingDomains": "boolean"
     },
     "destroy": "function",
+    "duplexPair": "function",
     "finished": "function",
     "getDefaultHighWaterMark": "function",
     "isDestroyed": "function",
