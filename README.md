@@ -1,6 +1,6 @@
 # Workers Node.js Support
 
-Quick and dirty audit of Node.js support across Workers. See <https://workers-compat-matrix.pages.dev/>
+Quick and dirty audit of Node.js support across Workers. See <https://workers-nodejs-compat-matrix.pages.dev>
 
 To build and deploy the report:
 
