@@ -2459,6 +2459,7 @@
         "*self*": "object",
         "acorn": "string",
         "ada": "string",
+        "amaro": "missing",
         "ares": "string",
         "base64": "string",
         "brotli": "string",
@@ -2469,6 +2470,7 @@
         "modules": "string",
         "napi": "string",
         "nbytes": "missing",
+        "ncrypto": "missing",
         "nghttp2": "string",
         "nghttp3": "string",
         "ngtcp2": "string",
@@ -2929,6 +2931,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3067,6 +3070,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3206,6 +3210,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3329,6 +3334,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3467,6 +3473,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "from": "function",
@@ -3641,6 +3648,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "fromWeb": "function",
@@ -7310,6 +7318,12 @@
   },
   "inspector": {
     "*self*": "object",
+    "Network": {
+      "*self*": "missing",
+      "loadingFinished": "missing",
+      "requestWillBeSent": "missing",
+      "responseReceived": "missing"
+    },
     "Session": "class",
     "close": "function",
     "console": {
@@ -7340,6 +7354,12 @@
     },
     "default": {
       "*self*": "object",
+      "Network": {
+        "*self*": "missing",
+        "loadingFinished": "missing",
+        "requestWillBeSent": "missing",
+        "responseReceived": "missing"
+      },
       "Session": "class",
       "close": "function",
       "console": {
@@ -7378,6 +7398,12 @@
   },
   "inspector/promises": {
     "*self*": "missing",
+    "Network": {
+      "*self*": "missing",
+      "loadingFinished": "missing",
+      "requestWillBeSent": "missing",
+      "responseReceived": "missing"
+    },
     "Session": "missing",
     "close": "missing",
     "console": {
@@ -7408,6 +7434,12 @@
     },
     "default": {
       "*self*": "missing",
+      "Network": {
+        "*self*": "missing",
+        "loadingFinished": "missing",
+        "requestWillBeSent": "missing",
+        "responseReceived": "missing"
+      },
       "Session": "missing",
       "close": "missing",
       "console": {
@@ -8523,6 +8555,7 @@
       "target_defaults": {
         "*self*": "object",
         "cflags": "object",
+        "configurations": "missing",
         "default_configuration": "string",
         "defines": "object",
         "include_dirs": "object",
@@ -8612,6 +8645,7 @@
         "v8_enable_maglev": "missing",
         "v8_enable_object_print": "number",
         "v8_enable_pointer_compression": "number",
+        "v8_enable_sandbox": "missing",
         "v8_enable_shared_ro_heap": "number",
         "v8_enable_v8_checks": "missing",
         "v8_enable_webassembly": "number",
@@ -9161,6 +9195,7 @@
         "*self*": "object",
         "acorn": "string",
         "ada": "string",
+        "amaro": "missing",
         "ares": "string",
         "base64": "string",
         "brotli": "string",
@@ -9171,6 +9206,7 @@
         "modules": "string",
         "napi": "string",
         "nbytes": "missing",
+        "ncrypto": "missing",
         "nghttp2": "string",
         "nghttp3": "string",
         "ngtcp2": "string",
@@ -9991,6 +10027,7 @@
       "*self*": "object",
       "acorn": "string",
       "ada": "string",
+      "amaro": "missing",
       "ares": "string",
       "base64": "string",
       "brotli": "string",
@@ -10001,6 +10038,7 @@
       "modules": "string",
       "napi": "string",
       "nbytes": "missing",
+      "ncrypto": "missing",
       "nghttp2": "string",
       "nghttp3": "string",
       "ngtcp2": "string",
@@ -10162,6 +10200,7 @@
       "compose": "function",
       "defaultMaxListeners": "number",
       "destroy": "function",
+      "duplexPair": "missing",
       "errorMonitor": "symbol",
       "finished": "function",
       "getDefaultHighWaterMark": "function",
@@ -10213,6 +10252,7 @@
       "usingDomains": "boolean"
     },
     "destroy": "function",
+    "duplexPair": "missing",
     "finished": "function",
     "getDefaultHighWaterMark": "function",
     "isDestroyed": "function",

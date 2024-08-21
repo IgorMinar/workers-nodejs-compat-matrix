@@ -2,7 +2,7 @@
 
 Quick and dirty audit of Node.js support across Workers. See <https://workers-nodejs-compat-matrix.pages.dev>
 
-To build and deploy the report:
+## Install
 
 Install Volta:
 
@@ -24,12 +24,37 @@ Install Bun:
 brew install oven-sh/bun/bun
 ```
 
-Install deps, call report generation script, and render the UI:
+Install the dependencies
 
 ```shell
 pnpm install
-pnpm run generate
-pnpm run report:dev
 ```
 
-The `generate` toolchain requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm run generate`.
+## Generate the report
+
+Update the dependencies
+
+```shell
+pnpm update unenv
+pnpm update -r
+```
+
+> [!IMPORTANT]
+> Update Bun and Deno, i.e. using `brew upgrade`on mac.
+
+Generate the report
+
+```shell
+pnpm run generate
+```
+
+> [!IMPORTANT]
+> This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm run generate`.
+
+## Serve a local version of the report
+
+Use
+
+```shell
+pnpm run report:dev
+```
