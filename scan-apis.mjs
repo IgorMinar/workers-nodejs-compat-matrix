@@ -56,7 +56,7 @@ if (!shell.env.VOLTA_HOME) {
   process.exit(1);
 }
 
-if (!shell.env.BUN_INSTALL) {
+if (!shell.which("bun")) {
   console.error(
     "You must have bun installed to continue. Refer to README.md for instructions."
   );
