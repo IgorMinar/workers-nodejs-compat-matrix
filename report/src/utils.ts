@@ -44,7 +44,7 @@ export const pct = (part: number, total: number) => {
   return (part / total) * 100;
 };
 
-export const formatPct = (percentage: number) => {
+export const formatPct = (percentage: number, hideSymbol: boolean = false) => {
   const fractionDigits = percentage === 0 || percentage >= 100 ? 0 : 1;
-  return `${percentage.toFixed(fractionDigits)}%`;
+  return `${percentage.toFixed(fractionDigits)}${hideSymbol ? "" : "%"}`;
 };
