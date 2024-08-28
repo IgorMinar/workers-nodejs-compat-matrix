@@ -35,7 +35,6 @@ pnpm install
 Update the dependencies
 
 ```shell
-pnpm update unenv
 pnpm update -r
 ```
 
@@ -45,16 +44,16 @@ pnpm update -r
 Generate the report
 
 ```shell
-pnpm run generate
+pnpm generate
 ```
 
 > [!IMPORTANT]
-> This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm run generate`.
+> This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm generate`.
 
 ## Serve a local version of the report
 
 Use
 
 ```shell
-pnpm run report:dev
+pnpm report:dev
 ```
