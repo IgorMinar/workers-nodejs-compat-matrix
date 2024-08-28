@@ -2,7 +2,7 @@
   "name": "wrangler-v3-dump",
   "private": "true",
   "devDependencies": {
-    "wrangler": "^3.72.1"
+    "wrangler": "^3.72.3"
   },
   "scripts": {
     "dump": "node dump.mjs"
