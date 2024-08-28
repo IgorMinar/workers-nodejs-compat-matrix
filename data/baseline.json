@@ -7320,6 +7320,7 @@
     "*self*": "object",
     "Network": {
       "*self*": "object",
+      "loadingFailed": "function",
       "loadingFinished": "function",
       "requestWillBeSent": "function",
       "responseReceived": "function"
@@ -7328,6 +7329,7 @@
       "*self*": "object",
       "Network": {
         "*self*": "object",
+        "loadingFailed": "function",
         "loadingFinished": "function",
         "requestWillBeSent": "function",
         "responseReceived": "function"
@@ -7400,6 +7402,7 @@
     "*self*": "object",
     "Network": {
       "*self*": "object",
+      "loadingFailed": "function",
       "loadingFinished": "function",
       "requestWillBeSent": "function",
       "responseReceived": "function"
@@ -7408,6 +7411,7 @@
       "*self*": "object",
       "Network": {
         "*self*": "object",
+        "loadingFailed": "function",
         "loadingFinished": "function",
         "requestWillBeSent": "function",
         "responseReceived": "function"
@@ -9177,6 +9181,7 @@
         "node_shared_zlib": "boolean",
         "node_tag": "string",
         "node_target_type": "string",
+        "node_use_amaro": "boolean",
         "node_use_bundled_v8": "boolean",
         "node_use_dtrace": "boolean",
         "node_use_etw": "boolean",
@@ -10523,18 +10528,6 @@
       "isWeakMap": "function",
       "isWeakSet": "function"
     }
-  },
-  "test/mock_loader": {
-    "*self*": "object",
-    "default": {
-      "*self*": "object",
-      "initialize": "function",
-      "load": "function",
-      "resolve": "function"
-    },
-    "initialize": "function",
-    "load": "function",
-    "resolve": "function"
   },
   "timers": {
     "*self*": "object",
