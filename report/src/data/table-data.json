@@ -10,7 +10,7 @@
     "5436/35/104/5159",
     "2975/21/0/7738",
     "1735/36/0/8963",
-    "6248/145/2776/1565"
+    "6632/158/2826/1118"
   ],
   [
     "*globals*",
@@ -23,7 +23,7 @@
     "657/0/0/1724",
     "1222/0/0/1159",
     "605/0/0/1776",
-    "1428/24/460/469"
+    "1533/27/481/340"
   ],
   [
     "*globals*.*self*",
@@ -2753,7 +2753,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.clearInterval",
@@ -2792,7 +2792,7 @@
     "23/0/0/262",
     "24/0/0/261",
     "25/0/0/260",
-    "25/0/0/260"
+    "110/3/13/159"
   ],
   [
     "*globals*.console.*self*",
@@ -2818,7 +2818,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._ignoreErrors",
@@ -2831,7 +2831,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr",
@@ -2844,7 +2844,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "0/0/0/122"
+    "42/1/0/79"
   ],
   [
     "*globals*.console._stderr.*self*",
@@ -2857,7 +2857,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._bytesDispatched",
@@ -2909,7 +2909,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._events",
@@ -2922,7 +2922,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._eventsCount",
@@ -2935,7 +2935,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._final",
@@ -3039,7 +3039,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._onTimeout",
@@ -3182,7 +3182,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._unrefTimer",
@@ -3208,7 +3208,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._write",
@@ -3221,7 +3221,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr._writeGeneric",
@@ -3247,7 +3247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._stderr.addListener",
@@ -3260,7 +3260,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.address",
@@ -3351,7 +3351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.compose",
@@ -3403,7 +3403,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.destroy",
@@ -3416,7 +3416,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.destroySoon",
@@ -3442,7 +3442,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.drop",
@@ -3468,7 +3468,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.end",
@@ -3481,7 +3481,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.errored",
@@ -3494,7 +3494,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.eventNames",
@@ -3507,7 +3507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.every",
@@ -3598,7 +3598,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.isPaused",
@@ -3637,7 +3637,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.listeners",
@@ -3650,7 +3650,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.localAddress",
@@ -3715,7 +3715,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.on",
@@ -3728,7 +3728,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.once",
@@ -3741,7 +3741,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.pause",
@@ -3780,7 +3780,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.prependListener",
@@ -3793,7 +3793,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.prependOnceListener",
@@ -3806,7 +3806,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.push",
@@ -3832,7 +3832,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.read",
@@ -4066,7 +4066,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.removeListener",
@@ -4079,7 +4079,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.resetAndDestroy",
@@ -4131,7 +4131,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.setEncoding",
@@ -4170,7 +4170,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.setNoDelay",
@@ -4248,7 +4248,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.unpipe",
@@ -4313,7 +4313,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableBuffer",
@@ -4326,7 +4326,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableCorked",
@@ -4339,7 +4339,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableEnded",
@@ -4352,7 +4352,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableFinished",
@@ -4365,7 +4365,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableHighWaterMark",
@@ -4378,7 +4378,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableLength",
@@ -4391,7 +4391,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableNeedDrain",
@@ -4404,7 +4404,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.writableObjectMode",
@@ -4417,7 +4417,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderr.write",
@@ -4430,7 +4430,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stderrErrorHandler",
@@ -4443,7 +4443,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._stdout",
@@ -4456,7 +4456,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "0/0/0/123"
+    "42/1/0/80"
   ],
   [
     "*globals*.console._stdout.*self*",
@@ -4469,7 +4469,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._bytesDispatched",
@@ -4521,7 +4521,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._events",
@@ -4534,7 +4534,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._eventsCount",
@@ -4547,7 +4547,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._final",
@@ -4651,7 +4651,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._onTimeout",
@@ -4794,7 +4794,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._unrefTimer",
@@ -4820,7 +4820,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._write",
@@ -4833,7 +4833,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout._writeGeneric",
@@ -4859,7 +4859,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._stdout.addListener",
@@ -4872,7 +4872,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.address",
@@ -4963,7 +4963,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.compose",
@@ -5015,7 +5015,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.destroy",
@@ -5028,7 +5028,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.destroySoon",
@@ -5054,7 +5054,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.domain",
@@ -5093,7 +5093,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.end",
@@ -5106,7 +5106,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.errored",
@@ -5119,7 +5119,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.eventNames",
@@ -5132,7 +5132,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.every",
@@ -5223,7 +5223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.isPaused",
@@ -5262,7 +5262,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.listeners",
@@ -5275,7 +5275,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.localAddress",
@@ -5340,7 +5340,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.on",
@@ -5353,7 +5353,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.once",
@@ -5366,7 +5366,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.pause",
@@ -5405,7 +5405,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.prependListener",
@@ -5418,7 +5418,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.prependOnceListener",
@@ -5431,7 +5431,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.push",
@@ -5457,7 +5457,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.read",
@@ -5691,7 +5691,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.removeListener",
@@ -5704,7 +5704,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.resetAndDestroy",
@@ -5756,7 +5756,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.setEncoding",
@@ -5795,7 +5795,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.setNoDelay",
@@ -5873,7 +5873,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.unpipe",
@@ -5938,7 +5938,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableBuffer",
@@ -5951,7 +5951,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableCorked",
@@ -5964,7 +5964,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableEnded",
@@ -5977,7 +5977,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableFinished",
@@ -5990,7 +5990,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableHighWaterMark",
@@ -6003,7 +6003,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableLength",
@@ -6016,7 +6016,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableNeedDrain",
@@ -6029,7 +6029,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.writableObjectMode",
@@ -6042,7 +6042,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdout.write",
@@ -6055,7 +6055,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.console._stdoutErrorHandler",
@@ -6068,7 +6068,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times",
@@ -6081,7 +6081,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/0/0/11"
+    "0/1/10/0"
   ],
   [
     "*globals*.console._times.*self*",
@@ -6094,7 +6094,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "*globals*.console._times.clear",
@@ -6107,7 +6107,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.delete",
@@ -6120,7 +6120,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.entries",
@@ -6133,7 +6133,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.forEach",
@@ -6146,7 +6146,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.get",
@@ -6159,7 +6159,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.has",
@@ -6172,7 +6172,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.keys",
@@ -6185,7 +6185,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.set",
@@ -6198,7 +6198,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.size",
@@ -6211,7 +6211,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console._times.values",
@@ -6224,7 +6224,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.console.assert",
@@ -6874,7 +6874,7 @@
     "0/0/0/641",
     "482/0/0/159",
     "0/0/0/641",
-    "545/1/33/62"
+    "554/1/37/49"
   ],
   [
     "*globals*.global.*self*",
@@ -9591,7 +9591,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.clearInterval",
@@ -9630,7 +9630,7 @@
     "0/0/0/32",
     "24/0/0/8",
     "0/0/0/32",
-    "25/0/0/7"
+    "28/0/4/0"
   ],
   [
     "*globals*.global.console.*self*",
@@ -9656,7 +9656,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._ignoreErrors",
@@ -9669,7 +9669,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stderr",
@@ -9682,7 +9682,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stderrErrorHandler",
@@ -9695,7 +9695,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._stdout",
@@ -9708,7 +9708,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.console._stdoutErrorHandler",
@@ -9721,7 +9721,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console._times",
@@ -9734,7 +9734,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.global.console.assert",
@@ -10215,7 +10215,7 @@
     "0/0/0/130",
     "118/0/0/12",
     "0/0/0/130",
-    "123/0/0/7"
+    "125/0/0/5"
   ],
   [
     "*globals*.global.global.*self*",
@@ -11554,7 +11554,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.global.clearInterval",
@@ -11840,7 +11840,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.global.setInterval",
@@ -11918,7 +11918,7 @@
     "0/0/0/130",
     "118/0/0/12",
     "0/0/0/130",
-    "123/0/0/7"
+    "125/0/0/5"
   ],
   [
     "*globals*.global.globalThis.*self*",
@@ -13257,7 +13257,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.globalThis.clearInterval",
@@ -13543,7 +13543,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.globalThis.setInterval",
@@ -15311,7 +15311,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.global.setInterval",
@@ -15389,7 +15389,7 @@
     "383/0/0/258",
     "482/0/0/159",
     "353/0/0/288",
-    "545/1/33/62"
+    "554/1/37/49"
   ],
   [
     "*globals*.globalThis.*self*",
@@ -18106,7 +18106,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.clearInterval",
@@ -18145,7 +18145,7 @@
     "23/0/0/9",
     "24/0/0/8",
     "25/0/0/7",
-    "25/0/0/7"
+    "28/0/4/0"
   ],
   [
     "*globals*.globalThis.console.*self*",
@@ -18171,7 +18171,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._ignoreErrors",
@@ -18184,7 +18184,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stderr",
@@ -18197,7 +18197,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stderrErrorHandler",
@@ -18210,7 +18210,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._stdout",
@@ -18223,7 +18223,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.console._stdoutErrorHandler",
@@ -18236,7 +18236,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console._times",
@@ -18249,7 +18249,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "*globals*.globalThis.console.assert",
@@ -18730,7 +18730,7 @@
     "0/0/0/130",
     "118/0/0/12",
     "0/0/0/130",
-    "123/0/0/7"
+    "125/0/0/5"
   ],
   [
     "*globals*.globalThis.global.*self*",
@@ -20069,7 +20069,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.global.clearInterval",
@@ -20355,7 +20355,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.global.setInterval",
@@ -20433,7 +20433,7 @@
     "121/0/0/9",
     "118/0/0/12",
     "113/0/0/17",
-    "123/0/0/7"
+    "125/0/0/5"
   ],
   [
     "*globals*.globalThis.globalThis.*self*",
@@ -21772,7 +21772,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.globalThis.clearInterval",
@@ -22058,7 +22058,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.globalThis.setInterval",
@@ -23826,7 +23826,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.globalThis.setInterval",
@@ -31652,7 +31652,7 @@
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "*globals*.setInterval",
@@ -51334,7 +51334,7 @@
     "2/12/8/27",
     "0/0/0/49",
     "2/0/0/47",
-    "41/0/8/0"
+    "44/1/4/0"
   ],
   [
     "cluster.*self*",
@@ -51360,7 +51360,7 @@
     "1/6/4/21",
     "0/0/0/32",
     "1/0/0/31",
-    "28/0/4/0"
+    "32/0/0/0"
   ],
   [
     "cluster.default.*self*",
@@ -51412,7 +51412,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "cluster.default._events",
@@ -51490,7 +51490,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "cluster.default.emit",
@@ -51776,7 +51776,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "cluster.default.setupPrimary",
@@ -51789,7 +51789,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "cluster.default.workers",
@@ -51854,7 +51854,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "cluster._events",
@@ -51906,7 +51906,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "cluster.disconnect",
@@ -51932,7 +51932,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "supported"
+    "stub"
   ],
   [
     "cluster.isMaster",
@@ -52075,7 +52075,7 @@
     "48/0/0/263",
     "0/0/0/311",
     "26/0/0/285",
-    "44/0/4/263"
+    "135/3/14/159"
   ],
   [
     "console.*self*",
@@ -52101,7 +52101,7 @@
     "24/0/0/261",
     "0/0/0/285",
     "25/0/0/260",
-    "22/0/2/261"
+    "110/3/13/159"
   ],
   [
     "console.default.*self*",
@@ -52140,7 +52140,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr",
@@ -52153,7 +52153,7 @@
     "0/0/0/122",
     "0/0/0/122",
     "0/0/0/122",
-    "0/0/0/122"
+    "42/1/0/79"
   ],
   [
     "console.default._stderr.*self*",
@@ -52166,7 +52166,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._bytesDispatched",
@@ -52218,7 +52218,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._events",
@@ -52231,7 +52231,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._eventsCount",
@@ -52244,7 +52244,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._final",
@@ -52348,7 +52348,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._onTimeout",
@@ -52491,7 +52491,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._unrefTimer",
@@ -52517,7 +52517,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._write",
@@ -52530,7 +52530,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr._writeGeneric",
@@ -52556,7 +52556,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._stderr.addListener",
@@ -52569,7 +52569,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.address",
@@ -52660,7 +52660,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.compose",
@@ -52712,7 +52712,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.destroy",
@@ -52725,7 +52725,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.destroySoon",
@@ -52751,7 +52751,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.drop",
@@ -52777,7 +52777,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.end",
@@ -52790,7 +52790,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.errored",
@@ -52803,7 +52803,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.eventNames",
@@ -52816,7 +52816,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.every",
@@ -52907,7 +52907,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.isPaused",
@@ -52946,7 +52946,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.listeners",
@@ -52959,7 +52959,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.localAddress",
@@ -53024,7 +53024,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.on",
@@ -53037,7 +53037,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.once",
@@ -53050,7 +53050,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.pause",
@@ -53089,7 +53089,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.prependListener",
@@ -53102,7 +53102,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.prependOnceListener",
@@ -53115,7 +53115,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.push",
@@ -53141,7 +53141,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.read",
@@ -53375,7 +53375,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.removeListener",
@@ -53388,7 +53388,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.resetAndDestroy",
@@ -53440,7 +53440,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.setEncoding",
@@ -53479,7 +53479,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.setNoDelay",
@@ -53557,7 +53557,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.unpipe",
@@ -53622,7 +53622,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableBuffer",
@@ -53635,7 +53635,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableCorked",
@@ -53648,7 +53648,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableEnded",
@@ -53661,7 +53661,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableFinished",
@@ -53674,7 +53674,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableHighWaterMark",
@@ -53687,7 +53687,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableLength",
@@ -53700,7 +53700,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableNeedDrain",
@@ -53713,7 +53713,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.writableObjectMode",
@@ -53726,7 +53726,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderr.write",
@@ -53739,7 +53739,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stderrErrorHandler",
@@ -53752,7 +53752,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._stdout",
@@ -53765,7 +53765,7 @@
     "0/0/0/123",
     "0/0/0/123",
     "0/0/0/123",
-    "0/0/0/123"
+    "42/1/0/80"
   ],
   [
     "console.default._stdout.*self*",
@@ -53778,7 +53778,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._bytesDispatched",
@@ -53830,7 +53830,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._events",
@@ -53843,7 +53843,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._eventsCount",
@@ -53856,7 +53856,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._final",
@@ -53960,7 +53960,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._onTimeout",
@@ -54103,7 +54103,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._unrefTimer",
@@ -54129,7 +54129,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._write",
@@ -54142,7 +54142,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout._writeGeneric",
@@ -54168,7 +54168,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._stdout.addListener",
@@ -54181,7 +54181,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.address",
@@ -54272,7 +54272,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.compose",
@@ -54324,7 +54324,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.destroy",
@@ -54337,7 +54337,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.destroySoon",
@@ -54363,7 +54363,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.domain",
@@ -54402,7 +54402,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.end",
@@ -54415,7 +54415,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.errored",
@@ -54428,7 +54428,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.eventNames",
@@ -54441,7 +54441,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.every",
@@ -54532,7 +54532,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.isPaused",
@@ -54571,7 +54571,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.listeners",
@@ -54584,7 +54584,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.localAddress",
@@ -54649,7 +54649,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.on",
@@ -54662,7 +54662,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.once",
@@ -54675,7 +54675,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.pause",
@@ -54714,7 +54714,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.prependListener",
@@ -54727,7 +54727,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.prependOnceListener",
@@ -54740,7 +54740,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.push",
@@ -54766,7 +54766,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.read",
@@ -55000,7 +55000,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.removeListener",
@@ -55013,7 +55013,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.resetAndDestroy",
@@ -55065,7 +55065,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.setEncoding",
@@ -55104,7 +55104,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.setNoDelay",
@@ -55182,7 +55182,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.unpipe",
@@ -55247,7 +55247,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableBuffer",
@@ -55260,7 +55260,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableCorked",
@@ -55273,7 +55273,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableEnded",
@@ -55286,7 +55286,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableFinished",
@@ -55299,7 +55299,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableHighWaterMark",
@@ -55312,7 +55312,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableLength",
@@ -55325,7 +55325,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableNeedDrain",
@@ -55338,7 +55338,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.writableObjectMode",
@@ -55351,7 +55351,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdout.write",
@@ -55364,7 +55364,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default._stdoutErrorHandler",
@@ -55377,7 +55377,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times",
@@ -55390,7 +55390,7 @@
     "0/0/0/11",
     "0/0/0/11",
     "0/0/0/11",
-    "0/0/0/11"
+    "0/1/10/0"
   ],
   [
     "console.default._times.*self*",
@@ -55403,7 +55403,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "console.default._times.clear",
@@ -55416,7 +55416,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.delete",
@@ -55429,7 +55429,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.entries",
@@ -55442,7 +55442,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.forEach",
@@ -55455,7 +55455,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.get",
@@ -55468,7 +55468,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.has",
@@ -55481,7 +55481,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.keys",
@@ -55494,7 +55494,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.set",
@@ -55507,7 +55507,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.size",
@@ -55520,7 +55520,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default._times.values",
@@ -55533,7 +55533,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "console.default.assert",
@@ -55546,7 +55546,7 @@
     "supported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "console.default.clear",
@@ -55572,7 +55572,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default.count",
@@ -55611,7 +55611,7 @@
     "unsupported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.default.debug",
@@ -55871,7 +55871,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "console.clear",
@@ -55897,7 +55897,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.count",
@@ -55936,7 +55936,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "console.debug",
@@ -62735,7 +62735,7 @@
     "293/2/24/14",
     "133/1/0/199",
     "2/0/0/331",
-    "144/5/35/149"
+    "290/5/35/3"
   ],
   [
     "crypto.*self*",
@@ -62761,7 +62761,7 @@
     "141/1/12/10",
     "60/1/0/103",
     "1/0/0/163",
-    "66/3/19/76"
+    "139/3/19/3"
   ],
   [
     "crypto.default.*self*",
@@ -63008,7 +63008,7 @@
     "73/1/0/0",
     "0/0/0/74",
     "0/0/0/74",
-    "1/0/0/73"
+    "74/0/0/0"
   ],
   [
     "crypto.default.constants.*self*",
@@ -63034,7 +63034,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.DH_CHECK_P_NOT_PRIME",
@@ -63047,7 +63047,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.DH_CHECK_P_NOT_SAFE_PRIME",
@@ -63060,7 +63060,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.DH_NOT_SUITABLE_GENERATOR",
@@ -63073,7 +63073,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.DH_UNABLE_TO_CHECK_GENERATOR",
@@ -63086,7 +63086,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_ALL",
@@ -63099,7 +63099,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_CIPHERS",
@@ -63112,7 +63112,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_DH",
@@ -63125,7 +63125,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_DIGESTS",
@@ -63138,7 +63138,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_DSA",
@@ -63151,7 +63151,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_EC",
@@ -63164,7 +63164,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_NONE",
@@ -63177,7 +63177,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_PKEY_ASN1_METHS",
@@ -63190,7 +63190,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_PKEY_METHS",
@@ -63203,7 +63203,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_RAND",
@@ -63216,7 +63216,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.ENGINE_METHOD_RSA",
@@ -63229,7 +63229,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.OPENSSL_VERSION_NUMBER",
@@ -63242,7 +63242,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.POINT_CONVERSION_COMPRESSED",
@@ -63255,7 +63255,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.POINT_CONVERSION_HYBRID",
@@ -63268,7 +63268,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.POINT_CONVERSION_UNCOMPRESSED",
@@ -63281,7 +63281,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_NO_PADDING",
@@ -63294,7 +63294,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PKCS1_OAEP_PADDING",
@@ -63307,7 +63307,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PKCS1_PADDING",
@@ -63320,7 +63320,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PKCS1_PSS_PADDING",
@@ -63333,7 +63333,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PSS_SALTLEN_AUTO",
@@ -63346,7 +63346,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PSS_SALTLEN_DIGEST",
@@ -63359,7 +63359,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_PSS_SALTLEN_MAX_SIGN",
@@ -63372,7 +63372,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.RSA_X931_PADDING",
@@ -63385,7 +63385,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_ALL",
@@ -63398,7 +63398,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_ALLOW_NO_DHE_KEX",
@@ -63411,7 +63411,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION",
@@ -63424,7 +63424,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_CIPHER_SERVER_PREFERENCE",
@@ -63437,7 +63437,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_CISCO_ANYCONNECT",
@@ -63450,7 +63450,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_COOKIE_EXCHANGE",
@@ -63463,7 +63463,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_CRYPTOPRO_TLSEXT_BUG",
@@ -63476,7 +63476,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS",
@@ -63489,7 +63489,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_EPHEMERAL_RSA",
@@ -63502,7 +63502,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_LEGACY_SERVER_CONNECT",
@@ -63515,7 +63515,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER",
@@ -63528,7 +63528,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_MICROSOFT_SESS_ID_BUG",
@@ -63541,7 +63541,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_MSIE_SSLV2_RSA_PADDING",
@@ -63554,7 +63554,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NETSCAPE_CA_DN_BUG",
@@ -63567,7 +63567,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NETSCAPE_CHALLENGE_BUG",
@@ -63580,7 +63580,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG",
@@ -63593,7 +63593,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG",
@@ -63606,7 +63606,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_COMPRESSION",
@@ -63619,7 +63619,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_ENCRYPT_THEN_MAC",
@@ -63632,7 +63632,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_QUERY_MTU",
@@ -63645,7 +63645,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_RENEGOTIATION",
@@ -63658,7 +63658,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION",
@@ -63671,7 +63671,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_SSLv2",
@@ -63684,7 +63684,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_SSLv3",
@@ -63697,7 +63697,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_TICKET",
@@ -63710,7 +63710,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_TLSv1",
@@ -63723,7 +63723,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_TLSv1_1",
@@ -63736,7 +63736,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_TLSv1_2",
@@ -63749,7 +63749,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_NO_TLSv1_3",
@@ -63762,7 +63762,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_PKCS1_CHECK_1",
@@ -63775,7 +63775,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_PKCS1_CHECK_2",
@@ -63788,7 +63788,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_PRIORITIZE_CHACHA",
@@ -63801,7 +63801,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_SINGLE_DH_USE",
@@ -63814,7 +63814,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_SINGLE_ECDH_USE",
@@ -63827,7 +63827,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_SSLEAY_080_CLIENT_DH_BUG",
@@ -63840,7 +63840,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_SSLREF2_REUSE_CERT_TYPE_BUG",
@@ -63853,7 +63853,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_TLS_BLOCK_PADDING_BUG",
@@ -63866,7 +63866,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_TLS_D5_BUG",
@@ -63879,7 +63879,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.SSL_OP_TLS_ROLLBACK_BUG",
@@ -63892,7 +63892,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.TLS1_1_VERSION",
@@ -63905,7 +63905,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.TLS1_2_VERSION",
@@ -63918,7 +63918,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.TLS1_3_VERSION",
@@ -63931,7 +63931,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.TLS1_VERSION",
@@ -63944,7 +63944,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.defaultCipherList",
@@ -63957,7 +63957,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.constants.defaultCoreCipherList",
@@ -63970,7 +63970,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.default.createCipher",
@@ -65153,7 +65153,7 @@
     "73/1/0/0",
     "0/0/0/74",
     "0/0/0/74",
-    "1/0/0/73"
+    "74/0/0/0"
   ],
   [
     "crypto.constants.*self*",
@@ -65179,7 +65179,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.DH_CHECK_P_NOT_PRIME",
@@ -65192,7 +65192,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.DH_CHECK_P_NOT_SAFE_PRIME",
@@ -65205,7 +65205,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.DH_NOT_SUITABLE_GENERATOR",
@@ -65218,7 +65218,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.DH_UNABLE_TO_CHECK_GENERATOR",
@@ -65231,7 +65231,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_ALL",
@@ -65244,7 +65244,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_CIPHERS",
@@ -65257,7 +65257,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_DH",
@@ -65270,7 +65270,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_DIGESTS",
@@ -65283,7 +65283,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_DSA",
@@ -65296,7 +65296,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_EC",
@@ -65309,7 +65309,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_NONE",
@@ -65322,7 +65322,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_PKEY_ASN1_METHS",
@@ -65335,7 +65335,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_PKEY_METHS",
@@ -65348,7 +65348,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_RAND",
@@ -65361,7 +65361,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.ENGINE_METHOD_RSA",
@@ -65374,7 +65374,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.OPENSSL_VERSION_NUMBER",
@@ -65387,7 +65387,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.POINT_CONVERSION_COMPRESSED",
@@ -65400,7 +65400,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.POINT_CONVERSION_HYBRID",
@@ -65413,7 +65413,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.POINT_CONVERSION_UNCOMPRESSED",
@@ -65426,7 +65426,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_NO_PADDING",
@@ -65439,7 +65439,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PKCS1_OAEP_PADDING",
@@ -65452,7 +65452,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PKCS1_PADDING",
@@ -65465,7 +65465,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PKCS1_PSS_PADDING",
@@ -65478,7 +65478,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PSS_SALTLEN_AUTO",
@@ -65491,7 +65491,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PSS_SALTLEN_DIGEST",
@@ -65504,7 +65504,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_PSS_SALTLEN_MAX_SIGN",
@@ -65517,7 +65517,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.RSA_X931_PADDING",
@@ -65530,7 +65530,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_ALL",
@@ -65543,7 +65543,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_ALLOW_NO_DHE_KEX",
@@ -65556,7 +65556,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION",
@@ -65569,7 +65569,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_CIPHER_SERVER_PREFERENCE",
@@ -65582,7 +65582,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_CISCO_ANYCONNECT",
@@ -65595,7 +65595,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_COOKIE_EXCHANGE",
@@ -65608,7 +65608,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_CRYPTOPRO_TLSEXT_BUG",
@@ -65621,7 +65621,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS",
@@ -65634,7 +65634,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_EPHEMERAL_RSA",
@@ -65647,7 +65647,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT",
@@ -65660,7 +65660,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER",
@@ -65673,7 +65673,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_MICROSOFT_SESS_ID_BUG",
@@ -65686,7 +65686,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_MSIE_SSLV2_RSA_PADDING",
@@ -65699,7 +65699,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NETSCAPE_CA_DN_BUG",
@@ -65712,7 +65712,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NETSCAPE_CHALLENGE_BUG",
@@ -65725,7 +65725,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG",
@@ -65738,7 +65738,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG",
@@ -65751,7 +65751,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_COMPRESSION",
@@ -65764,7 +65764,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_ENCRYPT_THEN_MAC",
@@ -65777,7 +65777,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_QUERY_MTU",
@@ -65790,7 +65790,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_RENEGOTIATION",
@@ -65803,7 +65803,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION",
@@ -65816,7 +65816,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_SSLv2",
@@ -65829,7 +65829,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_SSLv3",
@@ -65842,7 +65842,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_TICKET",
@@ -65855,7 +65855,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_TLSv1",
@@ -65868,7 +65868,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_TLSv1_1",
@@ -65881,7 +65881,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_TLSv1_2",
@@ -65894,7 +65894,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_NO_TLSv1_3",
@@ -65907,7 +65907,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_PKCS1_CHECK_1",
@@ -65920,7 +65920,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_PKCS1_CHECK_2",
@@ -65933,7 +65933,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_PRIORITIZE_CHACHA",
@@ -65946,7 +65946,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_SINGLE_DH_USE",
@@ -65959,7 +65959,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_SINGLE_ECDH_USE",
@@ -65972,7 +65972,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_SSLEAY_080_CLIENT_DH_BUG",
@@ -65985,7 +65985,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_SSLREF2_REUSE_CERT_TYPE_BUG",
@@ -65998,7 +65998,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_TLS_BLOCK_PADDING_BUG",
@@ -66011,7 +66011,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_TLS_D5_BUG",
@@ -66024,7 +66024,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.SSL_OP_TLS_ROLLBACK_BUG",
@@ -66037,7 +66037,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.TLS1_1_VERSION",
@@ -66050,7 +66050,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.TLS1_2_VERSION",
@@ -66063,7 +66063,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.TLS1_3_VERSION",
@@ -66076,7 +66076,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.TLS1_VERSION",
@@ -66089,7 +66089,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.defaultCipherList",
@@ -66102,7 +66102,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.constants.defaultCoreCipherList",
@@ -66115,7 +66115,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "crypto.createCipheriv",
@@ -80519,7 +80519,7 @@
     "233/0/4/16",
     "0/0/0/253",
     "0/1/0/252",
-    "138/7/100/8"
+    "138/7/102/6"
   ],
   [
     "http.*self*",
@@ -80545,7 +80545,7 @@
     "115/0/2/6",
     "0/0/0/123",
     "0/0/0/123",
-    "69/1/49/4"
+    "69/1/50/3"
   ],
   [
     "http.default.*self*",
@@ -81546,7 +81546,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "http.default.createServer",
@@ -83158,7 +83158,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "http.createServer",
@@ -94468,7 +94468,7 @@
     "45/4/0/13",
     "0/0/0/62",
     "1/1/0/60",
-    "7/1/13/41"
+    "16/7/28/11"
   ],
   [
     "module.*self*",
@@ -94494,7 +94494,7 @@
     "27/2/0/8",
     "0/0/0/37",
     "0/1/0/36",
-    "3/1/7/26"
+    "8/4/14/11"
   ],
   [
     "module.default.*self*",
@@ -94520,7 +94520,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "module.default.SourceMap",
@@ -94546,7 +94546,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "module.default._debug",
@@ -94559,7 +94559,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default._extensions",
@@ -94572,7 +94572,7 @@
     "4/0/0/0",
     "0/0/0/4",
     "0/0/0/4",
-    "0/0/0/4"
+    "1/0/3/0"
   ],
   [
     "module.default._extensions.*self*",
@@ -94585,7 +94585,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default._extensions..js",
@@ -94598,7 +94598,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._extensions..json",
@@ -94611,7 +94611,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._extensions..node",
@@ -94624,7 +94624,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._findPath",
@@ -94637,7 +94637,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._initPaths",
@@ -94650,7 +94650,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._load",
@@ -94663,7 +94663,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._nodeModulePaths",
@@ -94676,7 +94676,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._pathCache",
@@ -94689,7 +94689,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "module.default._preloadModules",
@@ -94702,7 +94702,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._readPackage",
@@ -94728,7 +94728,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._resolveLookupPaths",
@@ -94741,7 +94741,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.default._stat",
@@ -94806,7 +94806,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.default.isBuiltin",
@@ -94819,7 +94819,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "module.default.length",
@@ -94975,7 +94975,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "module.default.wrap",
@@ -94988,7 +94988,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "module.default.wrapper",
@@ -95014,7 +95014,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "supported"
+    "mismatch"
   ],
   [
     "module.SourceMap",
@@ -95040,7 +95040,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "module._debug",
@@ -95053,7 +95053,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module._extensions",
@@ -95066,7 +95066,7 @@
     "4/0/0/0",
     "0/0/0/4",
     "0/0/0/4",
-    "0/0/0/4"
+    "1/0/3/0"
   ],
   [
     "module._extensions.*self*",
@@ -95079,7 +95079,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module._extensions..js",
@@ -95092,7 +95092,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._extensions..json",
@@ -95105,7 +95105,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._extensions..node",
@@ -95118,7 +95118,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._findPath",
@@ -95131,7 +95131,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._initPaths",
@@ -95144,7 +95144,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._load",
@@ -95157,7 +95157,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._nodeModulePaths",
@@ -95170,7 +95170,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._pathCache",
@@ -95183,7 +95183,7 @@
     "mismatch",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "mismatch"
   ],
   [
     "module._preloadModules",
@@ -95196,7 +95196,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._resolveFilename",
@@ -95209,7 +95209,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module._resolveLookupPaths",
@@ -95222,7 +95222,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "module.builtinModules",
@@ -95274,7 +95274,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "module.isBuiltin",
@@ -95287,7 +95287,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "module.register",
@@ -95326,7 +95326,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "net",
@@ -95339,7 +95339,7 @@
     "24/0/4/10",
     "0/0/0/38",
     "2/0/0/36",
-    "16/0/14/8"
+    "18/0/20/0"
   ],
   [
     "net.*self*",
@@ -95365,7 +95365,7 @@
     "12/0/2/5",
     "0/0/0/19",
     "1/0/0/18",
-    "8/0/7/4"
+    "9/0/10/0"
   ],
   [
     "net.default.*self*",
@@ -95443,7 +95443,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "net.default._createServerHandle",
@@ -95456,7 +95456,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net.default._normalizeArgs",
@@ -95469,7 +95469,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net.default._setSimultaneousAccepts",
@@ -95482,7 +95482,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net.default.connect",
@@ -95677,7 +95677,7 @@
     "stub",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "net._createServerHandle",
@@ -95690,7 +95690,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net._normalizeArgs",
@@ -95703,7 +95703,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net._setSimultaneousAccepts",
@@ -95716,7 +95716,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "net.connect",
@@ -100643,7 +100643,7 @@
     "60/0/0/112",
     "50/0/0/122",
     "0/1/0/171",
-    "152/0/0/20"
+    "162/0/0/10"
   ],
   [
     "path/posix.*self*",
@@ -100669,7 +100669,7 @@
     "46/0/0/6",
     "49/0/0/3",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/posix.default.*self*",
@@ -100695,7 +100695,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.basename",
@@ -100838,7 +100838,7 @@
     "16/0/0/2",
     "17/0/0/1",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.default.posix.*self*",
@@ -100864,7 +100864,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.posix.basename",
@@ -101137,7 +101137,7 @@
     "16/0/0/2",
     "17/0/0/1",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.default.win32.*self*",
@@ -101163,7 +101163,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.default.win32.basename",
@@ -101384,7 +101384,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.basename",
@@ -101527,7 +101527,7 @@
     "0/0/0/52",
     "0/0/0/52",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/posix.posix.*self*",
@@ -101553,7 +101553,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.basename",
@@ -101696,7 +101696,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.posix.posix.*self*",
@@ -101722,7 +101722,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.posix.basename",
@@ -101995,7 +101995,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.posix.win32.*self*",
@@ -102021,7 +102021,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.posix.win32.basename",
@@ -102294,7 +102294,7 @@
     "0/0/0/52",
     "0/0/0/52",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/posix.win32.*self*",
@@ -102320,7 +102320,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.basename",
@@ -102463,7 +102463,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.win32.posix.*self*",
@@ -102489,7 +102489,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.posix.basename",
@@ -102762,7 +102762,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/posix.win32.win32.*self*",
@@ -102788,7 +102788,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/posix.win32.win32.basename",
@@ -103009,7 +103009,7 @@
     "60/0/0/112",
     "50/0/0/122",
     "0/1/0/171",
-    "152/0/0/20"
+    "162/0/0/10"
   ],
   [
     "path/win32.*self*",
@@ -103035,7 +103035,7 @@
     "46/0/0/6",
     "49/0/0/3",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/win32.default.*self*",
@@ -103061,7 +103061,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.basename",
@@ -103204,7 +103204,7 @@
     "16/0/0/2",
     "17/0/0/1",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.default.posix.*self*",
@@ -103230,7 +103230,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.posix.basename",
@@ -103503,7 +103503,7 @@
     "16/0/0/2",
     "17/0/0/1",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.default.win32.*self*",
@@ -103529,7 +103529,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.default.win32.basename",
@@ -103750,7 +103750,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.basename",
@@ -103893,7 +103893,7 @@
     "0/0/0/52",
     "0/0/0/52",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/win32.posix.*self*",
@@ -103919,7 +103919,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.basename",
@@ -104062,7 +104062,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.posix.posix.*self*",
@@ -104088,7 +104088,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.posix.basename",
@@ -104361,7 +104361,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.posix.win32.*self*",
@@ -104387,7 +104387,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.posix.win32.basename",
@@ -104660,7 +104660,7 @@
     "0/0/0/52",
     "0/0/0/52",
     "0/0/0/52",
-    "46/0/0/6"
+    "49/0/0/3"
   ],
   [
     "path/win32.win32.*self*",
@@ -104686,7 +104686,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.basename",
@@ -104829,7 +104829,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.win32.posix.*self*",
@@ -104855,7 +104855,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.posix.basename",
@@ -105128,7 +105128,7 @@
     "0/0/0/18",
     "0/0/0/18",
     "0/0/0/18",
-    "16/0/0/2"
+    "17/0/0/1"
   ],
   [
     "path/win32.win32.win32.*self*",
@@ -105154,7 +105154,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "path/win32.win32.win32.basename",
@@ -107091,7 +107091,7 @@
     "614/14/0/850",
     "8/0/0/1470",
     "39/0/0/1439",
-    "145/56/1094/183"
+    "147/56/1096/179"
   ],
   [
     "process.*self*",
@@ -116737,7 +116737,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "process.kill",
@@ -116789,7 +116789,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.nextTick",
@@ -116815,7 +116815,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "stub"
   ],
   [
     "process.pid",
@@ -116867,7 +116867,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "process.release",
@@ -132506,7 +132506,7 @@
     "14/0/0/20",
     "0/0/0/34",
     "22/0/0/12",
-    "24/0/10/0"
+    "26/0/8/0"
   ],
   [
     "timers.*self*",
@@ -132532,7 +132532,7 @@
     "7/0/0/9",
     "0/0/0/16",
     "11/0/0/5",
-    "11/0/5/0"
+    "12/0/4/0"
   ],
   [
     "timers.default.*self*",
@@ -132584,7 +132584,7 @@
     "supported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers.default.clearInterval",
@@ -132792,7 +132792,7 @@
     "supported",
     "unsupported",
     "supported",
-    "stub"
+    "supported"
   ],
   [
     "timers.clearInterval",
@@ -133975,7 +133975,7 @@
     "26/0/0/0",
     "0/0/0/26",
     "7/0/0/19",
-    "22/0/0/4"
+    "26/0/0/0"
   ],
   [
     "url.*self*",
@@ -134001,7 +134001,7 @@
     "13/0/0/0",
     "0/0/0/13",
     "0/0/0/13",
-    "11/0/0/2"
+    "13/0/0/0"
   ],
   [
     "url.default.*self*",
@@ -134053,7 +134053,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "url.default.domainToASCII",
@@ -134157,7 +134157,7 @@
     "supported",
     "unsupported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "url.default.urlToHttpOptions",
@@ -134209,7 +134209,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "url.domainToASCII",
@@ -134313,7 +134313,7 @@
     "supported",
     "unsupported",
     "supported",
-    "unsupported"
+    "supported"
   ],
   [
     "url.urlToHttpOptions",
