@@ -1,5 +1,5 @@
 Module,Path,baseline,node22,node20,node18,bun,deno,workerd,wranglerV3,wranglerUnenv
-,,,22.7.0,20.17.0,18.20.4,1.1.26,1.45.5,1.20240821.1,3.72.1,unenv@2.0.0-1721914978.1a79944
+,,,22.7.0,20.17.0,18.20.4,1.1.26,1.45.5,1.20240821.1,3.72.3,unenv@2.0.0-1724863496.70db6f1
 *globals*,*self*,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortController,supported,supported,supported,supported,supported,supported,supported,supported,supported
 *globals*,AbortSignal,supported,supported,supported,supported,supported,supported,supported,supported,supported
@@ -5488,8 +5488,8 @@ fs,default.ftruncate,supported,supported,supported,supported,supported,supported
 fs,default.ftruncateSync,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,default.futimes,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,default.futimesSync,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs,default.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
-fs,default.globSync,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs,default.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
+fs,default.globSync,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs,default.lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 fs,default.lchmodSync,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs,default.lchown,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
@@ -5517,7 +5517,7 @@ fs,default.promises.chown,supported,supported,supported,supported,supported,supp
 fs,default.promises.constants,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 fs,default.promises.copyFile,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,default.promises.cp,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs,default.promises.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs,default.promises.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs,default.promises.lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs,default.promises.lchown,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,default.promises.link,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -5683,8 +5683,8 @@ fs,ftruncate,supported,supported,supported,supported,supported,supported,unsuppo
 fs,ftruncateSync,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,futimes,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,futimesSync,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs,glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
-fs,globSync,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs,glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
+fs,globSync,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs,lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 fs,lchmodSync,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs,lchown,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -5769,7 +5769,7 @@ fs,promises.constants.W_OK,supported,supported,supported,supported,supported,sup
 fs,promises.constants.X_OK,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 fs,promises.copyFile,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,promises.cp,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs,promises.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs,promises.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs,promises.lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs,promises.lchown,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs,promises.link,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -5899,7 +5899,7 @@ fs/promises,default.constants.W_OK,supported,supported,supported,supported,suppo
 fs/promises,default.constants.X_OK,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 fs/promises,default.copyFile,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs/promises,default.cp,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs/promises,default.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs/promises,default.glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs/promises,default.lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs/promises,default.lchown,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs/promises,default.link,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -5988,7 +5988,7 @@ fs/promises,constants.W_OK,supported,supported,supported,supported,supported,sup
 fs/promises,constants.X_OK,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 fs/promises,copyFile,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 fs/promises,cp,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
-fs/promises,glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+fs/promises,glob,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 fs/promises,lchmod,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs/promises,lchown,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 fs/promises,link,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -6017,10 +6017,10 @@ http,*self*,supported,supported,supported,supported,supported,supported,unsuppor
 http,default.*self*,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,default.Agent,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,default.ClientRequest,supported,supported,supported,supported,supported,stub,unsupported,unsupported,stub
-http,default.CloseEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,default.CloseEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,default.IncomingMessage,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,default.METHODS,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-http,default.MessageEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,default.MessageEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,default.OutgoingMessage,supported,supported,supported,supported,supported,stub,unsupported,unsupported,stub
 http,default.STATUS_CODES.100,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,default.STATUS_CODES.101,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
@@ -6088,7 +6088,7 @@ http,default.STATUS_CODES.511,supported,supported,supported,supported,supported,
 http,default.STATUS_CODES.*self*,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,default.Server,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,default.ServerResponse,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-http,default.WebSocket,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,default.WebSocket,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,default._connectionListener,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,stub
 http,default.createServer,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,default.get,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -6139,10 +6139,10 @@ http,default.validateHeaderName,supported,supported,supported,supported,supporte
 http,default.validateHeaderValue,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,Agent,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,ClientRequest,supported,supported,supported,supported,supported,stub,unsupported,unsupported,stub
-http,CloseEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,CloseEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,IncomingMessage,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,METHODS,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-http,MessageEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,MessageEvent,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,OutgoingMessage,supported,supported,supported,supported,supported,stub,unsupported,unsupported,stub
 http,STATUS_CODES.100,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,STATUS_CODES.101,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
@@ -6210,7 +6210,7 @@ http,STATUS_CODES.511,supported,supported,supported,supported,supported,supporte
 http,STATUS_CODES.*self*,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 http,Server,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,ServerResponse,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-http,WebSocket,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+http,WebSocket,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported,supported
 http,_connectionListener,supported,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,stub
 http,createServer,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 http,get,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
@@ -6798,7 +6798,7 @@ http2,performServerHandshake,supported,supported,supported,unsupported,unsupport
 http2,sensitiveHeaders,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 https,*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported
 https,default.*self*,supported,supported,supported,supported,supported,supported,unsupported,supported,supported
-https,default.Agent,supported,supported,supported,supported,supported,supported,unsupported,supported,supported
+https,default.Agent,supported,supported,supported,supported,supported,supported,unsupported,supported,stub
 https,default.Server,supported,supported,supported,supported,supported,stub,unsupported,unsupported,supported
 https,default.createServer,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 https,default.get,supported,supported,supported,supported,supported,supported,unsupported,supported,stub
@@ -6849,7 +6849,7 @@ https,default.globalAgent.setMaxListeners,supported,supported,supported,supporte
 https,default.globalAgent.sockets,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 https,default.globalAgent.totalSocketCount,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 https,default.request,supported,supported,supported,supported,supported,supported,unsupported,supported,stub
-https,Agent,supported,supported,supported,supported,supported,supported,unsupported,supported,supported
+https,Agent,supported,supported,supported,supported,supported,supported,unsupported,supported,stub
 https,Server,supported,supported,supported,supported,supported,stub,unsupported,unsupported,supported
 https,createServer,supported,supported,supported,supported,supported,supported,unsupported,unsupported,stub
 https,get,supported,supported,supported,supported,supported,supported,unsupported,supported,stub
@@ -7509,7 +7509,7 @@ path/posix,default.extname,supported,supported,supported,supported,supported,sup
 path/posix,default.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/posix,default.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/posix,default.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/posix,default.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.posix.*self*,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7521,7 +7521,7 @@ path/posix,default.posix.extname,supported,supported,supported,supported,support
 path/posix,default.posix.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.posix.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.posix.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/posix,default.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/posix,default.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/posix,default.posix.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.posix.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.posix.posix,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7543,7 +7543,7 @@ path/posix,default.win32.extname,supported,supported,supported,supported,support
 path/posix,default.win32.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.win32.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.win32.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/posix,default.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/posix,default.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/posix,default.win32.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.win32.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/posix,default.win32.posix,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7560,7 +7560,7 @@ path/posix,extname,supported,supported,supported,supported,supported,supported,u
 path/posix,format,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/posix,isAbsolute,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/posix,join,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-path/posix,matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,normalize,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/posix,parse,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/posix,posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7572,7 +7572,7 @@ path/posix,posix.extname,supported,supported,supported,supported,supported,unsup
 path/posix,posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7584,7 +7584,7 @@ path/posix,posix.posix.extname,supported,supported,supported,supported,supported
 path/posix,posix.posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,posix.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,posix.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,posix.posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.posix.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7606,7 +7606,7 @@ path/posix,posix.win32.extname,supported,supported,supported,supported,supported
 path/posix,posix.win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,posix.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,posix.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,posix.win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,posix.win32.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7628,7 +7628,7 @@ path/posix,win32.extname,supported,supported,supported,supported,supported,unsup
 path/posix,win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7640,7 +7640,7 @@ path/posix,win32.posix.extname,supported,supported,supported,supported,supported
 path/posix,win32.posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,win32.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,win32.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,win32.posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.posix.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7662,7 +7662,7 @@ path/posix,win32.win32.extname,supported,supported,supported,supported,supported
 path/posix,win32.win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/posix,win32.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/posix,win32.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/posix,win32.win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/posix,win32.win32.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7681,7 +7681,7 @@ path/win32,default.extname,supported,supported,supported,supported,supported,sup
 path/win32,default.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/win32,default.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/win32,default.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/win32,default.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.posix.*self*,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7693,7 +7693,7 @@ path/win32,default.posix.extname,supported,supported,supported,supported,support
 path/win32,default.posix.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.posix.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.posix.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/win32,default.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/win32,default.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/win32,default.posix.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.posix.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.posix.posix,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7715,7 +7715,7 @@ path/win32,default.win32.extname,supported,supported,supported,supported,support
 path/win32,default.win32.format,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.win32.isAbsolute,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.win32.join,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-path/win32,default.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,unsupported
+path/win32,default.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,supported,unsupported,stub
 path/win32,default.win32.normalize,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.win32.parse,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 path/win32,default.win32.posix,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -7732,7 +7732,7 @@ path/win32,extname,supported,supported,supported,supported,supported,supported,u
 path/win32,format,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/win32,isAbsolute,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/win32,join,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-path/win32,matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,normalize,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/win32,parse,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 path/win32,posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7744,7 +7744,7 @@ path/win32,posix.extname,supported,supported,supported,supported,supported,unsup
 path/win32,posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7756,7 +7756,7 @@ path/win32,posix.posix.extname,supported,supported,supported,supported,supported
 path/win32,posix.posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,posix.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,posix.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,posix.posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.posix.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7778,7 +7778,7 @@ path/win32,posix.win32.extname,supported,supported,supported,supported,supported
 path/win32,posix.win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,posix.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,posix.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,posix.win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,posix.win32.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7800,7 +7800,7 @@ path/win32,win32.extname,supported,supported,supported,supported,supported,unsup
 path/win32,win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.posix.*self*,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7812,7 +7812,7 @@ path/win32,win32.posix.extname,supported,supported,supported,supported,supported
 path/win32,win32.posix.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.posix.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.posix.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,win32.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,win32.posix.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,win32.posix.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.posix.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.posix.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -7834,7 +7834,7 @@ path/win32,win32.win32.extname,supported,supported,supported,supported,supported
 path/win32,win32.win32.format,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.win32.isAbsolute,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.win32.join,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
-path/win32,win32.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,unsupported
+path/win32,win32.win32.matchesGlob,supported,supported,supported,unsupported,unsupported,unsupported,unsupported,unsupported,stub
 path/win32,win32.win32.normalize,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.win32.parse,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
 path/win32,win32.win32.posix,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
@@ -9737,7 +9737,7 @@ sys,default.types.isBoxedPrimitive,supported,supported,supported,supported,suppo
 sys,default.types.isCryptoKey,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,default.types.isDataView,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,default.types.isDate,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-sys,default.types.isExternal,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
+sys,default.types.isExternal,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 sys,default.types.isFloat32Array,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,default.types.isFloat64Array,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,default.types.isGeneratorFunction,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
@@ -9823,7 +9823,7 @@ sys,types.isBoxedPrimitive,supported,supported,supported,supported,supported,sup
 sys,types.isCryptoKey,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,types.isDataView,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,types.isDate,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
-sys,types.isExternal,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,supported
+sys,types.isExternal,supported,supported,supported,supported,supported,unsupported,unsupported,unsupported,stub
 sys,types.isFloat32Array,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,types.isFloat64Array,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
 sys,types.isGeneratorFunction,supported,supported,supported,supported,supported,supported,unsupported,unsupported,supported
@@ -10035,7 +10035,7 @@ util,default.types.isBoxedPrimitive,supported,supported,supported,supported,supp
 util,default.types.isCryptoKey,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,default.types.isDataView,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,default.types.isDate,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-util,default.types.isExternal,supported,supported,supported,supported,supported,unsupported,supported,unsupported,supported
+util,default.types.isExternal,supported,supported,supported,supported,supported,unsupported,supported,unsupported,stub
 util,default.types.isFloat32Array,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,default.types.isFloat64Array,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,default.types.isGeneratorFunction,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
@@ -10121,7 +10121,7 @@ util,types.isBoxedPrimitive,supported,supported,supported,supported,supported,su
 util,types.isCryptoKey,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,types.isDataView,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,types.isDate,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
-util,types.isExternal,supported,supported,supported,supported,supported,unsupported,supported,unsupported,supported
+util,types.isExternal,supported,supported,supported,supported,supported,unsupported,supported,unsupported,stub
 util,types.isFloat32Array,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,types.isFloat64Array,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
 util,types.isGeneratorFunction,supported,supported,supported,supported,supported,supported,supported,unsupported,supported
