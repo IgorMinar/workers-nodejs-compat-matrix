@@ -5,6 +5,6 @@
   "bun": "1.1.26",
   "deno": "1.45.5",
   "workerd": "1.20240821.1",
-  "wranglerV3": "3.72.1",
-  "wranglerUnenv": "unenv@2.0.0-1721914978.1a79944"
+  "wranglerV3": "3.72.3",
+  "wranglerUnenv": "unenv@2.0.0-1724863496.70db6f1"
 }
