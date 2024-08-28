@@ -7320,6 +7320,7 @@
     "*self*": "object",
     "Network": {
       "*self*": "missing",
+      "loadingFailed": "missing",
       "loadingFinished": "missing",
       "requestWillBeSent": "missing",
       "responseReceived": "missing"
@@ -7356,6 +7357,7 @@
       "*self*": "object",
       "Network": {
         "*self*": "missing",
+        "loadingFailed": "missing",
         "loadingFinished": "missing",
         "requestWillBeSent": "missing",
         "responseReceived": "missing"
@@ -7400,6 +7402,7 @@
     "*self*": "missing",
     "Network": {
       "*self*": "missing",
+      "loadingFailed": "missing",
       "loadingFinished": "missing",
       "requestWillBeSent": "missing",
       "responseReceived": "missing"
@@ -7436,6 +7439,7 @@
       "*self*": "missing",
       "Network": {
         "*self*": "missing",
+        "loadingFailed": "missing",
         "loadingFinished": "missing",
         "requestWillBeSent": "missing",
         "responseReceived": "missing"
@@ -8616,6 +8620,7 @@
         "node_shared_zlib": "boolean",
         "node_tag": "string",
         "node_target_type": "string",
+        "node_use_amaro": "missing",
         "node_use_bundled_v8": "boolean",
         "node_use_dtrace": "boolean",
         "node_use_etw": "boolean",
@@ -10523,18 +10528,6 @@
       "isWeakMap": "function",
       "isWeakSet": "function"
     }
-  },
-  "test/mock_loader": {
-    "*self*": "missing",
-    "default": {
-      "*self*": "missing",
-      "initialize": "missing",
-      "load": "missing",
-      "resolve": "missing"
-    },
-    "initialize": "missing",
-    "load": "missing",
-    "resolve": "missing"
   },
   "timers": {
     "*self*": "object",
