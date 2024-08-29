@@ -4,7 +4,7 @@ import "./App.css";
 import tableData from "./data/table-data.json";
 import versionMap from "./data/versionMap.json";
 import timestamp from "./data/timestamp.json";
-import { mismatch, stub, supported, unsupported } from "./constants";
+import { mismatch, mock, matching, missing } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 import { formatPct, getDocsLink, getPolyfillSearchLink, pct } from "./utils";
@@ -15,8 +15,8 @@ const RED_THRESHOLD = 20;
 const GREEN_THRESHOLD = 80;
 
 const versionSubtitles = {
-  workerd: "node_compat = true",
-  wranglerV3: "nodejs_compat",
+  workerd: "nodejs_compat",
+  wranglerV3: "(legacy) node_compat = true",
   wranglerUnenv: "nodejs_compat_v2",
 };
 
@@ -72,14 +72,14 @@ const App = () => {
     const renderSupportValue = (value: string) => {
       switch (value) {
         case "supported":
-          return supported;
-        case "mismatch":
+          return matching;
+        case "unsupported":
           return mismatch;
         case "stub":
-          return stub;
-        case "unsupported":
+          return mock;
+        case "missing":
         default:
-          return unsupported;
+          return missing;
       }
     };
 
@@ -101,7 +101,7 @@ const App = () => {
     const renderLeafCells = () => {
       return (
         <>
-          <TableCell>{supported}</TableCell>
+          <TableCell>{matching}</TableCell>
           {targets.map((targetValue, targetIndex) =>
             renderLeafCell(targetValue as string, targetIndex)
           )}
@@ -118,30 +118,27 @@ const App = () => {
             </span>
           </TableCell>
           {targets.map((target) => {
-            const [supported, mismatch, stub, unsupported] = (target as string)
+            const [matching, mismatch, mock, missing] = (target as string)
               .split("/")
               .map((i) => parseInt(i as string));
 
-            const totalImplemeneted = supported + mismatch + stub;
-            const total = totalImplemeneted + unsupported;
-            const percentageImplemented = pct(
-              totalImplemeneted,
-              baselineSupport as number
-            );
+            const totalPresent = matching + mismatch + mock;
+            const total = totalPresent + missing;
+            const presentPct = pct(totalPresent, baselineSupport as number);
 
-            const unsupportedPct = pct(unsupported, total);
+            const missingPct = pct(missing, total);
             const mismatchPct = pct(mismatch, total);
-            const stubPct = pct(stub, total);
+            const mockPct = pct(mock, total);
 
             let bgColor = "red";
-            if (percentageImplemented > RED_THRESHOLD) {
+            if (presentPct > RED_THRESHOLD) {
               bgColor = "yellow";
             }
-            if (percentageImplemented > GREEN_THRESHOLD) {
+            if (presentPct > GREEN_THRESHOLD) {
               bgColor = "green";
             }
 
-            const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
+            const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}\nMatching: ${matching}`;
 
             return (
               <TableCell color={bgColor}>
@@ -149,13 +146,11 @@ const App = () => {
                   title={tooltip}
                   className={`flex gap-3 justify-center items-center`}
                 >
-                  <span className="text-sm">
-                    {formatPct(percentageImplemented)}
-                  </span>
+                  <span className="text-sm">{formatPct(presentPct)}</span>
                   <div className="text-xs">
                     <span>
-                      {formatPct(unsupportedPct, true)}/
-                      {formatPct(mismatchPct, true)}/{formatPct(stubPct, true)}
+                      {formatPct(missingPct)}/{formatPct(mismatchPct)}/
+                      {formatPct(mockPct)}
                     </span>
                   </div>
                 </div>
@@ -231,7 +226,7 @@ const App = () => {
         <TableCell>
           <span className="font-semibold flex justify-start ml-4">Totals</span>
           <span className="text-xs font-light flex justify-start ml-4">
-            unsupported % / mismatched % / stubbed %
+            missing / mismatched / mocked
           </span>
         </TableCell>
         <TableCell>
@@ -241,34 +236,29 @@ const App = () => {
           </div>
         </TableCell>
         {targetTotals.map((targetTotal) => {
-          const [supported, mismatch, stub, unsupported] = (
-            targetTotal as string
-          )
+          const [matching, mismatch, mock, missing] = (targetTotal as string)
             .split("/")
             .map((i) => parseInt(i as string));
 
-          const totalImplemented = supported + mismatch + stub;
-          const total = totalImplemented + unsupported;
-          const percentageImplemented = pct(
-            totalImplemented,
-            baselineCount as number
-          );
-          const unsupportedPct = pct(unsupported, total);
+          const totalPresent = matching + mismatch + mock;
+          const total = totalPresent + missing;
+          const presentPct = pct(totalPresent, baselineCount as number);
+          const missingPct = pct(missing, total);
           const mismatchPct = pct(mismatch, total);
-          const stubPct = pct(stub, total);
+          const mockPct = pct(mock, total);
 
-          const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
+          const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}\nMatching: ${matching}`;
 
           return (
             <TableCell>
               <div title={tooltip}>
                 <span className="text-sm font-semibold">
-                  {formatPct(percentageImplemented)}
+                  {formatPct(presentPct)}
                 </span>
                 <div className="text-xs">
                   <span>
-                    {formatPct(unsupportedPct, true)}/
-                    {formatPct(mismatchPct, true)}/{formatPct(stubPct, true)}
+                    {formatPct(missingPct)}/{formatPct(mismatchPct)}/
+                    {formatPct(mockPct)}
                   </span>
                 </div>
               </div>
@@ -322,17 +312,16 @@ const App = () => {
               calculation of implementation compliance.
             </li>
             <li className="mb-1">
-              The percentages represent the API surface area that is supported{" "}
-              <span className="font-semibold">or</span> stubbed{" "}
-              <span className="font-semibold">or</span> mismatched.
+              The percentages represent the API surface area that is matching,{" "}
+              mocked, <span className="font-semibold">or</span> mismatched.
             </li>
             <li className="mb-1">
               The <span className="font-semibold">baseline</span> column
               represents a union of Node.js v18, v20, and v22 API surfaces that
-              we use as node API compatibility target.
+              we use as the ideal Node.js API compatibility target.
             </li>
             <li className="mb-1">
-              <span className="font-semibold">Stub</span> means that the API can
+              <span className="font-semibold">Mock</span> means that the API can
               still be imported but it is not implemented. It will throw an
               error or return an dummy value if called.
             </li>
@@ -344,7 +333,7 @@ const App = () => {
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="sticky top-0 bg-white">
-              <TableHeaderCell width="min-w-[35ch]">API</TableHeaderCell>
+              <TableHeaderCell width="min-w-[25ch]">API</TableHeaderCell>
               <TableHeaderCell width="min-w-[8ch]">
                 <div>baseline</div>
                 <div className="text-xs font-light">22+20+18</div>
