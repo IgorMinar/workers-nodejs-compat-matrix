@@ -238,7 +238,7 @@ const App = () => {
         {targetTotals.map((targetTotal) => {
           const [matching, mismatch, mock, missing] = (targetTotal as string)
             .split("/")
-            .map((i) => parseInt(i as string));
+            .map((i) => parseInt(i as string, 10));
 
           const totalPresent = matching + mismatch + mock;
           const total = totalPresent + missing;
@@ -247,7 +247,7 @@ const App = () => {
           const mismatchPct = pct(mismatch, total);
           const mockPct = pct(mock, total);
 
-          const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}\nMatching: ${matching}`;
+          const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}`;
 
           return (
             <TableCell>
@@ -307,9 +307,10 @@ const App = () => {
           <h3 className="font-semibold text-lg mb-1">Notes</h3>
           <ul className="list-disc list-inside">
             <li className="mb-1">
-              All percentages in the table represent API presence whether the
-              shape of the API matches against the baseline. They are not a
-              calculation of implementation compliance.
+              All percentages in the table represent whether the
+              shape of the API matches against the baseline.
+              <span className="font-bold">They are not a
+              calculation of implementation compliance.</span>
             </li>
             <li className="mb-1">
               The percentages represent the API surface area that is matching,{" "}
