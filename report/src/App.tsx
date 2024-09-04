@@ -4,7 +4,7 @@ import "./App.css";
 import tableData from "./data/table-data.json";
 import versionMap from "./data/versionMap.json";
 import timestamp from "./data/timestamp.json";
-import { mismatch, stub, supported, unsupported } from "./constants";
+import { mismatch, mock, matching, missing } from "./constants";
 import { Legend } from "./Legend";
 import { TableCell, TableHeaderCell, TableRow } from "./Table";
 import { formatPct, getDocsLink, getPolyfillSearchLink, pct } from "./utils";
@@ -13,6 +13,12 @@ import { z } from "zod";
 // The thresholds beyond which we render support percentages as red or green
 const RED_THRESHOLD = 20;
 const GREEN_THRESHOLD = 80;
+
+const versionSubtitles = {
+  workerd: "nodejs_compat",
+  wranglerV3: "(legacy) node_compat = true",
+  wranglerUnenv: "nodejs_compat_v2",
+};
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
 const targetTitles = {
@@ -66,14 +72,14 @@ const App = () => {
     const renderSupportValue = (value: string) => {
       switch (value) {
         case "supported":
-          return supported;
-        case "mismatch":
+          return matching;
+        case "unsupported":
           return mismatch;
         case "stub":
-          return stub;
-        case "unsupported":
+          return mock;
+        case "missing":
         default:
-          return unsupported;
+          return missing;
       }
     };
 
@@ -95,7 +101,7 @@ const App = () => {
     const renderLeafCells = () => {
       return (
         <>
-          <TableCell>{supported}</TableCell>
+          <TableCell>{matching}</TableCell>
           {targets.map((targetValue, targetIndex) =>
             renderLeafCell(targetValue as string, targetIndex)
           )}
@@ -112,22 +118,27 @@ const App = () => {
             </span>
           </TableCell>
           {targets.map((target) => {
-            const [supported, mismatch, stub, unsupported] = (target as string)
+            const [matching, mismatch, mock, missing] = (target as string)
               .split("/")
               .map((i) => parseInt(i as string));
 
-            const total = supported + mismatch + stub;
-            const percentage = pct(total, baselineSupport as number);
+            const totalPresent = matching + mismatch + mock;
+            const total = totalPresent + missing;
+            const presentPct = pct(totalPresent, baselineSupport as number);
+
+            const missingPct = pct(missing, total);
+            const mismatchPct = pct(mismatch, total);
+            const mockPct = pct(mock, total);
 
             let bgColor = "red";
-            if (percentage > RED_THRESHOLD) {
+            if (presentPct > RED_THRESHOLD) {
               bgColor = "yellow";
             }
-            if (percentage > GREEN_THRESHOLD) {
+            if (presentPct > GREEN_THRESHOLD) {
               bgColor = "green";
             }
 
-            const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
+            const tooltip = `Missing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}\nMatching: ${matching}`;
 
             return (
               <TableCell color={bgColor}>
@@ -135,10 +146,11 @@ const App = () => {
                   title={tooltip}
                   className={`flex gap-3 justify-center items-center`}
                 >
-                  <span className="text-sm">{formatPct(percentage)}</span>
+                  <span className="text-sm">{formatPct(presentPct)}</span>
                   <div className="text-xs">
                     <span>
-                      {unsupported}/{mismatch}/{stub}
+                      {formatPct(missingPct)}/{formatPct(mismatchPct)}/
+                      {formatPct(mockPct)}
                     </span>
                   </div>
                 </div>
@@ -213,6 +225,9 @@ const App = () => {
       <TableRow>
         <TableCell>
           <span className="font-semibold flex justify-start ml-4">Totals</span>
+          <span className="text-xs font-light flex justify-start ml-4">
+            missing / mismatched / mocked
+          </span>
         </TableCell>
         <TableCell>
           <div>
@@ -221,26 +236,29 @@ const App = () => {
           </div>
         </TableCell>
         {targetTotals.map((targetTotal) => {
-          const [supported, mismatch, stub, unsupported] = (
-            targetTotal as string
-          )
+          const [matching, mismatch, mock, missing] = (targetTotal as string)
             .split("/")
-            .map((i) => parseInt(i as string));
+            .map((i) => parseInt(i as string, 10));
 
-          const total = supported + mismatch + stub;
-          const percentage = pct(total, baselineCount as number);
+          const totalPresent = matching + mismatch + mock;
+          const total = totalPresent + missing;
+          const presentPct = pct(totalPresent, baselineCount as number);
+          const missingPct = pct(missing, total);
+          const mismatchPct = pct(mismatch, total);
+          const mockPct = pct(mock, total);
 
-          const tooltip = `Unsupported: ${unsupported}\nMismatch: ${mismatch}\nStubbed: ${stub}\nSupported: ${supported}`;
+          const tooltip = `Matching: ${matching}\nMissing: ${missing}\nMismatch: ${mismatch}\nMocked: ${mock}`;
 
           return (
             <TableCell>
               <div title={tooltip}>
                 <span className="text-sm font-semibold">
-                  {formatPct(percentage)}
+                  {formatPct(presentPct)}
                 </span>
                 <div className="text-xs">
                   <span>
-                    {unsupported}/{mismatch}/{stub}
+                    {formatPct(missingPct)}/{formatPct(mismatchPct)}/
+                    {formatPct(mockPct)}
                   </span>
                 </div>
               </div>
@@ -289,32 +307,54 @@ const App = () => {
           <h3 className="font-semibold text-lg mb-1">Notes</h3>
           <ul className="list-disc list-inside">
             <li className="mb-1">
-              All percentages in the table represent API presence whether the shape of the API 
-              matches against the baseline. They are not a calculation of implementation compliance. 
+              All percentages in the table represent whether the
+              shape of the API matches against the baseline.
+              <span className="font-bold">They are not a
+              calculation of implementation compliance.</span>
             </li>
             <li className="mb-1">
-              The <span className="font-semibold">Baseline</span> column represents a union of Node.js v18, v20, and v22 API surfaces 
-              that we use as node API compatibility target.
+              The percentages represent the API surface area that is matching,{" "}
+              mocked, <span className="font-semibold">or</span> mismatched.
+            </li>
+            <li className="mb-1">
+              The <span className="font-semibold">baseline</span> column
+              represents a union of Node.js v18, v20, and v22 API surfaces that
+              we use as the ideal Node.js API compatibility target.
+            </li>
+            <li className="mb-1">
+              <span className="font-semibold">Mock</span> means that the API can
+              still be imported but it is not implemented. It will throw an
+              error or return an dummy value if called.
+            </li>
+            <li className="mb-1">
+              These values have been autogenerated and may not be 100% accurate.
             </li>
           </ul>
-
         </div>
         <table className="table-fixed border border-slate-200 p-5 border-collapse">
           <thead>
             <tr className="sticky top-0 bg-white">
-              <TableHeaderCell width="min-w-[35ch]">API</TableHeaderCell>
+              <TableHeaderCell width="min-w-[25ch]">API</TableHeaderCell>
               <TableHeaderCell width="min-w-[8ch]">
                 <div>baseline</div>
                 <div className="text-xs font-light">22+20+18</div>
               </TableHeaderCell>
-              {Object.entries(targetTitles).map(([targetKey, title]) => (
-                <TableHeaderCell width="w-[15ch]">
-                  <div>{title}</div>
-                  <div className="text-xs font-light">
-                    {versionMap[targetKey as keyof typeof versionMap]}
-                  </div>
-                </TableHeaderCell>
-              ))}
+              {Object.entries(targetTitles).map(([targetKey, title]) => {
+                const versionSubtitle =
+                  versionSubtitles[targetKey as keyof typeof versionSubtitles];
+                const versionName =
+                  versionMap[targetKey as keyof typeof versionMap];
+
+                return (
+                  <TableHeaderCell width="w-[15ch]">
+                    <div>{title}</div>
+                    <div className="text-xs font-light mt-1">{versionName}</div>
+                    <div className="text-xs font-light mt-1">
+                      {versionSubtitle}
+                    </div>
+                  </TableHeaderCell>
+                );
+              })}
             </tr>
           </thead>
           <tbody>

@@ -1,4 +1,4 @@
-export const supported = "✅";
-export const unsupported = "❌";
-export const stub = "🥸";
+export const matching = "✅";
+export const missing = "❌";
+export const mock = "🥸";
 export const mismatch = "️🩹";
