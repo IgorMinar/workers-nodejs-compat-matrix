@@ -32,27 +32,27 @@ pnpm install
 
 ## Generate the report
 
-Update the dependencies
-
-```shell
-pnpm update -r
-```
-
 > [!IMPORTANT]
 > Update Bun and Deno, i.e. using `brew upgrade`on mac.
-
-Generate the report
-
-```shell
-pnpm generate
-```
 
 > [!IMPORTANT]
 > This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm generate`.
 
-## Serve a local version of the report
+- Update the catalog version in `pnpm-workspace.yaml`
+- Update the `compatibilityDate` in `workerd/config.capnp`
+- Run:
 
-Use
+  ```shell
+  pnpm update -r
+  ```
+
+- Generate the report
+
+  ```shell
+  pnpm generate
+  ```
+
+## Serve a local version of the report
 
 ```shell
 pnpm report:dev
