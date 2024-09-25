@@ -3,3 +3,7 @@ packages:
   - "workerd"
   - "wrangler-*"
   - "report"
+
+catalog:
+  wrangler: ^3.78.8
+  workerd: ^1.20240924.0
