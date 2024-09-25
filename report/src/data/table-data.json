@@ -1,29 +1,29 @@
 [
   [
     "Totals",
-    10734,
-    10734,
-    "10616/0/0/118",
-    "10491/4/0/239",
-    "10227/9/0/498",
-    "7387/54/0/3293",
-    "5436/35/104/5159",
-    "2975/21/0/7738",
-    "1735/36/0/8963",
-    "6632/158/2860/1084"
+    10754,
+    10754,
+    "10636/0/0/118",
+    "10491/4/0/259",
+    "10227/9/0/518",
+    "7409/54/0/3291",
+    "5551/24/100/5079",
+    "3103/22/0/7629",
+    "1735/36/0/8983",
+    "6616/158/2834/1146"
   ],
   [
     "*globals*",
-    2381,
-    2381,
-    "2372/0/0/9",
-    "2310/0/0/71",
-    "2190/0/0/191",
-    "1836/6/0/539",
-    "657/0/0/1724",
-    "1222/0/0/1159",
-    "605/0/0/1776",
-    "1533/27/481/340"
+    2382,
+    2382,
+    "2373/0/0/9",
+    "2310/0/0/72",
+    "2190/0/0/192",
+    "1839/6/0/537",
+    "659/0/0/1723",
+    "1222/0/0/1160",
+    "605/0/0/1777",
+    "1533/27/481/341"
   ],
   [
     "*globals*.*self*",
@@ -2789,7 +2789,7 @@
     "285/0/0/0",
     "284/0/0/1",
     "126/2/0/157",
-    "23/0/0/262",
+    "24/0/0/261",
     "24/0/0/261",
     "25/0/0/260",
     "110/3/13/159"
@@ -2815,7 +2815,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -6870,7 +6870,7 @@
     "641/0/0/0",
     "620/0/0/21",
     "576/0/0/65",
-    "589/0/0/52",
+    "590/0/0/51",
     "0/0/0/641",
     "482/0/0/159",
     "0/0/0/641",
@@ -14046,7 +14046,7 @@
     "95/0/0/0",
     "94/0/0/1",
     "91/0/0/4",
-    "78/0/0/17",
+    "79/0/0/16",
     "0/0/0/95",
     "4/0/0/91",
     "0/0/0/95",
@@ -14124,7 +14124,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -15385,8 +15385,8 @@
     "641/0/0/0",
     "620/0/0/21",
     "576/0/0/65",
-    "589/0/0/52",
-    "383/0/0/258",
+    "590/0/0/51",
+    "384/0/0/257",
     "482/0/0/159",
     "353/0/0/288",
     "554/1/37/49"
@@ -18142,7 +18142,7 @@
     "32/0/0/0",
     "31/0/0/1",
     "26/0/0/6",
-    "23/0/0/9",
+    "24/0/0/8",
     "24/0/0/8",
     "25/0/0/7",
     "28/0/4/0"
@@ -18168,7 +18168,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -22561,7 +22561,7 @@
     "95/0/0/0",
     "94/0/0/1",
     "91/0/0/4",
-    "78/0/0/17",
+    "79/0/0/16",
     "0/0/0/95",
     "4/0/0/91",
     "0/0/0/95",
@@ -22639,7 +22639,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -24038,16 +24038,16 @@
   ],
   [
     "*globals*.performance",
-    34,
-    34,
-    "33/0/0/1",
-    "33/0/0/1",
-    "33/0/0/1",
-    "14/0/0/20",
-    "14/0/0/20",
-    "3/0/0/31",
-    "3/0/0/31",
-    "3/0/0/31"
+    35,
+    35,
+    "34/0/0/1",
+    "33/0/0/2",
+    "33/0/0/2",
+    "14/0/0/21",
+    "14/0/0/21",
+    "3/0/0/32",
+    "3/0/0/32",
+    "3/0/0/32"
   ],
   [
     "*globals*.performance.*self*",
@@ -24220,16 +24220,16 @@
   ],
   [
     "*globals*.performance.nodeTiming",
-    14,
-    14,
-    "13/0/0/1",
-    "13/0/0/1",
-    "14/0/0/0",
-    "0/0/0/14",
-    "0/0/0/14",
-    "0/0/0/14",
-    "0/0/0/14",
-    "0/0/0/14"
+    15,
+    15,
+    "14/0/0/1",
+    "13/0/0/2",
+    "14/0/0/1",
+    "0/0/0/15",
+    "0/0/0/15",
+    "0/0/0/15",
+    "0/0/0/15",
+    "0/0/0/15"
   ],
   [
     "*globals*.performance.nodeTiming.*self*",
@@ -24401,6 +24401,19 @@
     "unsupported"
   ],
   [
+    "*globals*.performance.nodeTiming.uvMetricsInfo",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "*globals*.performance.nodeTiming.v8Start",
     0,
     "supported",
@@ -24511,7 +24524,7 @@
     "529/0/0/6",
     "519/0/0/16",
     "515/0/0/20",
-    "285/4/0/246",
+    "286/4/0/245",
     "0/0/0/535",
     "4/0/0/531",
     "0/0/0/535",
@@ -24654,7 +24667,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -48601,7 +48614,7 @@
     "134/0/0/12",
     "136/0/0/10",
     "132/0/0/14",
-    "10/0/0/136",
+    "16/0/0/130",
     "6/0/0/140",
     "0/1/0/145",
     "142/0/0/4"
@@ -48627,7 +48640,7 @@
     "67/0/0/6",
     "68/0/0/5",
     "66/0/0/7",
-    "5/0/0/68",
+    "8/0/0/65",
     "3/0/0/70",
     "0/0/0/73",
     "71/0/0/2"
@@ -48679,7 +48692,7 @@
     "60/0/0/6",
     "61/0/0/5",
     "59/0/0/7",
-    "0/0/0/66",
+    "1/0/0/65",
     "0/0/0/66",
     "0/0/0/66",
     "64/0/0/2"
@@ -48692,7 +48705,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -49576,7 +49589,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -49589,7 +49602,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -49628,7 +49641,7 @@
     "60/0/0/6",
     "61/0/0/5",
     "59/0/0/7",
-    "0/0/0/66",
+    "1/0/0/65",
     "0/0/0/66",
     "0/0/0/66",
     "64/0/0/2"
@@ -49641,7 +49654,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -50525,7 +50538,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -50538,7 +50551,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51331,7 +51344,7 @@
     "49/0/0/0",
     "49/0/0/0",
     "49/0/0/0",
-    "2/12/8/27",
+    "34/1/10/4",
     "0/0/0/49",
     "2/0/0/47",
     "44/1/4/0"
@@ -51357,7 +51370,7 @@
     "32/0/0/0",
     "32/0/0/0",
     "32/0/0/0",
-    "1/6/4/21",
+    "26/0/5/1",
     "0/0/0/32",
     "1/0/0/31",
     "32/0/0/0"
@@ -51383,7 +51396,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51396,7 +51409,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51422,7 +51435,7 @@
     "1/0/0/0",
     "1/0/0/0",
     "1/0/0/0",
-    "0/0/0/1",
+    "1/0/0/0",
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0"
@@ -51435,7 +51448,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51448,7 +51461,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51461,7 +51474,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51474,7 +51487,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51487,7 +51500,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "supported"
@@ -51500,7 +51513,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51513,7 +51526,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51539,7 +51552,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51552,7 +51565,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51565,7 +51578,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51578,7 +51591,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51591,7 +51604,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51604,7 +51617,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51617,7 +51630,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51630,7 +51643,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51643,7 +51656,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51656,7 +51669,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51669,7 +51682,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51682,7 +51695,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51695,7 +51708,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51708,7 +51721,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51721,7 +51734,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "unsupported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51734,7 +51747,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51747,7 +51760,7 @@
     "1/0/0/0",
     "1/0/0/0",
     "1/0/0/0",
-    "0/1/0/0",
+    "1/0/0/0",
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0"
@@ -51760,7 +51773,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51799,7 +51812,7 @@
     "1/0/0/0",
     "1/0/0/0",
     "1/0/0/0",
-    "0/1/0/0",
+    "1/0/0/0",
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0"
@@ -51812,7 +51825,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51825,7 +51838,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51838,7 +51851,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51916,7 +51929,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -51942,7 +51955,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51955,7 +51968,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51968,7 +51981,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -51994,7 +52007,7 @@
     "1/0/0/0",
     "1/0/0/0",
     "1/0/0/0",
-    "0/1/0/0",
+    "1/0/0/0",
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0"
@@ -52007,7 +52020,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -52046,7 +52059,7 @@
     "1/0/0/0",
     "1/0/0/0",
     "1/0/0/0",
-    "0/1/0/0",
+    "1/0/0/0",
     "0/0/0/1",
     "0/0/0/1",
     "1/0/0/0"
@@ -52059,7 +52072,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -62732,10 +62745,10 @@
     "292/4/0/37",
     "327/4/0/2",
     "226/4/0/103",
-    "293/2/24/14",
-    "133/1/0/199",
+    "299/2/18/14",
+    "134/1/0/198",
     "2/0/0/331",
-    "290/5/35/3"
+    "294/5/31/3"
   ],
   [
     "crypto.*self*",
@@ -62758,10 +62771,10 @@
     "143/2/0/19",
     "161/2/0/1",
     "110/2/0/52",
-    "141/1/12/10",
-    "60/1/0/103",
+    "144/1/9/10",
+    "61/1/0/102",
     "1/0/0/163",
-    "139/3/19/3"
+    "141/3/17/3"
   ],
   [
     "crypto.default.*self*",
@@ -62785,7 +62798,7 @@
     "supported",
     "unsupported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -62810,7 +62823,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -62849,7 +62862,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -64162,7 +64175,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -64581,7 +64594,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "crypto.default.scryptSync",
@@ -64594,7 +64607,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "crypto.default.secureHeapUsed",
@@ -64968,7 +64981,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -64994,7 +65007,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -66281,7 +66294,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -66648,7 +66661,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "crypto.scryptSync",
@@ -66661,7 +66674,7 @@
     "supported",
     "supported",
     "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "crypto.secureHeapUsed",
@@ -80516,7 +80529,7 @@
     "247/0/0/6",
     "244/0/0/9",
     "238/2/0/13",
-    "233/0/4/16",
+    "235/0/2/16",
     "0/0/0/253",
     "0/1/0/252",
     "144/7/102/0"
@@ -80542,7 +80555,7 @@
     "120/0/0/3",
     "120/0/0/3",
     "118/1/0/4",
-    "115/0/2/6",
+    "116/0/1/6",
     "0/0/0/123",
     "0/0/0/123",
     "72/1/50/0"
@@ -80646,7 +80659,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -82258,7 +82271,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -90889,7 +90902,7 @@
     "113/0/0/0",
     "113/0/0/0",
     "110/0/0/3",
-    "92/2/0/19",
+    "95/4/0/14",
     "102/0/2/9",
     "0/0/0/113",
     "8/0/0/105",
@@ -90915,7 +90928,7 @@
     "52/0/0/0",
     "52/0/0/0",
     "52/0/0/0",
-    "45/1/0/6",
+    "45/2/0/5",
     "47/0/1/4",
     "0/0/0/52",
     "4/0/0/48",
@@ -90993,7 +91006,7 @@
     "46/0/0/0",
     "46/0/0/0",
     "46/0/0/0",
-    "39/1/0/6",
+    "39/2/0/5",
     "42/0/0/4",
     "0/0/0/46",
     "0/0/0/46",
@@ -91136,7 +91149,7 @@
     "supported",
     "supported",
     "supported",
-    "supported",
+    "mismatch",
     "supported",
     "unsupported",
     "unsupported",
@@ -91331,7 +91344,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -91669,7 +91682,7 @@
     "55/0/0/0",
     "55/0/0/0",
     "52/0/0/3",
-    "41/1/0/13",
+    "44/2/0/9",
     "50/0/0/5",
     "0/0/0/55",
     "0/0/0/55",
@@ -91890,7 +91903,7 @@
     "supported",
     "supported",
     "supported",
-    "supported",
+    "mismatch",
     "supported",
     "unsupported",
     "unsupported",
@@ -92098,7 +92111,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -92189,7 +92202,7 @@
     "6/0/0/0",
     "6/0/0/0",
     "3/0/0/3",
-    "3/0/0/3",
+    "6/0/0/0",
     "5/0/0/1",
     "0/0/0/6",
     "0/0/0/6",
@@ -92215,7 +92228,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -92254,7 +92267,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -92267,7 +92280,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -92489,7 +92502,7 @@
     "60/0/0/10",
     "60/0/0/10",
     "58/2/0/10",
-    "0/0/0/70",
+    "52/0/8/10",
     "0/0/0/70",
     "0/1/0/69",
     "6/2/52/10"
@@ -92502,7 +92515,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "mismatch",
     "supported"
@@ -92593,7 +92606,7 @@
     "30/0/0/5",
     "30/0/0/5",
     "29/1/0/5",
-    "0/0/0/35",
+    "26/0/4/5",
     "0/0/0/35",
     "0/0/0/35",
     "3/1/26/5"
@@ -92606,7 +92619,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -92697,7 +92710,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -92710,7 +92723,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -92723,7 +92736,7 @@
     "24/0/0/0",
     "24/0/0/0",
     "23/1/0/0",
-    "0/0/0/24",
+    "24/0/0/0",
     "0/0/0/24",
     "0/0/0/24",
     "0/1/23/0"
@@ -92736,7 +92749,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "mismatch"
@@ -92749,7 +92762,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92762,7 +92775,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92775,7 +92788,7 @@
     "supported",
     "supported",
     "mismatch",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92788,7 +92801,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92801,7 +92814,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92814,7 +92827,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92827,7 +92840,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92840,7 +92853,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92853,7 +92866,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92866,7 +92879,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92879,7 +92892,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92892,7 +92905,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92905,7 +92918,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92918,7 +92931,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92931,7 +92944,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92944,7 +92957,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92957,7 +92970,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92970,7 +92983,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92983,7 +92996,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -92996,7 +93009,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93009,7 +93022,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93022,7 +93035,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93035,7 +93048,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93048,7 +93061,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "supported"
@@ -93061,7 +93074,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -93074,7 +93087,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -93087,7 +93100,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -93100,7 +93113,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -93113,7 +93126,7 @@
     "24/0/0/0",
     "24/0/0/0",
     "23/1/0/0",
-    "0/0/0/24",
+    "24/0/0/0",
     "0/0/0/24",
     "0/0/0/24",
     "0/1/23/0"
@@ -93126,7 +93139,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "mismatch"
@@ -93139,7 +93152,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93152,7 +93165,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93165,7 +93178,7 @@
     "supported",
     "supported",
     "mismatch",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93178,7 +93191,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93191,7 +93204,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93204,7 +93217,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93217,7 +93230,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93230,7 +93243,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93243,7 +93256,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93256,7 +93269,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93269,7 +93282,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93282,7 +93295,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93295,7 +93308,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93308,7 +93321,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93321,7 +93334,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93334,7 +93347,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93347,7 +93360,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93360,7 +93373,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93373,7 +93386,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93386,7 +93399,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93399,7 +93412,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93412,7 +93425,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93425,7 +93438,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -93438,7 +93451,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "supported"
@@ -93451,7 +93464,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -93464,7 +93477,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "stub",
     "unsupported",
     "unsupported",
     "stub"
@@ -94459,16 +94472,16 @@
   ],
   [
     "module",
-    62,
-    62,
-    "58/0/0/4",
-    "58/0/0/4",
-    "58/0/0/4",
-    "28/10/0/24",
-    "45/4/0/13",
-    "0/0/0/62",
-    "1/1/0/60",
-    "16/7/28/11"
+    74,
+    74,
+    "70/0/0/4",
+    "58/0/0/16",
+    "58/0/0/16",
+    "28/10/0/36",
+    "46/4/0/24",
+    "7/1/0/66",
+    "1/1/0/72",
+    "18/7/26/23"
   ],
   [
     "module.*self*",
@@ -94479,22 +94492,22 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
   [
     "module.default",
-    37,
-    37,
-    "35/0/0/2",
-    "35/0/0/2",
-    "35/0/0/2",
-    "17/5/0/15",
-    "27/2/0/8",
-    "0/0/0/37",
-    "0/1/0/36",
-    "8/4/14/11"
+    41,
+    41,
+    "39/0/0/2",
+    "35/0/0/6",
+    "35/0/0/6",
+    "17/5/0/19",
+    "27/2/0/12",
+    "3/1/0/37",
+    "0/1/0/40",
+    "9/4/13/15"
   ],
   [
     "module.default.*self*",
@@ -94505,7 +94518,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "mismatch",
     "mismatch",
     "mismatch"
   ],
@@ -94765,9 +94778,48 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
+  ],
+  [
+    "module.default.constants",
+    2,
+    2,
+    "2/0/0/0",
+    "0/0/0/2",
+    "0/0/0/2",
+    "0/0/0/2",
+    "0/0/0/2",
+    "0/0/0/2",
+    "0/0/0/2",
+    "0/0/0/2"
+  ],
+  [
+    "module.default.constants.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.default.constants.compileCacheStatus",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.default.createRequire",
@@ -94778,9 +94830,22 @@
     "supported",
     "supported",
     "supported",
+    "supported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "module.default.enableCompileCache",
+    0,
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.default.findSourceMap",
@@ -94794,6 +94859,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "module.default.getCompileCacheDir",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.default.globalPaths",
@@ -94817,7 +94895,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -95233,9 +95311,113 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
+  ],
+  [
+    "module.constants",
+    6,
+    6,
+    "6/0/0/0",
+    "0/0/0/6",
+    "0/0/0/6",
+    "0/0/0/6",
+    "0/0/0/6",
+    "0/0/0/6",
+    "0/0/0/6",
+    "0/0/0/6"
+  ],
+  [
+    "module.constants.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.constants.compileCacheStatus",
+    5,
+    5,
+    "5/0/0/0",
+    "0/0/0/5",
+    "0/0/0/5",
+    "0/0/0/5",
+    "0/0/0/5",
+    "0/0/0/5",
+    "0/0/0/5",
+    "0/0/0/5"
+  ],
+  [
+    "module.constants.compileCacheStatus.*self*",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.constants.compileCacheStatus.ALREADY_ENABLED",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.constants.compileCacheStatus.DISABLED",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.constants.compileCacheStatus.ENABLED",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
+    "module.constants.compileCacheStatus.FAILED",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.createRequire",
@@ -95246,9 +95428,22 @@
     "supported",
     "supported",
     "supported",
+    "supported",
+    "unsupported",
+    "supported"
+  ],
+  [
+    "module.enableCompileCache",
+    0,
+    "supported",
+    "supported",
     "unsupported",
     "unsupported",
-    "stub"
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.findSourceMap",
@@ -95262,6 +95457,19 @@
     "unsupported",
     "unsupported",
     "stub"
+  ],
+  [
+    "module.getCompileCacheDir",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "module.globalPaths",
@@ -95285,7 +95493,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -95297,7 +95505,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
@@ -95335,7 +95543,7 @@
     "38/0/0/0",
     "38/0/0/0",
     "38/0/0/0",
-    "30/0/0/8",
+    "32/0/0/6",
     "24/0/4/10",
     "0/0/0/38",
     "2/0/0/36",
@@ -95361,7 +95569,7 @@
     "19/0/0/0",
     "19/0/0/0",
     "19/0/0/0",
-    "15/0/0/4",
+    "16/0/0/3",
     "12/0/2/5",
     "0/0/0/19",
     "1/0/0/18",
@@ -95439,7 +95647,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "stub",
     "unsupported",
     "unsupported",
@@ -95673,7 +95881,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "stub",
     "unsupported",
     "unsupported",
@@ -105366,16 +105574,16 @@
   ],
   [
     "perf_hooks",
-    125,
-    125,
-    "124/0/0/1",
-    "124/0/0/1",
-    "119/0/0/6",
-    "86/2/0/37",
-    "36/0/6/83",
-    "0/0/0/125",
-    "0/1/0/124",
-    "50/0/0/75"
+    126,
+    126,
+    "125/0/0/1",
+    "124/0/0/2",
+    "119/0/0/7",
+    "112/2/0/12",
+    "38/0/4/84",
+    "0/0/0/126",
+    "0/1/0/125",
+    "50/0/0/76"
   ],
   [
     "perf_hooks.*self*",
@@ -105397,8 +105605,8 @@
     "56/0/0/0",
     "56/0/0/0",
     "53/0/0/3",
-    "37/1/0/18",
-    "18/0/3/35",
+    "50/1/0/5",
+    "19/0/2/35",
     "0/0/0/56",
     "0/0/0/56",
     "25/0/0/31"
@@ -105476,7 +105684,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -105514,7 +105722,7 @@
     "25/0/0/0",
     "25/0/0/0",
     "23/0/0/2",
-    "12/0/0/13",
+    "25/0/0/0",
     "1/0/0/24",
     "0/0/0/25",
     "0/0/0/25",
@@ -105540,7 +105748,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105553,7 +105761,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105566,7 +105774,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105579,7 +105787,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105592,7 +105800,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105748,7 +105956,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105761,7 +105969,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105774,7 +105982,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105787,7 +105995,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105800,7 +106008,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105813,7 +106021,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105826,7 +106034,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -105839,7 +106047,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106217,7 +106425,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -106255,7 +106463,7 @@
     "25/0/0/0",
     "25/0/0/0",
     "23/0/0/2",
-    "12/0/0/13",
+    "25/0/0/0",
     "1/0/0/24",
     "0/0/0/25",
     "0/0/0/25",
@@ -106281,7 +106489,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106294,7 +106502,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106307,7 +106515,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106320,7 +106528,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106333,7 +106541,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106489,7 +106697,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106502,7 +106710,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106515,7 +106723,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106528,7 +106736,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106541,7 +106749,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106554,7 +106762,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106567,7 +106775,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106580,7 +106788,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -106614,16 +106822,16 @@
   ],
   [
     "perf_hooks.performance",
-    34,
-    34,
-    "33/0/0/1",
-    "33/0/0/1",
-    "33/0/0/1",
-    "27/1/0/6",
-    "15/0/1/18",
-    "0/0/0/34",
-    "0/0/0/34",
-    "3/0/0/31"
+    35,
+    35,
+    "34/0/0/1",
+    "33/0/0/2",
+    "33/0/0/2",
+    "27/1/0/7",
+    "15/0/1/19",
+    "0/0/0/35",
+    "0/0/0/35",
+    "3/0/0/32"
   ],
   [
     "perf_hooks.performance.*self*",
@@ -106796,16 +107004,16 @@
   ],
   [
     "perf_hooks.performance.nodeTiming",
-    14,
-    14,
-    "13/0/0/1",
-    "13/0/0/1",
-    "14/0/0/0",
-    "13/0/0/1",
-    "1/0/0/13",
-    "0/0/0/14",
-    "0/0/0/14",
-    "0/0/0/14"
+    15,
+    15,
+    "14/0/0/1",
+    "13/0/0/2",
+    "14/0/0/1",
+    "13/0/0/2",
+    "1/0/0/14",
+    "0/0/0/15",
+    "0/0/0/15",
+    "0/0/0/15"
   ],
   [
     "perf_hooks.performance.nodeTiming.*self*",
@@ -106977,6 +107185,19 @@
     "unsupported"
   ],
   [
+    "perf_hooks.performance.nodeTiming.uvMetricsInfo",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
+  ],
+  [
     "perf_hooks.performance.nodeTiming.v8Start",
     0,
     "supported",
@@ -107087,7 +107308,7 @@
     "1458/0/0/20",
     "1436/0/0/42",
     "1394/5/0/79",
-    "652/12/0/814",
+    "654/12/0/812",
     "614/14/0/850",
     "8/0/0/1470",
     "39/0/0/1439",
@@ -107113,7 +107334,7 @@
     "529/0/0/6",
     "519/0/0/16",
     "515/0/0/20",
-    "285/4/0/246",
+    "286/4/0/245",
     "274/5/0/256",
     "4/0/0/531",
     "23/0/0/512",
@@ -107256,7 +107477,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -114354,7 +114575,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -130183,16 +130404,16 @@
   ],
   [
     "sys",
-    174,
-    174,
-    "174/0/0/0",
-    "174/0/0/0",
-    "170/0/0/4",
-    "158/0/0/16",
-    "150/0/0/24",
-    "0/0/0/174",
-    "46/0/0/128",
-    "160/0/14/0"
+    176,
+    176,
+    "176/0/0/0",
+    "174/0/0/2",
+    "170/0/0/6",
+    "158/0/0/18",
+    "152/0/0/24",
+    "0/0/0/176",
+    "46/0/0/130",
+    "160/0/14/2"
   ],
   [
     "sys.*self*",
@@ -130209,16 +130430,16 @@
   ],
   [
     "sys.default",
-    87,
-    87,
-    "87/0/0/0",
-    "87/0/0/0",
-    "85/0/0/2",
-    "79/0/0/8",
-    "75/0/0/12",
-    "0/0/0/87",
-    "23/0/0/64",
-    "80/0/7/0"
+    88,
+    88,
+    "88/0/0/0",
+    "87/0/0/1",
+    "85/0/0/3",
+    "79/0/0/9",
+    "76/0/0/12",
+    "0/0/0/88",
+    "23/0/0/65",
+    "80/0/7/1"
   ],
   [
     "sys.default.*self*",
@@ -130358,7 +130579,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -130414,6 +130635,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "sys.default.getCallSite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "sys.default.getSystemErrorMap",
@@ -131489,7 +131723,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -131545,6 +131779,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "sys.getCallSite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "sys.getSystemErrorMap",
@@ -132502,7 +132749,7 @@
     "34/0/0/0",
     "34/0/0/0",
     "22/0/0/12",
-    "14/0/0/20",
+    "32/0/0/2",
     "14/0/0/20",
     "0/0/0/34",
     "22/0/0/12",
@@ -132528,7 +132775,7 @@
     "16/0/0/0",
     "16/0/0/0",
     "11/0/0/5",
-    "7/0/0/9",
+    "15/0/0/1",
     "7/0/0/9",
     "0/0/0/16",
     "11/0/0/5",
@@ -132567,7 +132814,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -132619,7 +132866,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -132632,7 +132879,7 @@
     "5/0/0/0",
     "5/0/0/0",
     "0/0/0/5",
-    "0/0/0/5",
+    "5/0/0/0",
     "0/0/0/5",
     "0/0/0/5",
     "0/0/0/5",
@@ -132645,7 +132892,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132658,7 +132905,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132671,7 +132918,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132684,7 +132931,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132697,7 +132944,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132749,7 +132996,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -132775,7 +133022,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -132827,7 +133074,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -132840,7 +133087,7 @@
     "7/0/0/0",
     "7/0/0/0",
     "0/0/0/7",
-    "0/0/0/7",
+    "7/0/0/0",
     "0/0/0/7",
     "0/0/0/7",
     "0/0/0/7",
@@ -132853,7 +133100,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132866,7 +133113,7 @@
     "3/0/0/0",
     "3/0/0/0",
     "0/0/0/3",
-    "0/0/0/3",
+    "3/0/0/0",
     "0/0/0/3",
     "0/0/0/3",
     "0/0/0/3",
@@ -132879,7 +133126,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132892,7 +133139,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132905,7 +133152,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132918,7 +133165,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132931,7 +133178,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132944,7 +133191,7 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
@@ -132996,7 +133243,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported",
@@ -133973,7 +134220,7 @@
     "26/0/0/0",
     "26/0/0/0",
     "26/0/0/0",
-    "0/0/0/26",
+    "10/0/0/16",
     "7/0/0/19",
     "26/0/0/0"
   ],
@@ -133986,7 +134233,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -133999,7 +134246,7 @@
     "13/0/0/0",
     "13/0/0/0",
     "13/0/0/0",
-    "0/0/0/13",
+    "5/0/0/8",
     "0/0/0/13",
     "13/0/0/0"
   ],
@@ -134012,7 +134259,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134025,7 +134272,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134038,7 +134285,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134064,7 +134311,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134077,7 +134324,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134181,7 +134428,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -134194,7 +134441,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134220,7 +134467,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134233,7 +134480,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -134330,16 +134577,16 @@
   ],
   [
     "util",
-    174,
-    174,
-    "174/0/0/0",
-    "174/0/0/0",
-    "170/0/0/4",
-    "158/0/0/16",
-    "150/0/0/24",
-    "130/0/0/44",
-    "46/0/0/128",
-    "160/0/14/0"
+    176,
+    176,
+    "176/0/0/0",
+    "174/0/0/2",
+    "170/0/0/6",
+    "158/0/0/18",
+    "152/0/0/24",
+    "130/0/0/46",
+    "46/0/0/130",
+    "160/0/14/2"
   ],
   [
     "util.*self*",
@@ -134356,16 +134603,16 @@
   ],
   [
     "util.default",
-    87,
-    87,
-    "87/0/0/0",
-    "87/0/0/0",
-    "85/0/0/2",
-    "79/0/0/8",
-    "75/0/0/12",
-    "65/0/0/22",
-    "23/0/0/64",
-    "80/0/7/0"
+    88,
+    88,
+    "88/0/0/0",
+    "87/0/0/1",
+    "85/0/0/3",
+    "79/0/0/9",
+    "76/0/0/12",
+    "65/0/0/23",
+    "23/0/0/65",
+    "80/0/7/1"
   ],
   [
     "util.default.*self*",
@@ -134505,7 +134752,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "supported"
@@ -134561,6 +134808,19 @@
     "supported",
     "unsupported",
     "supported"
+  ],
+  [
+    "util.default.getCallSite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "util.default.getSystemErrorMap",
@@ -135636,7 +135896,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "unsupported",
     "supported"
@@ -135692,6 +135952,19 @@
     "supported",
     "unsupported",
     "supported"
+  ],
+  [
+    "util.getCallSite",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "util.getSystemErrorMap",
@@ -138646,16 +138919,16 @@
   ],
   [
     "vm",
-    24,
-    24,
-    "24/0/0/0",
-    "24/0/0/0",
-    "20/0/0/4",
-    "20/0/0/4",
-    "14/0/6/4",
-    "0/0/0/24",
-    "16/0/0/8",
-    "14/2/8/0"
+    26,
+    26,
+    "26/0/0/0",
+    "24/0/0/2",
+    "20/0/0/6",
+    "20/0/0/6",
+    "18/0/2/6",
+    "0/0/0/26",
+    "16/0/0/10",
+    "14/2/8/2"
   ],
   [
     "vm.*self*",
@@ -138672,16 +138945,16 @@
   ],
   [
     "vm.default",
-    12,
-    12,
-    "12/0/0/0",
-    "12/0/0/0",
-    "10/0/0/2",
-    "10/0/0/2",
-    "7/0/3/2",
-    "0/0/0/12",
-    "8/0/0/4",
-    "7/1/4/0"
+    13,
+    13,
+    "13/0/0/0",
+    "12/0/0/1",
+    "10/0/0/3",
+    "10/0/0/3",
+    "9/0/1/3",
+    "0/0/0/13",
+    "8/0/0/5",
+    "7/1/4/1"
   ],
   [
     "vm.default.*self*",
@@ -138704,7 +138977,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "supported",
     "supported"
@@ -138717,23 +138990,23 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
   ],
   [
     "vm.default.constants",
-    2,
-    2,
-    "2/0/0/0",
-    "2/0/0/0",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "1/1/0/0"
+    3,
+    3,
+    "3/0/0/0",
+    "2/0/0/1",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "1/1/0/1"
   ],
   [
     "vm.default.constants.*self*",
@@ -138747,6 +139020,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "vm.default.constants.DONT_CONTEXTIFY",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "vm.default.constants.USE_MAIN_CONTEXT_DEFAULT_LOADER",
@@ -138860,7 +139146,7 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "supported",
     "supported"
@@ -138873,23 +139159,23 @@
     "supported",
     "supported",
     "supported",
-    "stub",
+    "supported",
     "unsupported",
     "unsupported",
     "stub"
   ],
   [
     "vm.constants",
-    2,
-    2,
-    "2/0/0/0",
-    "2/0/0/0",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "0/0/0/2",
-    "1/1/0/0"
+    3,
+    3,
+    "3/0/0/0",
+    "2/0/0/1",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "0/0/0/3",
+    "1/1/0/1"
   ],
   [
     "vm.constants.*self*",
@@ -138903,6 +139189,19 @@
     "unsupported",
     "unsupported",
     "supported"
+  ],
+  [
+    "vm.constants.DONT_CONTEXTIFY",
+    0,
+    "supported",
+    "supported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported",
+    "unsupported"
   ],
   [
     "vm.constants.USE_MAIN_CONTEXT_DEFAULT_LOADER",
@@ -139016,7 +139315,7 @@
     "4/0/0/0",
     "4/0/0/0",
     "4/0/0/0",
-    "0/0/0/4",
+    "4/0/0/0",
     "0/0/0/4",
     "0/1/0/3",
     "4/0/0/0"
@@ -139029,7 +139328,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "mismatch",
     "supported"
@@ -139042,7 +139341,7 @@
     "2/0/0/0",
     "2/0/0/0",
     "2/0/0/0",
-    "0/0/0/2",
+    "2/0/0/0",
     "0/0/0/2",
     "0/0/0/2",
     "2/0/0/0"
@@ -139055,7 +139354,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -139068,7 +139367,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -139081,7 +139380,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "unsupported",
     "supported"
@@ -139093,7 +139392,7 @@
     "36/0/0/0",
     "32/0/0/4",
     "32/0/0/4",
-    "30/2/0/4",
+    "32/0/0/4",
     "26/0/6/4",
     "0/0/0/36",
     "0/1/0/35",
@@ -139119,7 +139418,7 @@
     "18/0/0/0",
     "16/0/0/2",
     "16/0/0/2",
-    "15/1/0/2",
+    "16/0/0/2",
     "13/0/3/2",
     "0/0/0/18",
     "0/0/0/18",
@@ -139366,7 +139665,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -139600,7 +139899,7 @@
     "supported",
     "supported",
     "supported",
-    "mismatch",
+    "supported",
     "supported",
     "unsupported",
     "unsupported",
@@ -139613,11 +139912,11 @@
     "374/0/0/0",
     "374/0/0/0",
     "372/0/0/2",
-    "362/0/0/12",
+    "328/0/0/46",
     "324/0/4/46",
-    "220/0/0/154",
+    "330/0/0/44",
     "88/4/0/282",
-    "352/0/20/2"
+    "330/0/0/44"
   ],
   [
     "zlib.*self*",
@@ -139639,11 +139938,11 @@
     "209/0/0/0",
     "209/0/0/0",
     "208/0/0/1",
-    "199/0/0/10",
+    "164/0/0/45",
     "162/0/2/45",
-    "110/0/0/99",
+    "165/0/0/44",
     "44/2/0/163",
-    "198/0/10/1"
+    "165/0/0/44"
   ],
   [
     "zlib.default.*self*",
@@ -139667,7 +139966,7 @@
     "supported",
     "supported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -139680,7 +139979,7 @@
     "supported",
     "supported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -139695,7 +139994,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.DEFLATERAW",
@@ -139708,7 +140007,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.Deflate",
@@ -139719,7 +140018,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139732,7 +140031,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139747,7 +140046,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.GZIP",
@@ -139760,7 +140059,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.Gunzip",
@@ -139771,7 +140070,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139784,7 +140083,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139799,7 +140098,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.INFLATERAW",
@@ -139812,7 +140111,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.Inflate",
@@ -139823,7 +140122,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139836,7 +140135,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139851,7 +140150,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.Unzip",
@@ -139862,7 +140161,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -139877,7 +140176,7 @@
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported"
   ],
   [
     "zlib.default.Z_BEST_COMPRESSION",
@@ -139886,11 +140185,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_BEST_SPEED",
@@ -139899,11 +140198,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_BLOCK",
@@ -139912,11 +140211,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_BUF_ERROR",
@@ -139925,11 +140224,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DATA_ERROR",
@@ -139938,11 +140237,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_CHUNK",
@@ -139951,11 +140250,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_COMPRESSION",
@@ -139964,11 +140263,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_LEVEL",
@@ -139977,11 +140276,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_MEMLEVEL",
@@ -139990,11 +140289,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_STRATEGY",
@@ -140003,11 +140302,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_DEFAULT_WINDOWBITS",
@@ -140016,11 +140315,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_ERRNO",
@@ -140029,11 +140328,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_FILTERED",
@@ -140042,11 +140341,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_FINISH",
@@ -140055,11 +140354,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_FIXED",
@@ -140068,11 +140367,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_FULL_FLUSH",
@@ -140081,11 +140380,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_HUFFMAN_ONLY",
@@ -140094,11 +140393,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MAX_CHUNK",
@@ -140107,11 +140406,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MAX_LEVEL",
@@ -140120,11 +140419,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MAX_MEMLEVEL",
@@ -140133,11 +140432,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MAX_WINDOWBITS",
@@ -140146,11 +140445,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MEM_ERROR",
@@ -140159,11 +140458,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MIN_CHUNK",
@@ -140172,11 +140471,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MIN_LEVEL",
@@ -140185,11 +140484,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MIN_MEMLEVEL",
@@ -140198,11 +140497,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_MIN_WINDOWBITS",
@@ -140211,11 +140510,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_NEED_DICT",
@@ -140224,11 +140523,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_NO_COMPRESSION",
@@ -140237,11 +140536,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_NO_FLUSH",
@@ -140250,11 +140549,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_OK",
@@ -140263,11 +140562,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_PARTIAL_FLUSH",
@@ -140276,11 +140575,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_RLE",
@@ -140289,11 +140588,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_STREAM_END",
@@ -140302,11 +140601,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_STREAM_ERROR",
@@ -140315,11 +140614,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_SYNC_FLUSH",
@@ -140328,11 +140627,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.Z_VERSION_ERROR",
@@ -140341,11 +140640,11 @@
     "supported",
     "supported",
     "supported",
-    "supported",
     "unsupported",
     "unsupported",
     "unsupported",
-    "supported"
+    "unsupported",
+    "unsupported"
   ],
   [
     "zlib.default.brotliCompress",
@@ -140356,7 +140655,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -140369,9 +140668,9 @@
     "supported",
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "zlib.default.brotliDecompress",
@@ -140382,7 +140681,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -140395,9 +140694,9 @@
     "supported",
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "zlib.default.codes",
@@ -140408,7 +140707,7 @@
     "19/0/0/0",
     "19/0/0/0",
     "19/0/0/0",
-    "0/0/0/19",
+    "19/0/0/0",
     "15/2/0/2",
     "19/0/0/0"
   ],
@@ -140421,7 +140720,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140434,7 +140733,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140447,7 +140746,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140460,7 +140759,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140473,7 +140772,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140486,7 +140785,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140499,7 +140798,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140512,7 +140811,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -140525,7 +140824,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140538,7 +140837,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -140551,7 +140850,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140564,7 +140863,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140577,7 +140876,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140590,7 +140889,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "mismatch",
     "supported"
   ],
@@ -140603,7 +140902,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140616,7 +140915,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140629,7 +140928,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140642,7 +140941,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -140655,7 +140954,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "mismatch",
     "supported"
   ],
@@ -142083,11 +142382,11 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.default.createBrotliCompress",
@@ -142098,7 +142397,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142111,7 +142410,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142124,7 +142423,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142137,7 +142436,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142150,7 +142449,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142163,7 +142462,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142176,7 +142475,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142189,7 +142488,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142202,7 +142501,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142215,7 +142514,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142228,7 +142527,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142241,9 +142540,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.deflateSync",
@@ -142254,9 +142553,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.gunzip",
@@ -142267,7 +142566,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142280,9 +142579,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.gzip",
@@ -142293,7 +142592,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142306,9 +142605,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.inflate",
@@ -142319,7 +142618,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142332,7 +142631,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142345,9 +142644,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.inflateSync",
@@ -142358,9 +142657,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.unzip",
@@ -142371,9 +142670,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.default.unzipSync",
@@ -142384,9 +142683,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.BrotliCompress",
@@ -142397,7 +142696,7 @@
     "supported",
     "supported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142410,7 +142709,7 @@
     "supported",
     "supported",
     "stub",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142423,7 +142722,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142436,7 +142735,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142449,7 +142748,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142462,7 +142761,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142475,7 +142774,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142488,7 +142787,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142501,7 +142800,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142514,7 +142813,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142527,9 +142826,9 @@
     "supported",
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "zlib.brotliDecompress",
@@ -142540,7 +142839,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142553,9 +142852,9 @@
     "supported",
     "supported",
     "supported",
+    "supported",
     "unsupported",
-    "unsupported",
-    "stub"
+    "supported"
   ],
   [
     "zlib.codes",
@@ -142566,7 +142865,7 @@
     "19/0/0/0",
     "19/0/0/0",
     "19/0/0/0",
-    "0/0/0/19",
+    "19/0/0/0",
     "15/2/0/2",
     "19/0/0/0"
   ],
@@ -142579,7 +142878,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142592,7 +142891,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142605,7 +142904,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142618,7 +142917,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142631,7 +142930,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142644,7 +142943,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142657,7 +142956,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142670,7 +142969,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142683,7 +142982,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142696,7 +142995,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -142709,7 +143008,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142722,7 +143021,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142735,7 +143034,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142748,7 +143047,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "mismatch",
     "supported"
   ],
@@ -142761,7 +143060,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142774,7 +143073,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142787,7 +143086,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142800,7 +143099,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -142813,7 +143112,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "mismatch",
     "supported"
   ],
@@ -144241,11 +144540,11 @@
     "supported",
     "supported",
     "unsupported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported",
     "unsupported",
-    "unsupported"
+    "supported"
   ],
   [
     "zlib.createBrotliCompress",
@@ -144256,7 +144555,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -144269,7 +144568,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "unsupported",
     "supported"
   ],
@@ -144282,7 +144581,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144295,7 +144594,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144308,7 +144607,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144321,7 +144620,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144334,7 +144633,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144347,7 +144646,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144360,7 +144659,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144373,7 +144672,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144386,7 +144685,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144399,9 +144698,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.deflateSync",
@@ -144412,9 +144711,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.gunzip",
@@ -144425,7 +144724,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144438,9 +144737,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.gzip",
@@ -144451,7 +144750,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144464,9 +144763,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.inflate",
@@ -144477,7 +144776,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144490,7 +144789,7 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
+    "supported",
     "supported",
     "supported"
   ],
@@ -144503,9 +144802,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.inflateSync",
@@ -144516,9 +144815,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.unzip",
@@ -144529,9 +144828,9 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ],
   [
     "zlib.unzipSync",
@@ -144542,8 +144841,8 @@
     "supported",
     "supported",
     "supported",
-    "unsupported",
     "supported",
-    "stub"
+    "supported",
+    "supported"
   ]
 ]

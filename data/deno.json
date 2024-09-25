@@ -221,7 +221,7 @@
     "clearTimeout": "function",
     "console": {
       "*self*": "object",
-      "Console": "missing",
+      "Console": "function",
       "_ignoreErrors": "missing",
       "_stderr": {
         "*self*": "missing",
@@ -1428,7 +1428,7 @@
       "clearTimeout": "function",
       "console": {
         "*self*": "object",
-        "Console": "missing",
+        "Console": "function",
         "_ignoreErrors": "missing",
         "_stderr": "missing",
         "_stderrErrorHandler": "missing",
@@ -1917,6 +1917,7 @@
         "nodeStart": "missing",
         "startTime": "missing",
         "toJSON": "missing",
+        "uvMetricsInfo": "missing",
         "v8Start": "missing"
       },
       "now": "function",
@@ -3860,7 +3861,7 @@
     "AsyncLocalStorage": "class",
     "AsyncResource": "class",
     "asyncWrapProviders": {
-      "*self*": "missing",
+      "*self*": "object",
       "BLOBREADER": "missing",
       "CHECKPRIMEREQUEST": "missing",
       "CIPHERREQUEST": "missing",
@@ -3933,7 +3934,7 @@
       "AsyncLocalStorage": "class",
       "AsyncResource": "class",
       "asyncWrapProviders": {
-        "*self*": "missing",
+        "*self*": "object",
         "BLOBREADER": "missing",
         "CHECKPRIMEREQUEST": "missing",
         "CIPHERREQUEST": "missing",
@@ -4002,12 +4003,12 @@
       },
       "createHook": "function",
       "executionAsyncId": "function",
-      "executionAsyncResource": "missing",
-      "triggerAsyncId": "missing"
+      "executionAsyncResource": "function",
+      "triggerAsyncId": "function"
     },
     "executionAsyncId": "function",
-    "executionAsyncResource": "missing",
-    "triggerAsyncId": "missing"
+    "executionAsyncResource": "function",
+    "triggerAsyncId": "function"
   },
   "buffer": {
     "*self*": "object",
@@ -4077,8 +4078,8 @@
   },
   "cluster": {
     "*self*": "object",
-    "SCHED_NONE": "missing",
-    "SCHED_RR": "missing",
+    "SCHED_NONE": "number",
+    "SCHED_RR": "number",
     "Worker": "stub",
     "_events": {
       "*self*": "missing"
@@ -4087,57 +4088,57 @@
     "_maxListeners": "missing",
     "default": {
       "*self*": "object",
-      "SCHED_NONE": "missing",
-      "SCHED_RR": "missing",
+      "SCHED_NONE": "number",
+      "SCHED_RR": "number",
       "Worker": "stub",
       "_events": {
-        "*self*": "missing"
+        "*self*": "object"
       },
-      "_eventsCount": "missing",
-      "_maxListeners": "missing",
-      "addListener": "missing",
-      "disconnect": "missing",
-      "emit": "missing",
-      "eventNames": "missing",
+      "_eventsCount": "number",
+      "_maxListeners": "undefined",
+      "addListener": "function",
+      "disconnect": "stub",
+      "emit": "function",
+      "eventNames": "function",
       "fork": "stub",
-      "getMaxListeners": "missing",
-      "isMaster": "undefined",
-      "isPrimary": "undefined",
-      "isWorker": "undefined",
-      "listenerCount": "missing",
-      "listeners": "missing",
-      "off": "missing",
-      "on": "missing",
-      "once": "missing",
-      "prependListener": "missing",
-      "prependOnceListener": "missing",
-      "rawListeners": "missing",
-      "removeAllListeners": "missing",
-      "removeListener": "missing",
-      "schedulingPolicy": "undefined",
-      "setMaxListeners": "missing",
+      "getMaxListeners": "function",
+      "isMaster": "boolean",
+      "isPrimary": "boolean",
+      "isWorker": "boolean",
+      "listenerCount": "function",
+      "listeners": "function",
+      "off": "function",
+      "on": "function",
+      "once": "function",
+      "prependListener": "function",
+      "prependOnceListener": "function",
+      "rawListeners": "function",
+      "removeAllListeners": "function",
+      "removeListener": "function",
+      "schedulingPolicy": "missing",
+      "setMaxListeners": "function",
       "settings": {
-        "*self*": "undefined"
+        "*self*": "object"
       },
       "setupMaster": "stub",
       "setupPrimary": "stub",
       "workers": {
-        "*self*": "undefined"
+        "*self*": "object"
       }
     },
-    "disconnect": "missing",
+    "disconnect": "stub",
     "fork": "stub",
-    "isMaster": "undefined",
-    "isPrimary": "undefined",
-    "isWorker": "undefined",
+    "isMaster": "boolean",
+    "isPrimary": "boolean",
+    "isWorker": "boolean",
     "schedulingPolicy": "undefined",
     "settings": {
-      "*self*": "undefined"
+      "*self*": "object"
     },
     "setupMaster": "stub",
     "setupPrimary": "stub",
     "workers": {
-      "*self*": "undefined"
+      "*self*": "object"
     }
   },
   "console": {
@@ -4971,9 +4972,9 @@
     "*self*": "object",
     "Certificate": "stub",
     "Cipher": "missing",
-    "Cipheriv": "stub",
+    "Cipheriv": "class",
     "Decipher": "missing",
-    "Decipheriv": "stub",
+    "Decipheriv": "class",
     "DiffieHellman": "class",
     "DiffieHellmanGroup": "class",
     "ECDH": "stub",
@@ -5077,10 +5078,10 @@
       "*self*": "object",
       "Certificate": "stub",
       "Cipher": "missing",
-      "Cipheriv": "stub",
+      "Cipheriv": "class",
       "DEFAULT_ENCODING": "missing",
       "Decipher": "missing",
-      "Decipheriv": "stub",
+      "Decipheriv": "class",
       "DiffieHellman": "class",
       "DiffieHellmanGroup": "class",
       "ECDH": "stub",
@@ -5182,7 +5183,7 @@
       "createSecretKey": "function",
       "createSign": "function",
       "createVerify": "function",
-      "diffieHellman": "stub",
+      "diffieHellman": "function",
       "fips": "missing",
       "generateKey": "function",
       "generateKeyPair": "function",
@@ -5245,7 +5246,7 @@
         "subtle": "object"
       }
     },
-    "diffieHellman": "stub",
+    "diffieHellman": "function",
     "generateKey": "function",
     "generateKeyPair": "function",
     "generateKeyPairSync": "function",
@@ -6378,7 +6379,7 @@
     "IncomingMessage": "class",
     "METHODS": "object",
     "MessageEvent": "missing",
-    "OutgoingMessage": "stub",
+    "OutgoingMessage": "function",
     "STATUS_CODES": {
       "100": "string",
       "101": "string",
@@ -6458,7 +6459,7 @@
       "IncomingMessage": "class",
       "METHODS": "object",
       "MessageEvent": "missing",
-      "OutgoingMessage": "stub",
+      "OutgoingMessage": "function",
       "STATUS_CODES": {
         "100": "string",
         "101": "string",
@@ -7317,7 +7318,7 @@
     "request": "function"
   },
   "inspector": {
-    "*self*": "missing",
+    "*self*": "object",
     "Network": {
       "*self*": "missing",
       "loadingFailed": "missing",
@@ -7325,36 +7326,36 @@
       "requestWillBeSent": "missing",
       "responseReceived": "missing"
     },
-    "Session": "missing",
-    "close": "missing",
+    "Session": "stub",
+    "close": "stub",
     "console": {
-      "*self*": "missing",
-      "assert": "missing",
-      "clear": "missing",
-      "context": "missing",
-      "count": "missing",
-      "countReset": "missing",
-      "debug": "missing",
-      "dir": "missing",
-      "dirxml": "missing",
-      "error": "missing",
-      "group": "missing",
-      "groupCollapsed": "missing",
-      "groupEnd": "missing",
-      "info": "missing",
-      "log": "missing",
-      "profile": "missing",
-      "profileEnd": "missing",
-      "table": "missing",
-      "time": "missing",
-      "timeEnd": "missing",
-      "timeLog": "missing",
-      "timeStamp": "missing",
-      "trace": "missing",
-      "warn": "missing"
+      "*self*": "object",
+      "assert": "function",
+      "clear": "function",
+      "context": "function",
+      "count": "function",
+      "countReset": "function",
+      "debug": "function",
+      "dir": "function",
+      "dirxml": "function",
+      "error": "function",
+      "group": "function",
+      "groupCollapsed": "function",
+      "groupEnd": "function",
+      "info": "function",
+      "log": "function",
+      "profile": "function",
+      "profileEnd": "function",
+      "table": "function",
+      "time": "function",
+      "timeEnd": "function",
+      "timeLog": "function",
+      "timeStamp": "function",
+      "trace": "function",
+      "warn": "function"
     },
     "default": {
-      "*self*": "missing",
+      "*self*": "object",
       "Network": {
         "*self*": "missing",
         "loadingFailed": "missing",
@@ -7362,41 +7363,41 @@
         "requestWillBeSent": "missing",
         "responseReceived": "missing"
       },
-      "Session": "missing",
-      "close": "missing",
+      "Session": "stub",
+      "close": "stub",
       "console": {
-        "*self*": "missing",
-        "assert": "missing",
-        "clear": "missing",
-        "context": "missing",
-        "count": "missing",
-        "countReset": "missing",
-        "debug": "missing",
-        "dir": "missing",
-        "dirxml": "missing",
-        "error": "missing",
-        "group": "missing",
-        "groupCollapsed": "missing",
-        "groupEnd": "missing",
-        "info": "missing",
-        "log": "missing",
-        "profile": "missing",
-        "profileEnd": "missing",
-        "table": "missing",
-        "time": "missing",
-        "timeEnd": "missing",
-        "timeLog": "missing",
-        "timeStamp": "missing",
-        "trace": "missing",
-        "warn": "missing"
+        "*self*": "object",
+        "assert": "function",
+        "clear": "function",
+        "context": "function",
+        "count": "function",
+        "countReset": "function",
+        "debug": "function",
+        "dir": "function",
+        "dirxml": "function",
+        "error": "function",
+        "group": "function",
+        "groupCollapsed": "function",
+        "groupEnd": "function",
+        "info": "function",
+        "log": "function",
+        "profile": "function",
+        "profileEnd": "function",
+        "table": "function",
+        "time": "function",
+        "timeEnd": "function",
+        "timeLog": "function",
+        "timeStamp": "function",
+        "trace": "function",
+        "warn": "function"
       },
-      "open": "missing",
-      "url": "missing",
-      "waitForDebugger": "missing"
+      "open": "stub",
+      "url": "function",
+      "waitForDebugger": "stub"
     },
-    "open": "missing",
-    "url": "missing",
-    "waitForDebugger": "missing"
+    "open": "stub",
+    "url": "function",
+    "waitForDebugger": "stub"
   },
   "inspector/promises": {
     "*self*": "missing",
@@ -7501,6 +7502,16 @@
     "_resolveFilename": "function",
     "_resolveLookupPaths": "function",
     "builtinModules": "object",
+    "constants": {
+      "*self*": "missing",
+      "compileCacheStatus": {
+        "*self*": "missing",
+        "ALREADY_ENABLED": "missing",
+        "DISABLED": "missing",
+        "ENABLED": "missing",
+        "FAILED": "missing"
+      }
+    },
     "createRequire": "function",
     "default": {
       "*self*": "function",
@@ -7525,8 +7536,14 @@
       "_resolveLookupPaths": "function",
       "_stat": "missing",
       "builtinModules": "object",
+      "constants": {
+        "*self*": "missing",
+        "compileCacheStatus": "missing"
+      },
       "createRequire": "function",
+      "enableCompileCache": "missing",
       "findSourceMap": "missing",
+      "getCompileCacheDir": "missing",
       "globalPaths": "object",
       "isBuiltin": "function",
       "length": "number",
@@ -7545,10 +7562,12 @@
       "wrap": "function",
       "wrapper": "object"
     },
+    "enableCompileCache": "missing",
     "findSourceMap": "function",
+    "getCompileCacheDir": "missing",
     "globalPaths": "object",
     "isBuiltin": "function",
-    "register": "missing",
+    "register": "function",
     "runMain": "missing",
     "syncBuiltinESMExports": "missing"
   },
@@ -8370,7 +8389,7 @@
     "PerformanceEntry": "class",
     "PerformanceMark": "missing",
     "PerformanceMeasure": "missing",
-    "PerformanceObserver": "stub",
+    "PerformanceObserver": "class",
     "PerformanceObserverEntryList": "missing",
     "PerformanceResourceTiming": "missing",
     "constants": {
@@ -8407,7 +8426,7 @@
       "PerformanceEntry": "class",
       "PerformanceMark": "missing",
       "PerformanceMeasure": "missing",
-      "PerformanceObserver": "stub",
+      "PerformanceObserver": "class",
       "PerformanceObserverEntryList": "missing",
       "PerformanceResourceTiming": "missing",
       "constants": {
@@ -8492,6 +8511,7 @@
         "nodeStart": "missing",
         "startTime": "missing",
         "toJSON": "missing",
+        "uvMetricsInfo": "missing",
         "v8Start": "missing"
       },
       "now": "function",
@@ -10358,7 +10378,7 @@
     "_extend": "function",
     "aborted": "missing",
     "callbackify": "function",
-    "debug": "missing",
+    "debug": "function",
     "debuglog": "function",
     "default": {
       "*self*": "object",
@@ -10371,11 +10391,12 @@
       "_extend": "function",
       "aborted": "missing",
       "callbackify": "function",
-      "debug": "missing",
+      "debug": "function",
       "debuglog": "function",
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
+      "getCallSite": "missing",
       "getSystemErrorMap": "missing",
       "getSystemErrorName": "function",
       "inherits": "function",
@@ -10454,6 +10475,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
+    "getCallSite": "missing",
     "getSystemErrorMap": "missing",
     "getSystemErrorName": "function",
     "inherits": "function",
@@ -10698,7 +10720,7 @@
     "_extend": "function",
     "aborted": "missing",
     "callbackify": "function",
-    "debug": "missing",
+    "debug": "function",
     "debuglog": "function",
     "default": {
       "*self*": "object",
@@ -10711,11 +10733,12 @@
       "_extend": "function",
       "aborted": "missing",
       "callbackify": "function",
-      "debug": "missing",
+      "debug": "function",
       "debuglog": "function",
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
+      "getCallSite": "missing",
       "getSystemErrorMap": "missing",
       "getSystemErrorName": "function",
       "inherits": "function",
@@ -10794,6 +10817,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
+    "getCallSite": "missing",
     "getSystemErrorMap": "missing",
     "getSystemErrorName": "function",
     "inherits": "function",
@@ -11033,20 +11057,22 @@
   },
   "vm": {
     "*self*": "object",
-    "Script": "stub",
-    "compileFunction": "stub",
+    "Script": "class",
+    "compileFunction": "function",
     "constants": {
       "*self*": "missing",
+      "DONT_CONTEXTIFY": "missing",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
     },
     "createContext": "function",
     "createScript": "function",
     "default": {
       "*self*": "object",
-      "Script": "stub",
-      "compileFunction": "stub",
+      "Script": "class",
+      "compileFunction": "function",
       "constants": {
         "*self*": "missing",
+        "DONT_CONTEXTIFY": "missing",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
       },
       "createContext": "function",
@@ -11064,11 +11090,11 @@
     "runInThisContext": "function"
   },
   "wasi": {
-    "*self*": "missing",
-    "WASI": "missing",
+    "*self*": "object",
+    "WASI": "class",
     "default": {
-      "*self*": "missing",
-      "WASI": "missing"
+      "*self*": "object",
+      "WASI": "class"
     }
   },
   "worker_threads": {

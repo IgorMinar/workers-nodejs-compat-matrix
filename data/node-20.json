@@ -1917,6 +1917,7 @@
         "nodeStart": "number",
         "startTime": "number",
         "toJSON": "function",
+        "uvMetricsInfo": "missing",
         "v8Start": "number"
       },
       "now": "function",
@@ -7501,6 +7502,16 @@
     "_resolveFilename": "function",
     "_resolveLookupPaths": "function",
     "builtinModules": "object",
+    "constants": {
+      "*self*": "missing",
+      "compileCacheStatus": {
+        "*self*": "missing",
+        "ALREADY_ENABLED": "missing",
+        "DISABLED": "missing",
+        "ENABLED": "missing",
+        "FAILED": "missing"
+      }
+    },
     "createRequire": "function",
     "default": {
       "*self*": "function",
@@ -7525,8 +7536,14 @@
       "_resolveLookupPaths": "function",
       "_stat": "function",
       "builtinModules": "object",
+      "constants": {
+        "*self*": "missing",
+        "compileCacheStatus": "missing"
+      },
       "createRequire": "function",
+      "enableCompileCache": "missing",
       "findSourceMap": "function",
+      "getCompileCacheDir": "missing",
       "globalPaths": "object",
       "isBuiltin": "function",
       "length": "number",
@@ -7545,7 +7562,9 @@
       "wrap": "function",
       "wrapper": "object"
     },
+    "enableCompileCache": "missing",
     "findSourceMap": "function",
+    "getCompileCacheDir": "missing",
     "globalPaths": "object",
     "isBuiltin": "function",
     "register": "function",
@@ -8492,6 +8511,7 @@
         "nodeStart": "number",
         "startTime": "number",
         "toJSON": "function",
+        "uvMetricsInfo": "missing",
         "v8Start": "number"
       },
       "now": "function",
@@ -10376,6 +10396,7 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
+      "getCallSite": "missing",
       "getSystemErrorMap": "function",
       "getSystemErrorName": "function",
       "inherits": "function",
@@ -10454,6 +10475,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
+    "getCallSite": "missing",
     "getSystemErrorMap": "function",
     "getSystemErrorName": "function",
     "inherits": "function",
@@ -10716,6 +10738,7 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "function",
+      "getCallSite": "missing",
       "getSystemErrorMap": "function",
       "getSystemErrorName": "function",
       "inherits": "function",
@@ -10794,6 +10817,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "function",
+    "getCallSite": "missing",
     "getSystemErrorMap": "function",
     "getSystemErrorName": "function",
     "inherits": "function",
@@ -11037,6 +11061,7 @@
     "compileFunction": "function",
     "constants": {
       "*self*": "object",
+      "DONT_CONTEXTIFY": "missing",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
     },
     "createContext": "function",
@@ -11047,6 +11072,7 @@
       "compileFunction": "function",
       "constants": {
         "*self*": "object",
+        "DONT_CONTEXTIFY": "missing",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
       },
       "createContext": "function",
