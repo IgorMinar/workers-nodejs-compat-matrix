@@ -17,7 +17,7 @@ const GREEN_THRESHOLD = 80;
 const versionSubtitles = {
   workerd: "nodejs_compat",
   wranglerV3: "(legacy) node_compat = true",
-  wranglerUnenv: "nodejs_compat_v2",
+  wranglerUnenv: "nodejs_compat",
 };
 
 // This MUST match the ordering of `targets` in `generate-table-data.mjs`
