@@ -1917,6 +1917,7 @@
         "nodeStart": "missing",
         "startTime": "missing",
         "toJSON": "missing",
+        "uvMetricsInfo": "missing",
         "v8Start": "missing"
       },
       "now": "function",
@@ -7501,6 +7502,16 @@
     "_resolveFilename": "missing",
     "_resolveLookupPaths": "missing",
     "builtinModules": "missing",
+    "constants": {
+      "*self*": "missing",
+      "compileCacheStatus": {
+        "*self*": "missing",
+        "ALREADY_ENABLED": "missing",
+        "DISABLED": "missing",
+        "ENABLED": "missing",
+        "FAILED": "missing"
+      }
+    },
     "createRequire": "missing",
     "default": {
       "*self*": "object",
@@ -7525,8 +7536,14 @@
       "_resolveLookupPaths": "missing",
       "_stat": "missing",
       "builtinModules": "missing",
+      "constants": {
+        "*self*": "missing",
+        "compileCacheStatus": "missing"
+      },
       "createRequire": "missing",
+      "enableCompileCache": "missing",
       "findSourceMap": "missing",
+      "getCompileCacheDir": "missing",
       "globalPaths": "missing",
       "isBuiltin": "missing",
       "length": "missing",
@@ -7545,7 +7562,9 @@
       "wrap": "missing",
       "wrapper": "missing"
     },
+    "enableCompileCache": "missing",
     "findSourceMap": "missing",
+    "getCompileCacheDir": "missing",
     "globalPaths": "missing",
     "isBuiltin": "missing",
     "register": "missing",
@@ -8492,6 +8511,7 @@
         "nodeStart": "missing",
         "startTime": "missing",
         "toJSON": "missing",
+        "uvMetricsInfo": "missing",
         "v8Start": "missing"
       },
       "now": "missing",
@@ -10376,6 +10396,7 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "missing",
+      "getCallSite": "missing",
       "getSystemErrorMap": "missing",
       "getSystemErrorName": "missing",
       "inherits": "function",
@@ -10454,6 +10475,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "missing",
+    "getCallSite": "missing",
     "getSystemErrorMap": "missing",
     "getSystemErrorName": "missing",
     "inherits": "function",
@@ -10716,6 +10738,7 @@
       "deprecate": "function",
       "format": "function",
       "formatWithOptions": "missing",
+      "getCallSite": "missing",
       "getSystemErrorMap": "missing",
       "getSystemErrorName": "missing",
       "inherits": "function",
@@ -10794,6 +10817,7 @@
     "deprecate": "function",
     "format": "function",
     "formatWithOptions": "missing",
+    "getCallSite": "missing",
     "getSystemErrorMap": "missing",
     "getSystemErrorName": "missing",
     "inherits": "function",
@@ -11037,6 +11061,7 @@
     "compileFunction": "missing",
     "constants": {
       "*self*": "missing",
+      "DONT_CONTEXTIFY": "missing",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
     },
     "createContext": "function",
@@ -11047,6 +11072,7 @@
       "compileFunction": "missing",
       "constants": {
         "*self*": "missing",
+        "DONT_CONTEXTIFY": "missing",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "missing"
       },
       "createContext": "function",
