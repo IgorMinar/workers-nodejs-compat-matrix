@@ -21,12 +21,5 @@
     "report:dev": "pnpm run --filter report start",
     "report:deploy": "pnpm run --filter report deploy",
     "update:compat-date": "node ./update-compat-date.mjs"
-  },
-  "pnpm": {
-    "overrides": {
-      "note": "overrides for wrangler-unenv-polyfills",
-      "miniflare>workerd": "catalog:",
-      "wrangler>workerd": "catalog:"
-    }
   }
 }
