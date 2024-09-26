@@ -116,15 +116,18 @@ if (regenerateEnvs.includes("deno")) {
 
 // workerd
 if (regenerateEnvs.includes("workerd")) {
-  shell.echo("Generate workerd + --node_compat apis...");
-  shell.exec("node workerd/dump.mjs");
+  shell.echo(
+    'Generate `workerd --compatibility-flags="nodejs_compat"` apis...'
+  );
+  const compatibilityDate = getWorkerdDate("wrangler-unenv-polyfills");
+  shell.exec(`node workerd/dump.mjs ${compatibilityDate}`);
   shell.echo("=== Done ====================================\n\n");
   versionMap["workerd"] = extractNpmVersion("workerd", "workerd");
 }
 
 // wrangler-v3 (with polyfills)
 if (regenerateEnvs.includes("wrangler-v3")) {
-  shell.echo("Generate wrangler-v3 + --node_compat apis...");
+  shell.echo("Generate `wrangler --node_compat` apis...");
   shell.exec(volta + "run --node 20 node wrangler-v3-polyfills/dump.mjs");
   shell.echo("=== Done ====================================\n\n");
   versionMap["wranglerV3"] = extractNpmVersion(
@@ -135,8 +138,13 @@ if (regenerateEnvs.includes("wrangler-v3")) {
 
 // wrangler-unenv
 if (regenerateEnvs.includes("wrangler-unenv")) {
-  shell.echo("Generate wrangler-unenv + --node_compat apis...");
-  shell.exec(volta + "run --node 20 node wrangler-unenv-polyfills/dump.mjs");
+  shell.echo(
+    'Generate `wrangler --compatibility-flags="nodejs_compat"` apis...'
+  );
+  const compatibilityDate = getWorkerdDate("wrangler-unenv-polyfills");
+  shell.exec(
+    `${volta} run --node 20 node wrangler-unenv-polyfills/dump.mjs ${compatibilityDate}`
+  );
   shell.echo("=== Done ====================================\n\n");
   versionMap["wranglerUnenv"] = extractNpmVersion(
     "wrangler-unenv-polyfills",
@@ -153,6 +161,16 @@ const now = Date.now();
 shell
   .echo(JSON.stringify({ timestamp: now }))
   .to("report/src/data/timestamp.json");
+
+/** return YYYY-MM-DD */
+function getWorkerdDate(projectName) {
+  const version = extractNpmVersion(projectName, "workerd");
+  const m = version.match(/(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})/);
+  if (m === null) {
+    throw new Error(`Invalid version ${version}`);
+  }
+  return `${m.groups?.year}-${m.groups?.month}-${m.groups?.day}`;
+}
 
 function extractNpmVersion(projectName, packageName) {
   return (

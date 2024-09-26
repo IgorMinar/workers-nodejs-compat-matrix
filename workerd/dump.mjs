@@ -35,6 +35,19 @@ async function spawnWorkerd(configPath) {
   };
 }
 
+const compatibilityDate = process.argv[2] ?? "";
+const capnpPath = path.join(__dirname, "config.capnp");
+const capnp = await fs.readFile(capnpPath, { encoding: "utf8" });
+const updatedCapnp = capnp
+  .split("\n")
+  .map((line) =>
+    line.includes("compatibilityDate")
+      ? `  compatibilityDate = "${compatibilityDate}",`
+      : line
+  )
+  .join("\n");
+await fs.writeFile(capnpPath, updatedCapnp);
+
 const outputFilePath = path.join(__dirname, "..", "data", "workerd.json");
 await fs.rm(outputFilePath, { force: true });
 const { url, kill } = await spawnWorkerd(path.join(__dirname, "config.capnp"));
