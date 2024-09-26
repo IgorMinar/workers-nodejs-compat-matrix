@@ -78,4 +78,17 @@ const dump = async () => {
   await kill();
 };
 
+const compatibilityDate = process.argv[2] ?? "";
+const tomlPath = path.join(__dirname, "wrangler.toml");
+const toml = await fs.readFile(tomlPath, "utf-8");
+const updatedToml = toml
+  .split("\n")
+  .map((line) =>
+    line.includes("compatibility_date")
+      ? `compatibility_date = "${compatibilityDate}"`
+      : line
+  )
+  .join("\n");
+await fs.writeFile(tomlPath, updatedToml);
+
 await dump();

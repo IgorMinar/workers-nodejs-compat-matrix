@@ -16,7 +16,7 @@
     "generate:table": "node ./generate-table-data.mjs",
     "generate:timestamp": "echo '{ \"date\": \"${date}\"}' > report/src/data/timestamp",
     "generate:polyfill": "node ./generate-unenv-polyfill.mjs",
-    "generate": "pnpm update:compat-date && pnpm generate:baseline && pnpm generate:script && pnpm scan:apis && pnpm run generate:table",
+    "generate": "pnpm generate:baseline && pnpm generate:script && pnpm scan:apis && pnpm run generate:table",
     "generate:unenv": "pnpm scan:apis:unenv && pnpm run generate:table",
     "report:dev": "pnpm run --filter report start",
     "report:deploy": "pnpm run --filter report deploy",
