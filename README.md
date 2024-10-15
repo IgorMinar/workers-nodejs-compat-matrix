@@ -39,7 +39,7 @@ pnpm install
 > This requires features from Node v22, so if it isn't your default node version, run it with `volta run --node 22 pnpm generate`.
 
 - Update the catalog version in `pnpm-workspace.yaml`
-- Update the `compatibilityDate` in `workerd/config.capnp`
+
 - Run:
 
   ```shell

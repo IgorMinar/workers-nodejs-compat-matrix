@@ -1917,7 +1917,7 @@
         "nodeStart": "number",
         "startTime": "number",
         "toJSON": "function",
-        "uvMetricsInfo": "missing",
+        "uvMetricsInfo": "object",
         "v8Start": "number"
       },
       "now": "function",
@@ -7320,11 +7320,11 @@
   "inspector": {
     "*self*": "object",
     "Network": {
-      "*self*": "missing",
-      "loadingFailed": "missing",
-      "loadingFinished": "missing",
-      "requestWillBeSent": "missing",
-      "responseReceived": "missing"
+      "*self*": "object",
+      "loadingFailed": "function",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
     },
     "Session": "class",
     "close": "function",
@@ -7357,11 +7357,11 @@
     "default": {
       "*self*": "object",
       "Network": {
-        "*self*": "missing",
-        "loadingFailed": "missing",
-        "loadingFinished": "missing",
-        "requestWillBeSent": "missing",
-        "responseReceived": "missing"
+        "*self*": "object",
+        "loadingFailed": "function",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
       },
       "Session": "class",
       "close": "function",
@@ -7402,11 +7402,11 @@
   "inspector/promises": {
     "*self*": "object",
     "Network": {
-      "*self*": "missing",
-      "loadingFailed": "missing",
-      "loadingFinished": "missing",
-      "requestWillBeSent": "missing",
-      "responseReceived": "missing"
+      "*self*": "object",
+      "loadingFailed": "function",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
     },
     "Session": "class",
     "close": "function",
@@ -7439,11 +7439,11 @@
     "default": {
       "*self*": "object",
       "Network": {
-        "*self*": "missing",
-        "loadingFailed": "missing",
-        "loadingFinished": "missing",
-        "requestWillBeSent": "missing",
-        "responseReceived": "missing"
+        "*self*": "object",
+        "loadingFailed": "function",
+        "loadingFinished": "function",
+        "requestWillBeSent": "function",
+        "responseReceived": "function"
       },
       "Session": "class",
       "close": "function",
@@ -8511,7 +8511,7 @@
         "nodeStart": "number",
         "startTime": "number",
         "toJSON": "function",
-        "uvMetricsInfo": "missing",
+        "uvMetricsInfo": "object",
         "v8Start": "number"
       },
       "now": "function",
@@ -8589,7 +8589,7 @@
         "*self*": "object",
         "arm_fpu": "string",
         "asan": "number",
-        "clang": "missing",
+        "clang": "number",
         "coverage": "boolean",
         "dcheck_always_on": "number",
         "debug_nghttp2": "boolean",
@@ -8636,7 +8636,7 @@
         "node_shared_simdjson": "boolean",
         "node_shared_simdutf": "boolean",
         "node_shared_sqlite": "missing",
-        "node_shared_uvwasi": "missing",
+        "node_shared_uvwasi": "boolean",
         "node_shared_zlib": "boolean",
         "node_tag": "string",
         "node_target_type": "string",
@@ -11061,7 +11061,7 @@
     "compileFunction": "function",
     "constants": {
       "*self*": "object",
-      "DONT_CONTEXTIFY": "missing",
+      "DONT_CONTEXTIFY": "symbol",
       "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
     },
     "createContext": "function",
@@ -11072,7 +11072,7 @@
       "compileFunction": "function",
       "constants": {
         "*self*": "object",
-        "DONT_CONTEXTIFY": "missing",
+        "DONT_CONTEXTIFY": "symbol",
         "USE_MAIN_CONTEXT_DEFAULT_LOADER": "symbol"
       },
       "createContext": "function",

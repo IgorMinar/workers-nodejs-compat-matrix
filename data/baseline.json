@@ -7401,13 +7401,6 @@
   },
   "inspector/promises": {
     "*self*": "object",
-    "Network": {
-      "*self*": "object",
-      "loadingFailed": "function",
-      "loadingFinished": "function",
-      "requestWillBeSent": "function",
-      "responseReceived": "function"
-    },
     "default": {
       "*self*": "object",
       "Network": {
@@ -7448,6 +7441,13 @@
       "open": "function",
       "url": "function",
       "waitForDebugger": "function"
+    },
+    "Network": {
+      "*self*": "object",
+      "loadingFailed": "function",
+      "loadingFinished": "function",
+      "requestWillBeSent": "function",
+      "responseReceived": "function"
     },
     "Session": "class",
     "close": "function",
