@@ -35,8 +35,11 @@ export const getDocsLink = (key: string) => {
 
   const pathname = key
     .replaceAll("*", "")
-    .replace("/promises", "")
-    .replace("/strict", "");
+    // remove trailing /w+ (i.e. promises, strict, web, types, posix, win32, web)
+    .replace(/\/\w+$/, "")
+    .replace("trace_events", "tracing")
+    .replace("constants", "all")
+    .replace("sys", "util");
   return `${NODE_DOCS_BASE_URL}${pathname}.html`;
 };
 
