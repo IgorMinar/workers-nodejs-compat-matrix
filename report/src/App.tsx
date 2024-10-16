@@ -45,8 +45,6 @@ type RowData = z.infer<typeof rowSchema>;
 const App = () => {
   const [expanded, setExpanded] = useState<string[]>([]);
 
-  console.log(timestamp);
-
   const expand = (key: string) => {
     if (expanded.some((k) => k.startsWith(key))) {
       setExpanded(expanded.filter((k) => !k.startsWith(key)));
@@ -70,6 +68,7 @@ const App = () => {
     }
 
     const renderSupportValue = (value: string) => {
+      console.log(value);
       switch (value) {
         case "supported":
           return matching;
@@ -205,11 +204,10 @@ const App = () => {
         <TableCell>
           <div className="flex justify-start items-center gap-2 text-sm">
             {renderKeyValue()}
-            {leafCount > 0 && !expanded.includes(path) && (
-              <span className="text-xs">▶</span>
-            )}
-            {leafCount > 0 && expanded.includes(path) && (
-              <span className="text-xs">▼</span>
+            {leafCount > 0 && (
+              <span className="text-xs">
+                {expanded.includes(path) ? "▼" : "▶"}
+              </span>
             )}
           </div>
         </TableCell>
